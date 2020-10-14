@@ -7,3 +7,16 @@ This is the website for data visualization work in the class MIT 11.454 2020 fal
 ## Frame and Modules Used
 Python (`pandas` `numpy` `bokeh` `folium` `matplotlib`)
 HTML/CSS/JavaScript (`Bootstrap`)
+## Warning
+### `href` Usage
+When adding `href` in HTML/CSS/JavaScript, double check you are using:
+```html
+<link rel="stylesheet" type="text/css" href="css/vizdev-main-test.css" />
+```
+instead of:
+```html
+<link rel="stylesheet" type="text/css" href="/css/vizdev-main-test.css" />
+```
+**Reason:**
+I'm using a independent project repo here other than sub-folder under my main site.
+`href` as `/css/vizdev-main-test.css` will lead to `www.zmei.moe/css/vizdev-main-test.css` instead of `www.zmei.moe/equity-during-covid/css/vizdev-main-test.css` that we need.
