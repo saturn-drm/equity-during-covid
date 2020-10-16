@@ -7,6 +7,9 @@ This is the website for data visualization work in the class MIT 11.454 2020 fal
 ## Frame and Modules Used
 Python (`pandas` `numpy` `bokeh` `folium` `matplotlib`)
 HTML/CSS/JavaScript (`Bootstrap`)
+## Specification
+Used the grid system and flex system from [Bootstrap](https://getbootstrap.com/);
+Used [markdown converter](https://github.com/saturn-drm/PythonMDtoHTML) by [saturn-drm](https://github.com/saturn-drm), based on Python [markdown](https://pypi.org/project/Markdown/) and [frontmatter](https://pypi.org/project/python-frontmatter/).
 ## Warning
 ### `href` Usage
 When adding `href` in HTML/CSS/JavaScript, double check you are using:
