@@ -1,0 +1,36 @@
+:root {
+    --conclusion: #26547c;
+    --economy: #ef476f;
+    --transportation: #ffd166;
+    --humanresource: #06d6a0;
+    --mainbg: #fffcf9;
+    --mainfontcolor: #34090f;
+    --mainselection: #c45a6d;
+    --mainhighlight: #62bec1;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: rgba(44, 62, 80, .7);
+    /* border-radius: 10px; */
+    /* box-shadow: inset 0 0 5px grey; */
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 5px;
+    /* box-shadow: inset 0 0 3px #2c3e50; */
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(180, 180, 180);
+}

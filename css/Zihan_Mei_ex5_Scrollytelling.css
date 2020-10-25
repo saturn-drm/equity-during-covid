@@ -1,0 +1,78 @@
+@import "selection.min.css";
+@import "scrollbar.min.css";
+
+:root {
+    --conclusion: #26547c;
+    --economy: #ef476f;
+    --transportation: #ffd166;
+    --humanresource: #06d6a0;
+    --mainbg: #fffcf9;
+    --mainfontcolor: #34090f;
+    --mainselection: #c45a6d;
+    --mainhighlight: #62bec1;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: Montserrat, source-han-sans-cjk-sc, source-han-sans-cjk-sc, sans-serif;
+}
+
+div.parallax {
+    background-image: url("../assets/1025parallaxbg.gif");
+    /* opacity: 0.2; */
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div.words {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    /* display: flex;
+    justify-content: center; */
+    height: 300vh;
+    top: 0;
+}
+
+h1, h2, p, a {
+    color: #fd746c;
+    text-align: center;
+    /* padding-right: 3%; */
+}
+
+blockquote {
+    padding-left: 1rem;
+    border-left: solid #888888 3px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    width: auto;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: auto;
+}
+
+a:hover {
+    color: #fd746c;
+    transition: .3s;
+}
+
+div.words:hover {
+    color: #fd746c;
+    transition: .3s;
+}
