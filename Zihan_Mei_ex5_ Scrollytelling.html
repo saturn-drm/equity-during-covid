@@ -142,7 +142,8 @@
                     <li>Sticky property not included.</li>
                     <br>
                     <li>Trouble in resizeing Bokeh charts while integrating it.</li>
-                    <li>Trouble in integrating mapbox item directly into the html file, even if I fixed the data path.</li>
+                    <li>Trouble in integrating mapbox item directly into the html file. I used iframe tag with api here.
+                    </li>
                 </ol>
             </div>
         </div>
@@ -224,8 +225,11 @@
             </div>
             <div class="col-8 align-self-center">
                 <!-- <div id="mapbox"></div> -->
-                <iframe src="assets/HTML_example_in_class.html" id="mapbox" width="100%" frameborder="0"
-                    scrolling="no"></iframe>
+                <!-- <iframe src="assets/HTML_example_in_class.html" id="mapbox" width="100%" frameborder="0"
+                    scrolling="no"></iframe> -->
+                <iframe
+                    src="https://api.mapbox.com/styles/v1/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup.html?fresh=true&access_token=pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg"
+                    id="mapbox" width="100%"></iframe>
             </div>
         </div>
         <hr>
@@ -245,7 +249,9 @@
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center">
+                <iframe src="assets/my_map.html" id="myfoliummap" width="100%" frameborder="0" scrolling="no"></iframe>
+            </div>
         </div>
 
         <div class="row" id="education">
@@ -255,7 +261,11 @@
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center">
+                <iframe
+                    src="https://api.mapbox.com/styles/v1/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup.html?fresh=true&access_token=pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg"
+                    id="mapbox" width="100%"></iframe>
+            </div>
         </div>
         <hr>
     </section>
@@ -274,7 +284,9 @@
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center">
+                <iframe src="assets/my_map.html" id="myfoliummap" width="100%" frameborder="0" scrolling="no"></iframe>
+            </div>
         </div>
 
         <div class="row" id="facilities">
@@ -284,7 +296,11 @@
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center">
+                <iframe
+                    src="https://api.mapbox.com/styles/v1/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup.html?fresh=true&access_token=pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg"
+                    id="mapbox" width="100%"></iframe>
+            </div>
         </div>
         <hr>
     </section>
@@ -303,13 +319,17 @@
         </div>
 
         <div class="row">
-            <div class="col-4 align-self-center">
+            <div class="col-4 align-self-end">
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe> <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe> </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center">
+                <iframe
+                    src="https://api.mapbox.com/styles/v1/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup.html?fresh=true&access_token=pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg"
+                    id="mapbox" width="100%"></iframe>
+            </div>
         </div>
 
         <div class="row gapbeforefooter"></div>
@@ -379,7 +399,7 @@
     <!-- end of iframe height -->
 
     <!-- mapbox -->
-    <script>
+    <!-- <script>
         mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg';
         var map = new mapboxgl.Map({
             container: 'map',
@@ -418,7 +438,7 @@
                 },
             });
         });
-    </script>
+    </script> -->
     <!-- end of mapbox -->
 </body>
 

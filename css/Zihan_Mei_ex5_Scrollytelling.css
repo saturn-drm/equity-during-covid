@@ -87,6 +87,11 @@ iframe {
 
 #mapbox {
     height: 40vh;
+    border: none;
+}
+
+section#conclusion #mapbox {
+    height: 60vh !important;
 }
 
 .testcontent {
