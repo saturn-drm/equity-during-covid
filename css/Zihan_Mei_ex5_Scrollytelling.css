@@ -94,6 +94,24 @@ section#conclusion #mapbox {
     height: 60vh !important;
 }
 
+.bganime, .startanime, .ecoanime, .infoanime, .phyanime, .concanime {
+    opacity: 0;
+    transition: all .8s ease-out;
+}
+
+.bgtxt, .starttxt, .ecotxt, .infotxt, .phytxt, .conctxt {
+    transform: translateX(-40px);
+}
+
+.bgimg, .startimg, .ecoimg, .infoimg, .phyimg, .concimg {
+    transform: translateX(40px);
+}
+
+div.magicshow {
+    opacity: 1;
+    transform: none;
+}
+
 .testcontent {
     height: 35vh;
     background-color: #06d6a0;

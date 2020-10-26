@@ -67,6 +67,10 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
 
+    <!-- scrollmagic.js -->
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/debug.addIndicators.min.js"></script>
+
 </head>
 
 <body>
@@ -128,7 +132,7 @@
     <section id="background" class="container">
         <div class="row">
             <div class="col-6 offset-3">
-                <h2>Notes for ex5</h2>
+                <h3>Notes for ex5</h3>
                 <ol>
                     <li>Used <b>ScrollMagic</b> for scrolly telling, <b>anime.js</b> for some animation.</li>
                     <li>Used parallax scroll for cover page as proposed at mid-term.</li>
@@ -136,24 +140,29 @@
                             href="https://getbootstrap.com/docs/4.0/layout/grid/"><b>bootstrap</b></a>.</li>
                     <li>Displayed the column systems as proposed at mid-term.</li>
                     <li>Inlcuded the footer, back-to-top button, scroll-down arrow.</li>
-                    <br>
+                </ol>
+                <h3>Things to continue with</h3>
+                <ul>
                     <li>Navbar not included.</li>
                     <li>Some detialed font size and weight need fixing later.</li>
                     <li>Sticky property not included.</li>
-                    <br>
+                </ul>
+                <h3>Troubles for this page</h3>
+                <ul>
                     <li>Trouble in resizeing Bokeh charts while integrating it.</li>
                     <li>Trouble in integrating mapbox item directly into the html file. I used iframe tag with api here.
                     </li>
-                </ol>
+                    <li>Used js to resize the height of bokeh, conflicts with <b>ScrollMagic</b> trigger duration function.<br>Might need to add a listener in script for scrolly telling later.</li>
+                </ul>
             </div>
         </div>
         <hr>
 
-        <div class="row">
+        <div class="row" id="bgrow">
             <div class="col-6 offset-3">
-                <h2>Background</h2>
+                <h2 id="bgtrigger">Background</h2>
             </div>
-            <div class="col-4 align-self-center">
+            <div class="col-4 align-self-center bgtxt bganime">
                 <p>Since this pandemic started, people have been discussing who specifically the victims of COVID are,
                     and if there is racial inequity in this suffering, which are to reveal the phenomena of the
                     pandemic.</p>
@@ -165,7 +174,9 @@
                 <p>Another analysis shows that hospitalization cases of not only black but also the other minority such
                     as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
             </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center bgimg bganime">
+                <img src="assets/1025bgimg.png" alt="background" height="100%" width="100%">
+            </div>
             <div class="col-8 offset-2">
                 <h2><br>There is inequity in suffer between racial groups.<br>So, how has this happened?</h2>
             </div>
@@ -174,25 +185,37 @@
     </section>
 
     <section class="container" id="start-up">
-        <div class="row">
+        <div class="row" id="startrow1">
             <div class="col-6 offset-3">
-                <h2>Question to Study</h2>
+                <h2 id="starttrigger">Question to Study</h2>
                 <ol>
                     <li>reveal inequity of accessibility to medical resource</li>
                     <li>suggest ways to improve it</li>
                 </ol>
             </div>
-            <div class="col-4 align-self-center">
-                <h2>Study Structure</h2>
+            <div class="col-4 align-self-center starttxt startanime">
+                <h3>Study Structure</h3>
+                <p>Following the question we want to study, we developed our study structure. We plan to start with
+                    tract classification by race, and explode the question into three detailed aspects. They are
+                    financial conditions, information accessibility, and physical accessibility. After that, we will
+                    reach the conclusion stage and try to figure out some suggestions for the problem discovered.</p>
             </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center startimg startanime">
+                <img src="assets/1025structure.jpg" alt="structure" height="100%" width="100%">
+            </div>
         </div>
 
-        <div class="row">
-            <div class="col-4 align-self-center">
-                <h2>Start-Up: Identify the Tracts</h2>
+        <div class="row" id="startrow2">
+            <div class="col-4 align-self-center starttxt startanime">
+                <h3>Start-Up: Identify the Tracts</h3>
+                <p>In the start-up stage, we will identify the tracts by their dominant race and the geolocation. Our
+                    further study will be based on the tracts. The dataset we plan to use here is Race and Hispanic
+                    Origin Variables. The problem we might have could be that the tracts in the dataset are indexed by
+                    FIPS code, which we need to convert later to geolocation.</p>
             </div>
-            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 align-self-center startimg startanime">
+                <img src="assets/1025identifytracts.jpg" alt="start-up" height="100%" width="100%">
+            </div>
         </div>
         <hr>
     </section>
@@ -200,30 +223,38 @@
     <section class="container" id="economy">
         <div class="row">
             <div class="col-6 offset-3">
-                <h2>Financial Conditions</h2>
+                <h2 id="ecotrigger">Financial Conditions</h2>
+                <p>Then we will move on to the three main layers. As we suppose, financial conditions could be the
+                    fundamental factor that will influence the accessibility to medical resources. In this layer, we
+                    will study from stability of income and the coverage of health insurance.</p>
             </div>
         </div>
 
         <div class="row" id="income">
-            <div class="col-4 align-self-center">
-                <h2>Median Income & Unemployment</h2>
+            <div class="col-4 align-self-center ecotxt ecoanime">
+                <h3>Median Income & Unemployment</h3>
+                <p>For income part, we already found datasets on income by race and age, but the difficulty could be
+                    that the unemployment data both from ArcGIS and New York Times are undownloadable.</p>
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center">
+            <div class="col-8 align-self-center ecoimg ecoanime">
                 <iframe src="assets/my_map.html" id="myfoliummap" width="100%" frameborder="0" scrolling="no"></iframe>
             </div>
         </div>
 
         <div class="row" id="insurance">
-            <div class="col-4 align-self-center">
-                <h2>Health Insurance Coverage</h2>
+            <div class="col-4 align-self-center ecotxt ecoanime">
+                <h3>Health Insurance Coverage</h3>
+                <p>For the second part in financial conditions, based on the dataset of health insurance coverage, we
+                    plan to index the studied tracts by insurace type, and also by age as we did for the income part.
+                </p>
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center">
+            <div class="col-8 align-self-center ecoimg ecoanime">
                 <!-- <div id="mapbox"></div> -->
                 <!-- <iframe src="assets/HTML_example_in_class.html" id="mapbox" width="100%" frameborder="0"
                     scrolling="no"></iframe> -->
@@ -238,30 +269,42 @@
     <section class="container" id="information">
         <div class="row">
             <div class="col-6 offset-3">
-                <h2>Information Accessibility</h2>
+                <h2 id="infotrigger">Information Accessibility</h2>
+                <p>Next, information is also significant for people to know if the symptoms are serious enough to go to
+                    the hospitals and which hospitals are open for COVID patients. Then, we will identify information
+                    accessibility by two criteria. One is online-based, and the other is education-based.</p>
             </div>
         </div>
 
         <div class="row" id="online">
-            <div class="col-4 align-self-center">
-                <h2>Online-Based Information</h2>
+            <div class="col-4 align-self-center infotxt infoanime">
+                <h3>Online-Based Information</h3>
+                <p>As for the online-based information, we think that people can reach more and better information if
+                    they have internet access. So, we are going to use the data of number of households that have
+                    internet subscription, and smartphone devices.</p>
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center">
+            <div class="col-8 align-self-center infoimg infoanime">
                 <iframe src="assets/my_map.html" id="myfoliummap" width="100%" frameborder="0" scrolling="no"></iframe>
             </div>
         </div>
 
         <div class="row" id="education">
-            <div class="col-4 align-self-center">
-                <h2>Education-Based Information</h2>
+            <div class="col-4 align-self-center infotxt infoanime">
+                <h3>Education-Based Information</h3>
+                <p>On the other hand, about the education-based information, we think that people have general knowledge
+                    to avoid infections if education level is high. So, we are going to use the data of students’ exam
+                    scores that can represent the education level of community to a certain extent. One difficulty to
+                    use this tabular data is that geographic boundary is based on the administrative districts, which is
+                    different from the other GIS data that is more subdivided. So, we have to identify which blocks in
+                    GIS data should be assigned to the administrative districts.</p>
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center">
+            <div class="col-8 align-self-center infoimg infoanime">
                 <iframe
                     src="https://api.mapbox.com/styles/v1/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup.html?fresh=true&access_token=pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg"
                     id="mapbox" width="100%"></iframe>
@@ -273,30 +316,39 @@
     <section class="container" id="physical">
         <div class="row">
             <div class="col-6 offset-3">
-                <h2>Physical Accessibility</h2>
+                <h2 id="phytrigger">Physical Accessibility</h2>
+                <p>Following two layers above, we suppose the physical accessibility is also important in accessing
+                    medical resources. We plan to study this layer from mobility and coverage of medical facilities.</p>
             </div>
         </div>
 
         <div class="row" id="mobility">
-            <div class="col-4 align-self-center">
-                <h2>Disability & Vehicles</h2>
+            <div class="col-4 align-self-center phytxt phyanime">
+                <h3>Disability & Vehicles</h3>
+                <p>For the first part, we plan to measure the mobility index from the rate of disability by age and
+                    type. We will also count the households with no vehicles, and classify them by the number of
+                    members.</p>
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center">
+            <div class="col-8 align-self-center phyimg phyanime">
                 <iframe src="assets/my_map.html" id="myfoliummap" width="100%" frameborder="0" scrolling="no"></iframe>
             </div>
         </div>
 
         <div class="row" id="facilities">
-            <div class="col-4 align-self-center">
-                <h2>Access to Medical Facilities</h2>
+            <div class="col-4 align-self-center phytxt phyanime">
+                <h3>Access to Medical Facilities</h3>
+                <p>For the coverage of medical facilities, we will first locate medical facilities of various types on
+                    the map, and add the capacity to their location. Then we will measure the accessibility by
+                    calculating how many medical facilities are in the range of a certain drive time from each tract. We
+                    might use ArcGIS tool or osmnx module in Python.</p>
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe>
             </div>
-            <div class="col-8 align-self-center">
+            <div class="col-8 align-self-center phyimg phyanime">
                 <iframe
                     src="https://api.mapbox.com/styles/v1/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup.html?fresh=true&access_token=pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg"
                     id="mapbox" width="100%"></iframe>
@@ -308,7 +360,7 @@
     <section class="container" id="conclusion">
         <div class="row">
             <div class="col-6 offset-3">
-                <h2>System of Weighting & Final Visualization</h2>
+                <h2 id="conctrigger">System of Weighting & Final Visualization</h2>
                 <p><b>sample text</b><br>Minority communities will have a higher index in at least one of the layer than
                     white communities.<br>The dominant index for various communities may be different due to their
                     ethnic group or
@@ -319,13 +371,13 @@
         </div>
 
         <div class="row">
-            <div class="col-4 align-self-end">
+            <div class="col-4 align-self-end conctxt concanime">
                 <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe> <!-- <div class="testchart"></div> -->
                 <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0" scrolling="no"
                     onload="resizeIframe(this)"></iframe> </div>
-            <div class="col-8 align-self-center">
+            <div class="col-8 align-self-center concimg concanime">
                 <iframe
                     src="https://api.mapbox.com/styles/v1/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup.html?fresh=true&access_token=pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg"
                     id="mapbox" width="100%"></iframe>
@@ -397,6 +449,44 @@
         }
     </script>
     <!-- end of iframe height -->
+
+    <!-- scrollmagic animation -->
+    <script class="scrollmagicanime">
+        var bgheight = document.getElementById("bgrow").offsetHeight;
+        // var startheight = document.getElementById("start-up").offsetHeight;
+        var startheight = document.getElementById("startrow1").offsetHeight
+            + document.getElementById("startrow2").offsetHeight;
+        var ecoheight = document.getElementById("economy").offsetHeight;
+        var infoheight = document.getElementById("information").offsetHeight;
+        var phyheight = document.getElementById("physical").offsetHeight;
+
+        var controller = new ScrollMagic.Controller();
+
+        new ScrollMagic.Scene({ triggerElement: "#bgtrigger", duration: bgheight })
+            .setClassToggle(".bganime", "magicshow")
+            .addIndicators({ name: "background" })
+            .addTo(controller);
+        new ScrollMagic.Scene({ triggerElement: "#starttrigger", duration: startheight + 350 })
+            .setClassToggle(".startanime", "magicshow")
+            .addIndicators({ name: "start-up" })
+            .addTo(controller);
+        new ScrollMagic.Scene({ triggerElement: "#ecotrigger", duration: ecoheight })
+            .setClassToggle(".ecoanime", "magicshow")
+            .addIndicators({ name: "economy" })
+            .addTo(controller);
+        new ScrollMagic.Scene({ triggerElement: "#infotrigger", duration: infoheight })
+            .setClassToggle(".infoanime", "magicshow")
+            .addIndicators({ name: "information" })
+            .addTo(controller);
+        new ScrollMagic.Scene({ triggerElement: "#phytrigger", duration: phyheight })
+            .setClassToggle(".phyanime", "magicshow")
+            .addIndicators({ name: "physical" })
+            .addTo(controller);
+        new ScrollMagic.Scene({ triggerElement: "#conctrigger" })
+            .setClassToggle(".concanime", "magicshow")
+            .addIndicators({ name: "conclusion" })
+            .addTo(controller);
+    </script>
 
     <!-- mapbox -->
     <!-- <script>

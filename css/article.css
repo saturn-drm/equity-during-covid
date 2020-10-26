@@ -9,7 +9,7 @@
     --mainhighlight: #62bec1;
 }
 
-h1, h2, p, a, ol, li {
+h1, h2, h3, p, a, ol, ul, li {
     color: var(--mainfontcolor);
     text-align: left;
     /* padding-right: 3%; */
@@ -31,18 +31,23 @@ h2 {
     font-weight: 400;
 }
 
+h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 p {
     font-size: 1rem;
     font-weight: 200;
     width: auto;
 }
 
-ol, li {
+ul, ol, li {
     font-size: 1rem;
     font-weight: 200;
 }
 
-ol {
+ol, ul {
     margin-top: -10px;
 }
 
