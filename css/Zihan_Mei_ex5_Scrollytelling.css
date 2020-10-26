@@ -1,6 +1,7 @@
-@import "selection.min.css";
-@import "scrollbar.min.css";
-
+@import "selection.css";
+@import "scrollbar.css";
+@import "article.css";
+@import "bootstrap-grid.min.css";
 :root {
     --conclusion: #26547c;
     --economy: #ef476f;
@@ -16,7 +17,47 @@ body, html {
     margin: 0;
     height: 100%;
     padding: 0;
-    font-family: Montserrat, source-han-sans-cjk-sc, source-han-sans-cjk-sc, sans-serif;
+    font-family: Montserrat, source-han-sans-cjk-sc, source-han-sans-cjk-ja, sans-serif;
+    background-color: var(--mainbg);
+    /* font sc and ja use 700 for bold, other fonts 600 */
+}
+
+a#backtotop {
+    width: 20px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    stroke: var(--mainfontcolor);
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    z-index: 1000;
+}
+
+a#backtotop:hover {
+    cursor: pointer;
+    stroke: var(--mainselection);
+    transition: .3s;
+    /* background-color: #333; */
+}
+
+a#backtotop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+div.scrolldown {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 25px);
+    height: 50px;
+    width: 50px;
+    stroke: var(--mainbg);
+    cursor: pointer;
+}
+
+div.scrolldown:hover {
+    stroke: var(--mainselection);
+    transition: .3s;
 }
 
 div.parallax {
@@ -29,50 +70,30 @@ div.parallax {
     background-position: center center;
 }
 
-div.words {
+div.coverwords {
     position: absolute;
     width: 50%;
     left: 25%;
-    /* display: flex;
-    justify-content: center; */
-    height: 300vh;
-    top: 0;
+    top: 25vh;
 }
 
-h1, h2, p, a {
-    color: #fd746c;
-    text-align: center;
-    /* padding-right: 3%; */
+.iframe {
+    overflow: hidden;
 }
 
-blockquote {
-    padding-left: 1rem;
-    border-left: solid #888888 3px;
+.testcontent {
+    height: 35vh;
+    background-color: #06d6a0;
+    /* position: sticky;
+    position: -webkit-sticky;
+    top: 30vh; */
 }
 
-h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    width: auto;
+.testchart {
+    height: 20vh;
+    background-color: #ef476f;
 }
 
-h2 {
-    font-size: 1.6rem;
-    font-weight: 400;
-}
-
-p {
-    font-size: 1rem;
-    font-weight: 400;
-    width: auto;
-}
-
-a:hover {
-    color: #fd746c;
-    transition: .3s;
-}
-
-div.words:hover {
-    color: #fd746c;
-    transition: .3s;
+.gapbeforefooter {
+    height: 10vh;
 }

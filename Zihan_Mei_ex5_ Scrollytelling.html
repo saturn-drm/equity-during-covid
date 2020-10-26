@@ -12,6 +12,7 @@
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600&display=swap" rel="stylesheet">
+    <!-- font from adobe -->
     <script>
         (function (d) {
             var config = {
@@ -25,16 +26,16 @@
     <!-- end fonts -->
 
     <!-- start favicons snippet, use https://realfavicongenerator.net/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#2c3e50">
-    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2c3e50">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="ZMei.moe">
     <meta name="application-name" content="ZMei.moe">
     <meta name="msapplication-TileColor" content="#fee3e1">
-    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <!-- end favicons snippet -->
 
@@ -50,25 +51,309 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $("#footer").load("components/footer.html");
+        });
+    </script>
+
+    <!-- anime-master -->
+    <script src="js/anime-master/lib/anime.min.js"></script>
 
 </head>
 
 <body>
-    <div class="parallax"></div>
-    <div class="words">
-        <h1>How to Improve Racial Equity in the Access to Medical Resources during COVID</h1>
-        <h2>Zihan_Mei_ex5_Scrollytelling</h2>
-        <blockquote>
-            <p>By Zihanmei, on 2020-10-25</p>
-        </blockquote>
-        <p>11.454 Big Data, Visualization, And Society<br>Instructor: Sarah Williams, Yuan Lai<br>TA: Yanchao Li, Lily
-            Xie, Patricia Cafferky</p>
-        <p>source for background image: <a
-                href="https://showcase.earthengine.app/view/jrc-global-surface-water-animation">JRC Global Surface Water
-                Animation</a></p>
-        <!-- <p><a href="https://www.zmei.moe/">Go to Homepage.</a></p> -->
-    </div>
+    <!-- back to top icon -->
+    <a id="backtotop">
+        <svg id="layer2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.85 35.95">
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill: none;
+                        stroke-miterlimit: 10;
+                    }
+                </style>
+            </defs>
+            <title>backtotop</title>
+            <polyline class="cls-1" points="0.43 13.95 8.43 0.95 16.43 13.95" />
+            <line class="cls-1" x1="8.43" y1="25.95" x2="8.43" y2="0.95" />
+            <line class="cls-1" x1="0.43" y1="0.95" x2="16.43" y2="0.95" />
+        </svg>
+    </a>
+    <!-- end back to top icon -->
+
+    <section class="cover" id="home">
+        <div class="parallax"></div>
+
+        <div class="coverwords">
+            <h1>How to Improve Racial Equity in the Access to Medical Resources during COVID</h1>
+            <h2>Zihan_Mei_ex5_Scrollytelling</h2>
+            <p>By Zihan Mei, on 2020-10-25</p>
+            <p>11.454 Big Data, Visualization, And Society<br>Instructor: Sarah Williams, Yuan Lai<br>TA: Yanchao Li,
+                Lily
+                Xie, Patricia Cafferky</p>
+            <p>source for background image: <a
+                    href="https://showcase.earthengine.app/view/jrc-global-surface-water-animation">JRC Global Surface
+                    Water
+                    Animation</a></p>
+            <!-- <p><a href="https://www.zmei.moe/">Go to Homepage.</a></p> -->
+        </div>
+
+        <a href="#background">
+            <div class="scrolldown">
+                <svg id="layer1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.14 11.04">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: transparent;
+                                stroke-miterlimit: 10;
+                                stroke-width: 2px;
+                            }
+                        </style>
+                    </defs>
+                    <title>scrolldown</title>
+                    <polyline class="cls-1" points="0.57 0.82 13.57 9.82 26.57 0.82" />
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <section id="background" class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h2>Notes for ex5</h2>
+                <ol>
+                    <li>Used <b>ScrollMagic</b> for scrolly telling, <b>anime.js</b> for some animation.</li>
+                    <li>Used parallax scroll for cover page as proposed at mid-term.</li>
+                    <li>Used grid system from <a
+                            href="https://getbootstrap.com/docs/4.0/layout/grid/"><b>bootstrap</b></a>.</li>
+                    <li>Displayed the column systems as proposed at mid-term.</li>
+                    <li>Inlcuded the footer, back-to-top button, scroll-down arrow.</li>
+                    <li>Navbar not included.</li>
+                    <li>Some detialed font size and weight need fixing later.</li>
+                    <li>Sticky property not included.</li>
+                </ol>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h2>Background</h2>
+            </div>
+            <div class="col-4 align-self-center">
+                <p>Since this pandemic started, people have been discussing who specifically the victims of COVID are,
+                    and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                    pandemic.</p>
+                <p>Based on these demands, most states have provided racial data of the infections, though there is a
+                    minor difference of data transparency between states. And this has facilitated data-driven analysis
+                    to reveal the unequal situation of the infections.</p>
+                <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                    black-dominant while many of the highly-infected counties are white-dominant.</p>
+                <p>Another analysis shows that hospitalization cases of not only black but also the other minority such
+                    as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+            <div class="col-8 offset-2">
+                <h2><br>There is inequity in suffer between racial groups.<br>So, how has this happened?</h2>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="container" id="start-up">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h2>Question to Study</h2>
+                <ol>
+                    <li>reveal inequity of accessibility to medical resource</li>
+                    <li>suggest ways to improve it</li>
+                </ol>
+            </div>
+            <div class="col-4 align-self-center">
+                <h2>Study Structure</h2>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 align-self-center">
+                <h2>Start-Up: Identify the Tracts</h2>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="container" id="economy">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h2>Financial Conditions</h2>
+            </div>
+        </div>
+
+        <div class="row" id="income">
+            <div class="col-4 align-self-center">
+                <h2>Median Income & Unemployment</h2>
+                <!-- <div class="testchart"></div> -->
+                <iframe src="assets/Alabama_bar.html" id="alabamachart" width="100%" frameborder="0"></iframe>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+
+        <div class="row" id="insurance">
+            <div class="col-4 align-self-center">
+                <h2>Health Insurance Coverage</h2>
+                <div class="testchart"></div>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="container" id="information">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h2>Information Accessibility</h2>
+            </div>
+        </div>
+
+        <div class="row" id="online">
+            <div class="col-4 align-self-center">
+                <h2>Online-Based Information</h2>
+                <div class="testchart"></div>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+
+        <div class="row" id="education">
+            <div class="col-4 align-self-center">
+                <h2>Education-Based Information</h2>
+                <div class="testchart"></div>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="container" id="physical">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h2>Physical Accessibility</h2>
+            </div>
+        </div>
+
+        <div class="row" id="mobility">
+            <div class="col-4 align-self-center">
+                <h2>Disability & Vehicles</h2>
+                <div class="testchart"></div>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+
+        <div class="row" id="facilities">
+            <div class="col-4 align-self-center">
+                <h2>Access to Medical Facilities</h2>
+                <div class="testchart"></div>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="container" id="conclusion">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h2>System of Weighting & Final Visualization</h2>
+                <p><b>sample text</b><br>Minority communities will have a higher index in at least one of the layer than
+                    white communities.<br>The dominant index for various communities may be different due to their
+                    ethnic group or
+                    geolocation.<br>Offer policy maker suggestion on what social or physical infrastructure needs
+                    improvement and where
+                    to implement.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 align-self-center">
+                <div class="testchart"></div>
+                <div class="testchart"></div>
+            </div>
+            <div class="col-8 align-self-center testcontent"></div>
+        </div>
+
+        <div class="row gapbeforefooter"></div>
+    </section>
+
+    <div id="footer"></div>
+
+    <!-- scroll smoothly -->
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+
+                if (this.hash !== "") {
+                    event.preventDefault();
+
+                    var hash = this.hash;
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+    <!-- end scroll smoothly -->
+
+    <!-- back to top -->
+    <script class="backtotop">
+        var btn = $('#backtotop');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+    </script>
+    <!-- end back to top -->
+
+    <!-- the moving icon of scrolling down -->
+    <script class="scrolldownanime">
+        anime({
+            targets: 'div.scrolldown svg',
+            translateY: 25,
+            loop: true,
+            easing: 'easeInOutSine',
+            duration: 1000,
+            opacity: [0, 1]
+        })
+    </script>
+
+    <!-- Automatically Adjust iFrame Height According to its Contents -->
+    <script>
+        // Selecting the iframe element
+        var iframe = document.getElementById("alabamachart");
+
+        // Adjusting the iframe height onload event
+        iframe.onload = function () {
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+    <!-- end of iframe height -->
 </body>
 
 </html>

@@ -16,9 +16,8 @@
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: rgba(44, 62, 80, .7);
-    /* border-radius: 10px; */
-    /* box-shadow: inset 0 0 5px grey; */
+    background: var(--conclusion);
+    opacity: .7;
 }
 
 /* Handle */

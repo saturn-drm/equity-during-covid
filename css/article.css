@@ -1,0 +1,88 @@
+:root {
+    --conclusion: #26547c;
+    --economy: #ef476f;
+    --transportation: #ffd166;
+    --humanresource: #06d6a0;
+    --mainbg: #fffcf9;
+    --mainfontcolor: #34090f;
+    --mainselection: #c45a6d;
+    --mainhighlight: #62bec1;
+}
+
+h1, h2, p, a, ol, li {
+    color: var(--mainfontcolor);
+    text-align: left;
+    /* padding-right: 3%; */
+}
+
+blockquote {
+    padding-left: 1rem;
+    border-left: solid #888888 3px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    width: auto;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 200;
+    width: auto;
+}
+
+ol, li {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+ol {
+    margin-top: -10px;
+}
+
+b {
+    font-weight: 400;
+}
+
+a {
+    cursor: pointer !important;
+}
+
+a:hover {
+    color: var(--mainhighlight) !important;
+    transition: .3s;
+    text-decoration: overline underline;
+}
+
+div.coverwords * {
+    color: var(--mainbg);
+    text-align: center;
+    cursor: default;
+}
+
+div.coverwords h1 {
+    font-size: 3rem;
+}
+
+div.coverwords h2 {
+    font-size: 2rem;
+}
+
+div.row h2 {
+    text-align: center;
+}
+
+div.coverwords *:hover {
+    color: var(--mainselection);
+    transition: .3s;
+}
+
+hr {
+    border: double 1px var(--mainselection);
+}

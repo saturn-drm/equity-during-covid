@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ff4def26-1796-4364-b4b1-de40f6d1ff9e" data-root-id="1185"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1319">
+          {"91a06a8b-9ab9-4a44-8480-35e50533ef00":{"roots":{"references":[{"attributes":{},"id":"1194","type":"LinearScale"},{"attributes":{},"id":"1224","type":"BasicTickFormatter"},{"attributes":{"overlay":{"id":"1228","type":"BoxAnnotation"}},"id":"1207","type":"BoxZoomTool"},{"attributes":{"dimension":1,"ticker":{"id":"1201","type":"BasicTicker"}},"id":"1204","type":"Grid"},{"attributes":{"formatter":{"id":"1224","type":"BasicTickFormatter"},"ticker":{"id":"1201","type":"BasicTicker"}},"id":"1200","type":"LinearAxis"},{"attributes":{},"id":"1226","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1197","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"1226","type":"CategoricalTickFormatter"},"ticker":{"id":"1197","type":"CategoricalTicker"}},"id":"1196","type":"CategoricalAxis"},{"attributes":{},"id":"1210","type":"HelpTool"},{"attributes":{},"id":"1230","type":"Selection"},{"attributes":{},"id":"1208","type":"SaveTool"},{"attributes":{},"id":"1205","type":"PanTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1205","type":"PanTool"},{"id":"1206","type":"WheelZoomTool"},{"id":"1207","type":"BoxZoomTool"},{"id":"1208","type":"SaveTool"},{"id":"1209","type":"ResetTool"},{"id":"1210","type":"HelpTool"}]},"id":"1211","type":"Toolbar"},{"attributes":{},"id":"1206","type":"WheelZoomTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1228","type":"BoxAnnotation"},{"attributes":{"callback":null,"factors":["white","black","amer_indian","asian","pacfc_islander","other","two_or_more"]},"id":"1188","type":"FactorRange"},{"attributes":{"source":{"id":"1218","type":"ColumnDataSource"}},"id":"1222","type":"CDSView"},{"attributes":{"text":"Race Percentages for Alabama"},"id":"1186","type":"Title"},{"attributes":{"ticker":{"id":"1197","type":"CategoricalTicker"}},"id":"1199","type":"Grid"},{"attributes":{"below":[{"id":"1196","type":"CategoricalAxis"}],"center":[{"id":"1199","type":"Grid"},{"id":"1204","type":"Grid"}],"left":[{"id":"1200","type":"LinearAxis"}],"plot_height":200,"plot_width":400,"renderers":[{"id":"1221","type":"GlyphRenderer"}],"title":{"id":"1186","type":"Title"},"toolbar":{"id":"1211","type":"Toolbar"},"x_range":{"id":"1188","type":"FactorRange"},"x_scale":{"id":"1192","type":"CategoricalScale"},"y_range":{"id":"1190","type":"Range1d"},"y_scale":{"id":"1194","type":"LinearScale"}},"id":"1185","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"data":{"top":[68.19468084231646,26.583166827006092,0.525748867345848,1.3281243576144783,0.044853926671435736,1.4400741672628004,1.8833510117828922],"x":["white","black","amer_indian","asian","pacfc_islander","other","two_or_more"]},"selected":{"id":"1230","type":"Selection"},"selection_policy":{"id":"1229","type":"UnionRenderers"}},"id":"1218","type":"ColumnDataSource"},{"attributes":{},"id":"1201","type":"BasicTicker"},{"attributes":{"callback":null,"end":73.19468084231646},"id":"1190","type":"Range1d"},{"attributes":{},"id":"1192","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"1220","type":"VBar"},{"attributes":{},"id":"1229","type":"UnionRenderers"},{"attributes":{},"id":"1209","type":"ResetTool"},{"attributes":{"fill_color":{"value":"#336699"},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.5},"x":{"field":"x"}},"id":"1219","type":"VBar"},{"attributes":{"data_source":{"id":"1218","type":"ColumnDataSource"},"glyph":{"id":"1219","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1220","type":"VBar"},"selection_glyph":null,"view":{"id":"1222","type":"CDSView"}},"id":"1221","type":"GlyphRenderer"}],"root_ids":["1185"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1319').textContent;
+                  var render_items = [{"docid":"91a06a8b-9ab9-4a44-8480-35e50533ef00","roots":{"1185":"ff4def26-1796-4364-b4b1-de40f6d1ff9e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
