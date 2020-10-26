@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <title>MIT 11.454 In Class Practice</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id='map'></div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0dXJuLWRybSIsImEiOiJja2dkbGNrNmowOHBjMnFsN2U2ZW82NXc1In0.YYuvMNHy448lewsxlIpfVg';
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/saturn-drm/ckggkbvcg0qyp19pgx6fzzjup',
+      center: [-71.0588, 42.3601],
+      zoom: 12
+    })
+
+    // Load data source and add layer
+    map.on('load', function () {
+      // Add data sources:
+      map.addSource('complaints', {
+        'type': 'geojson',
+        'data': 'data/boston_service_requests.geojson',
+        'generateId': true // This ensures that all features have unique IDs
+      });
+
+      // Add layer to discplay data:
+      map.addLayer({
+        id: 'complaints_viz',
+        type: 'circle',
+        source: 'complaints',
+        paint: {
+          'circle-radius': 4,
+          'circle-color': [
+            'interpolate',
+            ['linear'],
+            ['number', ['get', 'response_time']],
+            0, '#ffeda0',
+            6, '#fd8d3c',
+            12, '#fc4e2a',
+            18, '#e31a1c',
+            24, '#bd0026'
+          ],
+          'circle-opacity': 0.6
+        },
+      });
+    });
+  </script>
+</body>
+
+</html>

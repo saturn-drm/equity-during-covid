@@ -77,8 +77,16 @@ div.coverwords {
     top: 25vh;
 }
 
-.iframe {
-    overflow: hidden;
+iframe {
+    resize: both;
+}
+
+#myfoliummap {
+    height: 40vh;
+}
+
+#mapbox {
+    height: 40vh;
 }
 
 .testcontent {
