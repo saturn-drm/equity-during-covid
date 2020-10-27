@@ -74,6 +74,8 @@
 </head>
 
 <body>
+    <progress id="content-progress" value="0"></progress>
+
     <!-- back to top icon -->
     <a id="backtotop">
         <svg id="layer2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.85 35.95">
@@ -152,7 +154,6 @@
                     <li>Trouble in resizeing Bokeh charts while integrating it.</li>
                     <li>Trouble in integrating mapbox item directly into the html file. I used iframe tag with api here.
                     </li>
-                    <li>Used js to resize the height of bokeh, conflicts with <b>ScrollMagic</b> trigger duration function.<br>Might need to add a listener in script for scrolly telling later.</li>
                 </ul>
             </div>
         </div>
@@ -185,7 +186,7 @@
     </section>
 
     <section class="container" id="start-up">
-        <div class="row" id="startrow1">
+        <div class="row">
             <div class="col-6 offset-3">
                 <h2 id="starttrigger">Question to Study</h2>
                 <ol>
@@ -205,7 +206,7 @@
             </div>
         </div>
 
-        <div class="row" id="startrow2">
+        <div class="row">
             <div class="col-4 align-self-center starttxt startanime">
                 <h3>Start-Up: Identify the Tracts</h3>
                 <p>In the start-up stage, we will identify the tracts by their dominant race and the geolocation. Our
@@ -452,40 +453,57 @@
 
     <!-- scrollmagic animation -->
     <script class="scrollmagicanime">
-        var bgheight = document.getElementById("bgrow").offsetHeight;
-        // var startheight = document.getElementById("start-up").offsetHeight;
-        var startheight = document.getElementById("startrow1").offsetHeight
-            + document.getElementById("startrow2").offsetHeight;
-        var ecoheight = document.getElementById("economy").offsetHeight;
-        var infoheight = document.getElementById("information").offsetHeight;
-        var phyheight = document.getElementById("physical").offsetHeight;
+        window.onload = function () {
+            var bgheight = document.getElementById("bgrow").offsetHeight;
+            // var startheight = document.getElementById("start-up").offsetHeight;
+            var startheight = document.getElementById("start-up").offsetHeight;
+            var ecoheight = document.getElementById("economy").offsetHeight;
+            var infoheight = document.getElementById("information").offsetHeight;
+            var phyheight = document.getElementById("physical").offsetHeight;
 
-        var controller = new ScrollMagic.Controller();
+            var controller = new ScrollMagic.Controller();
 
-        new ScrollMagic.Scene({ triggerElement: "#bgtrigger", duration: bgheight })
-            .setClassToggle(".bganime", "magicshow")
-            .addIndicators({ name: "background" })
-            .addTo(controller);
-        new ScrollMagic.Scene({ triggerElement: "#starttrigger", duration: startheight + 350 })
-            .setClassToggle(".startanime", "magicshow")
-            .addIndicators({ name: "start-up" })
-            .addTo(controller);
-        new ScrollMagic.Scene({ triggerElement: "#ecotrigger", duration: ecoheight })
-            .setClassToggle(".ecoanime", "magicshow")
-            .addIndicators({ name: "economy" })
-            .addTo(controller);
-        new ScrollMagic.Scene({ triggerElement: "#infotrigger", duration: infoheight })
-            .setClassToggle(".infoanime", "magicshow")
-            .addIndicators({ name: "information" })
-            .addTo(controller);
-        new ScrollMagic.Scene({ triggerElement: "#phytrigger", duration: phyheight })
-            .setClassToggle(".phyanime", "magicshow")
-            .addIndicators({ name: "physical" })
-            .addTo(controller);
-        new ScrollMagic.Scene({ triggerElement: "#conctrigger" })
-            .setClassToggle(".concanime", "magicshow")
-            .addIndicators({ name: "conclusion" })
-            .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#bgtrigger", duration: bgheight })
+                .setClassToggle(".bganime", "magicshow")
+                .addIndicators({ name: "background" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#starttrigger", duration: startheight })
+                .setClassToggle(".startanime", "magicshow")
+                .addIndicators({ name: "start-up" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#ecotrigger", duration: ecoheight })
+                .setClassToggle(".ecoanime", "magicshow")
+                .addIndicators({ name: "economy" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#infotrigger", duration: infoheight })
+                .setClassToggle(".infoanime", "magicshow")
+                .addIndicators({ name: "information" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#phytrigger", duration: phyheight })
+                .setClassToggle(".phyanime", "magicshow")
+                .addIndicators({ name: "physical" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#conctrigger" })
+                .setClassToggle(".concanime", "magicshow")
+                .addIndicators({ name: "conclusion" })
+                .addTo(controller);
+        };
+
+    </script>
+
+    <script class="content-progress-js">
+        document.addEventListener('DOMContentLoaded', function () {
+            var winHeight = window.innerHeight,
+                docHeight = document.documentElement.scrollHeight,
+                progressBar = document.querySelector('#content-progress');
+            progressBar.max = docHeight - winHeight;
+            progressBar.value = window.scrollY;
+
+            document.addEventListener('scroll', function () {
+                progressBar.max = document.documentElement.scrollHeight - window.innerHeight;
+                progressBar.value = window.scrollY;
+            });
+        });
     </script>
 
     <!-- mapbox -->

@@ -128,3 +128,30 @@ div.magicshow {
 .gapbeforefooter {
     height: 10vh;
 }
+
+#content-progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    /* color: var(--mainselection); */
+}
+
+#content-progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+
+#content-progress::-webkit-progress-value {
+    background-color: var(--economy);
+}
+
+#content-progress::-moz-progress-bar {
+    background-color: var(--economy);
+}
