@@ -1,0 +1,141 @@
+<html lang='eng'>
+
+<head>
+    <title>
+        D3 PSET 6.2
+    </title>
+    <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
+    <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <style>
+        #tooltip.hidden {
+            display: none;
+        }
+
+        #tooltip {
+            position: absolute;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tooltip" class="hidden">
+        <p><span id="value">100</span></p>
+    </div>
+    <script>
+        // urls
+        var bosTopoUrl = 'https://gist.githubusercontent.com/cesandoval/09b2e39263c748fbcb84b927cecc7c46/raw/ab71d3638efd2545ec99c2651c6f2ddcea9d2a07/boston.json';
+        var bos311Url = 'https://raw.githubusercontent.com/brookefzy/BigData2020/master/pset6/boston_311.csv';
+
+        // canvas
+        var width = 1000, height = 800;
+
+        // svg
+        var svg = d3.select('body')
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+
+        // g
+        var g = svg.append('g');
+
+        // projection
+        var albersProj = d3.geoAlbers()
+            .scale(190000)
+            .rotate([71.057, 0])
+            .center([0, 42.313])
+            .translate([width / 2, height / 2]);
+
+        // geopath
+        var geoPath = d3.geoPath()
+            .projection(albersProj);
+
+        // load 311 data
+        // bos311 = Object.assign(new Map(d3.csvParse(await FileAttachment(bos311Url).text(), ({id, twitter}) => [id, Math.log(+twitter + 1)])), {title: 'Tweets per neighborhood (log scale)'});
+        // the code from `https://observablehq.com/@d3/choropleth` returns an error of lacking ')' after the argument list
+        // I double checked the number of ')' and didn't find the mistake...
+        // so I used me own functions as below
+
+        var iddict = {}
+        var min = 0, max = 0, sum = 0;
+        d3.csv(bos311Url, function (d) {
+            var tmp = Math.log(+d.twitter + 1);
+            sum += tmp;
+            iddict[d.id] = tmp;
+            if (tmp < min) {
+                min = tmp;
+            }
+            if (tmp > max) {
+                max = tmp;
+            }
+        }).then(function () {
+            // color
+            var color = d3.scaleQuantize([min, max], d3.schemePurples[9]);
+            // load topo data
+            d3.json(bosTopoUrl).then(function (bosTopo) {
+                g.selectAll('path')
+                    .data(topojson.feature(bosTopo, bosTopo.objects.boston_neigh).features)
+                    .enter()
+                    .append('path')
+                    .attr('fill', function (d) {
+                        return color(iddict[d.properties.OBJECTID]);
+                    })
+                    .attr('d', geoPath)
+                    .on('mouseover', function (d) {
+                        var perc = 100 * iddict[d.properties.OBJECTID] / sum;
+                        d3.select('#tooltip')
+                            .style('top', d3.event.pageY)
+                            .style('left', d3.event.pageX)
+                            .style('background-color', 'white')
+                            .style('opacity', .6)
+                            .style('padding', '5px')
+                            .classed('hidden', false);
+                        d3.select('#value')
+                            .html('<p>' + String(d.properties.Name) + ': ' + String(perc.toFixed(2)) + '%');
+                    })
+                // .on('mouseout', function () {
+                // d3.select('#tooltip').classed('hidden', true);
+                // });
+                // an interesting bug here...
+                // when I add the mouseout event and open the developer tool in Chrome
+                // the hover and disapear function runs right
+                // but when I close the developer tool, the mouseover event seems cannot tell whether it's hovering or not
+                // so I removed the mouseout function
+            });
+            // legend
+            var cellNum = 9;
+            var colorLegend = d3.legendColor()
+                .shapeWidth(30)
+                .shapeHeight(10)
+                .cells(cellNum)
+                .shapePadding(0)
+                .labelFormat(d3.format('.2f'))
+                .labels(['0'])
+                .title('Tweets per neighborhood (log scale)')
+                .orient('horizontal')
+                .scale(color);
+            svg.append('g')
+                .attr('transform', 'translate(140, 165)')
+                // .append(() => legend({color, title: 'Tweets per neighborhood (log scale)', width: 500}));
+                .call(colorLegend);
+            // legend title location and size
+            d3.select('.legendTitle')
+                .attr('transform', 'translate(0, 15)')
+                .attr('font-size', '11px');
+            // labels
+            d3.selectAll('.label')
+                .attr('font-size', '10px')
+                .attr('transform', 'translate(30, 28)')
+                .attr('display', function(d, i) {
+                    if (i < cellNum - 1) {
+                        return 'none';
+                    }
+                })
+                .html(5.5);
+        });
+    </script>
+</body>
+
+</html>
