@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>D3 Interactions & Transitions</title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<style>
+		/* Add CSS classes for tooltip and tooltip.hidden */
+		#tooltip.hidden {
+			display: none;
+		}
+
+		#tooltip {
+			position: absolute;
+			padding: 5px;
+			background-color: white;
+			border: solid gray 1px;
+			z-index: 10;
+			pointer-events: none;
+		}
+
+		/* Add CSS classes for p to make the font-size 12 px */
+		p {
+			font-size: 12px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Add buttons for each of the four neighborhoods -->
+	<input type="button" id="ros" value="Roslindale" onclick="updatedata(roslindale); updatecolor(roslindale);">
+	<input type="button" id="sbw" value="South Boston Waterfront"
+		onclick="updatedata(south_boston_waterfront); updatecolor(south_boston_waterfront);">
+	<input type="button" id="bab" value="Back Bay" onclick="updatedata(back_bay); updatecolor(back_bay);">
+	<input type="button" id="jap" value="Jamaica Plain"
+		onclick="updatedata(jamaica_plain); updatecolor(jamaica_plain);">
+
+	<!-- Add a div element for tooltip -->
+	<div id="tooltip" class="hidden">
+		<p><span id="value">100</span></p>
+	</div>
+
+	<div id="main">
+	</div>
+
+
+	<script type="text/javascript">
+
+		var bos311 = "https://gist.githubusercontent.com/cesandoval/046a91586ae76889aeb5b3e9db53016e/raw/ffb0c410ce8503c8c839cde01235bafb39cb14ad/bostosn_311.csv"
+
+		var bosneighurl = 'https://gist.githubusercontent.com/cesandoval/09b2e39263c748fbcb84b927cecc7c46/raw/ab71d3638efd2545ec99c2651c6f2ddcea9d2a07/boston.json';
+
+		var roslindale = [["Citizens_Connect_App", 2312], ["City_Worker_App", 559], ["Constituent_Call", 3432], ["Employee_Generated", 396], ["twitter", 13], ["Self_Service", 611]]
+		var south_boston_waterfront = [["Citizens_Connect_App", 622], ["City_Worker_App", 21], ["Constituent_Call", 287], ["Employee_Generated", 23], ["twitter", 4], ["Self_Service", 21]]
+		var back_bay = [["Citizens_Connect_App", 4553], ["City_Worker_App", 579], ["Constituent_Call", 2255], ["Employee_Generated", 405], ["twitter", 13], ["Self_Service", 240]]
+		var jamaica_plain = [["Citizens_Connect_App", 5008], ["City_Worker_App", 683], ["Constituent_Call", 5522], ["Employee_Generated", 427], ["twitter", 16], ["Self_Service", 909]]
+
+		// task 7.1: Create the bar chart --------------------------------------------------------
+		// Define height and width variables (height of 720, width of 1200)
+		var height = 720, width = 1200;
+		// define the base variables for changing the location more easily during debugging
+		var basex = 50, basey = 500;
+		// Add an SVG element, use the outline attr to debug
+		var svg = d3.select('#main').append('svg').attr('width', width).attr('height', height);
+		// .attr("style", "outline: thin solid black;");
+		// rects, start at x=50, y=600
+		svg.selectAll('rect').data(roslindale).enter().append('rect')
+			.attr('width', '30px')
+			.attr('height', d => d[1] / 12)
+			.attr('fill', '#3caea3')
+			.attr('x', (d, i) => basex + 40 * i)
+			.attr('y', d => basey - d[1] / 12);
+		// to avoid overwrite in x and y labels, use group for each name here
+		// x-axis names
+		svg.append('g').selectAll('text').data(roslindale).enter()
+			.append('text')
+			.text(d => d[0].replaceAll('_', ' '))
+			.attr('text-anchor', 'end')
+			.attr('x', (d, i) => basex + 15 + 40 * i)
+			.attr('y', basey + 10)
+			.attr('alignment-baseline', 'middle') // strict vertical align
+			.attr('transform', (d, i) => 'rotate(-90, ' + String(basex + 15 + 40 * i) + ', ' + String(basey + 10) + ')');
+		// y-axis
+		svg.append('line').attr('x1', basex).attr('y1', basey).attr('x2', basex).attr('y2', basey - 480)
+			.attr('stroke-width', 2).attr('stroke', 'black');
+		// x-axis
+		svg.append('line').attr('x1', basex).attr('y1', basey).attr('x2', basex + 300).attr('y2', basey)
+			.attr('stroke-width', 2).attr('stroke', 'black');
+		// y-axis label
+		svg.append('text').attr('class', 'y-label').text('No. of 311 requests').attr('text-anchor', 'center')
+			.attr('x', basex - 45).attr('y', basey - 210)
+			.attr('transform', 'rotate(-90, ' + String(basex - 10) + ', ' + String(basey - 210) + ')');
+
+		// task 7.2: Integrate user input --------------------------------------------------------
+		// task 7.3: Add transitions to your chart --------------------------------------------------------
+		function updatedata(data) {
+			var rects = svg.selectAll('rect').data(data);
+			// rects.exit().remove();
+			rects.enter().append('rect').merge(rects).transition().duration(2000)
+				.attr('height', d => d[1] / 12)
+				.attr('y', d => basey - d[1] / 12);
+		};
+
+		// task 7.4: Add hovers to your chart --------------------------------------------------------
+		// notes: the tooltip is always flickering, and cannot be shown when the console is not open
+		// so I add the style point-events:none; and add the function when 'mousemove' to achieve better experience
+		svg.selectAll('rect')
+			.on('mouseover', function (d) {
+				d3.select('#tooltip')
+					.style('left', d3.event.pageX + 'px')
+					.style('top', d3.event.pageY + 'px')
+					.select('#value')
+					.html('<p>' + d[0] + ':<br>' + String(d[1]) + '</p>');
+				d3.select('#tooltip')
+					.classed('hidden', false);
+			})
+			.on('mousemove', function (d) {
+				d3.select('#tooltip')
+					.style('left', d3.event.pageX + 'px')
+					.style('top', d3.event.pageY + 'px')
+					.select('#value')
+					.html('<p>' + d[0] + ':<br>' + String(d[1]) + '</p>');
+				d3.select('#tooltip')
+					.classed('hidden', false);
+			})
+			.on('mouseout', function () {
+				d3.select('#tooltip').classed('hidden', true);
+			});
+
+		// task 7.5: Add a map of Boston --------------------------------------------------------
+		// projection
+		var albersProj = d3.geoAlbers().scale(150000).rotate([71.057, 0]).center([0, 42.313])
+			.translate([width / 2, height / 2]);
+		// geopath
+		var geoPath = d3.geoPath().projection(albersProj);
+		// topojson
+		d3.json(bosneighurl).then(ready);
+		function ready(bos) {
+			svg.append('g').selectAll('path').data(topojson.feature(bos, bos.objects.boston_neigh).features)
+				.enter().append('path').attr('d', geoPath)
+				.attr('id', d => d.properties.Name.replaceAll(' ', '_')).attr('class', 'geo')
+				.attr('transform', 'translate(' + String(100 + basex) + ', 0)')
+				.style('fill', function (d) {
+					if (d.properties.Name == 'Roslindale') {
+						return '#3caea3';
+					} else { return 'gray'; }
+				});
+		};
+
+		// task 7.6: Connect your visualization with user interaction --------------------------------------------------------
+		// task 7.7: Add transitions to your map --------------------------------------------------------
+		function updatecolor(data) {
+			if (data == roslindale) {
+				d3.selectAll('.geo').each(function (d) {
+					d3.select(this).transition().duration(1000).style('fill', function () {
+						return d3.select(this).attr('id') == 'Roslindale' ? '#3caea3' : 'gray';
+					});
+				});
+			}
+			if (data == south_boston_waterfront) {
+				d3.selectAll('.geo').each(function (d) {
+					d3.select(this).transition().duration(1000).style('fill', function () {
+						return d3.select(this).attr('id') == 'South_Boston_Waterfront' ? '#3caea3' : 'gray';
+					});
+				});
+			}
+			if (data == back_bay) {
+				d3.selectAll('.geo').each(function (d) {
+					d3.select(this).transition().duration(1000).style('fill', function () {
+						return d3.select(this).attr('id') == 'Back_Bay' ? '#3caea3' : 'gray';
+					});
+				});
+			}
+			if (data == jamaica_plain) {
+				d3.selectAll('.geo').each(function (d) {
+					d3.select(this).transition().duration(1000).style('fill', function () {
+						return d3.select(this).attr('id') == 'Jamaica_Plain' ? '#3caea3' : 'gray';
+					});
+				});
+			}
+		};
+
+
+	// Add a map of Boston next to the bar chart and set the fill color to "gray"	
+
+
+	// Change the data when a user selects the various buttons, so the bar chart adjusts accordingly. Also when the user selects a neighborhood the fill color in that neighborhood should change. Make sure to implement transitions.
+
+
+
+	</script>
+</body>
+
+</html>
