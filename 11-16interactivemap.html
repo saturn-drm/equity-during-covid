@@ -8,15 +8,31 @@
 	<script src="https://d3js.org/topojson.v2.min.js"></script>
 	<style>
 		.zipcode:hover {
-			stroke: aliceblue 3px;
 			z-index: 1000;
 			fill: rgb(111, 111, 255);
 			transition: .3s;
+		}
+
+		#tooltip.hidden {
+			display: none;
+		}
+
+		#tooltip {
+			position: absolute;
+			padding: 5px;
+			background-color: white;
+			border: solid gray 1px;
+			z-index: 10;
+			pointer-events: none;
 		}
 	</style>
 </head>
 
 <body>
+	<div id="tooltip" class="hidden">
+		<p><span id="value">100</span></p>
+	</div>
+
 	<div id="main">
 	</div>
 
@@ -35,13 +51,36 @@
 		var zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
 		svg.call(zoom);
 
+		var nycgrp = svg.append('g');
+
 		d3.json(nycgeourl).then(ready);
 		function ready(nyc) {
 			nyc.features.pop();
 			var colors = d3.scaleThreshold().domain(d3.extent(nyc.features, d => d.properties.pop_est)).range(d3.schemeBlues[5]);
-			svg.append('g').selectAll('path').data(nyc.features).enter()
-				.append('path').attr('class', d => d.properties.modzcta).attr('class', 'zipcode')
-				.attr('fill', d => colors(d.properties.pop_est)).attr('stroke', 'gray').attr('d', path);
+			nycgrp.selectAll('path').data(nyc.features).enter()
+				.append('path').attr('class', 'zipcode')
+				.attr('fill', d => colors(d.properties.pop_est)).attr('stroke', 'gray').attr('d', path)
+				.on('mouseover', function (d) {
+					d3.select('#tooltip')
+						.style('left', d3.event.pageX + 'px')
+						.style('top', d3.event.pageY + 'px')
+						.select('#value')
+						.html('<p>' + String(d.properties.modzcta) + ':<br>' + String(d.properties.pop_est) + '</p>');
+					d3.select('#tooltip')
+						.classed('hidden', false);
+				})
+				.on('mousemove', function (d) {
+					d3.select('#tooltip')
+						.style('left', d3.event.pageX + 'px')
+						.style('top', d3.event.pageY + 'px')
+						.select('#value')
+						.html('<p>' + String(d.properties.modzcta) + ':<br>' + String(d.properties.pop_est) + '</p>');
+					d3.select('#tooltip')
+						.classed('hidden', false);
+				})
+				.on('mouseout', function () {
+					d3.select('#tooltip').classed('hidden', true);
+				});;
 		};
 
 		function zoomed() {
