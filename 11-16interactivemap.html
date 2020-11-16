@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>D3 Interactions & Transitions</title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<style>
+		.zipcode:hover {
+			stroke: aliceblue 3px;
+			z-index: 1000;
+			fill: rgb(111, 111, 255);
+			transition: .3s;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="main">
+	</div>
+
+	<script type="text/javascript">
+		var nycgeourl = 'datas/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
+		var height = 800, width = 800;
+		var svg = d3.select('#main').append('svg').attr('height', height).attr('width', width).attr('style', 'border: solid 1px black');
+
+		var projection = d3.geoMercator()
+			.center([-73.94, 40.70])
+			.scale(70000)
+			.translate([width / 2, height / 2]);
+
+		var path = d3.geoPath().projection(projection);
+
+		var zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
+		svg.call(zoom);
+
+		d3.json(nycgeourl).then(ready);
+		function ready(nyc) {
+			nyc.features.pop();
+			var colors = d3.scaleThreshold().domain(d3.extent(nyc.features, d => d.properties.pop_est)).range(d3.schemeBlues[5]);
+			svg.append('g').selectAll('path').data(nyc.features).enter()
+				.append('path').attr('class', d => d.properties.modzcta).attr('class', 'zipcode')
+				.attr('fill', d => colors(d.properties.pop_est)).attr('stroke', 'gray').attr('d', path);
+		};
+
+		function zoomed() {
+			svg.selectAll('path').attr('transform', d3.event.transform);
+		};
+	</script>
+</body>
+
+</html>
