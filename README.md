@@ -18,6 +18,10 @@ HTML/CSS/JavaScript (`Bootstrap`)
 1. Webpage source codes
 2. Python Scripts analyzing datasets
 
+## Data Usage
+
+[README.md](datas/README.md)
+
 ## Specification
 
 Used the grid system and flex system from [Bootstrap](https://getbootstrap.com/);
