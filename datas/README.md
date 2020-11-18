@@ -35,7 +35,7 @@
 
 # Workflow
 
-0. use [geojson of NYC](00-tractTOzcta/Modified Zip Code Tabulation Areas \(MODZCTA\).geojson) for mapping
+0. use geojson of NYC for mapping
 1. use [`fips.txt`](00-tractTOzcta/fips.txt) and `01-clean.py` to select later data (`csv`) for NYC (because downloadable `geojson` files are too large)
 2. use [`zcta_tract_rel_10.txt`](00-tractTOzcta/zcta_tract_rel_10.txt) and `03-merging.py` to combine data for tracts in the same zcta area
 
