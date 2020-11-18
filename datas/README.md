@@ -11,23 +11,41 @@
 ![Directory Tree](../assets/datastructure.png)
 
 .
+
 +-- ...
+
 +-- datas
+
 |   +-- 00-tractTOzata
+
 |   |   +-- fips.txt
+
 |   |   +-- Modified Zip Code Tabulation Areas (MODZCTA).geojson
+
 |   |   +-- Modified_Zip_Code_Tabulation_Areas\__MODZCTA_.csv
+
 |   |   +-- zcta_tract_rel_10.txt
+
 |   +-- 01-medianIncome
+
 |   |   +-- ACS_Median_Household_Income_Variables_-_Boundaries
+
 |   |   |   +-- County_1.csv
+
 |   |   |   +-- State_0.csv
+
 |   |   |   +-- Tract_2.csv
+
 |   +-- ...
+
 +-- ...
+
 +-- scripts
+
 |   +-- 01-clean.py
+
 |   +-- 02-computing.py
+
 |   +-- 03-merging.py
 
 ---
