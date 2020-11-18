@@ -38,46 +38,95 @@ incomeColDropped.dtypes
 # %%
 convertorSelected = convertor[['ZCTA5', 'GEOID']]
 convertorSelected.head()
-# %%
-geomodzcta = []
+#%%
+geodic = {}
 for geo in geojdata['features']:
-    geomodzcta.append(geo['properties']['modzcta'])
-geomodzcta
+    zctalist = geo['properties']['zcta'].split(', ')
+    modzcta = geo['properties']['modzcta']
+    if modzcta != '99999':
+        for zcta in zctalist:
+            geodic[zcta] = modzcta
+len(geodic)
+#%%
+list(geodic.keys())
 # %%
-convertortouse = convertorSelected[convertorSelected['ZCTA5'].isin(geomodzcta)]
-convertortouse
-# %%
-len(geomodzcta)
-# %%
-print(convertortouse['GEOID'][0])
+convertortouse = convertorSelected[convertorSelected['ZCTA5'].isin(list(geodic.keys()))]
+len(convertortouse)
+#%%
+convertortouse[convertortouse['ZCTA5'] == '10119']
+#%%
+geodic['10119']
 # %%
 incomeColDropped.head()
 # %%
 incomeNY = incomeColDropped[incomeColDropped['State'] == 'New York']
-incomeNY.head()
+incomeNY.shape
+#%%
+convertortouse['GEOID'] = convertortouse.astype(str)
 # %%
 geoidlist = convertortouse['GEOID'].to_list()
+type(geoidlist[0])
+#%%
 incomeNYC = incomeNY[incomeNY['Geographic Identifier - FIPS Code'].isin(geoidlist)]
 incomeNYC.shape
+#%%
+for index, row in incomeNY.iterrows():
+    if not row['Geographic Identifier - FIPS Code'] in geoidlist:
+        print(row['Geographic Identifier - FIPS Code'])
+#%%
+36023970600 in geoidlist
+#%%
+len(incomeNY['Geographic Identifier - FIPS Code'].to_list())
+#%%
+len(geoidlist)
 # %%
+incomeNYC['ZCTA5'] = ''
+incomeNYC['modzcta'] = ''
 for index, row in incomeNYC.iterrows():
-    print(convertortouse.loc[convertortouse['GEOID'] == row['Geographic Identifier - FIPS Code'], 'ZCTA5'].iloc[0])
-# %%
-convertortouse[convertortouse['GEOID'] == '36005000100']['ZCTA5'].iloc[0]
-# %%
-for index, row in incomeNYC.iterrows():
-    tmpconverter = int(convertortouse[convertortouse['GEOID'] == str(row['Geographic Identifier - FIPS Code'])]['ZCTA5'].iloc[0])
-    incomeNYC['ZCTA5'][index] = tmpconverter
+    tmpconverter = convertortouse[convertortouse['GEOID'] == str(row['Geographic Identifier - FIPS Code'])]['ZCTA5'].iloc[0]
+    incomeNYC['ZCTA5'][index] = int(tmpconverter)
+    incomeNYC['modzcta'][index] = int(geodic[tmpconverter])
+incomeNYC.shape
+#%%
 incomeNYC.head()
-# %%
-incomeNY.head()
 # %%
 incomeNYC.reset_index(drop=True, inplace=True)
 incomeNYC.head()
 # %%
-colToMove = incomeNYC.pop('ZCTA5')
-incomeNYC.insert(1, 'ZCTA5', colToMove)
+colToMove1 = incomeNYC.pop('ZCTA5')
+colToMove2 = incomeNYC.pop('modzcta')
+incomeNYC.insert(1, 'ZCTA5', colToMove1)
+incomeNYC.insert(2, 'modzcta', colToMove2)
 incomeNYC.head()
 # %%
 incomeNYC.to_csv('../datas/01income-cleaned.csv', index=False)
+# %%
+len(incomeNYC['ZCTA5'].unique())
+# %%
+for index, row in incomeNYC.iterrows():
+    if row['ZCTA5'] != row['modzcta']:
+        print(str(row['ZCTA5']) + ': ' + str(row['modzcta']))
+# %%
+10119 in incomeNYC['ZCTA5'].to_list()
+
+
+
+
+# %%
+import pandas
+import json
+incomeraw = pandas.read_csv('../datas/01-medianIncome/ACS_Median_Household_Income_Variables_-_Boundaries/Tract_2.csv')
+with open('../datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson') as f:
+    geojdata = json.load(f)
+convertor = pandas.read_csv('../datas/00-tractTOzcta/zcta_tract_rel_10.txt', converters={'ZCTA5': lambda x: str(x), 'GEOID': lambda x: str(x)})
+# %%
+incomeraw.dtypes
+# %%
+type(geojdata['features'][0]['properties']['modzcta'])
+# %%
+colTOdrop = []
+for column in incomeraw.columns:
+    if 'Margin of Error' in column:
+        colTOdrop.append(column)
+incomeColDropped = incomeraw.drop(columns=colTOdrop, inplace=False)
 # %%
