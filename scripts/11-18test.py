@@ -130,3 +130,22 @@ for column in incomeraw.columns:
         colTOdrop.append(column)
 incomeColDropped = incomeraw.drop(columns=colTOdrop, inplace=False)
 # %%
+
+
+
+class Test():
+
+    def __init__(self, a, b):
+        self.x = a
+        self.y = b
+    
+    def plus(self, a, b):
+        return a + b
+    
+test1 = Test(1,2)
+test1.plus(1, 2)
+# %%
+import os
+parentdir = os.path.dirname((os.getcwd()))
+os.path.join(parentdir, 'datas/01-medianIncome/ACS_Median_Household_Income_Variables_-_Boundaries/Tract_2.csv')
+# %%
