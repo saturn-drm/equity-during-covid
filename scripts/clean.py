@@ -1,6 +1,7 @@
 '''
 This script is created on 2020 Nov. 18th
 It's meant for cleaning the first-hand csv datas downloaded from ArcGIS webserver
+after cleaning, all gis data should contain 2894 rows.
 '''
 
 

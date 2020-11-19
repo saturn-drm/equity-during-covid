@@ -6,6 +6,7 @@
 	<title>D3 Interactions & Transitions</title>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript"
@@ -13,7 +14,7 @@
 	<style>
 		.zipcode:hover {
 			z-index: 1000;
-			fill: rgb(111, 111, 255);
+			fill: #ef476f;
 			transition: .3s;
 		}
 
@@ -72,10 +73,8 @@
 	</div>
 
 	<script type="text/javascript">
-		// Percent of Households with No Internet Access
-		// Total households
 		var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
-		var interneturl = 'datas/2-InternetConnectivity.csv';
+		var interneturl = 'datas/2-InternetMerged.csv';
 		var height = 800, width = 800;
 		var svg = d3.select('#main').append('svg').attr('height', height).attr('width', width).attr('style', 'border: solid 1px black');
 
@@ -93,26 +92,24 @@
 
 		var internet = d3.map();
 
-		var promises = [d3.json(nycgeourl), d3.csv(interneturl, function(d) {
-			internet.set(d.modzcta, [+d['Percent of Households with No Internet Access'], +d['Total households']]);
+		var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
+			internet.set(+d.modzcta, +d.perc);
 		})];
 
 		Promise.all(promises).then(ready);
 
-		
-		d3.json(nycgeourl).then(ready);
-		function ready(nyc) {
+		function ready([nyc]) {
 			nyc.features.pop();
-			var colors = d3.scaleThreshold().domain(d3.extent(nyc.features, d => d.properties.pop_est)).range(d3.schemeBlues[5]);
+			var colors = d3.scaleQuantize().domain(d3.extent(internet.values())).range(d3.schemeBlues[5]);
 			nycgrp.selectAll('path').data(nyc.features).enter()
 				.append('path').attr('class', 'zipcode')
-				.attr('fill', d => colors(d.properties.pop_est)).attr('stroke', 'gray').attr('d', path)
+				.attr('fill', d => colors(internet.get(d.properties.modzcta))).attr('stroke', 'gray').attr('d', path)
 				.on('mouseover', function (d) {
 					d3.select('#tooltip')
 						.style('left', d3.event.pageX + 'px')
 						.style('top', d3.event.pageY + 'px')
 						.select('#value')
-						.html('<p>' + String(d.properties.modzcta) + ':<br>' + String(d.properties.pop_est) + '</p>');
+						.html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
 					d3.select('#tooltip')
 						.classed('hidden', false);
 				})
@@ -121,13 +118,37 @@
 						.style('left', d3.event.pageX + 'px')
 						.style('top', d3.event.pageY + 'px')
 						.select('#value')
-						.html('<p>' + String(d.properties.modzcta) + ':<br>' + String(d.properties.pop_est) + '</p>');
+						.html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
 					d3.select('#tooltip')
 						.classed('hidden', false);
 				})
 				.on('mouseout', function () {
 					d3.select('#tooltip').classed('hidden', true);
 				});;
+
+			// legend
+			var cellNum = 9;
+			var colorLegend = d3.legendColor()
+				.shapeWidth(50)
+				.shapeHeight(10)
+				.cells(cellNum)
+				.shapePadding(0)
+				.labelFormat(d3.format('.2f'))
+				.labels(['0'])
+				.title('Percentage of the households with no Internet access')
+				.orient('horizontal')
+				.scale(colors);
+			svg.append('g')
+				.attr('transform', 'translate(100, 100)')
+				// .append(() => legend({color, title: 'Tweets per neighborhood (log scale)', width: 500}));
+				.call(colorLegend);
+			// legend title location and size
+			d3.select('.legendTitle')
+				.attr('transform', 'translate(0, 5)')
+				.attr('font-size', '12px');
+			// labels
+			d3.selectAll('.label')
+				.style('display', 'none');
 		};
 
 		// function zoomed() {
