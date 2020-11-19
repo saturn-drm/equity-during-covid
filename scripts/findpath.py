@@ -27,10 +27,9 @@ def find_tract_csv(filepath):
 
 def generate_outpath(csvpath):
     # use os.path.split to avoind conflict between windows and macos
-    pattern = re.compile(r'\D+')
     detail = os.path.basename(os.path.dirname(csvpath))
-    outfilename = pattern.findall(os.path.basename(os.path.dirname(os.path.split(csvpath)[0])))[0]
-    return outfilename + detail + '.csv'
+    detail = re.sub(r'(acs)*_*-*(access)*(variables)*(boundaries)*(by)*(household)*', '', detail, flags=re.I)
+    return '-' + detail + '.csv'
 
 # base_dir = get_base_dir()
 # valid_csv = find_tract_csv(base_dir)
