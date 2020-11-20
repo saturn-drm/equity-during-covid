@@ -102,3 +102,30 @@ div.words:hover {
     color: #fd746c;
     transition: .3s;
 }
+
+section:not(:first-child) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#part1 {
+    background-color: aquamarine;
+}
+
+#part2 {
+    background-color: bisque;
+}
+
+#part3 {
+    background-color: coral;
+}
+
+#part4 {
+    background-color: steelblue;
+}
+
+h1.note {
+    vertical-align: middle;
+}

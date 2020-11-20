@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>VIZ DEV</title>
+    <title>Equity During COVID</title>
     <meta name="description" content="11.454 Big Data and Visualization">
     <meta name="author" content="Zihan Zephaniah MEI">
 
@@ -55,14 +55,101 @@
 </head>
 
 <body>
-    <div class="bgimg"></div>
-    <div class="words">
-        <h1>Equity During COVID</h1>
-        <h2>Measuring Access to Medical Resources for the Minority</h2>
-        <p>By: Zihan, Beko, Ichi</p>
-        <p>11.454 Big Data & Visualization</p>
-        <!-- <p><a href="https://www.zmei.moe/">Go to Homepage.</a></p> -->
-    </div>
+    <section id="cover">
+        <div class="bgimg"></div>
+        <div class="words">
+            <h1>Equity During COVID</h1>
+            <h2>Measuring Access to Medical Resources for the Minority</h2>
+            <p>By: Zihan, Beko, Ichi</p>
+            <p>11.454 Big Data & Visualization</p>
+            <!-- <p><a href="https://www.zmei.moe/">Go to Homepage.</a></p> -->
+        </div>
+    </section>
+
+    <section id="part1">
+        <h1 class="note" style="color:white;font-size:15rem;">1</h1>
+    </section>
+
+    <section id="part2">
+        <h1 class="note" style="color:white;font-size:15rem;">2</h1>
+    </section>
+
+    <section id="part3">
+        <h1 class="note" style="color:white;font-size:15rem;">3</h1>
+    </section>
+
+    <section id="part4">
+        <h1 class="note" style="color:white;font-size:15rem;">4</h1>
+    </section>
+
+    <!-- scroll smoothly -->
+    <script class="scrollsection">
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+
+        var $sections = $("section");
+        var currentIndex = 0;
+        var isAnimating = false;
+
+        var stopAnimation = function () {
+            setTimeout(function () {
+                isAnimating = false;
+            }, 200);
+        };
+
+        var bottomIsReached = function ($elem) {
+            var rect = $elem[0].getBoundingClientRect();
+            return rect.bottom <= $(window).height();
+        };
+
+        var topIsReached = function ($elem) {
+            var rect = $elem[0].getBoundingClientRect();
+            return rect.top >= 0;
+        };
+
+        document.addEventListener(
+            "wheel",
+            function (event) {
+                if (isAnimating) {
+                    event.preventDefault();
+                    return;
+                }
+
+                var $currentSection = $($sections[currentIndex]);
+
+                if (event.deltaY > 0) {
+                    if (currentIndex + 1 >= $sections.length) return;
+                    // if (!bottomIsReached($currentSection)) return;
+                    currentIndex++;
+                    event.preventDefault();
+                    isAnimating = true;
+                    $("html, body").animate({ scrollTop: $($sections[currentIndex]).offset().top }, 1000, stopAnimation);
+                } else {
+                    if (currentIndex - 1 < 0) return;
+                    // if (!topIsReached($currentSection)) return;
+                    currentIndex--;
+                    event.preventDefault();
+                    isAnimating = true;
+                    $("html, body").animate({ scrollTop: $($sections[currentIndex]).offset().top }, 1000, stopAnimation);
+                }
+            },
+            { passive: false }
+        );
+
+    </script>
+    <!-- end scroll smoothly -->
+
 </body>
 
 </html>
