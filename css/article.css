@@ -66,7 +66,7 @@ a:hover {
 }
 
 div.coverwords * {
-    color: var(--mainbg);
+    color: var(--mainfontcolor);
     text-align: center;
     cursor: default;
 }

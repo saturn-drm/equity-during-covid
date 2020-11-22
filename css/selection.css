@@ -10,16 +10,16 @@
 }
 
 ::selection {
-    background: var(--mainselection);
+    background: var(--economy);
     color: var(--mainbg);
 }
 
 ::-moz-selection {
-    background: var(--mainselection);
+    background: var(--economy);
     color: var(--mainbg);
 }
 
 ::-webkit-selection {
-    background: var(--mainselection);
+    background: var(--economy);
     color: var(--mainbg);
 }

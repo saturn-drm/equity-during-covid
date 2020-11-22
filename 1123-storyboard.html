@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/1123-storyboard.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Enquity during COVID</title>
+    <meta name="description" content="11.454 Big Data and Visualization, PSET#5, Building a Scrolly Telling Page">
+    <meta name="author" content="Zihan Zephaniah MEI">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600&display=swap" rel="stylesheet">
+    <!-- font from adobe -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'cmi7aqt',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <!-- end fonts -->
+
+    <!-- start favicons snippet, use https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2c3e50">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="ZMei.moe">
+    <meta name="application-name" content="ZMei.moe">
+    <meta name="msapplication-TileColor" content="#fee3e1">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end favicons snippet -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156998560-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156998560-1');
+    </script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $("#footer").load("components/footer.html");
+        });
+    </script>
+
+    <!-- anime-master -->
+    <script src="js/anime-master/lib/anime.min.js"></script>
+
+    <!-- scrollmagic.js -->
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/debug.addIndicators.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+</head>
+
+<body>
+    <progress id="content-progress" value="0"></progress>
+
+    <!-- back to top icon -->
+    <a id="backtotop">
+        <svg id="layer2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.85 35.95">
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill: none;
+                        stroke-miterlimit: 10;
+                    }
+                </style>
+            </defs>
+            <title>backtotop</title>
+            <polyline class="cls-1" points="0.43 13.95 8.43 0.95 16.43 13.95" />
+            <line class="cls-1" x1="8.43" y1="25.95" x2="8.43" y2="0.95" />
+            <line class="cls-1" x1="0.43" y1="0.95" x2="16.43" y2="0.95" />
+        </svg>
+    </a>
+    <!-- end back to top icon -->
+
+    <div id="tooltip" class="hidden">
+        <p><span id="value">100</span></p>
+    </div>
+
+    <section class="cover" id="home">
+        <div class="coverwords">
+            <h1>How to Improve Racial Equity in the Access to Medical Resources during COVID</h1>
+            <h2>Zihan_Mei_ex5_Scrollytelling</h2>
+            <p>By: Zihan, Beko, Ichi</p>
+            <p>11.454 Big Data, Visualization, And Society<br>Instructor: Sarah Williams, Yuan Lai<br>TA: Yanchao Li,
+                Lily
+                Xie, Patricia Cafferky</p>
+            <p>source for background image: <a
+                    href="https://showcase.earthengine.app/view/jrc-global-surface-water-animation">JRC Global Surface
+                    Water
+                    Animation</a></p>
+            <!-- <p><a href="https://www.zmei.moe/">Go to Homepage.</a></p> -->
+        </div>
+
+        <a href="#background">
+            <div class="scrolldown">
+                <svg id="layer1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.14 11.04">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: transparent;
+                                stroke-miterlimit: 10;
+                                stroke-width: 2px;
+                            }
+                        </style>
+                    </defs>
+                    <title>scrolldown</title>
+                    <polyline class="cls-1" points="0.57 0.82 13.57 9.82 26.57 0.82" />
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <section id="background" class="container">
+        <h1 class="note" style="color:white;font-size:6rem;">Background</h1>
+    </section>
+
+    <section class="container" id="information">
+        <h1 class="note" style="color:white;font-size:6rem;">Information</h1>
+        <div class="row">
+            <div class="column1 frame" id="infomap"></div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame" id="infochart"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="physical">
+        <h1 class="note" style="color:white;font-size:6rem;">Physical</h1>
+        <div class="row">
+            <div class="column1 frame" id="physmap"></div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="conclusion">
+        <h1 class="note" style="color:white;font-size:6rem;">Conclusion</h1>
+        <div class="row">
+            <div class="column1 frame" id="concmap"></div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer"></section>
+
+    <!-- scroll smoothly -->
+    <script class="scrollsection">
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+
+        var $sections = $("section");
+        var currentIndex = 0;
+        var isAnimating = false;
+
+        var stopAnimation = function () {
+            setTimeout(function () {
+                isAnimating = false;
+            }, 200);
+        };
+
+        var bottomIsReached = function ($elem) {
+            var rect = $elem[0].getBoundingClientRect();
+            return rect.bottom <= $(window).height();
+        };
+
+        var topIsReached = function ($elem) {
+            var rect = $elem[0].getBoundingClientRect();
+            return rect.top >= 0;
+        };
+
+        document.addEventListener(
+            "wheel",
+            function (event) {
+                if (isAnimating) {
+                    event.preventDefault();
+                    return;
+                }
+
+                var $currentSection = $($sections[currentIndex]);
+
+                if (event.deltaY > 0) {
+                    if (currentIndex + 1 >= $sections.length) return;
+                    // if (!bottomIsReached($currentSection)) return;
+                    currentIndex++;
+                    event.preventDefault();
+                    isAnimating = true;
+                    $("html, body").animate({ scrollTop: $($sections[currentIndex]).offset().top }, 1000, stopAnimation);
+                } else {
+                    if (currentIndex - 1 < 0) return;
+                    // if (!topIsReached($currentSection)) return;
+                    currentIndex--;
+                    event.preventDefault();
+                    isAnimating = true;
+                    $("html, body").animate({ scrollTop: $($sections[currentIndex]).offset().top }, 1000, stopAnimation);
+                }
+            },
+            { passive: false }
+        );
+
+    </script>
+    <!-- end scroll smoothly -->
+
+    <!-- back to top -->
+    <script class="backtotop">
+        var btn = $('#backtotop');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+    </script>
+    <!-- end back to top -->
+
+    <!-- the moving icon of scrolling down -->
+    <script class="scrolldownanime">
+        anime({
+            targets: 'div.scrolldown svg',
+            translateY: 25,
+            loop: true,
+            easing: 'easeInOutSine',
+            duration: 1000,
+            opacity: [0, 1]
+        })
+    </script>
+
+    <!-- scrollmagic animation -->
+    <!-- <script class="scrollmagicanime">
+        window.onload = function () {
+            var bgheight = document.getElementById("bgrow").offsetHeight;
+            // var startheight = document.getElementById("start-up").offsetHeight;
+            var startheight = document.getElementById("start-up").offsetHeight;
+            var ecoheight = document.getElementById("economy").offsetHeight;
+            var infoheight = document.getElementById("information").offsetHeight;
+            var phyheight = document.getElementById("physical").offsetHeight;
+
+            var controller = new ScrollMagic.Controller();
+
+            new ScrollMagic.Scene({ triggerElement: "#bgtrigger", duration: bgheight })
+                .setClassToggle(".bganime", "magicshow")
+                .addIndicators({ name: "background" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#starttrigger", duration: startheight })
+                .setClassToggle(".startanime", "magicshow")
+                .addIndicators({ name: "start-up" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#ecotrigger", duration: ecoheight })
+                .setClassToggle(".ecoanime", "magicshow")
+                .addIndicators({ name: "economy" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#infotrigger", duration: infoheight })
+                .setClassToggle(".infoanime", "magicshow")
+                .addIndicators({ name: "information" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#phytrigger", duration: phyheight })
+                .setClassToggle(".phyanime", "magicshow")
+                .addIndicators({ name: "physical" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#conctrigger" })
+                .setClassToggle(".concanime", "magicshow")
+                .addIndicators({ name: "conclusion" })
+                .addTo(controller);
+        };
+    </script> -->
+
+    <script class="content-progress-js">
+        document.addEventListener('DOMContentLoaded', function () {
+            var winHeight = window.innerHeight,
+                docHeight = document.documentElement.scrollHeight,
+                progressBar = document.querySelector('#content-progress');
+            progressBar.max = docHeight - winHeight;
+            progressBar.value = window.scrollY;
+
+            document.addEventListener('scroll', function () {
+                progressBar.max = document.documentElement.scrollHeight - window.innerHeight;
+                progressBar.value = window.scrollY;
+            });
+        });
+    </script>
+
+    <script class="map" type="text/javascript">
+        var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
+        var interneturl = 'datas/2-InternetMerged.csv';
+        var mapcontainer = d3.select('#infomap');
+        var height = mapcontainer.node().getBoundingClientRect().height;
+        var width = mapcontainer.node().getBoundingClientRect().width;
+        var infomapsvg = mapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'infomapsvg');
+
+        var projection = d3.geoMercator()
+            .center([-73.94, 40.70])
+            .scale(70000)
+            .translate([width / 2, height / 2]);
+
+        var path = d3.geoPath().projection(projection);
+
+        // var zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
+        // svg.call(zoom);
+
+        var nycgrp = infomapsvg.append('g');
+
+        var internet = d3.map();
+
+        var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
+            internet.set(+d.modzcta, +d.perc);
+        })];
+
+        Promise.all(promises).then(ready);
+
+        function ready([nyc]) {
+            nyc.features.pop();
+            var colors = d3.scaleQuantize().domain(d3.extent(internet.values())).range(d3.schemeBlues[5]);
+            nycgrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode')
+                .attr('fill', d => colors(internet.get(d.properties.modzcta))).attr('stroke', 'gray').attr('d', path)
+                .on('mouseover', function (d) {
+                    d3.select('#tooltip')
+                        .style('left', d3.event.pageX + 'px')
+                        .style('top', d3.event.pageY + 'px')
+                        .select('#value')
+                        .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip')
+                        .classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip')
+                        .style('left', d3.event.pageX + 'px')
+                        .style('top', d3.event.pageY + 'px')
+                        .select('#value')
+                        .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip')
+                        .classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                })
+                .on('click', function (d) {
+                    drawchart(internet.get(d.properties.modzcta));
+                });
+
+            // legend
+            var cellNum = 9;
+            var colorLegend = d3.legendColor()
+                .shapeWidth(50)
+                .shapeHeight(10)
+                .cells(cellNum)
+                .shapePadding(0)
+                .labelFormat(d3.format('.2f'))
+                .labels(['0'])
+                .title('Percentage of the households with no Internet access')
+                .orient('horizontal')
+                .scale(colors);
+            infomapsvg.append('g')
+                .attr('transform', 'translate(100, 100)')
+                // .append(() => legend({color, title: 'Tweets per neighborhood (log scale)', width: 500}));
+                .call(colorLegend);
+            // legend title location and size
+            d3.select('.legendTitle')
+                .attr('transform', 'translate(0, 5)')
+                .attr('font-size', '12px');
+            // labels
+            d3.selectAll('.label')
+                .style('display', 'none');
+        };
+
+        // chart
+        var chartconatiner = d3.select('#infochart');
+        var chartheight = chartconatiner.node().getBoundingClientRect().height;
+        var chartwidth = chartconatiner.node().getBoundingClientRect().width;
+        var infochartsvg = chartconatiner.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'infochartsvg');
+        var basex = 20, basey = 20;
+
+        var chartgrp = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth / 2) + ', ' + String(chartheight / 2) + ')');
+        var circle = chartgrp.append('path').attr('d', d3.arc()({
+            innerRadius: 70,
+            outerRadius: 170,
+            startAngle: 0,
+            endAngle: Math.PI * 2 * 0.2
+        })).attr('fill', '#ef476f');
+
+        function drawchart(perc) {
+            circle.transition().duration(1500).ease(d3.easeBounce).attr('d', d3.arc()({
+                innerRadius: 70,
+                outerRadius: 170,
+                startAngle: 0,
+                endAngle: Math.PI * 2 * perc
+            }));
+        };
+
+		// function zoomed() {
+			// svg.selectAll('path').attr('transform', d3.event.transform);
+		// };
+    </script>
+</body>
+
+</html>
