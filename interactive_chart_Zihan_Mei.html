@@ -30,12 +30,12 @@
 
 <body>
 	<!-- Add buttons for each of the four neighborhoods -->
-	<input type="button" id="ros" value="Roslindale" onclick="updatedata(roslindale); updatecolor(roslindale);">
+	<input type="button" id="ros" value="Roslindale" onclick="updatedata(roslindale); updatecolor('Roslindale');">
 	<input type="button" id="sbw" value="South Boston Waterfront"
-		onclick="updatedata(south_boston_waterfront); updatecolor(south_boston_waterfront);">
-	<input type="button" id="bab" value="Back Bay" onclick="updatedata(back_bay); updatecolor(back_bay);">
+		onclick="updatedata(south_boston_waterfront); updatecolor('South_Boston_Waterfront');">
+	<input type="button" id="bab" value="Back Bay" onclick="updatedata(back_bay); updatecolor('Back_Bay');">
 	<input type="button" id="jap" value="Jamaica Plain"
-		onclick="updatedata(jamaica_plain); updatecolor(jamaica_plain);">
+		onclick="updatedata(jamaica_plain); updatecolor('Jamaica_Plain');">
 
 	<!-- Add a div element for tooltip -->
 	<div id="tooltip" class="hidden">
@@ -152,34 +152,11 @@
 		// task 7.6: Connect your visualization with user interaction --------------------------------------------------------
 		// task 7.7: Add transitions to your map --------------------------------------------------------
 		function updatecolor(data) {
-			if (data == roslindale) {
-				d3.selectAll('.geo').each(function (d) {
-					d3.select(this).transition().duration(1000).style('fill', function () {
-						return d3.select(this).attr('id') == 'Roslindale' ? '#3caea3' : 'gray';
-					});
+			d3.selectAll('.geo').each(function (d) {
+				d3.select(this).transition().duration(1000).style('fill', function () {
+					return d3.select(this).attr('id') == data ? '#3caea3' : 'gray';
 				});
-			}
-			if (data == south_boston_waterfront) {
-				d3.selectAll('.geo').each(function (d) {
-					d3.select(this).transition().duration(1000).style('fill', function () {
-						return d3.select(this).attr('id') == 'South_Boston_Waterfront' ? '#3caea3' : 'gray';
-					});
-				});
-			}
-			if (data == back_bay) {
-				d3.selectAll('.geo').each(function (d) {
-					d3.select(this).transition().duration(1000).style('fill', function () {
-						return d3.select(this).attr('id') == 'Back_Bay' ? '#3caea3' : 'gray';
-					});
-				});
-			}
-			if (data == jamaica_plain) {
-				d3.selectAll('.geo').each(function (d) {
-					d3.select(this).transition().duration(1000).style('fill', function () {
-						return d3.select(this).attr('id') == 'Jamaica_Plain' ? '#3caea3' : 'gray';
-					});
-				});
-			}
+			});
 		};
 
 
