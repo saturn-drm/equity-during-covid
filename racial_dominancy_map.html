@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Racial Dominancy</title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+
+	<div id="main">	</div>
+
+	<script type="text/javascript">
+
+		var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
+		var raceurl = 'datas/6-RaceandHispanicOriginMerged.csv';
+
+		var width = 800;
+		var height = 800;
+
+		var svg = d3.select('#main')
+								.append('svg')
+								.attr('height', height)
+								.attr('width', width)
+								.attr('style', 'border: solid 1px black');
+
+		var projection = d3.geoMercator()
+												.center([-73.94, 40.70])
+												.scale(70000)
+												.translate([width / 2, height / 2]);
+
+		var path = d3.geoPath().projection(projection);
+
+		var colortemp = d3.scaleQuantize()
+									.domain([0, 100])
+									.range(d3.schemeGreys[9]);
+//		var colorWhi = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemeOrangs[9]);
+//		var colorBla = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemeBlues[9]);
+//		var colorInd = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemeGreys[9]);
+//		var colorAsi = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemePurples[9]);
+//		var colorNat = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemeReds[9]);
+//		var colorSom = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemeGreys[9]);
+//		var colorMor = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemeGreys[9]);
+//		var colorLat = d3.scaleQuantize()
+//									.domain([0, 100])
+//									.range(d3.schemeGreens[9]);
+
+		var race = d3.map();
+
+		var promises = [d3.json(nycgeourl),
+										d3.csv(raceurl, function(d){
+											race.set(d.modzcta, [+d.maxperc, +d.maxrace]);
+										})];
+
+		Promise.all(promises).then(ready);
+
+		function ready([nyc]){
+			nyc.features.pop();
+			svg.append("g")
+						.selectAll('path')
+						.data(nyc.features)
+						.enter()
+						.append('path')
+						.style("fill",function(d){return colortemp(d.maxperc = race.get(d.properties.modzcta)[0])})
+						.attr('stroke', 'gray')
+						.attr('d', path)
+					};
+
+
+//				.style("fill",function(d){
+//					if(d.maxrace="Percent of Population that is Non-Hispanic White"){
+//						return colorWhi(d.maxperc = race.get(d.properties.modzcta)[0])
+//					} else {
+//						return colorBla(d.maxperc = race.get(d.properties.modzcta)[0])
+//					})
+
+	</script>
+</body>
+
+</html>
