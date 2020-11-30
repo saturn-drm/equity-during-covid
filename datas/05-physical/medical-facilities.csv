@@ -1,0 +1,50 @@
+NAME,ADDRESS,DISTRICT,CLASS,lat,lng
+"NYC Health + Hospitals/Gotham Health, Gunhill","1012 East Gunhill Road, Bronx, NY 10469",BRONX,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Tremont","1826 Arthur Avenue, Bronx",BRONX,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Judson","34 Spring Street, New York, NY 10012",MANHATTAN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Roberto Clemente","540 East 13th Street, New York, NY 10009",MANHATTAN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, La Clinica Del Barrio","413 East 120th Street, New York, NY 10035",MANHATTAN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, St. Nicholas","281 West 127th Street, New York, NY 10027",MANHATTAN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Dyckman-Clinica de Las Americas","175 Nagle Avenue, New York, NY 10034",MANHATTAN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Jackson Heights","34-33 Junction Boulevard, Queens, NY 11372",QUEENS,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Women’s Health Center","59-17 Junction Boulevard, Queens, NY 11368",QUEENS,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Ridgewood","769 Onderdonk Avenue, Queens, NY 11385",QUEENS,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Parsons","90-37 Parsons Boulevard, Queens, NY 11432",QUEENS,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Springfield Gardens","134-64 Springfield Boulevard, Queens, NY 11413",QUEENS,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, South Queens","114-02 Guy R. Brewer Boulevard, Queens, NY 11434",QUEENS,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Woodside","50-53 Newtown Road, Queens, NY 11377",QUEENS,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Bedford","485 Throop Avenue, Brooklyn, New York 11221",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Bushwick","335 Central Avenue, Brooklyn, NY 11221",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Greenpoint","875 Manhattan Avenue, Brooklyn, NY 11222",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Williamsburg","279 Graham Avenue, Brooklyn, NY 11211",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Fort Greene","295 Flatbush Avenue Extension, Brooklyn, NY 11201",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Sumner","47 Marcus Garvey Boulevard, Brooklyn, NY 11206",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Jonathan Williams","333 Roebling Street, Brooklyn, NY 11211",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Brownsville","259 Bristol Street, Brooklyn, NY 11212",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Crown Heights","1218 Prospect Place, Brooklyn, NY 11213",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Ida G. Israel","2925 West 19th Street, Brooklyn, NY 11224",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Homecrest","1601 Avenue S, Brooklyn, NY 11229",BROOKLYN,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Mariner’s Harbor","2040 Forest Avenue, Staten Island, NY 10303",STATEN ISLAND,community-healthcare-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Morrisania","1225 Gerard Avenue, Bronx, New York 10452",BRONX,diagnostic-treatment-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Belvis","545 East 142nd Street, Bronx, New York 10454",BRONX,diagnostic-treatment-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Cumberland","100 North Portland Avenue, Brooklyn, New York 11205",BROOKLYN,diagnostic-treatment-centers,0,0
+"NYC Health + Hospitals/Gotham Health, East New York","2094 Pitkin Avenue, Brooklyn, New York 11207",BROOKLYN,diagnostic-treatment-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Gouverneur","227 Madison Street, New York, New York 10002",MANHATTAN,diagnostic-treatment-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Sydenham","264 West 118th Street, New York, New York 10026",MANHATTAN,diagnostic-treatment-centers,0,0
+"NYC Health + Hospitals/Gotham Health, Vanderbilt","165 Vanderbilt Avenue, Staten Island, NY, 10304",STATEN ISLAND,diagnostic-treatment-centers,0,0
+NYC Health + Hospitals/Coler,"900 Main Street, Roosevelt Island, NY 10044",MANHATTAN,long-term-care-facilities,0,0
+NYC Health + Hospitals/Gouverneur,"227 Madison Street, New York, New York 10002",MANHATTAN,long-term-care-facilities,0,0
+NYC Health + Hospitals/Carter,"1752 Park Avenue, New York, New York 10035",MANHATTAN,long-term-care-facilities,0,0
+NYC Health + Hospitals/McKinney,"594 Albany Avenue, Brooklyn, New York, 11203",BROOKLYN,long-term-care-facilities,0,0
+NYC Health + Hospitals/Sea View,"460 Brielle Avenue, Staten Island, New York 10314",STATEN ISLAND,long-term-care-facilities,0,0
+NYC Health + Hospitals/Jacobi,"1400 Pelham Parkway South, Bronx, New York 10461",BRONX,hospitals,0,0
+NYC Health + Hospitals/Lincoln,"234 East 149th Street, Bronx, New York 10451",BRONX,hospitals,0,0
+NYC Health + Hospitals/North Central Bronx,"3424 Kossuth Avenue, Bronx, New York 10467",BRONX,hospitals,0,0
+NYC Health + Hospitals/Coney Island,"2601 Ocean Parkway, Brooklyn, New York 11235",BROOKLYN,hospitals,0,0
+NYC Health + Hospitals/Kings County,"451 Clarkson Avenue, Brooklyn, New York 11203",BROOKLYN,hospitals,0,0
+NYC Health + Hospitals/Woodhull,"760 Broadway, Brooklyn, New York 11206",BROOKLYN,hospitals,0,0
+NYC Health + Hospitals/Bellevue,"462 First Avenue, New York, New York 10016",MANHATTAN,hospitals,0,0
+NYC Health + Hospitals/Harlem,"506 Lenox Avenue, New York, New York 10037",MANHATTAN,hospitals,0,0
+NYC Health + Hospitals/Metropolitan,"1901 First Avenue, New York, New York 10029",MANHATTAN,hospitals,0,0
+NYC Health + Hospitals/Elmhurst,"79-01 Broadway, Elmhurst, New York 11373",QUEENS,hospitals,0,0
+NYC Health + Hospitals/Queens,"82-68 164th Street, Jamaica, New York 11432",QUEENS,hospitals,0,0

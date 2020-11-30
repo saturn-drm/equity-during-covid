@@ -1,2 +1,29 @@
-mobile,self,rapid
-"['NYCHA/Marcy Houses\nOut front of Building #22, Marcy Houses Driveway Loop\n602 Park Avenue\nBrooklyn, NY 11206\nMonday, Wednesday, & Friday, 10 a.m. – 4 p.m.\nDates: November 23, 25, & 27\n', 'NYCHA/Cypress Hills\nBuilding #4 Parking Lot\n1250 Sutter Avenue\nBrooklyn, 11208\nMonday, Wednesday, & Friday, 10 a.m. – 4 p.m.\nDates: November 23, 25, & 27\n']","['Regal Cinemas/United Artists Theater\n2474 Forest Ave\nStaten Island, NY 10303\n8 a.m. – 6 p.m.\nDates: November 24, 25, 27, 28, 29\n', 'Penn Station Arrivals Hall\nW 31st St & 8th Ave\nNew York, NY 10001\nMonday – Friday, 8 a.m. – 6:30 p.m.\n', 'Port Authority Bus Terminal\n625 8th Ave\nNew York, NY 10018\nMonday – Friday, 8 a.m. – 6:30 p.m.\n', 'Shri Shaki Mariammen Temple\n105-20 101 Avenue\nOzone Park, NY 11419\nMonday, 10 a.m. – 4 p.m.\nDate: November 23\n', 'Shiloh Baptist Church\n173-70 106th Avenue\nJamaica, NY\nTueaday, 12 p.m. – 4 p.m.\nDate: November 24\n']","['51-30 Northern Boulevard\n51-30 Northern Boulevard\nWoodside, NY 11377\nMonday – Sunday, 9 a.m. – 7 p.m.\n', 'Borough Park\n4002 Fort Hamilton Pkwy\nBrooklyn, NY 11218\nMonday – Sunday, 9 a.m. – 7 p.m.', 'Far Rockaway\n39-20 Rockaway Beach Boulevard\nQueens, NY 11691\nMonday – Sunday, 9 a.m. – 7 p.m. ', 'Bensonhurst\n6315 14th Avenue\nBrooklyn, NY 11219\nMonday – Sunday, 9 a.m. – 7 p.m.\n', 'Edward Grant\n1302 Edward L Grant Highway (Entrance on W 169th and Cromwell)\nBronx, NY 10452\nMonday – Sunday, 9 a.m. – 7 p.m.', 'Kew Gardens Hills Library\n72-33 Vleigh Pl\nQueens, NY 11367\nMonday – Sunday, 9 a.m. – 7 p.m.\n', 'Midwood Pre-K\n1223 Coney Island Avenue\nBrooklyn, NY 11230\nMonday – Sunday, 9 a.m. – 7 p.m. ', 'Mt. Loretto Sportsplex\n6581 Hylan Boulevard\nStaten Island, NY, 10309\nMonday – Sunday, 9 a.m. – 7 p.m.\n', 'St James Rec Center\n2530 Jerome Avenue\nBronx, NY 10468\nMonday – Sunday, 9 a.m. – 7 p.m.\n', 'Starrett City\n1279 Pennsylvania Ave\nBrooklyn, NY 11239\nMonday – Sunday, 9 a.m – 7 p.m.', 'Staten Island Ferry Terminal\n1 Bay St, Retail Space 103 (Level 1 of the Ferry Terminal, next to the North Shore Esplanade exit)\nStaten Island, NY 10301\nMonday – Sunday, 9 a.m. – 7 p.m.\n', 'Queens Public Library at Lefferts\n103-34 Lefferts Blvd\nSouth Richmond Hill, NY 11419\nMonday – Sunday, 9 a.m. – 7 p.m.\n']"
+NAME,ADDRESS,DISTRICT,CLASS
+"NYCHA/Marcy Houses, Basketball Courts behind building #22, Marcy Houses Driveway Loop","602 Park Avenue, Brooklyn, NY 11206",,Mobile Testing Sites
+"First Baptist Church","100-10 Astoria Blvd, Queens, NY 11369",,Mobile Testing Sites
+"NYCHA/Latimer Gardens, Parking Lot by Building #3","34-20 137th Street, Flushing, NY 11354",,Mobile Testing Sites
+"NYCHA/Pomonok Houses, Community Park b/w Buildings #13 & #14","67-16 Parsons Blvd, Flushing, NY 11367",,Mobile Testing Sites
+"Greenpoint Health Center","875 Manhattan Ave, Brooklyn, NY 11222",,Self Testing Sites
+"Gurdwara Sikh Cultural Society","875 Manhattan Ave, Brooklyn, NY 11222",,Self Testing Sites
+"ICNA food pantry (Bronx)","2141 Holland Ave, Bronx, NY 10462",,Self Testing Sites
+"ICNA Markaz","166-26 89th Ave, Queens, NY 11432",,Self Testing Sites
+"Judson Health Center","34 Spring Street, Manhattan, NY 10012",,Self Testing Sites
+"King of Glory Tabernacle","2019 Grand Ave, The Bronx, NY 10453",,Self Testing Sites
+"Penn Station (Amtrak)","W 31st St & 8th Ave, New York, NY 10001",,Self Testing Sites
+"Ridgewood Medical Center","769 Onderdonk Ave, Ridgewood, NY 11385",,Self Testing Sites
+"St. Helena’s Roman Catholic Church","1315 Olmstead Ave (Green Building), Bronx, NY 10462",,Self Testing Sites
+"Williamsburg (Adult Med)","279 Graham Avenue, Brooklyn, NY 11221",,Self Testing Sites
+"51-30 Northern Boulevard","51-30 Northern Boulevard, Woodside, NY 11377",,Rapid Point of Care Testing
+"Borough Park","4002 Fort Hamilton Pkwy, Brooklyn, NY 11218",,Rapid Point of Care Testing
+"Far Rockaway","39-20 Rockaway Beach Boulevard, Queens, NY 11691",,Rapid Point of Care Testing
+"Bensonhurst","6315 14th Avenue, Brooklyn, NY 11219",,Rapid Point of Care Testing
+"Edward Grant","1302 Edward L Grant Highway (Entrance on W 169th and Cromwell), Bronx, NY 10452",,Rapid Point of Care Testing
+"Kew Gardens Hills Library","72-33 Vleigh Pl, Queens, NY 11367",,Rapid Point of Care Testing
+"Midwood Pre-K","1223 Coney Island Avenue, Brooklyn, NY 11230",,Rapid Point of Care Testing
+"Mt. Loretto Sportsplex","6581 Hylan Boulevard, Staten Island, NY, 10309",,Rapid Point of Care Testing
+"St James Rec Center","2530 Jerome Avenue, Bronx, NY 10468",,Rapid Point of Care Testing
+"Starrett City","1279 Pennsylvania Ave, Brooklyn, NY 11239",,Rapid Point of Care Testing
+"Staten Island Ferry Terminal","1 Bay St, Retail Space 103 (Level 1 of the Ferry Terminal, next to the North Shore Esplanade exit), Staten Island, NY 10301",, Rapid Point of Care Testing
+"Queens Public Library at Lefferts","103-34 Lefferts Blvd, South Richmond Hill, NY 11419",,Rapid Point of Care Testing
+"Highbridge Pool","2301 Amsterdam Avenue, New York, New York 10033",,Rapid Point of Care Testing
+"","",,Community Testing Sites

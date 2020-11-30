@@ -1,2 +1,8 @@
-BRONX,BROOKLYN,MANHATTAN,Staten Island
-"['NYC Health + Hospitals/Gotham Health, Morrisania\n1225 Gerard Avenue\nBronx, New York 10452\n718-960-2781', 'NYC Health + Hospitals/Gotham Health, Belvis\n545 East 142nd Street\nBronx, New York 10454\n718-579-4000']","['NYC Health + Hospitals/Gotham Health, Cumberland\n100 North Portland Avenue\nBrooklyn, New York 11205\n718-388-5889', 'NYC Health + Hospitals/Gotham Health, East New York\n2094 Pitkin Avenue\nBrooklyn, New York 11207\n718-388-5889']","['NYC Health + Hospitals/Gotham Health, Gouverneur\n227 Madison Street\nNew York, New York 10002\n212-238-7897', 'NYC Health + Hospitals/Gotham Health, Sydenham\n264 West 118th Street\nNew York, New York 10026\n212-932-6500']","['NYC Health + Hospitals/Gotham Health, Vanderbilt\n165 Vanderbilt Avenue\nStaten Island, NY, 10304\n844-692-4692']"
+NAME,ADDRESS,DISTRICT,CLASS
+"NYC Health + Hospitals/Gotham Health, Morrisania","1225 Gerard Avenue, Bronx, New York 10452",BRONX,diagnostic-treatment-centers
+"NYC Health + Hospitals/Gotham Health, Belvis","545 East 142nd Street, Bronx, New York 10454",BRONX,diagnostic-treatment-centers
+"NYC Health + Hospitals/Gotham Health, Cumberland","100 North Portland Avenue, Brooklyn, New York 11205",BROOKLYN,diagnostic-treatment-centers
+"NYC Health + Hospitals/Gotham Health, East New York","2094 Pitkin Avenue, Brooklyn, New York 11207",BROOKLYN,diagnostic-treatment-centers
+"NYC Health + Hospitals/Gotham Health, Gouverneur","227 Madison Street, New York, New York 10002",MANHATTAN,diagnostic-treatment-centers
+"NYC Health + Hospitals/Gotham Health, Sydenham","264 West 118th Street, New York, New York 10026",MANHATTAN,diagnostic-treatment-centers
+"NYC Health + Hospitals/Gotham Health, Vanderbilt","165 Vanderbilt Avenue, Staten Island, NY, 10304",STATEN ISLAND,diagnostic-treatment-centers

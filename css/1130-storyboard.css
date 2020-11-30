@@ -120,6 +120,11 @@ section {
     margin: 10px;
 }
 
+.columnbg {
+    width: 80%;
+    height: 80vh;
+}
+
 .column1 {
     width: 50%;
 }
@@ -139,6 +144,7 @@ section {
 #background {
     /* background-color: aquamarine; */
     background-color: transparent;
+    height: auto;
 }
 
 #information {

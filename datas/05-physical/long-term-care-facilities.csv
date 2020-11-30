@@ -1,2 +1,6 @@
-MANHATTAN,BROOKLYN,STATEN ISLAND
-"['NYC Health + Hospitals/Coler \n900 Main Street\nRoosevelt Island, NY 10044\n212-848-6000', 'NYC Health + Hospitals/Gouverneur\n227 Madison Street\nNew York, New York 10002\n212-441-5000', 'NYC Health + Hospitals/Carter\n1752 Park Avenue\nNew York, New York 10035\n646-686-0000']","['NYC Health + Hospitals/McKinney\n594 Albany Avenue\nBrooklyn, New York, 11203\n718-245-7171']","['NYC Health + Hospitals/Sea View \n460 Brielle Avenue\nStaten Island, New York 10314\n718-317-3000']"
+NAME,ADDRESS,DISTRICT,CLASS
+NYC Health + Hospitals/Coler,"900 Main Street, Roosevelt Island, NY 10044",MANHATTAN,long-term-care-facilities
+NYC Health + Hospitals/Gouverneur,"227 Madison Street, New York, New York 10002",MANHATTAN,long-term-care-facilities
+NYC Health + Hospitals/Carter,"1752 Park Avenue, New York, New York 10035",MANHATTAN,long-term-care-facilities
+NYC Health + Hospitals/McKinney,"594 Albany Avenue, Brooklyn, New York, 11203",BROOKLYN,long-term-care-facilities
+NYC Health + Hospitals/Sea View,"460 Brielle Avenue, Staten Island, New York 10314",STATEN ISLAND,long-term-care-facilities
