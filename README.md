@@ -9,9 +9,9 @@ This is the website for data visualization work in the class MIT 11.454 2020 fal
 
 ## Frame and Modules Used
 
-Python (`pandas` `numpy` `bokeh` `folium` `matplotlib`)
+Python (`pandas` `numpy` `bokeh` `folium` `matplotlib` `geopy` `geopandas`)
 
-HTML/CSS/JavaScript (`Bootstrap`)
+HTML/CSS/JavaScript (`d3`)
 
 ## Contents
 
