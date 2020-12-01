@@ -426,7 +426,7 @@
                     drawchart(internet.get(d.properties.modzcta));
                 });
             // physical, medical facilities points
-            var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[5]);
+            var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[9]);
             physgrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode')
                 .attr('fill', d => physcolors(medicaldist.get(d.properties.modzcta)[4])).attr('stroke', 'gray').attr('d', path)
@@ -474,7 +474,7 @@
 
             // phys legend
             var physlegend = d3.legendColor()
-                .shapeWidth(50)
+                .shapeWidth(45)
                 .shapeHeight(10)
                 .cells(cellNum)
                 .shapePadding(0)
