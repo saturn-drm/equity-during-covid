@@ -429,7 +429,7 @@
             var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[9]);
             physgrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode')
-                .attr('fill', d => physcolors(medicaldist.get(d.properties.modzcta)[4])).attr('stroke', 'gray').attr('d', path)
+                .attr('fill', d => physcolors(Math.min.apply(Math, medicaldist.get(d.properties.modzcta)))).attr('stroke', 'gray').attr('d', path)
                 .on('click', function (d) {
                     drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4));
                 });
@@ -438,6 +438,7 @@
                 .attr('class', 'testingcircle').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', '#bbb');
+            // medical facilities
             physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle')
                 .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
