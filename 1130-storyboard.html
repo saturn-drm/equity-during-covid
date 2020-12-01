@@ -561,10 +561,14 @@
             .attr('x', '0px')
             .attr('y', (d, i) => basey + 70 * i);
         var physcharttitlegrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
-        physcharttitlegrp.append('text').text('community healthcare centers').attr('text-anchor', 'start').attr('y', 10).attr('x', '0px').attr('alignment-baseline', 'middle');
-        physcharttitlegrp.append('text').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('y', 80).attr('x', '0px').attr('alignment-baseline', 'middle');
-        physcharttitlegrp.append('text').text('long term care facilities').attr('text-anchor', 'start').attr('y', 150).attr('x', '0px').attr('alignment-baseline', 'middle');
-        physcharttitlegrp.append('text').text('hospitals').attr('text-anchor', 'start').attr('y', 220).attr('x', '0px').attr('alignment-baseline', 'middle');
+        physcharttitlegrp.append('text').text('community healthcare centers').attr('text-anchor', 'start').attr('y', 10).attr('x', '10px').attr('alignment-baseline', 'middle');
+        physcharttitlegrp.append('text').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('y', 80).attr('x', '10px').attr('alignment-baseline', 'middle');
+        physcharttitlegrp.append('text').text('long term care facilities').attr('text-anchor', 'start').attr('y', 150).attr('x', '10px').attr('alignment-baseline', 'middle');
+        physcharttitlegrp.append('text').text('hospitals').attr('text-anchor', 'start').attr('y', 220).attr('x', '10px').attr('alignment-baseline', 'middle');
+
+        var physchartlines = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        physchartlines.append('line').attr('x1', '0px').attr('y1', basey - 20).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+        physchartlines.append('line').attr('x1', chartwidth - 60).attr('y1', basey - 20).attr('x2', chartwidth - 60).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
 
         function drawphyschart(data) {
             var rects = physchartgrp.selectAll('rect').data(data);
