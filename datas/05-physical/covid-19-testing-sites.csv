@@ -1,29 +1,28 @@
-NAME,ADDRESS,DISTRICT,CLASS
-"NYCHA/Marcy Houses, Basketball Courts behind building #22, Marcy Houses Driveway Loop","602 Park Avenue, Brooklyn, NY 11206",,Mobile Testing Sites
-"First Baptist Church","100-10 Astoria Blvd, Queens, NY 11369",,Mobile Testing Sites
-"NYCHA/Latimer Gardens, Parking Lot by Building #3","34-20 137th Street, Flushing, NY 11354",,Mobile Testing Sites
-"NYCHA/Pomonok Houses, Community Park b/w Buildings #13 & #14","67-16 Parsons Blvd, Flushing, NY 11367",,Mobile Testing Sites
-"Greenpoint Health Center","875 Manhattan Ave, Brooklyn, NY 11222",,Self Testing Sites
-"Gurdwara Sikh Cultural Society","875 Manhattan Ave, Brooklyn, NY 11222",,Self Testing Sites
-"ICNA food pantry (Bronx)","2141 Holland Ave, Bronx, NY 10462",,Self Testing Sites
-"ICNA Markaz","166-26 89th Ave, Queens, NY 11432",,Self Testing Sites
-"Judson Health Center","34 Spring Street, Manhattan, NY 10012",,Self Testing Sites
-"King of Glory Tabernacle","2019 Grand Ave, The Bronx, NY 10453",,Self Testing Sites
-"Penn Station (Amtrak)","W 31st St & 8th Ave, New York, NY 10001",,Self Testing Sites
-"Ridgewood Medical Center","769 Onderdonk Ave, Ridgewood, NY 11385",,Self Testing Sites
-"St. Helena’s Roman Catholic Church","1315 Olmstead Ave (Green Building), Bronx, NY 10462",,Self Testing Sites
-"Williamsburg (Adult Med)","279 Graham Avenue, Brooklyn, NY 11221",,Self Testing Sites
-"51-30 Northern Boulevard","51-30 Northern Boulevard, Woodside, NY 11377",,Rapid Point of Care Testing
-"Borough Park","4002 Fort Hamilton Pkwy, Brooklyn, NY 11218",,Rapid Point of Care Testing
-"Far Rockaway","39-20 Rockaway Beach Boulevard, Queens, NY 11691",,Rapid Point of Care Testing
-"Bensonhurst","6315 14th Avenue, Brooklyn, NY 11219",,Rapid Point of Care Testing
-"Edward Grant","1302 Edward L Grant Highway (Entrance on W 169th and Cromwell), Bronx, NY 10452",,Rapid Point of Care Testing
-"Kew Gardens Hills Library","72-33 Vleigh Pl, Queens, NY 11367",,Rapid Point of Care Testing
-"Midwood Pre-K","1223 Coney Island Avenue, Brooklyn, NY 11230",,Rapid Point of Care Testing
-"Mt. Loretto Sportsplex","6581 Hylan Boulevard, Staten Island, NY, 10309",,Rapid Point of Care Testing
-"St James Rec Center","2530 Jerome Avenue, Bronx, NY 10468",,Rapid Point of Care Testing
-"Starrett City","1279 Pennsylvania Ave, Brooklyn, NY 11239",,Rapid Point of Care Testing
-"Staten Island Ferry Terminal","1 Bay St, Retail Space 103 (Level 1 of the Ferry Terminal, next to the North Shore Esplanade exit), Staten Island, NY 10301",, Rapid Point of Care Testing
-"Queens Public Library at Lefferts","103-34 Lefferts Blvd, South Richmond Hill, NY 11419",,Rapid Point of Care Testing
-"Highbridge Pool","2301 Amsterdam Avenue, New York, New York 10033",,Rapid Point of Care Testing
-"","",,Community Testing Sites
+NAME,ADDRESS,DISTRICT,CLASS,lat,lng,location
+"NYCHA/Marcy Houses, Basketball Courts behind building #22, Marcy Houses Driveway Loop","602 Park Avenue, Brooklyn, NY 11206",,Mobile Testing Sites,0.0,0.0,
+First Baptist Church,"100-10 Astoria Blvd, Queens, NY 11369",,Mobile Testing Sites,0.0,0.0,
+"NYCHA/Latimer Gardens, Parking Lot by Building #3","34-20 137th Street, Flushing, NY 11354",,Mobile Testing Sites,0.0,0.0,
+"NYCHA/Pomonok Houses, Community Park b/w Buildings #13 & #14","67-16 Parsons Blvd, Flushing, NY 11367",,Mobile Testing Sites,0.0,0.0,
+Greenpoint Health Center,"875 Manhattan Ave, Brooklyn, NY 11222",,Self Testing Sites,0.0,0.0,
+Gurdwara Sikh Cultural Society,"875 Manhattan Ave, Brooklyn, NY 11222",,Self Testing Sites,0.0,0.0,
+ICNA food pantry (Bronx),"2141 Holland Ave, Bronx, NY 10462",,Self Testing Sites,0.0,0.0,
+ICNA Markaz,"166-26 89th Ave, Queens, NY 11432",,Self Testing Sites,0.0,0.0,
+Judson Health Center,"34 Spring Street, Manhattan, NY 10012",,Self Testing Sites,0.0,0.0,
+King of Glory Tabernacle,"2019 Grand Ave, The Bronx, NY 10453",,Self Testing Sites,0.0,0.0,
+Penn Station (Amtrak),"W 31st St & 8th Ave, New York, NY 10001",,Self Testing Sites,0.0,0.0,
+Ridgewood Medical Center,"769 Onderdonk Ave, Ridgewood, NY 11385",,Self Testing Sites,0.0,0.0,
+St. Helena’s Roman Catholic Church,"1315 Olmstead Ave (Green Building), Bronx, NY 10462",,Self Testing Sites,0.0,0.0,
+Williamsburg (Adult Med),"279 Graham Avenue, Brooklyn, NY 11221",,Self Testing Sites,0.0,0.0,
+51-30 Northern Boulevard,"51-30 Northern Boulevard, Woodside, NY 11377",,Rapid Point of Care Testing,0.0,0.0,
+Borough Park,"4002 Fort Hamilton Pkwy, Brooklyn, NY 11218",,Rapid Point of Care Testing,0.0,0.0,
+Far Rockaway,"39-20 Rockaway Beach Boulevard, Queens, NY 11691",,Rapid Point of Care Testing,0.0,0.0,
+Bensonhurst,"6315 14th Avenue, Brooklyn, NY 11219",,Rapid Point of Care Testing,0.0,0.0,
+Edward Grant,"1302 Edward L Grant Highway (Entrance on W 169th and Cromwell), Bronx, NY 10452",,Rapid Point of Care Testing,0.0,0.0,
+Kew Gardens Hills Library,"72-33 Vleigh Pl, Queens, NY 11367",,Rapid Point of Care Testing,0.0,0.0,
+Midwood Pre-K,"1223 Coney Island Avenue, Brooklyn, NY 11230",,Rapid Point of Care Testing,0.0,0.0,
+Mt. Loretto Sportsplex,"6581 Hylan Boulevard, Staten Island, NY, 10309",,Rapid Point of Care Testing,0.0,0.0,
+St James Rec Center,"2530 Jerome Avenue, Bronx, NY 10468",,Rapid Point of Care Testing,0.0,0.0,
+Starrett City,"1279 Pennsylvania Ave, Brooklyn, NY 11239",,Rapid Point of Care Testing,0.0,0.0,
+Staten Island Ferry Terminal,"1 Bay St, Retail Space 103 (Level 1 of the Ferry Terminal, next to the North Shore Esplanade exit), Staten Island, NY 10301",, Rapid Point of Care Testing,0.0,0.0,
+Queens Public Library at Lefferts,"103-34 Lefferts Blvd, South Richmond Hill, NY 11419",,Rapid Point of Care Testing,0.0,0.0,
+Highbridge Pool,"2301 Amsterdam Avenue, New York, New York 10033",,Rapid Point of Care Testing,0.0,0.0,

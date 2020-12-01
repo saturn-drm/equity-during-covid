@@ -1,12 +1,8 @@
 :root {
     --conclusion: #26547c;
     --economy: #ef476f;
-    --transportation: #ffd166;
-    --humanresource: #06d6a0;
     --mainbg: #fffcf9;
     --mainfontcolor: #34090f;
-    --mainselection: #c45a6d;
-    --mainhighlight: #62bec1;
 }
 
 h1, h2, h3, p, a, ol, ul, li {
@@ -60,7 +56,7 @@ a {
 }
 
 a:hover {
-    color: var(--mainhighlight) !important;
+    color: var(--economy) !important;
     transition: .3s;
     text-decoration: overline underline;
 }
@@ -83,11 +79,6 @@ div.row h2 {
     text-align: center;
 }
 
-div.coverwords *:hover {
-    color: var(--mainselection);
-    transition: .3s;
-}
-
 hr {
-    border: double 1px var(--mainselection);
+    border: double 1px var(--economy);
 }

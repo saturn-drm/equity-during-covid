@@ -107,7 +107,9 @@
             <h2>11.454 Big Data, Visualization, And Society</h2>
             <p>By: Zihan, Beko, Ichi</p>
             <p>Instructor: Sarah Williams, Yuan Lai<br>TA: Yanchao Li, Lily Xie, Patricia Cafferky</p>
-            <p>source for background image: <a href="https://showcase.earthengine.app/view/jrc-global-surface-water-animation">JRC Global Surface Water Animation</a></p>
+            <p>source for background image: <a
+                    href="https://showcase.earthengine.app/view/jrc-global-surface-water-animation">JRC Global Surface
+                    Water Animation</a></p>
             <!-- <p><a href="https://www.zmei.moe/">Go to Homepage.</a></p> -->
         </div>
 
@@ -165,7 +167,14 @@
     <section class="container" id="physical">
         <h1 class="note" style="color:white;font-size:6rem;">Physical</h1>
         <div class="row">
-            <div class="column1 frame" id="physmap"></div>
+            <div class="column1 frame" id="physmap">
+                <div class="buttons">
+                    <button id="physbutton1" class="inactivebtn" onclick="physswitch('medical');">Medical
+                        Facilities</button>
+                    <button id="physbutton2" class="inactivebtn" onclick="physswitch('testing');">Testing Sites</button>
+                    <button id="physbutton3" onclick="physswitch('all');">All</button>
+                </div>
+            </div>
             <div class="column2">
                 <div class="analysis frame">
                     <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
@@ -179,7 +188,7 @@
                     <p>Another analysis shows that hospitalization cases of not only black but also the other minority
                         such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
                 </div>
-                <div class="chart frame"></div>
+                <div class="chart frame" id="physchart"></div>
             </div>
         </div>
     </section>
@@ -365,6 +374,8 @@
         var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
         var interneturl = 'datas/2-InternetMerged.csv';
         var medicalurl = 'datas/05-physical/medical-facilities-converted.csv';
+        var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
+        var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
 
         var infomapcontainer = d3.select('#infomap');
         var physmapcontainer = d3.select('#physmap');
@@ -379,38 +390,34 @@
         var path = d3.geoPath().projection(projection);
 
         var internet = d3.map();
-        var medical = [];
-        var medcolormap = {'community-healthcare-centers': 1, 'diagnostic-treatment-centers': 2, 'long-term-care-facilities': 3, 'hospitals':4};
+        var medical = [], testing = [];
+        var medicaldist = d3.map();
+        var medcolormap = { 'community-healthcare-centers': 1, 'diagnostic-treatment-centers': 3, 'long-term-care-facilities': 6, 'hospitals': 8 };
         var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
             internet.set(+d.modzcta, +d.perc);
         }), d3.csv(medicalurl, function (d) {
-            medical.push([d.NAME, [+d.lng, +d.lat], d.CLASS])
+            medical.push([d.NAME, [+d.lng, +d.lat], d.CLASS]);
+        }), d3.csv(medicaldisturl, function (d) {
+            medicaldist.set(+d.modzcta, [+d['community-healthcare-centers'], +d['diagnostic-treatment-centers'], +d['long-term-care-facilities'], +d['hospitals'], +d['avg']]);
+        }), d3.csv(testingurl, function (d) {
+            testing.push([d.NAME, [+d.lng, +d.lat]]);
         })];
         Promise.all(promises).then(ready);
         function ready([nyc]) {
             nyc.features.pop();
-            var colors = d3.scaleQuantize().domain(d3.extent(internet.values())).range(d3.schemeBlues[5]);
-            var physcolors = d3.scaleOrdinal(d3.schemeCategory10);
+            var infocolors = d3.scaleQuantize().domain(d3.extent(internet.values())).range(d3.schemeReds[5]);
             infogrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode')
-                .attr('fill', d => colors(internet.get(d.properties.modzcta))).attr('stroke', 'gray').attr('d', path)
+                .attr('fill', d => infocolors(internet.get(d.properties.modzcta))).attr('stroke', 'gray').attr('d', path)
                 .on('mouseover', function (d) {
-                    d3.select('#tooltip')
-                        .style('left', d3.event.pageX + 'px')
-                        .style('top', d3.event.pageY + 'px')
-                        .select('#value')
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
                         .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
-                    d3.select('#tooltip')
-                        .classed('hidden', false);
+                    d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mousemove', function (d) {
-                    d3.select('#tooltip')
-                        .style('left', d3.event.pageX + 'px')
-                        .style('top', d3.event.pageY + 'px')
-                        .select('#value')
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
                         .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
-                    d3.select('#tooltip')
-                        .classed('hidden', false);
+                    d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mouseout', function () {
                     d3.select('#tooltip').classed('hidden', true);
@@ -418,16 +425,39 @@
                 .on('click', function (d) {
                     drawchart(internet.get(d.properties.modzcta));
                 });
+            // physical, medical facilities points
+            var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[5]);
             physgrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode')
-                .attr('fill', '#eee').attr('stroke', 'gray').attr('d', path);
-            physmapsvg.selectAll('circle').data(medical).enter().append('circle')
-                .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'gray')
+                .attr('fill', d => physcolors(medicaldist.get(d.properties.modzcta)[4])).attr('stroke', 'gray').attr('d', path)
+                .on('click', function (d) {
+                    drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4));
+                });
+            // testing
+            physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle')
+                .attr('class', 'testingcircle').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
-                .attr('fill', d => physcolors(medcolormap[d[2]]));
-            // legend
+                .attr('fill', '#bbb');
+            physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle')
+                .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', d => d3.schemeCategory10[medcolormap[d[2]]])
+                .on('mousehover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(d[0]) + '<br>' + String(d[2]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(d[0]) + '<br>' + String(d[2]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                });
+            // info legend
             var cellNum = 9;
-            var colorLegend = d3.legendColor()
+            var infolegend = d3.legendColor()
                 .shapeWidth(50)
                 .shapeHeight(10)
                 .cells(cellNum)
@@ -436,21 +466,63 @@
                 .labels(['0'])
                 .title('Percentage of the households with no Internet access')
                 .orient('horizontal')
-                .scale(colors);
+                .scale(infocolors);
             infomapsvg.append('g')
-                .attr('transform', 'translate(100, 100)')
+                .attr('transform', 'translate(20, 20)')
                 // .append(() => legend({color, title: 'Tweets per neighborhood (log scale)', width: 500}));
-                .call(colorLegend);
+                .call(infolegend);
+
+            // phys legend
+            var physlegend = d3.legendColor()
+                .shapeWidth(50)
+                .shapeHeight(10)
+                .cells(cellNum)
+                .shapePadding(0)
+                .labelFormat(d3.format('.2f'))
+                .labels(['0'])
+                .title('Average distance to the 4 kinds of medical facilities')
+                .orient('horizontal')
+                .scale(physcolors);
+            var physlegendcontainer = physmapsvg.append('g')
+                .attr('transform', 'translate(20, 20)')
+                // .append(() => legend({color, title: 'Tweets per neighborhood (log scale)', width: 500}));
+                .call(physlegend);
+            var physcirclelegneds = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemeCategory10[1]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemeCategory10[3]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemeCategory10[6]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemeCategory10[8]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('community healthcare centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 0)').attr('font-size', '12px');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 30)').attr('font-size', '12px');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('long term care facilities').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 60)').attr('font-size', '12px');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('hospitals').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 90)').attr('font-size', '12px');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 120)').attr('font-size', '12px');
+            // title phys
+            physlegendcontainer.append('g').append('text').text('Distribution of Medical Facilities and Testing Sites in NYC').attr('class', 'physmaptitle')
+                .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')');
+
             // legend title location and size
-            d3.select('.legendTitle')
+            d3.selectAll('.legendTitle')
                 .attr('transform', 'translate(0, 5)')
-                .attr('font-size', '12px');
+                .attr('font-size', '16px');
             // labels
             d3.selectAll('.label')
                 .style('display', 'none');
         };
 
-        // chart
+        // info chart
         var chartconatiner = d3.select('#infochart');
         var chartheight = chartconatiner.node().getBoundingClientRect().height;
         var chartwidth = chartconatiner.node().getBoundingClientRect().width;
@@ -459,8 +531,8 @@
 
         var chartgrp = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth / 2) + ', ' + String(chartheight / 2) + ')');
         var circle = chartgrp.append('path').attr('d', d3.arc()({
-            innerRadius: 70,
-            outerRadius: 170,
+            innerRadius: 90,
+            outerRadius: 150,
             startAngle: 0,
             endAngle: Math.PI * 2 * 0.2
         })).attr('fill', '#ef476f');
@@ -474,9 +546,56 @@
             }));
         };
 
-		// function zoomed() {
-			// svg.selectAll('path').attr('transform', d3.event.transform);
-		// };
+        // phys chart
+        var physchartcontainer = d3.select('#physchart');
+        var physchartsvg = physchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'physchartsvg');
+        physchartsvg.append('text').attr('class', 'physcharttitle').text('Distances to Nearest Medical Facilities from the District')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 150) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '1.2rem');
+        var physchartgrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        var physcolorlengend = [1, 3, 6, 8];
+        physchartgrp.selectAll('rect').data([14891.581296961444, 18484.353641928305, 12999.224694471144, 24815.73487198893]).enter().append('rect')
+            .attr('width', d => d / 62)
+            .attr('height', '30px')
+            .attr('fill', (d, i) => d3.schemeCategory10[physcolorlengend[i]])
+            .attr('x', '0px')
+            .attr('y', (d, i) => basey + 70 * i);
+        var physcharttitlegrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        physcharttitlegrp.append('text').text('community healthcare centers').attr('text-anchor', 'start').attr('y', 10).attr('x', '0px').attr('alignment-baseline', 'middle');
+        physcharttitlegrp.append('text').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('y', 80).attr('x', '0px').attr('alignment-baseline', 'middle');
+        physcharttitlegrp.append('text').text('long term care facilities').attr('text-anchor', 'start').attr('y', 150).attr('x', '0px').attr('alignment-baseline', 'middle');
+        physcharttitlegrp.append('text').text('hospitals').attr('text-anchor', 'start').attr('y', 220).attr('x', '0px').attr('alignment-baseline', 'middle');
+
+        function drawphyschart(data) {
+            var rects = physchartgrp.selectAll('rect').data(data);
+            rects.enter().append('rect').merge(rects).transition().duration(1500)
+                .attr('width', d => d / 62);
+        };
+
+        // physical buttons
+        function physswitch(s) {
+            if (s == 'medical') {
+                document.getElementById('physbutton1').classList.remove('inactivebtn');
+                document.getElementById('physbutton2').classList.add('inactivebtn');
+                document.getElementById('physbutton3').classList.add('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'block');
+                d3.selectAll('.testingcircle').attr('display', 'none');
+            }
+            if (s == 'testing') {
+                document.getElementById('physbutton1').classList.add('inactivebtn');
+                document.getElementById('physbutton2').classList.remove('inactivebtn');
+                document.getElementById('physbutton3').classList.add('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'none');
+                d3.selectAll('.testingcircle').attr('display', 'block');
+            }
+            if (s == 'all') {
+                document.getElementById('physbutton1').classList.add('inactivebtn');
+                document.getElementById('physbutton2').classList.add('inactivebtn');
+                document.getElementById('physbutton3').classList.remove('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'block');
+                d3.selectAll('.testingcircle').attr('display', 'block');
+            }
+        };
     </script>
 </body>
 
