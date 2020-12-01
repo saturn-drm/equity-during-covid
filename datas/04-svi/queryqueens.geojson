@@ -1,0 +1,6026 @@
+{
+  "type" : "FeatureCollection", 
+  "features" : [
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081000100", 
+        "RPL_THEMES" : 0.2975, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081000200", 
+        "RPL_THEMES" : 0.596, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081000400", 
+        "RPL_THEMES" : 0.7766, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081000600", 
+        "RPL_THEMES" : 0.6714, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081000700", 
+        "RPL_THEMES" : 0.219, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081000800", 
+        "RPL_THEMES" : 0.6629, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081001000", 
+        "RPL_THEMES" : 0.5668, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081001200", 
+        "RPL_THEMES" : 0.6423, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081001400", 
+        "RPL_THEMES" : 0.6802, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081001600", 
+        "RPL_THEMES" : 0.7194, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081001800", 
+        "RPL_THEMES" : 0.7249, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081001900", 
+        "RPL_THEMES" : 0.1216, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081002000", 
+        "RPL_THEMES" : 0.5143, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081002200", 
+        "RPL_THEMES" : 0.7913, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081002400", 
+        "RPL_THEMES" : 0.8575, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081002500", 
+        "RPL_THEMES" : 0.976, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081002600", 
+        "RPL_THEMES" : 0.8058, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081002800", 
+        "RPL_THEMES" : 0.7533, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003000", 
+        "RPL_THEMES" : 0.7729, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003100", 
+        "RPL_THEMES" : 0.5447, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003200", 
+        "RPL_THEMES" : 0.6499, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003300", 
+        "RPL_THEMES" : 0.6487, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003400", 
+        "RPL_THEMES" : 0.8064, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003600", 
+        "RPL_THEMES" : 0.6853, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003700", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003800", 
+        "RPL_THEMES" : 0.8101, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081003900", 
+        "RPL_THEMES" : 0.866, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081004001", 
+        "RPL_THEMES" : 0.8581, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081004002", 
+        "RPL_THEMES" : 0.7448, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081004200", 
+        "RPL_THEMES" : 0.7106, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081004300", 
+        "RPL_THEMES" : 0.986, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081004401", 
+        "RPL_THEMES" : 0.7167, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081004500", 
+        "RPL_THEMES" : 0.4882, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081004700", 
+        "RPL_THEMES" : 0.8008, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005000", 
+        "RPL_THEMES" : 0.9599, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005100", 
+        "RPL_THEMES" : 0.7622, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005200", 
+        "RPL_THEMES" : 0.6315, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005300", 
+        "RPL_THEMES" : 0.4061, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005400", 
+        "RPL_THEMES" : 0.7103, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005500", 
+        "RPL_THEMES" : 0.6845, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005700", 
+        "RPL_THEMES" : 0.6632, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005800", 
+        "RPL_THEMES" : 0.6576, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081005900", 
+        "RPL_THEMES" : 0.5293, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081006100", 
+        "RPL_THEMES" : 0.4988, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081006201", 
+        "RPL_THEMES" : 0.6742, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081006202", 
+        "RPL_THEMES" : 0.7113, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081006300", 
+        "RPL_THEMES" : 0.337, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081006501", 
+        "RPL_THEMES" : 0.3096, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081006502", 
+        "RPL_THEMES" : 0.3608, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081006900", 
+        "RPL_THEMES" : 0.6993, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081007100", 
+        "RPL_THEMES" : 0.2717, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081007300", 
+        "RPL_THEMES" : 0.2655, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081007500", 
+        "RPL_THEMES" : 0.5117, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081007700", 
+        "RPL_THEMES" : 0.4147, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081007900", 
+        "RPL_THEMES" : 0.7491, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081008100", 
+        "RPL_THEMES" : 0.5201, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081008300", 
+        "RPL_THEMES" : 0.5415, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081008500", 
+        "RPL_THEMES" : 0.8922, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081008600", 
+        "RPL_THEMES" : 0.5423, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081008700", 
+        "RPL_THEMES" : 0.9759, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081008800", 
+        "RPL_THEMES" : 0.5732, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081009100", 
+        "RPL_THEMES" : 0.6533, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081009400", 
+        "RPL_THEMES" : 0.7438, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081009500", 
+        "RPL_THEMES" : 0.4056, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081009600", 
+        "RPL_THEMES" : 0.6254, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081009700", 
+        "RPL_THEMES" : 0.2459, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081009800", 
+        "RPL_THEMES" : 0.7686, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081009900", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010000", 
+        "RPL_THEMES" : 0.5834, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010100", 
+        "RPL_THEMES" : 0.2513, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010200", 
+        "RPL_THEMES" : 0.6186, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010300", 
+        "RPL_THEMES" : 0.5469, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010400", 
+        "RPL_THEMES" : 0.5219, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010500", 
+        "RPL_THEMES" : 0.7825, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010600", 
+        "RPL_THEMES" : 0.8482, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010701", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081010800", 
+        "RPL_THEMES" : 0.764, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011000", 
+        "RPL_THEMES" : 0.6455, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011100", 
+        "RPL_THEMES" : 0.4728, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011200", 
+        "RPL_THEMES" : 0.8734, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011300", 
+        "RPL_THEMES" : 0.5389, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011400", 
+        "RPL_THEMES" : 0.6775, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011500", 
+        "RPL_THEMES" : 0.2316, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011600", 
+        "RPL_THEMES" : 0.5535, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011700", 
+        "RPL_THEMES" : 0.3337, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011800", 
+        "RPL_THEMES" : 0.7001, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081011900", 
+        "RPL_THEMES" : 0.4295, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012000", 
+        "RPL_THEMES" : 0.6559, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012100", 
+        "RPL_THEMES" : 0.3749, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012200", 
+        "RPL_THEMES" : 0.8125, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012301", 
+        "RPL_THEMES" : 0.2384, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012400", 
+        "RPL_THEMES" : 0.7346, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012500", 
+        "RPL_THEMES" : 0.3151, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012601", 
+        "RPL_THEMES" : 0.6677, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012602", 
+        "RPL_THEMES" : 0.6612, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081012800", 
+        "RPL_THEMES" : 0.6829, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081013000", 
+        "RPL_THEMES" : 0.7679, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081013200", 
+        "RPL_THEMES" : 0.8162, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081013400", 
+        "RPL_THEMES" : 0.622, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081013500", 
+        "RPL_THEMES" : 0.2849, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081013600", 
+        "RPL_THEMES" : 0.4078, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081013700", 
+        "RPL_THEMES" : 0.2237, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081013800", 
+        "RPL_THEMES" : 0.7326, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014000", 
+        "RPL_THEMES" : 0.5979, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014100", 
+        "RPL_THEMES" : 0.5744, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014201", 
+        "RPL_THEMES" : 0.7494, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014202", 
+        "RPL_THEMES" : 0.8738, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014300", 
+        "RPL_THEMES" : 0.4733, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014400", 
+        "RPL_THEMES" : 0.6702, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014500", 
+        "RPL_THEMES" : 0.5699, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014700", 
+        "RPL_THEMES" : 0.5753, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014800", 
+        "RPL_THEMES" : 0.5813, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081014900", 
+        "RPL_THEMES" : 0.2866, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015000", 
+        "RPL_THEMES" : 0.4749, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015100", 
+        "RPL_THEMES" : 0.5641, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015200", 
+        "RPL_THEMES" : 0.7752, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015300", 
+        "RPL_THEMES" : 0.5781, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015400", 
+        "RPL_THEMES" : 0.6903, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015500", 
+        "RPL_THEMES" : 0.3779, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015600", 
+        "RPL_THEMES" : 0.5929, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015700", 
+        "RPL_THEMES" : 0.5647, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015801", 
+        "RPL_THEMES" : 0.7658, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015802", 
+        "RPL_THEMES" : 0.6753, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081015900", 
+        "RPL_THEMES" : 0.5149, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081016100", 
+        "RPL_THEMES" : 0.6335, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081016300", 
+        "RPL_THEMES" : 0.8479, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081016400", 
+        "RPL_THEMES" : 0.6862, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081016600", 
+        "RPL_THEMES" : 0.7479, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081016800", 
+        "RPL_THEMES" : 0.7589, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081016900", 
+        "RPL_THEMES" : 0.4805, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081017000", 
+        "RPL_THEMES" : 0.6583, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081017100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081017200", 
+        "RPL_THEMES" : 0.5495, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081017400", 
+        "RPL_THEMES" : 0.7514, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081017600", 
+        "RPL_THEMES" : 0.7341, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081017800", 
+        "RPL_THEMES" : 0.6825, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081017900", 
+        "RPL_THEMES" : 0.6198, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018000", 
+        "RPL_THEMES" : 0.749, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018101", 
+        "RPL_THEMES" : 0.5583, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018102", 
+        "RPL_THEMES" : 0.3136, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018200", 
+        "RPL_THEMES" : 0.727, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018300", 
+        "RPL_THEMES" : 0.5625, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018401", 
+        "RPL_THEMES" : 0.7426, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018402", 
+        "RPL_THEMES" : 0.7749, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018501", 
+        "RPL_THEMES" : 0.5356, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018502", 
+        "RPL_THEMES" : 0.518, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018600", 
+        "RPL_THEMES" : 0.7421, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018700", 
+        "RPL_THEMES" : 0.4964, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018800", 
+        "RPL_THEMES" : 0.6517, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081018900", 
+        "RPL_THEMES" : 0.6288, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081019000", 
+        "RPL_THEMES" : 0.4786, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081019200", 
+        "RPL_THEMES" : 0.4581, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081019400", 
+        "RPL_THEMES" : 0.5312, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081019600", 
+        "RPL_THEMES" : 0.6646, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081019800", 
+        "RPL_THEMES" : 0.8142, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081019900", 
+        "RPL_THEMES" : 0.6847, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081020200", 
+        "RPL_THEMES" : 0.7467, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081020400", 
+        "RPL_THEMES" : 0.8999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081020500", 
+        "RPL_THEMES" : 0.68, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081020600", 
+        "RPL_THEMES" : 0.7022, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081020800", 
+        "RPL_THEMES" : 0.7287, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081021200", 
+        "RPL_THEMES" : 0.9755, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081021400", 
+        "RPL_THEMES" : 0.7985, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081021600", 
+        "RPL_THEMES" : 0.6321, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081021900", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081022001", 
+        "RPL_THEMES" : 0.6488, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081022002", 
+        "RPL_THEMES" : 0.6076, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081022900", 
+        "RPL_THEMES" : 0.4487, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081023000", 
+        "RPL_THEMES" : 0.5263, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081023200", 
+        "RPL_THEMES" : 0.7866, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081023500", 
+        "RPL_THEMES" : 0.6553, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081023600", 
+        "RPL_THEMES" : 0.8339, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081023800", 
+        "RPL_THEMES" : 0.9087, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081024000", 
+        "RPL_THEMES" : 0.9687, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081024300", 
+        "RPL_THEMES" : 0.4767, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081024500", 
+        "RPL_THEMES" : 0.6635, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081024600", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081024700", 
+        "RPL_THEMES" : 0.5457, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081024900", 
+        "RPL_THEMES" : 0.7707, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025100", 
+        "RPL_THEMES" : 0.5585, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025301", 
+        "RPL_THEMES" : 0.5367, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025302", 
+        "RPL_THEMES" : 0.5237, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025400", 
+        "RPL_THEMES" : 0.8804, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025500", 
+        "RPL_THEMES" : 0.5669, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025700", 
+        "RPL_THEMES" : 0.5882, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025800", 
+        "RPL_THEMES" : 0.6919, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081025900", 
+        "RPL_THEMES" : 0.7096, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026000", 
+        "RPL_THEMES" : 0.9007, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026100", 
+        "RPL_THEMES" : 0.7171, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026200", 
+        "RPL_THEMES" : 0.5652, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026300", 
+        "RPL_THEMES" : 0.706, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026400", 
+        "RPL_THEMES" : 0.9469, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026500", 
+        "RPL_THEMES" : 0.6196, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026600", 
+        "RPL_THEMES" : 0.9338, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026700", 
+        "RPL_THEMES" : 0.8289, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026901", 
+        "RPL_THEMES" : 0.6635, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081026902", 
+        "RPL_THEMES" : 0.7354, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027000", 
+        "RPL_THEMES" : 0.8735, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027100", 
+        "RPL_THEMES" : 0.7134, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027200", 
+        "RPL_THEMES" : 0.6664, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027300", 
+        "RPL_THEMES" : 0.8208, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027400", 
+        "RPL_THEMES" : 0.2859, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027500", 
+        "RPL_THEMES" : 0.7898, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027600", 
+        "RPL_THEMES" : 0.6108, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027700", 
+        "RPL_THEMES" : 0.7114, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027800", 
+        "RPL_THEMES" : 0.8483, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081027900", 
+        "RPL_THEMES" : 0.7231, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028000", 
+        "RPL_THEMES" : 0.4128, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028100", 
+        "RPL_THEMES" : 0.5749, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028200", 
+        "RPL_THEMES" : 0.4363, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028300", 
+        "RPL_THEMES" : 0.7545, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028400", 
+        "RPL_THEMES" : 0.6869, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028500", 
+        "RPL_THEMES" : 0.7093, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028700", 
+        "RPL_THEMES" : 0.5516, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028800", 
+        "RPL_THEMES" : 0.6741, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081028900", 
+        "RPL_THEMES" : 0.5746, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081029100", 
+        "RPL_THEMES" : 0.8358, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081029300", 
+        "RPL_THEMES" : 0.3826, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081029400", 
+        "RPL_THEMES" : 0.7563, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081029500", 
+        "RPL_THEMES" : 0.3989, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081029700", 
+        "RPL_THEMES" : 0.5725, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081029900", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081030600", 
+        "RPL_THEMES" : 0.7972, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081030902", 
+        "RPL_THEMES" : 0.8066, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081030903", 
+        "RPL_THEMES" : 0.6782, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081030904", 
+        "RPL_THEMES" : 0.7292, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081031700", 
+        "RPL_THEMES" : 0.4383, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081032000", 
+        "RPL_THEMES" : 0.8684, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081032700", 
+        "RPL_THEMES" : 0.742, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081032800", 
+        "RPL_THEMES" : 0.5315, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081032900", 
+        "RPL_THEMES" : 0.7005, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081033000", 
+        "RPL_THEMES" : 0.6742, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081033100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081033401", 
+        "RPL_THEMES" : 0.5789, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081033402", 
+        "RPL_THEMES" : 0.5831, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081033700", 
+        "RPL_THEMES" : 0.6252, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081033900", 
+        "RPL_THEMES" : 0.7043, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081034700", 
+        "RPL_THEMES" : 0.8522, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081035100", 
+        "RPL_THEMES" : 0.822, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081035200", 
+        "RPL_THEMES" : 0.5939, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081035300", 
+        "RPL_THEMES" : 0.8224, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081035700", 
+        "RPL_THEMES" : 0.9158, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081035800", 
+        "RPL_THEMES" : 0.6962, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081036100", 
+        "RPL_THEMES" : 0.8783, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081036300", 
+        "RPL_THEMES" : 0.8794, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081036500", 
+        "RPL_THEMES" : 0.7995, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081036600", 
+        "RPL_THEMES" : 0.667, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081036700", 
+        "RPL_THEMES" : 0.7544, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081036800", 
+        "RPL_THEMES" : 0.5562, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081037100", 
+        "RPL_THEMES" : 0.6648, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081037300", 
+        "RPL_THEMES" : 0.6954, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081037500", 
+        "RPL_THEMES" : 0.8821, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081037600", 
+        "RPL_THEMES" : 0.5528, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081037700", 
+        "RPL_THEMES" : 0.8088, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081037900", 
+        "RPL_THEMES" : 0.734, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081038100", 
+        "RPL_THEMES" : 0.939, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081038301", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081038302", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081038400", 
+        "RPL_THEMES" : 0.6236, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081039400", 
+        "RPL_THEMES" : 0.5036, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081039800", 
+        "RPL_THEMES" : 0.3755, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081039900", 
+        "RPL_THEMES" : 0.8732, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040000", 
+        "RPL_THEMES" : 0.419, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040100", 
+        "RPL_THEMES" : 0.8832, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040200", 
+        "RPL_THEMES" : 0.4044, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040300", 
+        "RPL_THEMES" : 0.9507, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040400", 
+        "RPL_THEMES" : 0.7426, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040500", 
+        "RPL_THEMES" : 0.8683, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040700", 
+        "RPL_THEMES" : 0.8342, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081040900", 
+        "RPL_THEMES" : 0.856, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081041100", 
+        "RPL_THEMES" : 0.7081, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081041300", 
+        "RPL_THEMES" : 0.8383, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081041400", 
+        "RPL_THEMES" : 0.8267, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081041500", 
+        "RPL_THEMES" : 0.8685, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081042400", 
+        "RPL_THEMES" : 0.5962, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081042600", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081042700", 
+        "RPL_THEMES" : 0.8011, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081043200", 
+        "RPL_THEMES" : 0.5237, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081043400", 
+        "RPL_THEMES" : 0.3157, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081043701", 
+        "RPL_THEMES" : 0.9704, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081043702", 
+        "RPL_THEMES" : 0.9338, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081043900", 
+        "RPL_THEMES" : 0.8707, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081044000", 
+        "RPL_THEMES" : 0.6738, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081044301", 
+        "RPL_THEMES" : 0.9799, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081044302", 
+        "RPL_THEMES" : 0.9108, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081044400", 
+        "RPL_THEMES" : 0.9633, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081044601", 
+        "RPL_THEMES" : 0.8885, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081044602", 
+        "RPL_THEMES" : 0.9882, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081044800", 
+        "RPL_THEMES" : 0.8111, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045000", 
+        "RPL_THEMES" : 0.3669, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045200", 
+        "RPL_THEMES" : 0.8515, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045400", 
+        "RPL_THEMES" : 0.812, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045500", 
+        "RPL_THEMES" : 0.8505, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045600", 
+        "RPL_THEMES" : 0.7495, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045700", 
+        "RPL_THEMES" : 0.6173, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045800", 
+        "RPL_THEMES" : 0.5859, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081045900", 
+        "RPL_THEMES" : 0.7764, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046000", 
+        "RPL_THEMES" : 0.8032, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046100", 
+        "RPL_THEMES" : 0.8213, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046200", 
+        "RPL_THEMES" : 0.8998, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046300", 
+        "RPL_THEMES" : 0.7059, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046400", 
+        "RPL_THEMES" : 0.7447, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046500", 
+        "RPL_THEMES" : 0.787, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046600", 
+        "RPL_THEMES" : 0.7308, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046700", 
+        "RPL_THEMES" : 0.9074, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046800", 
+        "RPL_THEMES" : 0.7811, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081046900", 
+        "RPL_THEMES" : 0.8369, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047000", 
+        "RPL_THEMES" : 0.8363, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047100", 
+        "RPL_THEMES" : 0.7489, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047200", 
+        "RPL_THEMES" : 0.712, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047300", 
+        "RPL_THEMES" : 0.6552, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047500", 
+        "RPL_THEMES" : 0.691, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047600", 
+        "RPL_THEMES" : 0.386, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047800", 
+        "RPL_THEMES" : 0.7017, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081047900", 
+        "RPL_THEMES" : 0.8669, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081048000", 
+        "RPL_THEMES" : 0.6803, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081048100", 
+        "RPL_THEMES" : 0.9529, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081048200", 
+        "RPL_THEMES" : 0.7373, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081048300", 
+        "RPL_THEMES" : 0.6944, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081048400", 
+        "RPL_THEMES" : 0.544, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081048500", 
+        "RPL_THEMES" : 0.493, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081048900", 
+        "RPL_THEMES" : 0.7917, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081049200", 
+        "RPL_THEMES" : 0.6427, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081049301", 
+        "RPL_THEMES" : 0.6035, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081049302", 
+        "RPL_THEMES" : 0.7558, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081049500", 
+        "RPL_THEMES" : 0.4879, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081049600", 
+        "RPL_THEMES" : 0.5743, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081049700", 
+        "RPL_THEMES" : 0.5327, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081049900", 
+        "RPL_THEMES" : 0.7302, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050000", 
+        "RPL_THEMES" : 0.95, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050201", 
+        "RPL_THEMES" : 0.3754, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050202", 
+        "RPL_THEMES" : 0.4919, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050400", 
+        "RPL_THEMES" : 0.7146, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050500", 
+        "RPL_THEMES" : 0.3743, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050600", 
+        "RPL_THEMES" : 0.495, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050700", 
+        "RPL_THEMES" : 0.4979, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081050800", 
+        "RPL_THEMES" : 0.8237, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051000", 
+        "RPL_THEMES" : 0.5506, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051100", 
+        "RPL_THEMES" : 0.4442, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051200", 
+        "RPL_THEMES" : 0.7083, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051300", 
+        "RPL_THEMES" : 0.4484, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051500", 
+        "RPL_THEMES" : 0.4684, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051600", 
+        "RPL_THEMES" : 0.7131, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051700", 
+        "RPL_THEMES" : 0.4857, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081051800", 
+        "RPL_THEMES" : 0.6348, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081052000", 
+        "RPL_THEMES" : 0.3666, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081052100", 
+        "RPL_THEMES" : 0.552, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081052200", 
+        "RPL_THEMES" : 0.2235, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081052400", 
+        "RPL_THEMES" : 0.4863, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081052500", 
+        "RPL_THEMES" : 0.5405, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081052600", 
+        "RPL_THEMES" : 0.5699, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081052800", 
+        "RPL_THEMES" : 0.5557, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053000", 
+        "RPL_THEMES" : 0.43, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053100", 
+        "RPL_THEMES" : 0.5187, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053200", 
+        "RPL_THEMES" : 0.5684, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053401", 
+        "RPL_THEMES" : 0.5384, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053500", 
+        "RPL_THEMES" : 0.6971, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053601", 
+        "RPL_THEMES" : 0.6632, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053800", 
+        "RPL_THEMES" : 0.6502, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081053900", 
+        "RPL_THEMES" : 0.5611, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081054000", 
+        "RPL_THEMES" : 0.7635, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081054200", 
+        "RPL_THEMES" : 0.5965, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081054500", 
+        "RPL_THEMES" : 0.7, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081054700", 
+        "RPL_THEMES" : 0.5919, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081054800", 
+        "RPL_THEMES" : 0.4043, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081054900", 
+        "RPL_THEMES" : 0.849, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055100", 
+        "RPL_THEMES" : 0.667, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055200", 
+        "RPL_THEMES" : 0.834, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055300", 
+        "RPL_THEMES" : 0.6615, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055400", 
+        "RPL_THEMES" : 0.5865, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055500", 
+        "RPL_THEMES" : 0.7839, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055600", 
+        "RPL_THEMES" : 0.283, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055700", 
+        "RPL_THEMES" : 0.7275, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055800", 
+        "RPL_THEMES" : 0.3401, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081055900", 
+        "RPL_THEMES" : 0.6985, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056000", 
+        "RPL_THEMES" : 0.365, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056100", 
+        "RPL_THEMES" : 0.2002, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056200", 
+        "RPL_THEMES" : 0.3043, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056400", 
+        "RPL_THEMES" : 0.7771, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056500", 
+        "RPL_THEMES" : 0.5724, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056600", 
+        "RPL_THEMES" : 0.475, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056700", 
+        "RPL_THEMES" : 0.347, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081056800", 
+        "RPL_THEMES" : 0.6965, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081057700", 
+        "RPL_THEMES" : 0.5877, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081057900", 
+        "RPL_THEMES" : 0.5294, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081058000", 
+        "RPL_THEMES" : 0.6513, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081058100", 
+        "RPL_THEMES" : 0.5045, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081058200", 
+        "RPL_THEMES" : 0.5647, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081058300", 
+        "RPL_THEMES" : 0.3347, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081058500", 
+        "RPL_THEMES" : 0.4263, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081058700", 
+        "RPL_THEMES" : 0.5013, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081058900", 
+        "RPL_THEMES" : 0.6131, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059000", 
+        "RPL_THEMES" : 0.3435, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059100", 
+        "RPL_THEMES" : 0.5083, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059200", 
+        "RPL_THEMES" : 0.3303, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059300", 
+        "RPL_THEMES" : 0.5377, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059400", 
+        "RPL_THEMES" : 0.3493, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059500", 
+        "RPL_THEMES" : 0.669, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059600", 
+        "RPL_THEMES" : 0.3966, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059800", 
+        "RPL_THEMES" : 0.3676, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081059900", 
+        "RPL_THEMES" : 0.6091, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081060000", 
+        "RPL_THEMES" : 0.2855, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081060100", 
+        "RPL_THEMES" : 0.6777, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081060300", 
+        "RPL_THEMES" : 0.4149, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081060600", 
+        "RPL_THEMES" : 0.2821, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081060701", 
+        "RPL_THEMES" : 0.0308, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081060800", 
+        "RPL_THEMES" : 0.26, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061000", 
+        "RPL_THEMES" : 0.2621, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061200", 
+        "RPL_THEMES" : 0.0619, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061301", 
+        "RPL_THEMES" : 0.5705, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061302", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061400", 
+        "RPL_THEMES" : 0.3136, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061601", 
+        "RPL_THEMES" : 0.3641, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061602", 
+        "RPL_THEMES" : 0.1752, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061800", 
+        "RPL_THEMES" : 0.3305, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081061900", 
+        "RPL_THEMES" : 0.5274, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062000", 
+        "RPL_THEMES" : 0.2067, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062100", 
+        "RPL_THEMES" : 0.4541, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062200", 
+        "RPL_THEMES" : 0.3183, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062300", 
+        "RPL_THEMES" : 0.3026, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062400", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062500", 
+        "RPL_THEMES" : 0.4641, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062600", 
+        "RPL_THEMES" : 0.3441, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062700", 
+        "RPL_THEMES" : 0.5823, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081062900", 
+        "RPL_THEMES" : 0.7052, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063000", 
+        "RPL_THEMES" : 0.0977, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063200", 
+        "RPL_THEMES" : 0.3006, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063301", 
+        "RPL_THEMES" : 0.1951, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063302", 
+        "RPL_THEMES" : 0.1138, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063500", 
+        "RPL_THEMES" : 0.5341, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063700", 
+        "RPL_THEMES" : 0.1825, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063800", 
+        "RPL_THEMES" : 0.4694, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081063900", 
+        "RPL_THEMES" : 0.5795, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081064101", 
+        "RPL_THEMES" : 0.4299, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081064102", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081064500", 
+        "RPL_THEMES" : 0.5426, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081064600", 
+        "RPL_THEMES" : 0.3958, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081065000", 
+        "RPL_THEMES" : 0.2908, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081065400", 
+        "RPL_THEMES" : 0.4264, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081065501", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081065600", 
+        "RPL_THEMES" : 0.5319, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081065702", 
+        "RPL_THEMES" : 0.5448, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081065703", 
+        "RPL_THEMES" : 0.2488, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081065900", 
+        "RPL_THEMES" : 0.2187, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081066000", 
+        "RPL_THEMES" : 0.466, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081066100", 
+        "RPL_THEMES" : 0.1927, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081066300", 
+        "RPL_THEMES" : 0.1059, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081066400", 
+        "RPL_THEMES" : 0.639, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081066501", 
+        "RPL_THEMES" : 0.2548, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081066701", 
+        "RPL_THEMES" : 0.4525, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081066900", 
+        "RPL_THEMES" : 0.2739, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081067100", 
+        "RPL_THEMES" : 0.2736, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081067700", 
+        "RPL_THEMES" : 0.2127, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081067900", 
+        "RPL_THEMES" : 0.876, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081068000", 
+        "RPL_THEMES" : 0.5348, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081068200", 
+        "RPL_THEMES" : 0.4389, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081068300", 
+        "RPL_THEMES" : 0.8136, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081068700", 
+        "RPL_THEMES" : 0.5822, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081069000", 
+        "RPL_THEMES" : 0.7417, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081069300", 
+        "RPL_THEMES" : 0.6818, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081069400", 
+        "RPL_THEMES" : 0.6483, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081069500", 
+        "RPL_THEMES" : 0.5195, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081069701", 
+        "RPL_THEMES" : 0.6204, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081069702", 
+        "RPL_THEMES" : 0.5476, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081070300", 
+        "RPL_THEMES" : 0.3951, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081070700", 
+        "RPL_THEMES" : 0.3614, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081070900", 
+        "RPL_THEMES" : 0.3938, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071100", 
+        "RPL_THEMES" : 0.5237, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071303", 
+        "RPL_THEMES" : 0.2235, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071304", 
+        "RPL_THEMES" : 0.6417, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071305", 
+        "RPL_THEMES" : 0.3601, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071306", 
+        "RPL_THEMES" : 0.4858, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071600", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071701", 
+        "RPL_THEMES" : 0.6688, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071702", 
+        "RPL_THEMES" : 0.5493, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081071900", 
+        "RPL_THEMES" : 0.693, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081072100", 
+        "RPL_THEMES" : 0.731, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081072300", 
+        "RPL_THEMES" : 0.3571, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081072900", 
+        "RPL_THEMES" : 0.3221, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081073100", 
+        "RPL_THEMES" : 0.2978, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081073700", 
+        "RPL_THEMES" : 0.4238, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081073900", 
+        "RPL_THEMES" : 0.571, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081074100", 
+        "RPL_THEMES" : 0.4444, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081074300", 
+        "RPL_THEMES" : 0.6608, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081074500", 
+        "RPL_THEMES" : 0.8885, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081074700", 
+        "RPL_THEMES" : 0.7628, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081074900", 
+        "RPL_THEMES" : 0.1891, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081075701", 
+        "RPL_THEMES" : 0.3107, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081075702", 
+        "RPL_THEMES" : 0.6271, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081076901", 
+        "RPL_THEMES" : 0.2661, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081076902", 
+        "RPL_THEMES" : 0.3118, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077300", 
+        "RPL_THEMES" : 0.5105, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077500", 
+        "RPL_THEMES" : 0.3056, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077902", 
+        "RPL_THEMES" : 0.4024, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077903", 
+        "RPL_THEMES" : 0.5595, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077904", 
+        "RPL_THEMES" : 0.7128, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077905", 
+        "RPL_THEMES" : 0.6997, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077906", 
+        "RPL_THEMES" : 0.6521, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077907", 
+        "RPL_THEMES" : 0.8302, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081077908", 
+        "RPL_THEMES" : 0.8488, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081078800", 
+        "RPL_THEMES" : 0.5001, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081079000", 
+        "RPL_THEMES" : 0.7439, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081079200", 
+        "RPL_THEMES" : 0.7357, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081079300", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081079701", 
+        "RPL_THEMES" : 0.7905, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081079702", 
+        "RPL_THEMES" : 0.7169, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081079900", 
+        "RPL_THEMES" : 0.7788, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081080301", 
+        "RPL_THEMES" : 0.6186, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081080302", 
+        "RPL_THEMES" : 0.7216, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081080900", 
+        "RPL_THEMES" : 0.6396, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081081400", 
+        "RPL_THEMES" : 0.8386, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081081800", 
+        "RPL_THEMES" : 0.7726, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081083700", 
+        "RPL_THEMES" : 0.6458, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081083800", 
+        "RPL_THEMES" : 0.4513, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081084000", 
+        "RPL_THEMES" : 0.6234, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081084500", 
+        "RPL_THEMES" : 0.7818, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081084601", 
+        "RPL_THEMES" : 0.5258, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081084602", 
+        "RPL_THEMES" : 0.8038, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081084900", 
+        "RPL_THEMES" : 0.8388, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081085300", 
+        "RPL_THEMES" : 0.8557, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081085500", 
+        "RPL_THEMES" : 0.7014, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081085700", 
+        "RPL_THEMES" : 0.8459, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081085900", 
+        "RPL_THEMES" : 0.8117, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081086100", 
+        "RPL_THEMES" : 0.6756, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081086300", 
+        "RPL_THEMES" : 0.6971, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081086400", 
+        "RPL_THEMES" : 0.665, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081086500", 
+        "RPL_THEMES" : 0.7618, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081086900", 
+        "RPL_THEMES" : 0.6526, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081087100", 
+        "RPL_THEMES" : 0.7784, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081088400", 
+        "RPL_THEMES" : 0.4325, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081088901", 
+        "RPL_THEMES" : 0.7494, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081089200", 
+        "RPL_THEMES" : 0.3312, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081090700", 
+        "RPL_THEMES" : 0.6685, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081091601", 
+        "RPL_THEMES" : 0.2466, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081091602", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081091800", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081091900", 
+        "RPL_THEMES" : 0.7601, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081092200", 
+        "RPL_THEMES" : 0.0795, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081092500", 
+        "RPL_THEMES" : 0.768, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081092800", 
+        "RPL_THEMES" : 0.0064, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081092900", 
+        "RPL_THEMES" : 0.6465, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081093401", 
+        "RPL_THEMES" : 0.5498, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081093402", 
+        "RPL_THEMES" : 0.6472, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081093800", 
+        "RPL_THEMES" : 0.8598, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081093900", 
+        "RPL_THEMES" : 0.3669, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081094201", 
+        "RPL_THEMES" : 0.7239, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081094202", 
+        "RPL_THEMES" : 0.9025, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081094203", 
+        "RPL_THEMES" : 0.6532, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081094500", 
+        "RPL_THEMES" : 0.5024, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081094700", 
+        "RPL_THEMES" : 0.6103, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081095400", 
+        "RPL_THEMES" : 0.9753, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081096400", 
+        "RPL_THEMES" : 0.8709, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081097202", 
+        "RPL_THEMES" : 0.9665, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081097203", 
+        "RPL_THEMES" : 0.9817, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081097204", 
+        "RPL_THEMES" : 0.9963, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081097300", 
+        "RPL_THEMES" : 0.3099, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081098100", 
+        "RPL_THEMES" : 0.5571, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081098700", 
+        "RPL_THEMES" : 0.2678, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099100", 
+        "RPL_THEMES" : 0.2806, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099200", 
+        "RPL_THEMES" : 0.9941, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099701", 
+        "RPL_THEMES" : 0.2966, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099703", 
+        "RPL_THEMES" : 0.3562, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099704", 
+        "RPL_THEMES" : 0.5057, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099705", 
+        "RPL_THEMES" : 0.1581, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099801", 
+        "RPL_THEMES" : 0.8327, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099802", 
+        "RPL_THEMES" : 0.9928, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081099900", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081100801", 
+        "RPL_THEMES" : 0.4842, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081100802", 
+        "RPL_THEMES" : 0.9031, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081101001", 
+        "RPL_THEMES" : 0.9816, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081101002", 
+        "RPL_THEMES" : 0.8542, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081101700", 
+        "RPL_THEMES" : 0.4088, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081102900", 
+        "RPL_THEMES" : 0.6036, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081103201", 
+        "RPL_THEMES" : 0.9422, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081103202", 
+        "RPL_THEMES" : 0.9465, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081103300", 
+        "RPL_THEMES" : 0.2966, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081103900", 
+        "RPL_THEMES" : 0.5437, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081104700", 
+        "RPL_THEMES" : 0.8072, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081105900", 
+        "RPL_THEMES" : 0.5327, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081107201", 
+        "RPL_THEMES" : 0.2019, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081107202", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081108500", 
+        "RPL_THEMES" : 0.4863, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081109300", 
+        "RPL_THEMES" : 0.446, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081109700", 
+        "RPL_THEMES" : 0.2123, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081109900", 
+        "RPL_THEMES" : 0.5403, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081111300", 
+        "RPL_THEMES" : 0.4016, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081112300", 
+        "RPL_THEMES" : 0.5869, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081112900", 
+        "RPL_THEMES" : 0.4984, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081113300", 
+        "RPL_THEMES" : 0.3535, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081113900", 
+        "RPL_THEMES" : 0.5492, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081114100", 
+        "RPL_THEMES" : 0.2855, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081114700", 
+        "RPL_THEMES" : 0.4143, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081115100", 
+        "RPL_THEMES" : 0.1418, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081115500", 
+        "RPL_THEMES" : 0.7019, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081115700", 
+        "RPL_THEMES" : 0.7898, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081115900", 
+        "RPL_THEMES" : 0.797, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081116100", 
+        "RPL_THEMES" : 0.9094, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081116300", 
+        "RPL_THEMES" : 0.894, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081116700", 
+        "RPL_THEMES" : 0.7865, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081117100", 
+        "RPL_THEMES" : 0.7083, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081117500", 
+        "RPL_THEMES" : 0.5642, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081118100", 
+        "RPL_THEMES" : 0.3903, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081118500", 
+        "RPL_THEMES" : 0.7554, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081118700", 
+        "RPL_THEMES" : 0.7288, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081118900", 
+        "RPL_THEMES" : 0.5178, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081119100", 
+        "RPL_THEMES" : 0.5749, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081119300", 
+        "RPL_THEMES" : 0.6575, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081119500", 
+        "RPL_THEMES" : 0.5472, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081119900", 
+        "RPL_THEMES" : 0.5163, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081120100", 
+        "RPL_THEMES" : 0.6898, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081120300", 
+        "RPL_THEMES" : 0.6809, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081120500", 
+        "RPL_THEMES" : 0.9549, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081120700", 
+        "RPL_THEMES" : 0.5035, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081121100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081121500", 
+        "RPL_THEMES" : 0.6222, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081122300", 
+        "RPL_THEMES" : 0.4112, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081122701", 
+        "RPL_THEMES" : 0.6844, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081122702", 
+        "RPL_THEMES" : 0.9926, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081124100", 
+        "RPL_THEMES" : 0.5897, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081124700", 
+        "RPL_THEMES" : 0.5654, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081125700", 
+        "RPL_THEMES" : 0.8596, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081126500", 
+        "RPL_THEMES" : 0.632, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081126700", 
+        "RPL_THEMES" : 0.7197, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081127700", 
+        "RPL_THEMES" : 0.156, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081128300", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081129102", 
+        "RPL_THEMES" : 0.3573, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081129103", 
+        "RPL_THEMES" : 0.3979, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081129104", 
+        "RPL_THEMES" : 0.3978, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081130100", 
+        "RPL_THEMES" : 0.3807, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081133300", 
+        "RPL_THEMES" : 0.4911, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081133900", 
+        "RPL_THEMES" : 0.3367, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081134100", 
+        "RPL_THEMES" : 0.512, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081134700", 
+        "RPL_THEMES" : 0.5934, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081136700", 
+        "RPL_THEMES" : 0.6762, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081137700", 
+        "RPL_THEMES" : 0.7043, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081138501", 
+        "RPL_THEMES" : 0.2549, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081138502", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081139900", 
+        "RPL_THEMES" : 0.4157, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081140300", 
+        "RPL_THEMES" : 0.2938, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081140901", 
+        "RPL_THEMES" : 0.3994, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081140902", 
+        "RPL_THEMES" : 0.415, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081141700", 
+        "RPL_THEMES" : 0.391, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081142900", 
+        "RPL_THEMES" : 0.3867, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081143500", 
+        "RPL_THEMES" : 0.2961, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081144100", 
+        "RPL_THEMES" : 0.3546, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081144700", 
+        "RPL_THEMES" : 0.7137, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081145101", 
+        "RPL_THEMES" : 0.5618, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081145102", 
+        "RPL_THEMES" : 0.5883, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081145900", 
+        "RPL_THEMES" : 0.2673, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081146300", 
+        "RPL_THEMES" : 0.63, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081146700", 
+        "RPL_THEMES" : 0.5215, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081147100", 
+        "RPL_THEMES" : 0.556, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081147900", 
+        "RPL_THEMES" : 0.445, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081148300", 
+        "RPL_THEMES" : 0.1472, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081150701", 
+        "RPL_THEMES" : 0.3722, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081150702", 
+        "RPL_THEMES" : 0.6519, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081152901", 
+        "RPL_THEMES" : 0.445, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081152902", 
+        "RPL_THEMES" : 0.5029, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081155101", 
+        "RPL_THEMES" : 0.2812, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081155102", 
+        "RPL_THEMES" : 0.5181, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081156700", 
+        "RPL_THEMES" : 0.936, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081157101", 
+        "RPL_THEMES" : 0.4127, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081157102", 
+        "RPL_THEMES" : 0.4746, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081157901", 
+        "RPL_THEMES" : 0.3115, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081157902", 
+        "RPL_THEMES" : 0.3512, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081157903", 
+        "RPL_THEMES" : 0.59, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081161700", 
+        "RPL_THEMES" : 0.1576, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081162100", 
+        "RPL_THEMES" : 0.7129, 
+        "COUNTY" : "Queens"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36081990100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Queens"
+      }
+    }
+  ]
+}

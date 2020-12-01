@@ -1,0 +1,1526 @@
+{
+  "type" : "FeatureCollection", 
+  "features" : [
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245000100", 
+        "RPL_THEMES" : 0.5748, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245000200", 
+        "RPL_THEMES" : 0.8714, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245000300", 
+        "RPL_THEMES" : 0.9228, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245000600", 
+        "RPL_THEMES" : 0.9371, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245000700", 
+        "RPL_THEMES" : 0.9447, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245000900", 
+        "RPL_THEMES" : 0.8808, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001000", 
+        "RPL_THEMES" : 0.6813, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001100", 
+        "RPL_THEMES" : 0.1826, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001200", 
+        "RPL_THEMES" : 0.6338, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001300", 
+        "RPL_THEMES" : 0.5919, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001400", 
+        "RPL_THEMES" : 0.9146, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001500", 
+        "RPL_THEMES" : 0.7695, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001601", 
+        "RPL_THEMES" : 0.8212, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245001602", 
+        "RPL_THEMES" : 0.214, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010101", 
+        "RPL_THEMES" : 0.2692, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010104", 
+        "RPL_THEMES" : 0.3901, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010105", 
+        "RPL_THEMES" : 0.2978, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010106", 
+        "RPL_THEMES" : 0.2777, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010107", 
+        "RPL_THEMES" : 0.1606, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010201", 
+        "RPL_THEMES" : 0.1217, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010203", 
+        "RPL_THEMES" : 0.7676, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010204", 
+        "RPL_THEMES" : 0.755, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010300", 
+        "RPL_THEMES" : 0.9955, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010400", 
+        "RPL_THEMES" : 0.9743, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010504", 
+        "RPL_THEMES" : 0.9807, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010506", 
+        "RPL_THEMES" : 0.9548, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010507", 
+        "RPL_THEMES" : 0.8372, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010508", 
+        "RPL_THEMES" : 0.8127, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010509", 
+        "RPL_THEMES" : 0.7777, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010510", 
+        "RPL_THEMES" : 0.7921, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010511", 
+        "RPL_THEMES" : 0.9333, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010512", 
+        "RPL_THEMES" : 0.8617, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010513", 
+        "RPL_THEMES" : 0.6992, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010600", 
+        "RPL_THEMES" : 0.9708, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010706", 
+        "RPL_THEMES" : 0.7543, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010707", 
+        "RPL_THEMES" : 0.6386, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010708", 
+        "RPL_THEMES" : 0.678, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010709", 
+        "RPL_THEMES" : 0.3927, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010710", 
+        "RPL_THEMES" : 0.9466, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010711", 
+        "RPL_THEMES" : 0.7919, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010712", 
+        "RPL_THEMES" : 0.5133, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010800", 
+        "RPL_THEMES" : 0.412, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010903", 
+        "RPL_THEMES" : 0.6688, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010904", 
+        "RPL_THEMES" : 0.604, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010905", 
+        "RPL_THEMES" : 0.7631, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245010906", 
+        "RPL_THEMES" : 0.6609, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "13245011000", 
+        "RPL_THEMES" : 0.7694, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085000300", 
+        "RPL_THEMES" : 0.6549, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085000600", 
+        "RPL_THEMES" : 0.7599, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085000700", 
+        "RPL_THEMES" : 0.9382, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085000800", 
+        "RPL_THEMES" : 0.5587, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085000900", 
+        "RPL_THEMES" : 0.73, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085001100", 
+        "RPL_THEMES" : 0.8136, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085001700", 
+        "RPL_THEMES" : 0.7981, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085001800", 
+        "RPL_THEMES" : 0.3043, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085002001", 
+        "RPL_THEMES" : 0.7336, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085002002", 
+        "RPL_THEMES" : 0.6178, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085002100", 
+        "RPL_THEMES" : 0.887, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085002700", 
+        "RPL_THEMES" : 0.9889, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085002900", 
+        "RPL_THEMES" : 0.9167, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085003300", 
+        "RPL_THEMES" : 0.5673, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085003600", 
+        "RPL_THEMES" : 0.406, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085003900", 
+        "RPL_THEMES" : 0.5887, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085004000", 
+        "RPL_THEMES" : 0.9441, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085004700", 
+        "RPL_THEMES" : 0.375, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085005000", 
+        "RPL_THEMES" : 0.6378, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085005900", 
+        "RPL_THEMES" : 0.3105, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085006400", 
+        "RPL_THEMES" : 0.9232, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085006700", 
+        "RPL_THEMES" : 0.2564, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085007000", 
+        "RPL_THEMES" : 0.6118, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085007400", 
+        "RPL_THEMES" : 0.7225, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085007500", 
+        "RPL_THEMES" : 0.8191, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085007700", 
+        "RPL_THEMES" : 0.8958, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085008100", 
+        "RPL_THEMES" : 0.9712, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085009601", 
+        "RPL_THEMES" : 0.5081, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085009602", 
+        "RPL_THEMES" : 0.5675, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085009700", 
+        "RPL_THEMES" : 0.4727, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085010500", 
+        "RPL_THEMES" : 0.7703, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085011201", 
+        "RPL_THEMES" : 0.3762, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085011202", 
+        "RPL_THEMES" : 0.4913, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085011401", 
+        "RPL_THEMES" : 0.8685, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085011402", 
+        "RPL_THEMES" : 0.3641, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085012100", 
+        "RPL_THEMES" : 0.3562, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085012200", 
+        "RPL_THEMES" : 0.2083, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085012500", 
+        "RPL_THEMES" : 0.6551, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085012804", 
+        "RPL_THEMES" : 0.3996, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085012805", 
+        "RPL_THEMES" : 0.2843, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085012806", 
+        "RPL_THEMES" : 0.5546, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085013201", 
+        "RPL_THEMES" : 0.2301, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085013203", 
+        "RPL_THEMES" : 0.3201, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085013204", 
+        "RPL_THEMES" : 0.2442, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085013301", 
+        "RPL_THEMES" : 0.9874, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085013302", 
+        "RPL_THEMES" : 0.8656, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085013400", 
+        "RPL_THEMES" : 0.3771, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085013800", 
+        "RPL_THEMES" : 0.4339, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085014100", 
+        "RPL_THEMES" : 0.6593, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085014604", 
+        "RPL_THEMES" : 0.3062, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085014605", 
+        "RPL_THEMES" : 0.1964, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085014606", 
+        "RPL_THEMES" : 0.1059, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085014607", 
+        "RPL_THEMES" : 0.3439, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085014608", 
+        "RPL_THEMES" : 0.293, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085014700", 
+        "RPL_THEMES" : 0.0902, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085015100", 
+        "RPL_THEMES" : 0.2703, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085015400", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085015601", 
+        "RPL_THEMES" : 0.2867, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085015602", 
+        "RPL_THEMES" : 0.0495, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085015603", 
+        "RPL_THEMES" : 0.3058, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085016901", 
+        "RPL_THEMES" : 0.4098, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017005", 
+        "RPL_THEMES" : 0.2072, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017007", 
+        "RPL_THEMES" : 0.3009, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017008", 
+        "RPL_THEMES" : 0.097, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017009", 
+        "RPL_THEMES" : 0.1401, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017010", 
+        "RPL_THEMES" : 0.1953, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017011", 
+        "RPL_THEMES" : 0.3783, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017012", 
+        "RPL_THEMES" : 0.2118, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017300", 
+        "RPL_THEMES" : 0.9047, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017600", 
+        "RPL_THEMES" : 0.159, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085017700", 
+        "RPL_THEMES" : 0.1773, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085018100", 
+        "RPL_THEMES" : 0.4219, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085018701", 
+        "RPL_THEMES" : 0.4675, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085018702", 
+        "RPL_THEMES" : 0.6038, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085018901", 
+        "RPL_THEMES" : 0.4589, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085018902", 
+        "RPL_THEMES" : 0.5738, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085019700", 
+        "RPL_THEMES" : 0.0727, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085019800", 
+        "RPL_THEMES" : 0.2184, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085020100", 
+        "RPL_THEMES" : 0.3188, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085020700", 
+        "RPL_THEMES" : 0.7574, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085020801", 
+        "RPL_THEMES" : 0.2994, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085020803", 
+        "RPL_THEMES" : 0.1704, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085020804", 
+        "RPL_THEMES" : 0.0913, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085021300", 
+        "RPL_THEMES" : 0.7212, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085022300", 
+        "RPL_THEMES" : 0.7859, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085022600", 
+        "RPL_THEMES" : 0.2455, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085022800", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085023100", 
+        "RPL_THEMES" : 0.6984, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085023900", 
+        "RPL_THEMES" : 0.7721, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085024401", 
+        "RPL_THEMES" : 0.1406, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085024402", 
+        "RPL_THEMES" : 0.2347, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085024700", 
+        "RPL_THEMES" : 0.658, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085024800", 
+        "RPL_THEMES" : 0.2694, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085025100", 
+        "RPL_THEMES" : 0.0842, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085027301", 
+        "RPL_THEMES" : 0.5011, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085027302", 
+        "RPL_THEMES" : 0.386, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085027702", 
+        "RPL_THEMES" : 0.6277, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085027704", 
+        "RPL_THEMES" : 0.2611, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085027705", 
+        "RPL_THEMES" : 0.4059, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085027706", 
+        "RPL_THEMES" : 0.4377, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085027900", 
+        "RPL_THEMES" : 0.3786, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085029102", 
+        "RPL_THEMES" : 0.6165, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085029103", 
+        "RPL_THEMES" : 0.4189, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085029104", 
+        "RPL_THEMES" : 0.3931, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085030301", 
+        "RPL_THEMES" : 0.428, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085030302", 
+        "RPL_THEMES" : 0.5113, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085031901", 
+        "RPL_THEMES" : 0.9625, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085031902", 
+        "RPL_THEMES" : 0.9183, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36085032300", 
+        "RPL_THEMES" : 0.5075, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970100", 
+        "RPL_THEMES" : 0.8061, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970200", 
+        "RPL_THEMES" : 0.7779, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970300", 
+        "RPL_THEMES" : 0.7508, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970400", 
+        "RPL_THEMES" : 0.4864, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970500", 
+        "RPL_THEMES" : 0.7525, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970600", 
+        "RPL_THEMES" : 0.9964, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970700", 
+        "RPL_THEMES" : 0.9418, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970800", 
+        "RPL_THEMES" : 0.6898, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153970900", 
+        "RPL_THEMES" : 0.696, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153971000", 
+        "RPL_THEMES" : 0.9082, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "37153971100", 
+        "RPL_THEMES" : 0.9082, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "51159040100", 
+        "RPL_THEMES" : 0.6738, 
+        "COUNTY" : "Richmond"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "51159040200", 
+        "RPL_THEMES" : 0.5659, 
+        "COUNTY" : "Richmond"
+      }
+    }
+  ]
+}

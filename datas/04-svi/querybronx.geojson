@@ -1,0 +1,3056 @@
+{
+  "type" : "FeatureCollection", 
+  "features" : [
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005000100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005000200", 
+        "RPL_THEMES" : 0.9544, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005000400", 
+        "RPL_THEMES" : 0.6322, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005001600", 
+        "RPL_THEMES" : 0.9761, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005001900", 
+        "RPL_THEMES" : 0.9752, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005002000", 
+        "RPL_THEMES" : 0.971, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005002300", 
+        "RPL_THEMES" : 0.9954, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005002400", 
+        "RPL_THEMES" : 0.106, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005002500", 
+        "RPL_THEMES" : 0.9772, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005002701", 
+        "RPL_THEMES" : 0.9814, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005002702", 
+        "RPL_THEMES" : 0.9993, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005002800", 
+        "RPL_THEMES" : 0.8002, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005003100", 
+        "RPL_THEMES" : 0.8268, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005003300", 
+        "RPL_THEMES" : 0.9853, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005003500", 
+        "RPL_THEMES" : 0.9916, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005003700", 
+        "RPL_THEMES" : 0.7221, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005003800", 
+        "RPL_THEMES" : 0.8665, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005003900", 
+        "RPL_THEMES" : 0.9838, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005004001", 
+        "RPL_THEMES" : 0.848, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005004100", 
+        "RPL_THEMES" : 0.9949, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005004200", 
+        "RPL_THEMES" : 0.9496, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005004300", 
+        "RPL_THEMES" : 0.9965, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005004400", 
+        "RPL_THEMES" : 1, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005004600", 
+        "RPL_THEMES" : 0.989, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005004800", 
+        "RPL_THEMES" : 0.9608, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005001", 
+        "RPL_THEMES" : 0.9993, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005002", 
+        "RPL_THEMES" : 0.9965, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005100", 
+        "RPL_THEMES" : 0.9979, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005200", 
+        "RPL_THEMES" : 0.9201, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005300", 
+        "RPL_THEMES" : 0.9849, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005400", 
+        "RPL_THEMES" : 0.9702, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005600", 
+        "RPL_THEMES" : 0.9933, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005005902", 
+        "RPL_THEMES" : 0.8897, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006000", 
+        "RPL_THEMES" : 0.9416, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006100", 
+        "RPL_THEMES" : 0.6507, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006200", 
+        "RPL_THEMES" : 0.9989, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006300", 
+        "RPL_THEMES" : 0.9708, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006400", 
+        "RPL_THEMES" : 0.9517, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006500", 
+        "RPL_THEMES" : 0.9945, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006700", 
+        "RPL_THEMES" : 0.9863, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006800", 
+        "RPL_THEMES" : 0.9353, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005006900", 
+        "RPL_THEMES" : 0.9881, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007000", 
+        "RPL_THEMES" : 0.9467, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007100", 
+        "RPL_THEMES" : 0.9581, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007200", 
+        "RPL_THEMES" : 0.9129, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007300", 
+        "RPL_THEMES" : 0.9939, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007400", 
+        "RPL_THEMES" : 0.8427, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007500", 
+        "RPL_THEMES" : 0.9914, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007600", 
+        "RPL_THEMES" : 0.9434, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007700", 
+        "RPL_THEMES" : 0.9939, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007800", 
+        "RPL_THEMES" : 0.9731, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005007900", 
+        "RPL_THEMES" : 0.9986, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005008300", 
+        "RPL_THEMES" : 0.9856, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005008400", 
+        "RPL_THEMES" : 0.6015, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005008500", 
+        "RPL_THEMES" : 0.9943, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005008600", 
+        "RPL_THEMES" : 0.9719, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005008700", 
+        "RPL_THEMES" : 0.9882, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005008900", 
+        "RPL_THEMES" : 0.9906, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005009000", 
+        "RPL_THEMES" : 0.9801, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005009200", 
+        "RPL_THEMES" : 0.9068, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005009300", 
+        "RPL_THEMES" : 0.9854, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005009600", 
+        "RPL_THEMES" : 0.9994, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005009800", 
+        "RPL_THEMES" : 0.8537, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005011000", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005011502", 
+        "RPL_THEMES" : 0.9956, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005011700", 
+        "RPL_THEMES" : 0.985, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005011800", 
+        "RPL_THEMES" : 0.4607, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005011900", 
+        "RPL_THEMES" : 0.9891, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005012101", 
+        "RPL_THEMES" : 0.9847, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005012102", 
+        "RPL_THEMES" : 0.9471, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005012300", 
+        "RPL_THEMES" : 0.9795, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005012500", 
+        "RPL_THEMES" : 0.9783, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005012701", 
+        "RPL_THEMES" : 0.9524, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005012901", 
+        "RPL_THEMES" : 0.9967, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005013000", 
+        "RPL_THEMES" : 0.3229, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005013100", 
+        "RPL_THEMES" : 0.9917, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005013200", 
+        "RPL_THEMES" : 0.4321, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005013300", 
+        "RPL_THEMES" : 0.9923, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005013500", 
+        "RPL_THEMES" : 0.975, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005013800", 
+        "RPL_THEMES" : 0.7491, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005014100", 
+        "RPL_THEMES" : 0.9866, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005014300", 
+        "RPL_THEMES" : 0.9574, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005014400", 
+        "RPL_THEMES" : 0.9908, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005014500", 
+        "RPL_THEMES" : 0.9957, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005014701", 
+        "RPL_THEMES" : 0.9996, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005014702", 
+        "RPL_THEMES" : 0.9661, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005014900", 
+        "RPL_THEMES" : 0.9973, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005015100", 
+        "RPL_THEMES" : 0.9924, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005015200", 
+        "RPL_THEMES" : 0.7186, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005015300", 
+        "RPL_THEMES" : 0.9628, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005015500", 
+        "RPL_THEMES" : 0.9837, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005015700", 
+        "RPL_THEMES" : 0.9839, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005015800", 
+        "RPL_THEMES" : 0.8527, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005015900", 
+        "RPL_THEMES" : 0.9664, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016000", 
+        "RPL_THEMES" : 0.5998, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016100", 
+        "RPL_THEMES" : 0.9907, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016200", 
+        "RPL_THEMES" : 0.6862, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016300", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016400", 
+        "RPL_THEMES" : 0.5942, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016500", 
+        "RPL_THEMES" : 0.9291, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016600", 
+        "RPL_THEMES" : 0.6852, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016700", 
+        "RPL_THEMES" : 0.9995, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005016900", 
+        "RPL_THEMES" : 0.9956, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005017100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005017300", 
+        "RPL_THEMES" : 0.9903, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005017500", 
+        "RPL_THEMES" : 0.9961, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005017701", 
+        "RPL_THEMES" : 0.9984, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005017702", 
+        "RPL_THEMES" : 0.9914, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005017901", 
+        "RPL_THEMES" : 0.9849, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005017902", 
+        "RPL_THEMES" : 0.9819, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005018101", 
+        "RPL_THEMES" : 0.9822, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005018102", 
+        "RPL_THEMES" : 0.9973, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005018301", 
+        "RPL_THEMES" : 0.9142, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005018302", 
+        "RPL_THEMES" : 0.9195, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005018400", 
+        "RPL_THEMES" : 0.5738, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005018500", 
+        "RPL_THEMES" : 0.9977, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005018900", 
+        "RPL_THEMES" : 0.9892, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005019300", 
+        "RPL_THEMES" : 0.9825, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005019400", 
+        "RPL_THEMES" : 0.9067, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005019500", 
+        "RPL_THEMES" : 0.9933, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005019700", 
+        "RPL_THEMES" : 0.9455, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005019900", 
+        "RPL_THEMES" : 0.9652, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020000", 
+        "RPL_THEMES" : 0.961, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020100", 
+        "RPL_THEMES" : 0.9932, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020200", 
+        "RPL_THEMES" : 0.9536, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020400", 
+        "RPL_THEMES" : 0.86, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020501", 
+        "RPL_THEMES" : 0.9923, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020502", 
+        "RPL_THEMES" : 0.9998, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020601", 
+        "RPL_THEMES" : 0.8212, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005020900", 
+        "RPL_THEMES" : 0.8615, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021001", 
+        "RPL_THEMES" : 0.7984, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021002", 
+        "RPL_THEMES" : 0.7799, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021100", 
+        "RPL_THEMES" : 0.9938, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021200", 
+        "RPL_THEMES" : 0.7734, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021301", 
+        "RPL_THEMES" : 0.9461, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021302", 
+        "RPL_THEMES" : 0.9801, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021501", 
+        "RPL_THEMES" : 0.997, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021502", 
+        "RPL_THEMES" : 0.9968, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021601", 
+        "RPL_THEMES" : 0.9623, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021602", 
+        "RPL_THEMES" : 0.8554, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021700", 
+        "RPL_THEMES" : 0.9966, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021800", 
+        "RPL_THEMES" : 0.9777, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005021900", 
+        "RPL_THEMES" : 0.9862, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022000", 
+        "RPL_THEMES" : 0.9992, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022101", 
+        "RPL_THEMES" : 0.9646, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022102", 
+        "RPL_THEMES" : 0.9831, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022200", 
+        "RPL_THEMES" : 0.9079, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022300", 
+        "RPL_THEMES" : 0.9665, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022401", 
+        "RPL_THEMES" : 0.8466, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022403", 
+        "RPL_THEMES" : 0.9051, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022404", 
+        "RPL_THEMES" : 0.7616, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022500", 
+        "RPL_THEMES" : 0.9927, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022701", 
+        "RPL_THEMES" : 0.9976, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022702", 
+        "RPL_THEMES" : 0.9284, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022703", 
+        "RPL_THEMES" : 0.925, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022800", 
+        "RPL_THEMES" : 0.8968, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022901", 
+        "RPL_THEMES" : 0.958, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005022902", 
+        "RPL_THEMES" : 0.9981, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023000", 
+        "RPL_THEMES" : 0.9124, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023100", 
+        "RPL_THEMES" : 0.9944, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023200", 
+        "RPL_THEMES" : 0.9806, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023301", 
+        "RPL_THEMES" : 0.9755, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023302", 
+        "RPL_THEMES" : 0.9975, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023501", 
+        "RPL_THEMES" : 0.9641, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023502", 
+        "RPL_THEMES" : 0.9913, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023600", 
+        "RPL_THEMES" : 0.9942, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023702", 
+        "RPL_THEMES" : 0.9951, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023703", 
+        "RPL_THEMES" : 0.9963, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023704", 
+        "RPL_THEMES" : 0.9969, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023800", 
+        "RPL_THEMES" : 0.8445, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005023900", 
+        "RPL_THEMES" : 0.9905, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024000", 
+        "RPL_THEMES" : 0.8784, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024100", 
+        "RPL_THEMES" : 0.987, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024300", 
+        "RPL_THEMES" : 0.9864, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024400", 
+        "RPL_THEMES" : 0.7408, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024501", 
+        "RPL_THEMES" : 0.9998, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024502", 
+        "RPL_THEMES" : 0.9964, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024600", 
+        "RPL_THEMES" : 0.7585, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024700", 
+        "RPL_THEMES" : 0.9157, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024800", 
+        "RPL_THEMES" : 0.7327, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005024900", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025000", 
+        "RPL_THEMES" : 0.7341, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025100", 
+        "RPL_THEMES" : 0.9852, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025200", 
+        "RPL_THEMES" : 0.6415, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025300", 
+        "RPL_THEMES" : 0.9933, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025400", 
+        "RPL_THEMES" : 0.7795, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025500", 
+        "RPL_THEMES" : 0.9879, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025600", 
+        "RPL_THEMES" : 0.9296, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005025700", 
+        "RPL_THEMES" : 0.7722, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026100", 
+        "RPL_THEMES" : 0.6455, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026300", 
+        "RPL_THEMES" : 0.9991, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026400", 
+        "RPL_THEMES" : 0.7499, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026500", 
+        "RPL_THEMES" : 0.9918, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026601", 
+        "RPL_THEMES" : 0.7517, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026602", 
+        "RPL_THEMES" : 0.9321, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026701", 
+        "RPL_THEMES" : 0.8901, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026702", 
+        "RPL_THEMES" : 0.9688, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005026900", 
+        "RPL_THEMES" : 0.9717, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005027300", 
+        "RPL_THEMES" : 0.9975, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005027401", 
+        "RPL_THEMES" : 0.4315, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005027402", 
+        "RPL_THEMES" : 0.5562, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005027600", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005027700", 
+        "RPL_THEMES" : 0.9826, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005027900", 
+        "RPL_THEMES" : 0.9432, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028100", 
+        "RPL_THEMES" : 0.7916, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028300", 
+        "RPL_THEMES" : 0.9876, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028400", 
+        "RPL_THEMES" : 0.8607, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028500", 
+        "RPL_THEMES" : 0.6686, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028600", 
+        "RPL_THEMES" : 0.3769, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028700", 
+        "RPL_THEMES" : 0.7957, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028800", 
+        "RPL_THEMES" : 0.5798, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005028900", 
+        "RPL_THEMES" : 0.9326, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005029301", 
+        "RPL_THEMES" : 0.3865, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005029302", 
+        "RPL_THEMES" : 0.5445, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005029500", 
+        "RPL_THEMES" : 0.5736, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005029600", 
+        "RPL_THEMES" : 0.6058, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005029700", 
+        "RPL_THEMES" : 0.6679, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005030000", 
+        "RPL_THEMES" : 0.5821, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005030100", 
+        "RPL_THEMES" : 0.5571, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005030200", 
+        "RPL_THEMES" : 0.829, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005030701", 
+        "RPL_THEMES" : 0.4262, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005030900", 
+        "RPL_THEMES" : 0.6178, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005031000", 
+        "RPL_THEMES" : 0.6914, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005031200", 
+        "RPL_THEMES" : 0.6178, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005031400", 
+        "RPL_THEMES" : 0.6994, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005031600", 
+        "RPL_THEMES" : 0.6261, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005031800", 
+        "RPL_THEMES" : 0.6979, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005031900", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005032300", 
+        "RPL_THEMES" : 0.5623, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005032400", 
+        "RPL_THEMES" : 0.9877, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005032600", 
+        "RPL_THEMES" : 0.7868, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005032800", 
+        "RPL_THEMES" : 0.9893, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033000", 
+        "RPL_THEMES" : 0.8587, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033201", 
+        "RPL_THEMES" : 0.9613, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033202", 
+        "RPL_THEMES" : 0.9928, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033400", 
+        "RPL_THEMES" : 0.2023, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033500", 
+        "RPL_THEMES" : 0.4019, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033600", 
+        "RPL_THEMES" : 0.9439, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033700", 
+        "RPL_THEMES" : 0.6083, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005033800", 
+        "RPL_THEMES" : 0.9464, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005034000", 
+        "RPL_THEMES" : 0.9297, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005034200", 
+        "RPL_THEMES" : 0.8152, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005034300", 
+        "RPL_THEMES" : 0.8471, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005034400", 
+        "RPL_THEMES" : 0.7353, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005034500", 
+        "RPL_THEMES" : 0.8346, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005034800", 
+        "RPL_THEMES" : 0.9427, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005035000", 
+        "RPL_THEMES" : 0.4451, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005035100", 
+        "RPL_THEMES" : 0.659, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005035600", 
+        "RPL_THEMES" : 0.5187, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005035800", 
+        "RPL_THEMES" : 0.7095, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005035900", 
+        "RPL_THEMES" : 0.9932, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036000", 
+        "RPL_THEMES" : 0.7842, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036100", 
+        "RPL_THEMES" : 0.9931, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036300", 
+        "RPL_THEMES" : 0.997, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036400", 
+        "RPL_THEMES" : 0.6525, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036501", 
+        "RPL_THEMES" : 0.9994, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036502", 
+        "RPL_THEMES" : 0.9913, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036700", 
+        "RPL_THEMES" : 0.9954, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036800", 
+        "RPL_THEMES" : 0.9377, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036901", 
+        "RPL_THEMES" : 0.9984, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005036902", 
+        "RPL_THEMES" : 0.9991, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037000", 
+        "RPL_THEMES" : 0.7673, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037100", 
+        "RPL_THEMES" : 0.9863, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037200", 
+        "RPL_THEMES" : 0.9437, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037300", 
+        "RPL_THEMES" : 0.9972, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037400", 
+        "RPL_THEMES" : 0.9515, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037504", 
+        "RPL_THEMES" : 0.9994, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037600", 
+        "RPL_THEMES" : 0.9764, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037800", 
+        "RPL_THEMES" : 0.9824, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005037900", 
+        "RPL_THEMES" : 0.9961, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038000", 
+        "RPL_THEMES" : 0.9699, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038100", 
+        "RPL_THEMES" : 0.9805, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038200", 
+        "RPL_THEMES" : 0.9248, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038301", 
+        "RPL_THEMES" : 0.9931, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038302", 
+        "RPL_THEMES" : 0.9989, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038500", 
+        "RPL_THEMES" : 0.9983, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038600", 
+        "RPL_THEMES" : 0.86, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038700", 
+        "RPL_THEMES" : 0.9796, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038800", 
+        "RPL_THEMES" : 0.9379, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005038900", 
+        "RPL_THEMES" : 0.985, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039000", 
+        "RPL_THEMES" : 0.8466, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039100", 
+        "RPL_THEMES" : 0.9677, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039200", 
+        "RPL_THEMES" : 0.92, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039300", 
+        "RPL_THEMES" : 0.9998, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039400", 
+        "RPL_THEMES" : 0.984, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039500", 
+        "RPL_THEMES" : 0.9981, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039600", 
+        "RPL_THEMES" : 0.9805, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039700", 
+        "RPL_THEMES" : 0.8218, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039800", 
+        "RPL_THEMES" : 0.5294, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039901", 
+        "RPL_THEMES" : 0.9985, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005039902", 
+        "RPL_THEMES" : 0.9973, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040100", 
+        "RPL_THEMES" : 0.9723, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040302", 
+        "RPL_THEMES" : 0.9879, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040303", 
+        "RPL_THEMES" : 0.9972, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040304", 
+        "RPL_THEMES" : 0.9676, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040400", 
+        "RPL_THEMES" : 0.6814, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040501", 
+        "RPL_THEMES" : 0.9634, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040502", 
+        "RPL_THEMES" : 0.919, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040600", 
+        "RPL_THEMES" : 0.962, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040701", 
+        "RPL_THEMES" : 0.9041, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040702", 
+        "RPL_THEMES" : 0.9901, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040800", 
+        "RPL_THEMES" : 0.9454, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005040900", 
+        "RPL_THEMES" : 0.7343, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005041100", 
+        "RPL_THEMES" : 0.8942, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005041300", 
+        "RPL_THEMES" : 0.951, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005041400", 
+        "RPL_THEMES" : 0.8622, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005041500", 
+        "RPL_THEMES" : 0.8817, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005041800", 
+        "RPL_THEMES" : 0.8986, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005041900", 
+        "RPL_THEMES" : 0.9741, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042000", 
+        "RPL_THEMES" : 0.987, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042100", 
+        "RPL_THEMES" : 0.9832, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042200", 
+        "RPL_THEMES" : 0.8658, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042300", 
+        "RPL_THEMES" : 0.9813, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042400", 
+        "RPL_THEMES" : 0.7626, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042500", 
+        "RPL_THEMES" : 0.9737, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042600", 
+        "RPL_THEMES" : 0.5118, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042800", 
+        "RPL_THEMES" : 0.4374, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042901", 
+        "RPL_THEMES" : 0.9351, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005042902", 
+        "RPL_THEMES" : 0.9907, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005043000", 
+        "RPL_THEMES" : 0.8861, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005043100", 
+        "RPL_THEMES" : 0.9997, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005043400", 
+        "RPL_THEMES" : 0.9547, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005043500", 
+        "RPL_THEMES" : 0.9873, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005043600", 
+        "RPL_THEMES" : 0.6131, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005044200", 
+        "RPL_THEMES" : 0.9017, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005044400", 
+        "RPL_THEMES" : 0.756, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005044800", 
+        "RPL_THEMES" : 0.2604, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005044901", 
+        "RPL_THEMES" : 0.426, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005044902", 
+        "RPL_THEMES" : 0.5925, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005045101", 
+        "RPL_THEMES" : 0.3088, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005045102", 
+        "RPL_THEMES" : 0.5107, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005045600", 
+        "RPL_THEMES" : 0.6865, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005045800", 
+        "RPL_THEMES" : 0.9894, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005046000", 
+        "RPL_THEMES" : 0.9915, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005046201", 
+        "RPL_THEMES" : 0.8603, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005046202", 
+        "RPL_THEMES" : 0.9936, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005048400", 
+        "RPL_THEMES" : 0.6494, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005050400", 
+        "RPL_THEMES" : 0.799, 
+        "COUNTY" : "Bronx"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36005051600", 
+        "RPL_THEMES" : 0.4588, 
+        "COUNTY" : "Bronx"
+      }
+    }
+  ]
+}

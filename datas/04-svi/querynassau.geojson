@@ -1,0 +1,2624 @@
+{
+  "type" : "FeatureCollection", 
+  "features" : [
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050101", 
+        "RPL_THEMES" : 0.5558, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050102", 
+        "RPL_THEMES" : 0.1764, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050201", 
+        "RPL_THEMES" : 0.0473, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050202", 
+        "RPL_THEMES" : 0.166, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050203", 
+        "RPL_THEMES" : 0.1709, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050301", 
+        "RPL_THEMES" : 0.5561, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050302", 
+        "RPL_THEMES" : 0.6226, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050303", 
+        "RPL_THEMES" : 0.3071, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050400", 
+        "RPL_THEMES" : 0.6402, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050502", 
+        "RPL_THEMES" : 0.1837, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050503", 
+        "RPL_THEMES" : 0.6033, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "12089050504", 
+        "RPL_THEMES" : 0.1538, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300100", 
+        "RPL_THEMES" : 0.0958, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300300", 
+        "RPL_THEMES" : 0.6713, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300400", 
+        "RPL_THEMES" : 0.3875, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300500", 
+        "RPL_THEMES" : 0.2784, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300600", 
+        "RPL_THEMES" : 0.3747, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300700", 
+        "RPL_THEMES" : 0.4784, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300800", 
+        "RPL_THEMES" : 0.4065, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059300900", 
+        "RPL_THEMES" : 0.2656, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301000", 
+        "RPL_THEMES" : 0.3384, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301101", 
+        "RPL_THEMES" : 0.4664, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301102", 
+        "RPL_THEMES" : 0.3087, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301200", 
+        "RPL_THEMES" : 0.1676, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301300", 
+        "RPL_THEMES" : 0.5654, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301400", 
+        "RPL_THEMES" : 0.0204, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301500", 
+        "RPL_THEMES" : 0.0172, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301600", 
+        "RPL_THEMES" : 0.1644, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301700", 
+        "RPL_THEMES" : 0.0269, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301800", 
+        "RPL_THEMES" : 0.546, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059301900", 
+        "RPL_THEMES" : 0.0108, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302000", 
+        "RPL_THEMES" : 0.3228, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302101", 
+        "RPL_THEMES" : 0.0195, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302102", 
+        "RPL_THEMES" : 0.0403, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302200", 
+        "RPL_THEMES" : 0.6045, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302300", 
+        "RPL_THEMES" : 0.0932, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302400", 
+        "RPL_THEMES" : 0.1289, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302501", 
+        "RPL_THEMES" : 0.0373, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302502", 
+        "RPL_THEMES" : 0.1154, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302600", 
+        "RPL_THEMES" : 0.1505, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302700", 
+        "RPL_THEMES" : 0.3199, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302800", 
+        "RPL_THEMES" : 0.2022, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059302900", 
+        "RPL_THEMES" : 0.1296, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303000", 
+        "RPL_THEMES" : 0.3115, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303101", 
+        "RPL_THEMES" : 0.0713, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303102", 
+        "RPL_THEMES" : 0.1127, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303201", 
+        "RPL_THEMES" : 0.1947, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303202", 
+        "RPL_THEMES" : 0.3487, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303301", 
+        "RPL_THEMES" : 0.4145, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303302", 
+        "RPL_THEMES" : 0.2652, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303400", 
+        "RPL_THEMES" : 0.0509, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303500", 
+        "RPL_THEMES" : 0.189, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303600", 
+        "RPL_THEMES" : 0.3215, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303700", 
+        "RPL_THEMES" : 0.1315, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303800", 
+        "RPL_THEMES" : 0.3865, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059303900", 
+        "RPL_THEMES" : 0.1101, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059304001", 
+        "RPL_THEMES" : 0.0706, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059304002", 
+        "RPL_THEMES" : 0.6414, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059304100", 
+        "RPL_THEMES" : 0.8621, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059304202", 
+        "RPL_THEMES" : 0.5129, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059304203", 
+        "RPL_THEMES" : 0.7535, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059304204", 
+        "RPL_THEMES" : 0.7798, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404300", 
+        "RPL_THEMES" : 0.1135, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404400", 
+        "RPL_THEMES" : 0.1369, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404500", 
+        "RPL_THEMES" : 0.1417, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404600", 
+        "RPL_THEMES" : 0.0857, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404700", 
+        "RPL_THEMES" : 0.1387, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404800", 
+        "RPL_THEMES" : 0.5627, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404901", 
+        "RPL_THEMES" : 0.2296, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059404902", 
+        "RPL_THEMES" : 0.6592, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405000", 
+        "RPL_THEMES" : 0.4983, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405100", 
+        "RPL_THEMES" : 0.149, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405200", 
+        "RPL_THEMES" : 0.3684, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405301", 
+        "RPL_THEMES" : 0.2925, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405302", 
+        "RPL_THEMES" : 0.2607, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405400", 
+        "RPL_THEMES" : 0.5839, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405500", 
+        "RPL_THEMES" : 0.2018, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405600", 
+        "RPL_THEMES" : 0.2348, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405700", 
+        "RPL_THEMES" : 0.0748, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405800", 
+        "RPL_THEMES" : 0.1198, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059405900", 
+        "RPL_THEMES" : 0.0901, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406001", 
+        "RPL_THEMES" : 0.4647, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406002", 
+        "RPL_THEMES" : 0.4914, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406100", 
+        "RPL_THEMES" : 0.0913, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406201", 
+        "RPL_THEMES" : 0.4063, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406202", 
+        "RPL_THEMES" : 0.577, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406300", 
+        "RPL_THEMES" : 0.0513, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406400", 
+        "RPL_THEMES" : 0.0558, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406501", 
+        "RPL_THEMES" : 0.0965, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406600", 
+        "RPL_THEMES" : 0.0121, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406701", 
+        "RPL_THEMES" : 0.8852, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406702", 
+        "RPL_THEMES" : 0.9272, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406801", 
+        "RPL_THEMES" : 0.8849, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406802", 
+        "RPL_THEMES" : 0.8072, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059406900", 
+        "RPL_THEMES" : 0.8908, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407000", 
+        "RPL_THEMES" : 0.8752, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407101", 
+        "RPL_THEMES" : 0.7185, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407102", 
+        "RPL_THEMES" : 0.5937, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407201", 
+        "RPL_THEMES" : 0.9449, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407203", 
+        "RPL_THEMES" : 0.6646, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407204", 
+        "RPL_THEMES" : 0.7776, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407301", 
+        "RPL_THEMES" : 0.4855, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407302", 
+        "RPL_THEMES" : 0.5708, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407401", 
+        "RPL_THEMES" : 0.7493, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407402", 
+        "RPL_THEMES" : 0.7926, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407501", 
+        "RPL_THEMES" : 0.7613, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407502", 
+        "RPL_THEMES" : 0.5283, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407600", 
+        "RPL_THEMES" : 0.2873, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407700", 
+        "RPL_THEMES" : 0.1903, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407801", 
+        "RPL_THEMES" : 0.1803, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407802", 
+        "RPL_THEMES" : 0.7206, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059407900", 
+        "RPL_THEMES" : 0.5117, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408000", 
+        "RPL_THEMES" : 0.1347, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408100", 
+        "RPL_THEMES" : 0.3158, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408200", 
+        "RPL_THEMES" : 0.0993, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408300", 
+        "RPL_THEMES" : 0.1673, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408400", 
+        "RPL_THEMES" : 0.141, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408500", 
+        "RPL_THEMES" : 0.0558, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408600", 
+        "RPL_THEMES" : 0.2969, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408700", 
+        "RPL_THEMES" : 0.125, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408800", 
+        "RPL_THEMES" : 0.1066, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059408900", 
+        "RPL_THEMES" : 0.2117, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409000", 
+        "RPL_THEMES" : 0.1599, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409100", 
+        "RPL_THEMES" : 0.0625, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409200", 
+        "RPL_THEMES" : 0.1786, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409300", 
+        "RPL_THEMES" : 0.1853, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409400", 
+        "RPL_THEMES" : 0.1484, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409500", 
+        "RPL_THEMES" : 0.051, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409600", 
+        "RPL_THEMES" : 0.0831, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409700", 
+        "RPL_THEMES" : 0.2254, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409800", 
+        "RPL_THEMES" : 0.2826, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059409900", 
+        "RPL_THEMES" : 0.2462, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410000", 
+        "RPL_THEMES" : 0.4728, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410100", 
+        "RPL_THEMES" : 0.0427, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410200", 
+        "RPL_THEMES" : 0.2612, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410300", 
+        "RPL_THEMES" : 0.5212, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410400", 
+        "RPL_THEMES" : 0.294, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410500", 
+        "RPL_THEMES" : 0.6417, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410600", 
+        "RPL_THEMES" : 0.2923, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410700", 
+        "RPL_THEMES" : 0.4033, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410800", 
+        "RPL_THEMES" : 0.258, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059410900", 
+        "RPL_THEMES" : 0.3613, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411000", 
+        "RPL_THEMES" : 0.6697, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411100", 
+        "RPL_THEMES" : 0.9027, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411200", 
+        "RPL_THEMES" : 0.3897, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411301", 
+        "RPL_THEMES" : 0.2193, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411302", 
+        "RPL_THEMES" : 0.0884, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411400", 
+        "RPL_THEMES" : 0.2237, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411500", 
+        "RPL_THEMES" : 0.0636, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411600", 
+        "RPL_THEMES" : 0.0746, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411700", 
+        "RPL_THEMES" : 0.3684, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411800", 
+        "RPL_THEMES" : 0.2166, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411901", 
+        "RPL_THEMES" : 0.5211, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059411902", 
+        "RPL_THEMES" : 0.0918, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412000", 
+        "RPL_THEMES" : 0.2503, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412100", 
+        "RPL_THEMES" : 0.4779, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412200", 
+        "RPL_THEMES" : 0.1851, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412301", 
+        "RPL_THEMES" : 0.485, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412302", 
+        "RPL_THEMES" : 0.233, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412400", 
+        "RPL_THEMES" : 0.6505, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412500", 
+        "RPL_THEMES" : 0.0739, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412600", 
+        "RPL_THEMES" : 0.0144, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412700", 
+        "RPL_THEMES" : 0.0276, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412800", 
+        "RPL_THEMES" : 0.0342, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059412900", 
+        "RPL_THEMES" : 0.2094, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413001", 
+        "RPL_THEMES" : 0.3356, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413002", 
+        "RPL_THEMES" : 0.1677, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413100", 
+        "RPL_THEMES" : 0.2722, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413200", 
+        "RPL_THEMES" : 0.2877, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413300", 
+        "RPL_THEMES" : 0.062, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413400", 
+        "RPL_THEMES" : 0.0185, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413500", 
+        "RPL_THEMES" : 0.4362, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413600", 
+        "RPL_THEMES" : 0.434, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413700", 
+        "RPL_THEMES" : 0.5096, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413803", 
+        "RPL_THEMES" : 0.2239, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413804", 
+        "RPL_THEMES" : 0.1009, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059413900", 
+        "RPL_THEMES" : 0.845, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414001", 
+        "RPL_THEMES" : 0.497, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414002", 
+        "RPL_THEMES" : 0.6859, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414100", 
+        "RPL_THEMES" : 0.6721, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414201", 
+        "RPL_THEMES" : 0.6974, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414202", 
+        "RPL_THEMES" : 0.8123, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414301", 
+        "RPL_THEMES" : 0.8465, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414303", 
+        "RPL_THEMES" : 0.6956, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414304", 
+        "RPL_THEMES" : 0.8974, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414400", 
+        "RPL_THEMES" : 0.94, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414501", 
+        "RPL_THEMES" : 0.2951, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414502", 
+        "RPL_THEMES" : 0.315, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414600", 
+        "RPL_THEMES" : 0.0407, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414700", 
+        "RPL_THEMES" : 0.0612, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414800", 
+        "RPL_THEMES" : 0.1317, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059414900", 
+        "RPL_THEMES" : 0.2079, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415000", 
+        "RPL_THEMES" : 0.1438, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415101", 
+        "RPL_THEMES" : 0.0437, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415102", 
+        "RPL_THEMES" : 0.0085, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415201", 
+        "RPL_THEMES" : 0.0111, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415202", 
+        "RPL_THEMES" : 0.0301, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415300", 
+        "RPL_THEMES" : 0.3362, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415401", 
+        "RPL_THEMES" : 0.0459, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415402", 
+        "RPL_THEMES" : 0.0384, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415500", 
+        "RPL_THEMES" : 0.0586, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415600", 
+        "RPL_THEMES" : 0.0439, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415700", 
+        "RPL_THEMES" : 0.0784, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059415802", 
+        "RPL_THEMES" : 0.0382, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416000", 
+        "RPL_THEMES" : 0.0937, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416100", 
+        "RPL_THEMES" : 0.0572, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416201", 
+        "RPL_THEMES" : 0.5261, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416202", 
+        "RPL_THEMES" : 0.4358, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416300", 
+        "RPL_THEMES" : 0.0131, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416401", 
+        "RPL_THEMES" : 0.1278, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416402", 
+        "RPL_THEMES" : 0.1439, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416500", 
+        "RPL_THEMES" : 0.805, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416600", 
+        "RPL_THEMES" : 0.3815, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416701", 
+        "RPL_THEMES" : 0.3844, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416702", 
+        "RPL_THEMES" : 0.2619, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416801", 
+        "RPL_THEMES" : 0.1212, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416802", 
+        "RPL_THEMES" : 0.2885, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059416900", 
+        "RPL_THEMES" : 0.1656, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517000", 
+        "RPL_THEMES" : 0.4344, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517101", 
+        "RPL_THEMES" : 0.4109, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517102", 
+        "RPL_THEMES" : 0.2517, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517200", 
+        "RPL_THEMES" : 0.7177, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517301", 
+        "RPL_THEMES" : 0.5887, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517302", 
+        "RPL_THEMES" : 0.5667, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517400", 
+        "RPL_THEMES" : 0.1204, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517500", 
+        "RPL_THEMES" : 0.0158, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517600", 
+        "RPL_THEMES" : 0.0661, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517701", 
+        "RPL_THEMES" : 0.077, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517705", 
+        "RPL_THEMES" : 0.0079, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517801", 
+        "RPL_THEMES" : 0.0558, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517802", 
+        "RPL_THEMES" : 0.1523, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517901", 
+        "RPL_THEMES" : 0.04, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059517902", 
+        "RPL_THEMES" : 0.1034, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518000", 
+        "RPL_THEMES" : 0.3984, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518100", 
+        "RPL_THEMES" : 0.0432, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518201", 
+        "RPL_THEMES" : 0.0799, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518203", 
+        "RPL_THEMES" : 0.2714, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518204", 
+        "RPL_THEMES" : 0.1089, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518300", 
+        "RPL_THEMES" : 0.2275, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518400", 
+        "RPL_THEMES" : 0.1079, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518501", 
+        "RPL_THEMES" : 0.2877, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518502", 
+        "RPL_THEMES" : 0.2567, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518600", 
+        "RPL_THEMES" : 0.0798, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518700", 
+        "RPL_THEMES" : 0.234, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518800", 
+        "RPL_THEMES" : 0.1209, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059518900", 
+        "RPL_THEMES" : 0.2971, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519000", 
+        "RPL_THEMES" : 0.2169, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519100", 
+        "RPL_THEMES" : 0.3799, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519200", 
+        "RPL_THEMES" : 0.1913, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519300", 
+        "RPL_THEMES" : 0.3584, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519400", 
+        "RPL_THEMES" : 0.073, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519500", 
+        "RPL_THEMES" : 0.2486, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519601", 
+        "RPL_THEMES" : 0.1372, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519602", 
+        "RPL_THEMES" : 0.0063, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519702", 
+        "RPL_THEMES" : 0.3301, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519703", 
+        "RPL_THEMES" : 0.0325, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519704", 
+        "RPL_THEMES" : 0.2296, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519801", 
+        "RPL_THEMES" : 0.147, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519802", 
+        "RPL_THEMES" : 0.1054, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059519900", 
+        "RPL_THEMES" : 0.0586, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520001", 
+        "RPL_THEMES" : 0.2576, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520002", 
+        "RPL_THEMES" : 0.2591, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520100", 
+        "RPL_THEMES" : 0.1899, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520200", 
+        "RPL_THEMES" : 0.1219, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520300", 
+        "RPL_THEMES" : 0.1677, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520401", 
+        "RPL_THEMES" : 0.1835, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520402", 
+        "RPL_THEMES" : 0.3993, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520501", 
+        "RPL_THEMES" : 0.0396, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520502", 
+        "RPL_THEMES" : 0.0717, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520600", 
+        "RPL_THEMES" : 0.1019, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520700", 
+        "RPL_THEMES" : 0.0126, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520800", 
+        "RPL_THEMES" : 0.0515, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059520900", 
+        "RPL_THEMES" : 0.0298, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521000", 
+        "RPL_THEMES" : 0.0302, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521100", 
+        "RPL_THEMES" : 0.0174, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521200", 
+        "RPL_THEMES" : 0.0167, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521301", 
+        "RPL_THEMES" : 0.0255, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521302", 
+        "RPL_THEMES" : 0.0346, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521400", 
+        "RPL_THEMES" : 0.0313, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521500", 
+        "RPL_THEMES" : 0.0139, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521601", 
+        "RPL_THEMES" : 0.1009, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521602", 
+        "RPL_THEMES" : 0.0306, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521700", 
+        "RPL_THEMES" : 0.0782, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521801", 
+        "RPL_THEMES" : 0.1497, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521802", 
+        "RPL_THEMES" : 0.1789, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059521902", 
+        "RPL_THEMES" : 0.075, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059522000", 
+        "RPL_THEMES" : 0.2829, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059522700", 
+        "RPL_THEMES" : 0.0783, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059980100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059981100", 
+        "RPL_THEMES" : 0.0531, 
+        "COUNTY" : "Nassau"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36059982100", 
+        "RPL_THEMES" : 0.09, 
+        "COUNTY" : "Nassau"
+      }
+    }
+  ]
+}

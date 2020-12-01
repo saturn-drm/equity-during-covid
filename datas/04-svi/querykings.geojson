@@ -1,0 +1,7097 @@
+{
+  "type" : "FeatureCollection", 
+  "features" : [
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000100", 
+        "RPL_THEMES" : 0.6, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000200", 
+        "RPL_THEMES" : 0.6837, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000300", 
+        "RPL_THEMES" : 0.3344, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000402", 
+        "RPL_THEMES" : 0.658, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000403", 
+        "RPL_THEMES" : 0.7628, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000404", 
+        "RPL_THEMES" : 0.6307, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000405", 
+        "RPL_THEMES" : 0.9063, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000500", 
+        "RPL_THEMES" : 0.8891, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000601", 
+        "RPL_THEMES" : 0.3804, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000602", 
+        "RPL_THEMES" : 0.1519, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000701", 
+        "RPL_THEMES" : 0.3691, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000702", 
+        "RPL_THEMES" : 0.6223, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000800", 
+        "RPL_THEMES" : 0.9394, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031000900", 
+        "RPL_THEMES" : 0.9898, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001001", 
+        "RPL_THEMES" : 0.7418, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001002", 
+        "RPL_THEMES" : 0.968, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001003", 
+        "RPL_THEMES" : 0.8523, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001100", 
+        "RPL_THEMES" : 0.998, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001200", 
+        "RPL_THEMES" : 0.5436, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001300", 
+        "RPL_THEMES" : 0.9984, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001401", 
+        "RPL_THEMES" : 0.912, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001402", 
+        "RPL_THEMES" : 0.9891, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001500", 
+        "RPL_THEMES" : 0.989, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001601", 
+        "RPL_THEMES" : 0.9407, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001602", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031001701", 
+        "RPL_THEMES" : 0.9419, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "06031981800", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047000100", 
+        "RPL_THEMES" : 0.5486, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047000200", 
+        "RPL_THEMES" : 0.9391, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047000301", 
+        "RPL_THEMES" : 0.1861, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047000501", 
+        "RPL_THEMES" : 0.3599, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047000502", 
+        "RPL_THEMES" : 0.3851, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047000700", 
+        "RPL_THEMES" : 0.2159, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047000900", 
+        "RPL_THEMES" : 0.2512, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047001100", 
+        "RPL_THEMES" : 0.1531, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047001300", 
+        "RPL_THEMES" : 0.4539, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047001500", 
+        "RPL_THEMES" : 0.7403, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047001800", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047002000", 
+        "RPL_THEMES" : 0.7786, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047002100", 
+        "RPL_THEMES" : 0.2801, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047002200", 
+        "RPL_THEMES" : 0.9738, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047002300", 
+        "RPL_THEMES" : 0.9929, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047002901", 
+        "RPL_THEMES" : 0.9942, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003000", 
+        "RPL_THEMES" : 0.4968, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003100", 
+        "RPL_THEMES" : 0.6095, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003300", 
+        "RPL_THEMES" : 0.1996, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003400", 
+        "RPL_THEMES" : 0.6904, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003500", 
+        "RPL_THEMES" : 0.585, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003600", 
+        "RPL_THEMES" : 0.5985, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003700", 
+        "RPL_THEMES" : 0.2471, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003800", 
+        "RPL_THEMES" : 0.448, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047003900", 
+        "RPL_THEMES" : 0.3504, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047004100", 
+        "RPL_THEMES" : 0.415, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047004300", 
+        "RPL_THEMES" : 0.3327, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047004400", 
+        "RPL_THEMES" : 0.2244, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047004500", 
+        "RPL_THEMES" : 0.1849, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047004600", 
+        "RPL_THEMES" : 0.2591, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047004700", 
+        "RPL_THEMES" : 0.3036, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047004900", 
+        "RPL_THEMES" : 0.4286, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005000", 
+        "RPL_THEMES" : 0.2495, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005100", 
+        "RPL_THEMES" : 0.1614, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005201", 
+        "RPL_THEMES" : 0.747, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005202", 
+        "RPL_THEMES" : 0.4213, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005300", 
+        "RPL_THEMES" : 0.5906, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005400", 
+        "RPL_THEMES" : 0.513, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005601", 
+        "RPL_THEMES" : 0.4646, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005602", 
+        "RPL_THEMES" : 0.4911, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005800", 
+        "RPL_THEMES" : 0.7335, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047005900", 
+        "RPL_THEMES" : 0.4597, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006000", 
+        "RPL_THEMES" : 0.4506, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006200", 
+        "RPL_THEMES" : 0.6771, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006300", 
+        "RPL_THEMES" : 0.1991, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006400", 
+        "RPL_THEMES" : 0.5717, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006500", 
+        "RPL_THEMES" : 0.1163, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006600", 
+        "RPL_THEMES" : 0.633, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006700", 
+        "RPL_THEMES" : 0.1078, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006800", 
+        "RPL_THEMES" : 0.8831, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047006900", 
+        "RPL_THEMES" : 0.2171, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007000", 
+        "RPL_THEMES" : 0.7419, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007100", 
+        "RPL_THEMES" : 0.9283, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007200", 
+        "RPL_THEMES" : 0.9459, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007400", 
+        "RPL_THEMES" : 0.9435, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007500", 
+        "RPL_THEMES" : 0.2373, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007600", 
+        "RPL_THEMES" : 0.8522, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007700", 
+        "RPL_THEMES" : 0.4493, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047007800", 
+        "RPL_THEMES" : 0.8469, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047008000", 
+        "RPL_THEMES" : 0.7594, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047008200", 
+        "RPL_THEMES" : 0.9038, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047008400", 
+        "RPL_THEMES" : 0.8731, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047008500", 
+        "RPL_THEMES" : 0.9953, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047008600", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047008800", 
+        "RPL_THEMES" : 0.4945, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047009000", 
+        "RPL_THEMES" : 0.9039, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047009200", 
+        "RPL_THEMES" : 0.9461, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047009400", 
+        "RPL_THEMES" : 0.867, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047009600", 
+        "RPL_THEMES" : 0.8049, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047009800", 
+        "RPL_THEMES" : 0.848, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047010000", 
+        "RPL_THEMES" : 0.9045, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047010100", 
+        "RPL_THEMES" : 0.7241, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047010200", 
+        "RPL_THEMES" : 0.8124, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047010400", 
+        "RPL_THEMES" : 0.7562, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047010600", 
+        "RPL_THEMES" : 0.7131, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047010800", 
+        "RPL_THEMES" : 0.7976, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047011000", 
+        "RPL_THEMES" : 0.8456, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047011200", 
+        "RPL_THEMES" : 0.9582, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047011400", 
+        "RPL_THEMES" : 0.9818, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047011600", 
+        "RPL_THEMES" : 0.8916, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047011700", 
+        "RPL_THEMES" : 0.3253, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047011800", 
+        "RPL_THEMES" : 0.8267, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047011900", 
+        "RPL_THEMES" : 0.5396, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012000", 
+        "RPL_THEMES" : 0.8064, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012100", 
+        "RPL_THEMES" : 0.2527, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012200", 
+        "RPL_THEMES" : 0.8835, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012600", 
+        "RPL_THEMES" : 0.6727, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012700", 
+        "RPL_THEMES" : 0.8674, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012801", 
+        "RPL_THEMES" : 0.8874, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012901", 
+        "RPL_THEMES" : 0.2103, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047012902", 
+        "RPL_THEMES" : 0.4062, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013000", 
+        "RPL_THEMES" : 0.8298, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013100", 
+        "RPL_THEMES" : 0.2943, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013200", 
+        "RPL_THEMES" : 0.8296, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013300", 
+        "RPL_THEMES" : 0.1867, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013400", 
+        "RPL_THEMES" : 0.6275, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013500", 
+        "RPL_THEMES" : 0.2965, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013600", 
+        "RPL_THEMES" : 0.6072, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013700", 
+        "RPL_THEMES" : 0.538, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013800", 
+        "RPL_THEMES" : 0.6844, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047013900", 
+        "RPL_THEMES" : 0.2482, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014000", 
+        "RPL_THEMES" : 0.5948, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014100", 
+        "RPL_THEMES" : 0.4785, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014200", 
+        "RPL_THEMES" : 0.5131, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014300", 
+        "RPL_THEMES" : 0.4824, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014500", 
+        "RPL_THEMES" : 0.443, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014700", 
+        "RPL_THEMES" : 0.5649, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014800", 
+        "RPL_THEMES" : 0.4847, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047014900", 
+        "RPL_THEMES" : 0.4362, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015000", 
+        "RPL_THEMES" : 0.4115, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015100", 
+        "RPL_THEMES" : 0.3683, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015200", 
+        "RPL_THEMES" : 0.6334, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015300", 
+        "RPL_THEMES" : 0.2587, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015400", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015500", 
+        "RPL_THEMES" : 0.2133, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015700", 
+        "RPL_THEMES" : 0.148, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047015900", 
+        "RPL_THEMES" : 0.2334, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016000", 
+        "RPL_THEMES" : 0.4798, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016100", 
+        "RPL_THEMES" : 0.3719, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016200", 
+        "RPL_THEMES" : 0.4903, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016300", 
+        "RPL_THEMES" : 0.4804, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016400", 
+        "RPL_THEMES" : 0.4568, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016500", 
+        "RPL_THEMES" : 0.1915, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016600", 
+        "RPL_THEMES" : 0.1347, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016700", 
+        "RPL_THEMES" : 0.2431, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016800", 
+        "RPL_THEMES" : 0.4451, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047016900", 
+        "RPL_THEMES" : 0.2767, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017000", 
+        "RPL_THEMES" : 0.6356, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017100", 
+        "RPL_THEMES" : 0.3467, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017200", 
+        "RPL_THEMES" : 0.5917, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017400", 
+        "RPL_THEMES" : 0.6456, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017500", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017600", 
+        "RPL_THEMES" : 0.8427, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017700", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017800", 
+        "RPL_THEMES" : 0.8513, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047017900", 
+        "RPL_THEMES" : 0.8601, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018000", 
+        "RPL_THEMES" : 0.6719, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018100", 
+        "RPL_THEMES" : 0.3675, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018200", 
+        "RPL_THEMES" : 0.7107, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018300", 
+        "RPL_THEMES" : 0.1746, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018400", 
+        "RPL_THEMES" : 0.5861, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018501", 
+        "RPL_THEMES" : 0.9954, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018600", 
+        "RPL_THEMES" : 0.6493, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018700", 
+        "RPL_THEMES" : 0.6293, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047018800", 
+        "RPL_THEMES" : 0.5959, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019000", 
+        "RPL_THEMES" : 0.785, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019100", 
+        "RPL_THEMES" : 0.4399, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019200", 
+        "RPL_THEMES" : 0.8589, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019300", 
+        "RPL_THEMES" : 0.853, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019400", 
+        "RPL_THEMES" : 0.9228, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019500", 
+        "RPL_THEMES" : 0.2216, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019600", 
+        "RPL_THEMES" : 0.9218, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019700", 
+        "RPL_THEMES" : 0.3895, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019800", 
+        "RPL_THEMES" : 0.5873, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047019900", 
+        "RPL_THEMES" : 0.43, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020000", 
+        "RPL_THEMES" : 0.7256, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020100", 
+        "RPL_THEMES" : 0.2118, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020200", 
+        "RPL_THEMES" : 0.4788, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020300", 
+        "RPL_THEMES" : 0.5684, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020400", 
+        "RPL_THEMES" : 0.5684, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020500", 
+        "RPL_THEMES" : 0.2323, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020600", 
+        "RPL_THEMES" : 0.5955, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020700", 
+        "RPL_THEMES" : 0.2071, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047020800", 
+        "RPL_THEMES" : 0.8517, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021000", 
+        "RPL_THEMES" : 0.8039, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021100", 
+        "RPL_THEMES" : 0.8168, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021200", 
+        "RPL_THEMES" : 0.8013, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021300", 
+        "RPL_THEMES" : 0.5891, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021400", 
+        "RPL_THEMES" : 0.6724, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021500", 
+        "RPL_THEMES" : 0.6681, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021600", 
+        "RPL_THEMES" : 0.7603, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021700", 
+        "RPL_THEMES" : 0.7255, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021800", 
+        "RPL_THEMES" : 0.7243, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047021900", 
+        "RPL_THEMES" : 0.6911, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022000", 
+        "RPL_THEMES" : 0.8633, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022100", 
+        "RPL_THEMES" : 0.6826, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022200", 
+        "RPL_THEMES" : 0.8042, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022400", 
+        "RPL_THEMES" : 0.7294, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022600", 
+        "RPL_THEMES" : 0.7699, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022700", 
+        "RPL_THEMES" : 0.4665, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022800", 
+        "RPL_THEMES" : 0.9064, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047022900", 
+        "RPL_THEMES" : 0.4385, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023000", 
+        "RPL_THEMES" : 0.7196, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023100", 
+        "RPL_THEMES" : 0.428, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023200", 
+        "RPL_THEMES" : 0.6944, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023300", 
+        "RPL_THEMES" : 0.8392, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023400", 
+        "RPL_THEMES" : 0.7649, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023500", 
+        "RPL_THEMES" : 0.7755, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023600", 
+        "RPL_THEMES" : 0.7264, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047023800", 
+        "RPL_THEMES" : 0.7985, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024000", 
+        "RPL_THEMES" : 0.89, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024100", 
+        "RPL_THEMES" : 0.6723, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024200", 
+        "RPL_THEMES" : 0.6285, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024300", 
+        "RPL_THEMES" : 0.6995, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024400", 
+        "RPL_THEMES" : 0.642, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024500", 
+        "RPL_THEMES" : 0.4663, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024600", 
+        "RPL_THEMES" : 0.7496, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024700", 
+        "RPL_THEMES" : 0.7312, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024800", 
+        "RPL_THEMES" : 0.7539, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047024900", 
+        "RPL_THEMES" : 0.5272, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025000", 
+        "RPL_THEMES" : 0.7396, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025100", 
+        "RPL_THEMES" : 0.9025, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025200", 
+        "RPL_THEMES" : 0.7952, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025300", 
+        "RPL_THEMES" : 0.7053, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025400", 
+        "RPL_THEMES" : 0.8483, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025500", 
+        "RPL_THEMES" : 0.9797, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025600", 
+        "RPL_THEMES" : 0.9081, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025700", 
+        "RPL_THEMES" : 0.7842, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025800", 
+        "RPL_THEMES" : 0.9, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025901", 
+        "RPL_THEMES" : 0.8863, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047025902", 
+        "RPL_THEMES" : 0.9754, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026000", 
+        "RPL_THEMES" : 0.7456, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026100", 
+        "RPL_THEMES" : 0.4791, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026200", 
+        "RPL_THEMES" : 0.8191, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026300", 
+        "RPL_THEMES" : 0.7665, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026400", 
+        "RPL_THEMES" : 0.6458, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026500", 
+        "RPL_THEMES" : 0.5601, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026600", 
+        "RPL_THEMES" : 0.7717, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026700", 
+        "RPL_THEMES" : 0.667, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026800", 
+        "RPL_THEMES" : 0.9216, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047026900", 
+        "RPL_THEMES" : 0.6959, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027000", 
+        "RPL_THEMES" : 0.6889, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027100", 
+        "RPL_THEMES" : 0.847, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027200", 
+        "RPL_THEMES" : 0.7954, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027300", 
+        "RPL_THEMES" : 0.776, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027400", 
+        "RPL_THEMES" : 0.6895, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027500", 
+        "RPL_THEMES" : 0.5974, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027600", 
+        "RPL_THEMES" : 0.7444, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027700", 
+        "RPL_THEMES" : 0.8708, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027800", 
+        "RPL_THEMES" : 0.7815, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047027900", 
+        "RPL_THEMES" : 0.6492, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028000", 
+        "RPL_THEMES" : 0.682, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028100", 
+        "RPL_THEMES" : 0.9558, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028200", 
+        "RPL_THEMES" : 0.7315, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028300", 
+        "RPL_THEMES" : 0.9887, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028400", 
+        "RPL_THEMES" : 0.8389, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028501", 
+        "RPL_THEMES" : 0.7885, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028502", 
+        "RPL_THEMES" : 0.9935, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028600", 
+        "RPL_THEMES" : 0.8083, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028700", 
+        "RPL_THEMES" : 0.8235, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028800", 
+        "RPL_THEMES" : 0.7573, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047028900", 
+        "RPL_THEMES" : 0.9468, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029000", 
+        "RPL_THEMES" : 0.7133, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029100", 
+        "RPL_THEMES" : 0.6588, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029200", 
+        "RPL_THEMES" : 0.8027, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029300", 
+        "RPL_THEMES" : 0.7883, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029400", 
+        "RPL_THEMES" : 0.9839, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029500", 
+        "RPL_THEMES" : 0.4163, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029600", 
+        "RPL_THEMES" : 0.8124, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029700", 
+        "RPL_THEMES" : 0.5678, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029800", 
+        "RPL_THEMES" : 0.7078, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047029900", 
+        "RPL_THEMES" : 0.9627, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030000", 
+        "RPL_THEMES" : 0.7754, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030100", 
+        "RPL_THEMES" : 0.8446, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030200", 
+        "RPL_THEMES" : 0.7491, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030300", 
+        "RPL_THEMES" : 0.9855, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030400", 
+        "RPL_THEMES" : 0.8701, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030500", 
+        "RPL_THEMES" : 0.547, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030600", 
+        "RPL_THEMES" : 0.848, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030700", 
+        "RPL_THEMES" : 0.9726, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030800", 
+        "RPL_THEMES" : 0.7909, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047030900", 
+        "RPL_THEMES" : 0.8332, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047031100", 
+        "RPL_THEMES" : 0.639, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047031300", 
+        "RPL_THEMES" : 0.6911, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047031400", 
+        "RPL_THEMES" : 0.775, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047031500", 
+        "RPL_THEMES" : 0.6067, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047031701", 
+        "RPL_THEMES" : 0.3895, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047031702", 
+        "RPL_THEMES" : 0.5116, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047031900", 
+        "RPL_THEMES" : 0.6845, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047032100", 
+        "RPL_THEMES" : 0.7628, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047032300", 
+        "RPL_THEMES" : 0.6311, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047032500", 
+        "RPL_THEMES" : 0.6328, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047032600", 
+        "RPL_THEMES" : 0.9894, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047032700", 
+        "RPL_THEMES" : 0.7923, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047032800", 
+        "RPL_THEMES" : 0.7921, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047032900", 
+        "RPL_THEMES" : 0.7907, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047033000", 
+        "RPL_THEMES" : 0.9914, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047033100", 
+        "RPL_THEMES" : 0.6468, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047033300", 
+        "RPL_THEMES" : 0.7255, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047033500", 
+        "RPL_THEMES" : 0.8481, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047033600", 
+        "RPL_THEMES" : 0.6006, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047033700", 
+        "RPL_THEMES" : 0.7185, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047033900", 
+        "RPL_THEMES" : 0.8298, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034000", 
+        "RPL_THEMES" : 0.9962, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034100", 
+        "RPL_THEMES" : 0.7601, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034200", 
+        "RPL_THEMES" : 0.992, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034300", 
+        "RPL_THEMES" : 0.9634, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034500", 
+        "RPL_THEMES" : 0.7306, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034700", 
+        "RPL_THEMES" : 0.8658, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034800", 
+        "RPL_THEMES" : 0.8512, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047034900", 
+        "RPL_THEMES" : 0.8676, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035000", 
+        "RPL_THEMES" : 0.6396, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035100", 
+        "RPL_THEMES" : 0.9283, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035200", 
+        "RPL_THEMES" : 0.8871, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035300", 
+        "RPL_THEMES" : 0.7944, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035400", 
+        "RPL_THEMES" : 0.4997, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035500", 
+        "RPL_THEMES" : 0.8824, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035601", 
+        "RPL_THEMES" : 0.5982, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035602", 
+        "RPL_THEMES" : 0.5952, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035700", 
+        "RPL_THEMES" : 0.9069, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047035900", 
+        "RPL_THEMES" : 0.9706, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036001", 
+        "RPL_THEMES" : 0.7771, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036002", 
+        "RPL_THEMES" : 0.8978, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036100", 
+        "RPL_THEMES" : 0.9827, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036200", 
+        "RPL_THEMES" : 0.8862, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036300", 
+        "RPL_THEMES" : 0.9368, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036400", 
+        "RPL_THEMES" : 0.8696, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036501", 
+        "RPL_THEMES" : 0.8244, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036502", 
+        "RPL_THEMES" : 0.9528, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036600", 
+        "RPL_THEMES" : 0.9155, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036700", 
+        "RPL_THEMES" : 0.7053, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047036900", 
+        "RPL_THEMES" : 0.9159, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037000", 
+        "RPL_THEMES" : 0.661, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037100", 
+        "RPL_THEMES" : 0.7996, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037300", 
+        "RPL_THEMES" : 0.8156, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037401", 
+        "RPL_THEMES" : 0.7212, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037402", 
+        "RPL_THEMES" : 0.7331, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037500", 
+        "RPL_THEMES" : 0.8197, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037700", 
+        "RPL_THEMES" : 0.7026, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047037900", 
+        "RPL_THEMES" : 0.6697, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038100", 
+        "RPL_THEMES" : 0.7899, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038200", 
+        "RPL_THEMES" : 0.9847, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038300", 
+        "RPL_THEMES" : 0.632, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038500", 
+        "RPL_THEMES" : 0.6648, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038600", 
+        "RPL_THEMES" : 0.7648, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038700", 
+        "RPL_THEMES" : 0.7936, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038800", 
+        "RPL_THEMES" : 0.7363, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047038900", 
+        "RPL_THEMES" : 0.6679, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039000", 
+        "RPL_THEMES" : 0.5588, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039100", 
+        "RPL_THEMES" : 0.8252, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039200", 
+        "RPL_THEMES" : 0.6265, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039300", 
+        "RPL_THEMES" : 0.8194, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039400", 
+        "RPL_THEMES" : 0.8019, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039500", 
+        "RPL_THEMES" : 0.9187, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039600", 
+        "RPL_THEMES" : 0.5473, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039700", 
+        "RPL_THEMES" : 0.8093, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039800", 
+        "RPL_THEMES" : 0.8689, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047039900", 
+        "RPL_THEMES" : 0.7894, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040000", 
+        "RPL_THEMES" : 0.7819, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040100", 
+        "RPL_THEMES" : 0.9195, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040200", 
+        "RPL_THEMES" : 0.7527, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040300", 
+        "RPL_THEMES" : 0.87, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040400", 
+        "RPL_THEMES" : 0.6154, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040500", 
+        "RPL_THEMES" : 0.6831, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040600", 
+        "RPL_THEMES" : 0.7563, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040700", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040800", 
+        "RPL_THEMES" : 0.6607, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047040900", 
+        "RPL_THEMES" : 0.8447, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041000", 
+        "RPL_THEMES" : 0.882, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041100", 
+        "RPL_THEMES" : 0.7973, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041200", 
+        "RPL_THEMES" : 0.645, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041300", 
+        "RPL_THEMES" : 0.7826, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041401", 
+        "RPL_THEMES" : 0.8451, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041402", 
+        "RPL_THEMES" : 0.5879, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041500", 
+        "RPL_THEMES" : 0.7573, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041600", 
+        "RPL_THEMES" : 0.7562, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041700", 
+        "RPL_THEMES" : 0.9635, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041800", 
+        "RPL_THEMES" : 0.9561, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047041900", 
+        "RPL_THEMES" : 0.8727, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042000", 
+        "RPL_THEMES" : 0.6618, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042100", 
+        "RPL_THEMES" : 0.9023, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042200", 
+        "RPL_THEMES" : 0.8221, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042300", 
+        "RPL_THEMES" : 0.8668, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042400", 
+        "RPL_THEMES" : 0.7138, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042500", 
+        "RPL_THEMES" : 0.5803, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042600", 
+        "RPL_THEMES" : 0.8284, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042700", 
+        "RPL_THEMES" : 0.7162, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042800", 
+        "RPL_THEMES" : 0.8057, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047042900", 
+        "RPL_THEMES" : 0.8092, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043000", 
+        "RPL_THEMES" : 0.8814, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043100", 
+        "RPL_THEMES" : 0.7109, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043200", 
+        "RPL_THEMES" : 0.8399, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043300", 
+        "RPL_THEMES" : 0.9235, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043400", 
+        "RPL_THEMES" : 0.7303, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043500", 
+        "RPL_THEMES" : 0.8619, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043600", 
+        "RPL_THEMES" : 0.7647, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043700", 
+        "RPL_THEMES" : 0.764, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043800", 
+        "RPL_THEMES" : 0.7769, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047043900", 
+        "RPL_THEMES" : 0.8121, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044000", 
+        "RPL_THEMES" : 0.7785, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044100", 
+        "RPL_THEMES" : 0.7943, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044200", 
+        "RPL_THEMES" : 0.4842, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044300", 
+        "RPL_THEMES" : 0.6854, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044400", 
+        "RPL_THEMES" : 0.7287, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044500", 
+        "RPL_THEMES" : 0.6912, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044600", 
+        "RPL_THEMES" : 0.7465, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044700", 
+        "RPL_THEMES" : 0.9051, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044800", 
+        "RPL_THEMES" : 0.7228, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047044900", 
+        "RPL_THEMES" : 0.9855, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047045000", 
+        "RPL_THEMES" : 0.2665, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047045200", 
+        "RPL_THEMES" : 0.4458, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047045300", 
+        "RPL_THEMES" : 0.8557, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047045400", 
+        "RPL_THEMES" : 0.7304, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047045600", 
+        "RPL_THEMES" : 0.8915, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047045800", 
+        "RPL_THEMES" : 0.4938, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047046000", 
+        "RPL_THEMES" : 0.7995, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047046201", 
+        "RPL_THEMES" : 0.8707, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047046202", 
+        "RPL_THEMES" : 0.5692, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047046400", 
+        "RPL_THEMES" : 0.5832, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047046800", 
+        "RPL_THEMES" : 0.5149, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047047000", 
+        "RPL_THEMES" : 0.584, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047047200", 
+        "RPL_THEMES" : 0.7382, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047047400", 
+        "RPL_THEMES" : 0.692, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047047600", 
+        "RPL_THEMES" : 0.8221, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047047700", 
+        "RPL_THEMES" : 0.1764, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047047800", 
+        "RPL_THEMES" : 0.8261, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048000", 
+        "RPL_THEMES" : 0.954, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048100", 
+        "RPL_THEMES" : 0.5631, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048200", 
+        "RPL_THEMES" : 0.8909, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048400", 
+        "RPL_THEMES" : 0.7604, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048500", 
+        "RPL_THEMES" : 0.4063, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048600", 
+        "RPL_THEMES" : 0.7941, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048800", 
+        "RPL_THEMES" : 0.8412, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047048900", 
+        "RPL_THEMES" : 0.9981, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049000", 
+        "RPL_THEMES" : 0.8854, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049100", 
+        "RPL_THEMES" : 0.8475, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049200", 
+        "RPL_THEMES" : 0.8225, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049300", 
+        "RPL_THEMES" : 0.8806, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049400", 
+        "RPL_THEMES" : 0.8999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049500", 
+        "RPL_THEMES" : 0.5541, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049600", 
+        "RPL_THEMES" : 0.7883, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049700", 
+        "RPL_THEMES" : 0.1343, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049800", 
+        "RPL_THEMES" : 0.6407, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047049900", 
+        "RPL_THEMES" : 0.1547, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050000", 
+        "RPL_THEMES" : 0.4764, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050100", 
+        "RPL_THEMES" : 0.3635, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050202", 
+        "RPL_THEMES" : 0.385, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050300", 
+        "RPL_THEMES" : 0.2912, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050400", 
+        "RPL_THEMES" : 0.5447, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050500", 
+        "RPL_THEMES" : 0.9287, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050600", 
+        "RPL_THEMES" : 0.8977, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050700", 
+        "RPL_THEMES" : 0.8833, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050801", 
+        "RPL_THEMES" : 0.9118, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050803", 
+        "RPL_THEMES" : 0.7885, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050804", 
+        "RPL_THEMES" : 0.6499, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047050900", 
+        "RPL_THEMES" : 0.7185, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051001", 
+        "RPL_THEMES" : 0.8082, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051002", 
+        "RPL_THEMES" : 0.696, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051100", 
+        "RPL_THEMES" : 0.8236, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051200", 
+        "RPL_THEMES" : 0.7552, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051300", 
+        "RPL_THEMES" : 0.5886, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051400", 
+        "RPL_THEMES" : 0.8882, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051500", 
+        "RPL_THEMES" : 0.141, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051601", 
+        "RPL_THEMES" : 0.7896, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051602", 
+        "RPL_THEMES" : 0.8526, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051700", 
+        "RPL_THEMES" : 0.1208, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051800", 
+        "RPL_THEMES" : 0.5888, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047051900", 
+        "RPL_THEMES" : 0.209, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047052000", 
+        "RPL_THEMES" : 0.7559, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047052300", 
+        "RPL_THEMES" : 0.6754, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047052500", 
+        "RPL_THEMES" : 0.8912, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047052600", 
+        "RPL_THEMES" : 0.7265, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047052700", 
+        "RPL_THEMES" : 0.8925, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047052800", 
+        "RPL_THEMES" : 0.6546, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047052900", 
+        "RPL_THEMES" : 0.7459, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053000", 
+        "RPL_THEMES" : 0.8632, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053100", 
+        "RPL_THEMES" : 0.6375, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053200", 
+        "RPL_THEMES" : 0.7687, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053300", 
+        "RPL_THEMES" : 0.6866, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053400", 
+        "RPL_THEMES" : 0.9479, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053500", 
+        "RPL_THEMES" : 0.7128, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053700", 
+        "RPL_THEMES" : 0.7775, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053800", 
+        "RPL_THEMES" : 0.8211, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047053900", 
+        "RPL_THEMES" : 0.8365, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054200", 
+        "RPL_THEMES" : 0.8502, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054300", 
+        "RPL_THEMES" : 0.3824, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054400", 
+        "RPL_THEMES" : 0.7851, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054500", 
+        "RPL_THEMES" : 0.9664, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054600", 
+        "RPL_THEMES" : 0.8384, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054700", 
+        "RPL_THEMES" : 0.767, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054800", 
+        "RPL_THEMES" : 0.6547, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047054900", 
+        "RPL_THEMES" : 0.4227, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055000", 
+        "RPL_THEMES" : 0.6887, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055100", 
+        "RPL_THEMES" : 0.5276, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055200", 
+        "RPL_THEMES" : 0.6629, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055300", 
+        "RPL_THEMES" : 0.2792, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055400", 
+        "RPL_THEMES" : 0.7437, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055500", 
+        "RPL_THEMES" : 0.1783, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055600", 
+        "RPL_THEMES" : 0.6497, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055700", 
+        "RPL_THEMES" : 0.2614, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047055800", 
+        "RPL_THEMES" : 0.6099, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056000", 
+        "RPL_THEMES" : 0.6929, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056100", 
+        "RPL_THEMES" : 0.173, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056200", 
+        "RPL_THEMES" : 0.2297, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056300", 
+        "RPL_THEMES" : 0.6516, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056400", 
+        "RPL_THEMES" : 0.4148, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056500", 
+        "RPL_THEMES" : 0.1497, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056600", 
+        "RPL_THEMES" : 0.7401, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056800", 
+        "RPL_THEMES" : 0.368, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047056900", 
+        "RPL_THEMES" : 0.223, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057000", 
+        "RPL_THEMES" : 0.6611, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057100", 
+        "RPL_THEMES" : 0.2884, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057200", 
+        "RPL_THEMES" : 0.9601, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057300", 
+        "RPL_THEMES" : 0.3322, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057400", 
+        "RPL_THEMES" : 0.6287, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057500", 
+        "RPL_THEMES" : 0.3216, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057600", 
+        "RPL_THEMES" : 0.5544, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057800", 
+        "RPL_THEMES" : 0.6735, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047057900", 
+        "RPL_THEMES" : 0.6544, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047058000", 
+        "RPL_THEMES" : 0.7025, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047058200", 
+        "RPL_THEMES" : 0.7237, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047058400", 
+        "RPL_THEMES" : 0.6249, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047058600", 
+        "RPL_THEMES" : 0.813, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047058800", 
+        "RPL_THEMES" : 0.6462, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047058900", 
+        "RPL_THEMES" : 0.2008, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059000", 
+        "RPL_THEMES" : 0.6996, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059100", 
+        "RPL_THEMES" : 0.1579, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059200", 
+        "RPL_THEMES" : 0.5763, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059300", 
+        "RPL_THEMES" : 0.2932, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059401", 
+        "RPL_THEMES" : 0.7424, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059402", 
+        "RPL_THEMES" : 0.5285, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059600", 
+        "RPL_THEMES" : 0.585, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047059800", 
+        "RPL_THEMES" : 0.6996, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047060000", 
+        "RPL_THEMES" : 0.5933, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047060600", 
+        "RPL_THEMES" : 0.8517, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047060800", 
+        "RPL_THEMES" : 0.5606, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047061002", 
+        "RPL_THEMES" : 0.3147, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047061003", 
+        "RPL_THEMES" : 0.8547, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047061004", 
+        "RPL_THEMES" : 0.7909, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047061200", 
+        "RPL_THEMES" : 0.3222, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047061600", 
+        "RPL_THEMES" : 0.6136, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047062000", 
+        "RPL_THEMES" : 0.2473, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047062200", 
+        "RPL_THEMES" : 0.6874, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047062600", 
+        "RPL_THEMES" : 0.828, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047062800", 
+        "RPL_THEMES" : 0.3694, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047063200", 
+        "RPL_THEMES" : 0.7663, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047063600", 
+        "RPL_THEMES" : 0.3182, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047063800", 
+        "RPL_THEMES" : 0.4365, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047064000", 
+        "RPL_THEMES" : 0.1715, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047064200", 
+        "RPL_THEMES" : 0.7193, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047064400", 
+        "RPL_THEMES" : 0.4256, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047064600", 
+        "RPL_THEMES" : 0.3043, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047064800", 
+        "RPL_THEMES" : 0.4344, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047065000", 
+        "RPL_THEMES" : 0.8796, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047065200", 
+        "RPL_THEMES" : 0.0463, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047065400", 
+        "RPL_THEMES" : 0.2045, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047065600", 
+        "RPL_THEMES" : 0.2562, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047065800", 
+        "RPL_THEMES" : 0.3366, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047066000", 
+        "RPL_THEMES" : 0.2586, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047066200", 
+        "RPL_THEMES" : 0.3574, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047066600", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047067000", 
+        "RPL_THEMES" : 0.5282, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047067200", 
+        "RPL_THEMES" : 0.6087, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047067400", 
+        "RPL_THEMES" : 0.4596, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047067600", 
+        "RPL_THEMES" : 0.4981, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047067800", 
+        "RPL_THEMES" : 0.644, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047068000", 
+        "RPL_THEMES" : 0.5035, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047068200", 
+        "RPL_THEMES" : 0.396, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047068600", 
+        "RPL_THEMES" : 0.5296, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047068800", 
+        "RPL_THEMES" : 0.4836, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047069000", 
+        "RPL_THEMES" : 0.5832, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047069200", 
+        "RPL_THEMES" : 0.409, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047069601", 
+        "RPL_THEMES" : 0.4744, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047069602", 
+        "RPL_THEMES" : 0.3554, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047069800", 
+        "RPL_THEMES" : 0.3633, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047070000", 
+        "RPL_THEMES" : 0.3029, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047070201", 
+        "RPL_THEMES" : 0.2706, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047070202", 
+        "RPL_THEMES" : 0.0007, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047070203", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047070600", 
+        "RPL_THEMES" : 0.2984, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047072000", 
+        "RPL_THEMES" : 0.6306, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047072200", 
+        "RPL_THEMES" : 0.6597, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047072400", 
+        "RPL_THEMES" : 0.6526, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047072600", 
+        "RPL_THEMES" : 0.4975, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047072800", 
+        "RPL_THEMES" : 0.6527, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047073000", 
+        "RPL_THEMES" : 0.4862, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047073200", 
+        "RPL_THEMES" : 0.6364, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047073400", 
+        "RPL_THEMES" : 0.3441, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047073600", 
+        "RPL_THEMES" : 0.7509, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047073800", 
+        "RPL_THEMES" : 0.8471, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047074000", 
+        "RPL_THEMES" : 0.7571, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047074200", 
+        "RPL_THEMES" : 0.8188, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047074400", 
+        "RPL_THEMES" : 0.3178, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047074600", 
+        "RPL_THEMES" : 0.5249, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047074800", 
+        "RPL_THEMES" : 0.4966, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047075000", 
+        "RPL_THEMES" : 0.6348, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047075200", 
+        "RPL_THEMES" : 0.1068, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047075400", 
+        "RPL_THEMES" : 0.1283, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047075600", 
+        "RPL_THEMES" : 0.4724, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047075800", 
+        "RPL_THEMES" : 0.3415, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047076000", 
+        "RPL_THEMES" : 0.5954, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047076200", 
+        "RPL_THEMES" : 0.8412, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047076400", 
+        "RPL_THEMES" : 0.7782, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047076600", 
+        "RPL_THEMES" : 0.8847, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047076800", 
+        "RPL_THEMES" : 0.8706, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047077000", 
+        "RPL_THEMES" : 0.8724, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047077200", 
+        "RPL_THEMES" : 0.6046, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047077400", 
+        "RPL_THEMES" : 0.7933, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047077600", 
+        "RPL_THEMES" : 0.6952, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047078000", 
+        "RPL_THEMES" : 0.5504, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047078200", 
+        "RPL_THEMES" : 0.7944, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047078400", 
+        "RPL_THEMES" : 0.6552, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047078600", 
+        "RPL_THEMES" : 0.8942, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047078800", 
+        "RPL_THEMES" : 0.8411, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047079000", 
+        "RPL_THEMES" : 0.8582, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047079200", 
+        "RPL_THEMES" : 0.9224, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047079400", 
+        "RPL_THEMES" : 0.8819, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047079601", 
+        "RPL_THEMES" : 0.6263, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047079602", 
+        "RPL_THEMES" : 0.6789, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047079801", 
+        "RPL_THEMES" : 0.3342, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047079802", 
+        "RPL_THEMES" : 0.5599, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047080000", 
+        "RPL_THEMES" : 0.5869, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047080200", 
+        "RPL_THEMES" : 0.6011, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047080400", 
+        "RPL_THEMES" : 0.7426, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047080600", 
+        "RPL_THEMES" : 0.7588, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047080800", 
+        "RPL_THEMES" : 0.9971, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047081000", 
+        "RPL_THEMES" : 0.8779, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047081400", 
+        "RPL_THEMES" : 0.8575, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047081600", 
+        "RPL_THEMES" : 0.8284, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047081800", 
+        "RPL_THEMES" : 0.587, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047082000", 
+        "RPL_THEMES" : 0.9344, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047082200", 
+        "RPL_THEMES" : 0.9111, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047082400", 
+        "RPL_THEMES" : 0.7567, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047082600", 
+        "RPL_THEMES" : 0.7609, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047082800", 
+        "RPL_THEMES" : 0.7982, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047083000", 
+        "RPL_THEMES" : 0.7822, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047083200", 
+        "RPL_THEMES" : 0.7187, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047083400", 
+        "RPL_THEMES" : 0.5935, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047083600", 
+        "RPL_THEMES" : 0.6765, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047083800", 
+        "RPL_THEMES" : 0.3356, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047084000", 
+        "RPL_THEMES" : 0.7163, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047084600", 
+        "RPL_THEMES" : 0.6657, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047084800", 
+        "RPL_THEMES" : 0.6605, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047085000", 
+        "RPL_THEMES" : 0.5644, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047085200", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047085400", 
+        "RPL_THEMES" : 0.7031, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047085600", 
+        "RPL_THEMES" : 0.7145, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047085800", 
+        "RPL_THEMES" : 0.633, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047086000", 
+        "RPL_THEMES" : 0.6996, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047086200", 
+        "RPL_THEMES" : 0.764, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047086400", 
+        "RPL_THEMES" : 0.5592, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047086600", 
+        "RPL_THEMES" : 0.6798, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047086800", 
+        "RPL_THEMES" : 0.7484, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047087000", 
+        "RPL_THEMES" : 0.8221, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047087200", 
+        "RPL_THEMES" : 0.7849, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047087401", 
+        "RPL_THEMES" : 0.9481, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047087600", 
+        "RPL_THEMES" : 0.6109, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047087800", 
+        "RPL_THEMES" : 0.8926, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047088000", 
+        "RPL_THEMES" : 0.6991, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047088200", 
+        "RPL_THEMES" : 0.7708, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047088400", 
+        "RPL_THEMES" : 0.8033, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047088600", 
+        "RPL_THEMES" : 0.8474, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047088800", 
+        "RPL_THEMES" : 0.7095, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047089000", 
+        "RPL_THEMES" : 0.9486, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047089200", 
+        "RPL_THEMES" : 0.9236, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047089400", 
+        "RPL_THEMES" : 0.9841, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047089600", 
+        "RPL_THEMES" : 0.8247, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047089800", 
+        "RPL_THEMES" : 0.7213, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047090000", 
+        "RPL_THEMES" : 0.9623, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047090200", 
+        "RPL_THEMES" : 0.9239, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047090600", 
+        "RPL_THEMES" : 0.9269, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047090800", 
+        "RPL_THEMES" : 0.9801, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047091000", 
+        "RPL_THEMES" : 0.9596, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047091200", 
+        "RPL_THEMES" : 0.98, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047091600", 
+        "RPL_THEMES" : 0.967, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047091800", 
+        "RPL_THEMES" : 0.9002, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047092000", 
+        "RPL_THEMES" : 0.9377, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047092200", 
+        "RPL_THEMES" : 0.8428, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047092400", 
+        "RPL_THEMES" : 0.9145, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047092800", 
+        "RPL_THEMES" : 0.7155, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047093000", 
+        "RPL_THEMES" : 0.5656, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047093200", 
+        "RPL_THEMES" : 0.4297, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047093400", 
+        "RPL_THEMES" : 0.2944, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047093600", 
+        "RPL_THEMES" : 0.5269, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047093800", 
+        "RPL_THEMES" : 0.7158, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047094401", 
+        "RPL_THEMES" : 0.6999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047094402", 
+        "RPL_THEMES" : 0.9383, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047094600", 
+        "RPL_THEMES" : 0.687, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047095000", 
+        "RPL_THEMES" : 0.4709, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047095400", 
+        "RPL_THEMES" : 0.5397, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047095600", 
+        "RPL_THEMES" : 0.659, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047095800", 
+        "RPL_THEMES" : 0.6534, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047096000", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047096200", 
+        "RPL_THEMES" : 0.7131, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047096400", 
+        "RPL_THEMES" : 0.34, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047096600", 
+        "RPL_THEMES" : 0.5143, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047096800", 
+        "RPL_THEMES" : 0.6194, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047097000", 
+        "RPL_THEMES" : 0.6345, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047097400", 
+        "RPL_THEMES" : 0.9022, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047098200", 
+        "RPL_THEMES" : 0.9531, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047098400", 
+        "RPL_THEMES" : 0.3171, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047098600", 
+        "RPL_THEMES" : 0.6239, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047098800", 
+        "RPL_THEMES" : 0.8929, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047099000", 
+        "RPL_THEMES" : 0.6556, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047099200", 
+        "RPL_THEMES" : 0.7441, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047099400", 
+        "RPL_THEMES" : 0.3275, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047099600", 
+        "RPL_THEMES" : 0.7337, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047099800", 
+        "RPL_THEMES" : 0.3761, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047100400", 
+        "RPL_THEMES" : 0.4207, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047100600", 
+        "RPL_THEMES" : 0.4919, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047100800", 
+        "RPL_THEMES" : 0.6691, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047101000", 
+        "RPL_THEMES" : 0.3166, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047101200", 
+        "RPL_THEMES" : 0.5438, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047101400", 
+        "RPL_THEMES" : 0.5153, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047101600", 
+        "RPL_THEMES" : 0.6466, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047101800", 
+        "RPL_THEMES" : 0.4436, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047102000", 
+        "RPL_THEMES" : 0.4778, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047102200", 
+        "RPL_THEMES" : 0.5843, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047102400", 
+        "RPL_THEMES" : 0.4937, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047102600", 
+        "RPL_THEMES" : 0.2733, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047102800", 
+        "RPL_THEMES" : 0.4923, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047103400", 
+        "RPL_THEMES" : 0.9353, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047105801", 
+        "RPL_THEMES" : 0.932, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047105804", 
+        "RPL_THEMES" : 0.9836, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047107000", 
+        "RPL_THEMES" : 0.6291, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047107800", 
+        "RPL_THEMES" : 0.7175, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047109800", 
+        "RPL_THEMES" : 0.8489, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047110400", 
+        "RPL_THEMES" : 0.9634, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047110600", 
+        "RPL_THEMES" : 0.9704, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047111000", 
+        "RPL_THEMES" : 0.9673, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047111600", 
+        "RPL_THEMES" : 0.993, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047111800", 
+        "RPL_THEMES" : 0.8205, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047112000", 
+        "RPL_THEMES" : 0.9444, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047112200", 
+        "RPL_THEMES" : 0.9782, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047112400", 
+        "RPL_THEMES" : 0.7491, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047112600", 
+        "RPL_THEMES" : 0.8597, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047112800", 
+        "RPL_THEMES" : 0.7777, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047113000", 
+        "RPL_THEMES" : 0.8385, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047113200", 
+        "RPL_THEMES" : 0.6642, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047113400", 
+        "RPL_THEMES" : 0.986, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047114201", 
+        "RPL_THEMES" : 0.9343, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047114202", 
+        "RPL_THEMES" : 0.7861, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047114400", 
+        "RPL_THEMES" : 0.9603, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047114600", 
+        "RPL_THEMES" : 0.9851, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047115000", 
+        "RPL_THEMES" : 0.952, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047115200", 
+        "RPL_THEMES" : 0.9164, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047115600", 
+        "RPL_THEMES" : 0.9602, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047115800", 
+        "RPL_THEMES" : 0.9421, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047116000", 
+        "RPL_THEMES" : 0.8892, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047116200", 
+        "RPL_THEMES" : 0.8598, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047116400", 
+        "RPL_THEMES" : 0.8189, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047116600", 
+        "RPL_THEMES" : 0.8675, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047116800", 
+        "RPL_THEMES" : 0.8644, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047117000", 
+        "RPL_THEMES" : 0.8684, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047117201", 
+        "RPL_THEMES" : 0.8565, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047117202", 
+        "RPL_THEMES" : 0.8039, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047117400", 
+        "RPL_THEMES" : 0.7939, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047117601", 
+        "RPL_THEMES" : 0.8649, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047117602", 
+        "RPL_THEMES" : 0.8155, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047117800", 
+        "RPL_THEMES" : 0.8915, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047118000", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047118201", 
+        "RPL_THEMES" : 0.6377, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047118202", 
+        "RPL_THEMES" : 0.6326, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047118400", 
+        "RPL_THEMES" : 0.6854, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047118600", 
+        "RPL_THEMES" : 0.7917, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047118800", 
+        "RPL_THEMES" : 0.7112, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047119000", 
+        "RPL_THEMES" : 0.8172, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047119200", 
+        "RPL_THEMES" : 0.8298, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047119400", 
+        "RPL_THEMES" : 0.9253, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047119600", 
+        "RPL_THEMES" : 0.8789, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047119800", 
+        "RPL_THEMES" : 0.9761, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047120000", 
+        "RPL_THEMES" : 0.9616, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047120200", 
+        "RPL_THEMES" : 0.6436, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047120800", 
+        "RPL_THEMES" : 0.9061, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047121000", 
+        "RPL_THEMES" : 0.9677, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047121400", 
+        "RPL_THEMES" : 0.9756, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047122000", 
+        "RPL_THEMES" : 0.8347, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047123700", 
+        "RPL_THEMES" : 0.6982, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047150200", 
+        "RPL_THEMES" : 0.2405, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047152200", 
+        "RPL_THEMES" : 0.4982, 
+        "COUNTY" : "Kings"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36047990100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "Kings"
+      }
+    }
+  ]
+}

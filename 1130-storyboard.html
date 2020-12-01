@@ -210,7 +210,7 @@
                     <p>Another analysis shows that hospitalization cases of not only black but also the other minority
                         such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
                 </div>
-                <div class="chart frame"></div>
+                <div class="chart frame" id="concchart"></div>
             </div>
         </div>
     </section>
@@ -376,15 +376,19 @@
         var medicalurl = 'datas/05-physical/medical-facilities-converted.csv';
         var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
         var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
+        var sviurl = 'datas/04-svi/svi-merged.csv';
 
         var infomapcontainer = d3.select('#infomap');
         var physmapcontainer = d3.select('#physmap');
+        var concmapcontainer = d3.select('#concmap');
         var height = infomapcontainer.node().getBoundingClientRect().height;
         var width = infomapcontainer.node().getBoundingClientRect().width;
         var infomapsvg = infomapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'infomapsvg');
         var physmapsvg = physmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'physmapsvg');
+        var concmapsvg = concmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'concmapsvg');
         var infogrp = infomapsvg.append('g');
         var physgrp = physmapsvg.append('g');
+        var concgrp = concmapsvg.append('g');
 
         var projection = d3.geoMercator().center([-73.94, 40.70]).scale(70000).translate([width / 2, height / 2]);
         var path = d3.geoPath().projection(projection);
@@ -392,6 +396,7 @@
         var internet = d3.map();
         var medical = [], testing = [];
         var medicaldist = d3.map();
+        var svi = d3.map();
         var medcolormap = { 'community-healthcare-centers': 1, 'diagnostic-treatment-centers': 3, 'long-term-care-facilities': 6, 'hospitals': 8 };
         var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
             internet.set(+d.modzcta, +d.perc);
@@ -401,6 +406,8 @@
             medicaldist.set(+d.modzcta, [+d['community-healthcare-centers'], +d['diagnostic-treatment-centers'], +d['long-term-care-facilities'], +d['hospitals'], +d['avg']]);
         }), d3.csv(testingurl, function (d) {
             testing.push([d.NAME, [+d.lng, +d.lat]]);
+        }), d3.csv(sviurl, function (d) {
+            svi.set(+d.modzcta, +d.avgsvi);
         })];
         Promise.all(promises).then(ready);
         function ready([nyc]) {
@@ -456,38 +463,24 @@
                 .on('mouseout', function () {
                     d3.select('#tooltip').classed('hidden', true);
                 });
+
+            // conc map
+            var conccolors = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
+            concgrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode')
+                .attr('fill', d => conccolors(svi.get(d.properties.modzcta))).attr('stroke', 'gray').attr('d', path);
+
             // info legend
             var cellNum = 9;
-            var infolegend = d3.legendColor()
-                .shapeWidth(50)
-                .shapeHeight(10)
-                .cells(cellNum)
-                .shapePadding(0)
-                .labelFormat(d3.format('.2f'))
-                .labels(['0'])
-                .title('Percentage of the households with no Internet access')
-                .orient('horizontal')
-                .scale(infocolors);
-            infomapsvg.append('g')
-                .attr('transform', 'translate(20, 20)')
-                // .append(() => legend({color, title: 'Tweets per neighborhood (log scale)', width: 500}));
-                .call(infolegend);
+            var infolegend = d3.legendColor().shapeWidth(50).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Percentage of the households with no Internet access').orient('horizontal').scale(infocolors);
+            infomapsvg.append('g').attr('transform', 'translate(20, 20)').call(infolegend);
 
             // phys legend
-            var physlegend = d3.legendColor()
-                .shapeWidth(45)
-                .shapeHeight(10)
-                .cells(cellNum)
-                .shapePadding(0)
-                .labelFormat(d3.format('.2f'))
-                .labels(['0'])
-                .title('Average distance to the 4 kinds of medical facilities')
-                .orient('horizontal')
-                .scale(physcolors);
-            var physlegendcontainer = physmapsvg.append('g')
-                .attr('transform', 'translate(20, 20)')
-                // .append(() => legend({color, title: 'Tweets per neighborhood (log scale)', width: 500}));
-                .call(physlegend);
+            var physlegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Average distance to the 4 kinds of medical facilities').orient('horizontal').scale(physcolors);
+            var physlegendcontainer = physmapsvg.append('g').attr('transform', 'translate(20, 20)').call(physlegend);
+
             var physcirclelegneds = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
             physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
                 .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemeCategory10[1]);
@@ -513,6 +506,12 @@
             physlegendcontainer.append('g').append('text').text('Distribution of Medical Facilities and Testing Sites in NYC').attr('class', 'physmaptitle')
                 .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
                 .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
+            
+            // conc legend
+            var conclegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Current CDC Social Vulnerability Index 2018').orient('horizontal').scale(conccolors);
+            var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegend);
+            // conc title
 
             // legend title location and size
             d3.selectAll('.legendTitle')

@@ -1,0 +1,2597 @@
+{
+  "type" : "FeatureCollection", 
+  "features" : [
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000201", 
+        "RPL_THEMES" : 0.9856, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000202", 
+        "RPL_THEMES" : 0.9752, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000500", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000600", 
+        "RPL_THEMES" : 0.9812, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000700", 
+        "RPL_THEMES" : 0.1384, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000800", 
+        "RPL_THEMES" : 0.8986, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061000900", 
+        "RPL_THEMES" : 0.1378, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001001", 
+        "RPL_THEMES" : 0.3769, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001002", 
+        "RPL_THEMES" : 0.996, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001200", 
+        "RPL_THEMES" : 0.7672, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001300", 
+        "RPL_THEMES" : 0.1084, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001401", 
+        "RPL_THEMES" : 0.3517, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001402", 
+        "RPL_THEMES" : 0.6833, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001501", 
+        "RPL_THEMES" : 0.6215, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001502", 
+        "RPL_THEMES" : 0.355, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001600", 
+        "RPL_THEMES" : 0.7188, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061001800", 
+        "RPL_THEMES" : 0.7969, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002000", 
+        "RPL_THEMES" : 0.9922, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002100", 
+        "RPL_THEMES" : 0.2392, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002201", 
+        "RPL_THEMES" : 0.9139, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002202", 
+        "RPL_THEMES" : 0.5401, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002400", 
+        "RPL_THEMES" : 0.9267, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002500", 
+        "RPL_THEMES" : 0.9984, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002601", 
+        "RPL_THEMES" : 0.8324, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002602", 
+        "RPL_THEMES" : 0.5902, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002700", 
+        "RPL_THEMES" : 0.7383, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002800", 
+        "RPL_THEMES" : 0.7794, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061002900", 
+        "RPL_THEMES" : 0.9384, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003001", 
+        "RPL_THEMES" : 0.44, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003002", 
+        "RPL_THEMES" : 0.5728, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003100", 
+        "RPL_THEMES" : 0.5059, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003200", 
+        "RPL_THEMES" : 0.3436, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003300", 
+        "RPL_THEMES" : 0.2061, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003400", 
+        "RPL_THEMES" : 0.4405, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003601", 
+        "RPL_THEMES" : 0.8172, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003602", 
+        "RPL_THEMES" : 0.6151, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003700", 
+        "RPL_THEMES" : 0.247, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003800", 
+        "RPL_THEMES" : 0.4892, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061003900", 
+        "RPL_THEMES" : 0.1994, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004000", 
+        "RPL_THEMES" : 0.2588, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004100", 
+        "RPL_THEMES" : 0.7177, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004200", 
+        "RPL_THEMES" : 0.3671, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004300", 
+        "RPL_THEMES" : 0.4137, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004400", 
+        "RPL_THEMES" : 0.2182, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004500", 
+        "RPL_THEMES" : 0.4455, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004700", 
+        "RPL_THEMES" : 0.1515, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004800", 
+        "RPL_THEMES" : 0.3265, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061004900", 
+        "RPL_THEMES" : 0.3033, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005000", 
+        "RPL_THEMES" : 0.2429, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005200", 
+        "RPL_THEMES" : 0.3347, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005400", 
+        "RPL_THEMES" : 0.2442, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005501", 
+        "RPL_THEMES" : 0.3473, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005502", 
+        "RPL_THEMES" : 0.4235, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005600", 
+        "RPL_THEMES" : 0.4432, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005700", 
+        "RPL_THEMES" : 0.0722, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005800", 
+        "RPL_THEMES" : 0.1429, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061005900", 
+        "RPL_THEMES" : 0.2507, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006000", 
+        "RPL_THEMES" : 0.2003, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006100", 
+        "RPL_THEMES" : 0.3097, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006200", 
+        "RPL_THEMES" : 0.7212, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006300", 
+        "RPL_THEMES" : 0.2935, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006400", 
+        "RPL_THEMES" : 0.2083, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006500", 
+        "RPL_THEMES" : 0.3077, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006600", 
+        "RPL_THEMES" : 0.6377, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006700", 
+        "RPL_THEMES" : 0.1004, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006800", 
+        "RPL_THEMES" : 0.3237, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061006900", 
+        "RPL_THEMES" : 0.1632, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007000", 
+        "RPL_THEMES" : 0.2078, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007100", 
+        "RPL_THEMES" : 0.1861, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007200", 
+        "RPL_THEMES" : 0.3134, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007300", 
+        "RPL_THEMES" : 0.1397, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007400", 
+        "RPL_THEMES" : 0.3073, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007500", 
+        "RPL_THEMES" : 0.1568, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007600", 
+        "RPL_THEMES" : 0.2589, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007700", 
+        "RPL_THEMES" : 0.1244, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007800", 
+        "RPL_THEMES" : 0.2648, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061007900", 
+        "RPL_THEMES" : 0.2492, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008000", 
+        "RPL_THEMES" : 0.2603, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008100", 
+        "RPL_THEMES" : 0.381, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008200", 
+        "RPL_THEMES" : 0.1076, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008300", 
+        "RPL_THEMES" : 0.7016, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008400", 
+        "RPL_THEMES" : 0.282, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008601", 
+        "RPL_THEMES" : 0.053, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008602", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008603", 
+        "RPL_THEMES" : 0.1166, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008700", 
+        "RPL_THEMES" : 0.1237, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008800", 
+        "RPL_THEMES" : 0.2393, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061008900", 
+        "RPL_THEMES" : 0.5959, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009000", 
+        "RPL_THEMES" : 0.3009, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009100", 
+        "RPL_THEMES" : 0.3534, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009200", 
+        "RPL_THEMES" : 0.2031, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009300", 
+        "RPL_THEMES" : 0.5049, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009400", 
+        "RPL_THEMES" : 0.0019, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009500", 
+        "RPL_THEMES" : 0.3847, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009600", 
+        "RPL_THEMES" : 0.0113, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009700", 
+        "RPL_THEMES" : 0.6917, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009800", 
+        "RPL_THEMES" : 0.3848, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061009900", 
+        "RPL_THEMES" : 0.2526, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010000", 
+        "RPL_THEMES" : 0.1318, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010100", 
+        "RPL_THEMES" : 0.4623, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010200", 
+        "RPL_THEMES" : 0.2948, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010300", 
+        "RPL_THEMES" : 0.2004, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010400", 
+        "RPL_THEMES" : 0.3797, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010601", 
+        "RPL_THEMES" : 0.1221, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010602", 
+        "RPL_THEMES" : 0.1786, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010800", 
+        "RPL_THEMES" : 0.2383, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061010900", 
+        "RPL_THEMES" : 0.2109, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011000", 
+        "RPL_THEMES" : 0.2349, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011100", 
+        "RPL_THEMES" : 0.4095, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011201", 
+        "RPL_THEMES" : 0.1672, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011202", 
+        "RPL_THEMES" : 0.1511, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011203", 
+        "RPL_THEMES" : 0.1287, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011300", 
+        "RPL_THEMES" : 0.5207, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011401", 
+        "RPL_THEMES" : 0.3166, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011402", 
+        "RPL_THEMES" : 0.1914, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011500", 
+        "RPL_THEMES" : 0.5548, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011600", 
+        "RPL_THEMES" : 0.2864, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011700", 
+        "RPL_THEMES" : 0.2741, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011800", 
+        "RPL_THEMES" : 0.2501, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061011900", 
+        "RPL_THEMES" : 0.7993, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012000", 
+        "RPL_THEMES" : 0.2351, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012100", 
+        "RPL_THEMES" : 0.6414, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012200", 
+        "RPL_THEMES" : 0.1828, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012400", 
+        "RPL_THEMES" : 0.4197, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012500", 
+        "RPL_THEMES" : 0.2697, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012600", 
+        "RPL_THEMES" : 0.1711, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012700", 
+        "RPL_THEMES" : 0.446, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012800", 
+        "RPL_THEMES" : 0.2407, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061012900", 
+        "RPL_THEMES" : 0.3076, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013000", 
+        "RPL_THEMES" : 0.2639, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013100", 
+        "RPL_THEMES" : 0.3678, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013200", 
+        "RPL_THEMES" : 0.1951, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013300", 
+        "RPL_THEMES" : 0.4935, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013400", 
+        "RPL_THEMES" : 0.2073, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013500", 
+        "RPL_THEMES" : 0.7166, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013600", 
+        "RPL_THEMES" : 0.1393, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013700", 
+        "RPL_THEMES" : 0.3715, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013800", 
+        "RPL_THEMES" : 0.3574, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061013900", 
+        "RPL_THEMES" : 0.4189, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014000", 
+        "RPL_THEMES" : 0.0939, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014200", 
+        "RPL_THEMES" : 0.2934, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014300", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014401", 
+        "RPL_THEMES" : 0.2074, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014402", 
+        "RPL_THEMES" : 0.178, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014500", 
+        "RPL_THEMES" : 0.4259, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014601", 
+        "RPL_THEMES" : 0.1888, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014602", 
+        "RPL_THEMES" : 0.1908, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014700", 
+        "RPL_THEMES" : 0.152, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014801", 
+        "RPL_THEMES" : 0.2071, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014802", 
+        "RPL_THEMES" : 0.1611, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061014900", 
+        "RPL_THEMES" : 0.295, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015001", 
+        "RPL_THEMES" : 0.15, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015002", 
+        "RPL_THEMES" : 0.2294, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015100", 
+        "RPL_THEMES" : 0.6839, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015200", 
+        "RPL_THEMES" : 0.5179, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015300", 
+        "RPL_THEMES" : 0.1262, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015400", 
+        "RPL_THEMES" : 0.3096, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015500", 
+        "RPL_THEMES" : 0.203, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015601", 
+        "RPL_THEMES" : 0.2169, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015602", 
+        "RPL_THEMES" : 0.7298, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015700", 
+        "RPL_THEMES" : 0.3073, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015801", 
+        "RPL_THEMES" : 0.2234, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015802", 
+        "RPL_THEMES" : 0.4486, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061015900", 
+        "RPL_THEMES" : 0.2408, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016001", 
+        "RPL_THEMES" : 0.1426, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016002", 
+        "RPL_THEMES" : 0.2856, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016100", 
+        "RPL_THEMES" : 0.1737, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016200", 
+        "RPL_THEMES" : 0.9595, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016300", 
+        "RPL_THEMES" : 0.2439, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016400", 
+        "RPL_THEMES" : 0.9542, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016500", 
+        "RPL_THEMES" : 0.2815, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016600", 
+        "RPL_THEMES" : 0.8328, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016700", 
+        "RPL_THEMES" : 0.1807, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016800", 
+        "RPL_THEMES" : 0.9832, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061016900", 
+        "RPL_THEMES" : 0.3032, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017000", 
+        "RPL_THEMES" : 0.8944, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017100", 
+        "RPL_THEMES" : 0.3097, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017200", 
+        "RPL_THEMES" : 0.9167, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017300", 
+        "RPL_THEMES" : 0.3686, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017401", 
+        "RPL_THEMES" : 0.9872, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017402", 
+        "RPL_THEMES" : 0.7442, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017500", 
+        "RPL_THEMES" : 0.2803, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017700", 
+        "RPL_THEMES" : 0.5175, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017800", 
+        "RPL_THEMES" : 0.7096, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061017900", 
+        "RPL_THEMES" : 0.502, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018000", 
+        "RPL_THEMES" : 0.9628, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018100", 
+        "RPL_THEMES" : 0.5274, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018200", 
+        "RPL_THEMES" : 0.9912, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018300", 
+        "RPL_THEMES" : 0.4532, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018400", 
+        "RPL_THEMES" : 0.9659, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018500", 
+        "RPL_THEMES" : 0.3052, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018600", 
+        "RPL_THEMES" : 0.9969, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018700", 
+        "RPL_THEMES" : 0.4521, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018800", 
+        "RPL_THEMES" : 0.8909, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061018900", 
+        "RPL_THEMES" : 0.9591, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019000", 
+        "RPL_THEMES" : 0.5267, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019100", 
+        "RPL_THEMES" : 0.5913, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019200", 
+        "RPL_THEMES" : 0.9925, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019300", 
+        "RPL_THEMES" : 0.8158, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019400", 
+        "RPL_THEMES" : 0.9759, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019500", 
+        "RPL_THEMES" : 0.52, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019600", 
+        "RPL_THEMES" : 0.985, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019701", 
+        "RPL_THEMES" : 0.4995, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019702", 
+        "RPL_THEMES" : 0.6823, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019800", 
+        "RPL_THEMES" : 0.7908, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061019900", 
+        "RPL_THEMES" : 0.5299, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020000", 
+        "RPL_THEMES" : 0.5658, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020101", 
+        "RPL_THEMES" : 0.3595, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020102", 
+        "RPL_THEMES" : 0.6155, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020300", 
+        "RPL_THEMES" : 0.7195, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020500", 
+        "RPL_THEMES" : 0.3151, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020600", 
+        "RPL_THEMES" : 0.893, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020701", 
+        "RPL_THEMES" : 0.3957, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020800", 
+        "RPL_THEMES" : 0.6891, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061020901", 
+        "RPL_THEMES" : 0.9386, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021000", 
+        "RPL_THEMES" : 0.8886, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021100", 
+        "RPL_THEMES" : 0.6626, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021200", 
+        "RPL_THEMES" : 0.8324, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021303", 
+        "RPL_THEMES" : 0.7616, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021400", 
+        "RPL_THEMES" : 0.4695, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021500", 
+        "RPL_THEMES" : 0.8745, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021600", 
+        "RPL_THEMES" : 0.6949, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021703", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021800", 
+        "RPL_THEMES" : 0.751, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061021900", 
+        "RPL_THEMES" : 0.9925, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022000", 
+        "RPL_THEMES" : 0.6263, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022102", 
+        "RPL_THEMES" : 0.3688, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022200", 
+        "RPL_THEMES" : 0.6395, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022301", 
+        "RPL_THEMES" : 0.6988, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022302", 
+        "RPL_THEMES" : 0.8886, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022400", 
+        "RPL_THEMES" : 0.916, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022500", 
+        "RPL_THEMES" : 0.894, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022600", 
+        "RPL_THEMES" : 0.7405, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022700", 
+        "RPL_THEMES" : 0.7796, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022800", 
+        "RPL_THEMES" : 0.7914, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061022900", 
+        "RPL_THEMES" : 0.8576, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023000", 
+        "RPL_THEMES" : 0.943, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023100", 
+        "RPL_THEMES" : 0.8097, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023200", 
+        "RPL_THEMES" : 0.9761, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023300", 
+        "RPL_THEMES" : 0.7041, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023400", 
+        "RPL_THEMES" : 0.7712, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023501", 
+        "RPL_THEMES" : 0.8027, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023502", 
+        "RPL_THEMES" : 0.8421, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023600", 
+        "RPL_THEMES" : 0.7802, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023700", 
+        "RPL_THEMES" : 0.8301, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023801", 
+        "RPL_THEMES" : 0.5442, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023802", 
+        "RPL_THEMES" : 0.827, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061023900", 
+        "RPL_THEMES" : 0.8683, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024000", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024100", 
+        "RPL_THEMES" : 0.8594, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024200", 
+        "RPL_THEMES" : 0.993, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024301", 
+        "RPL_THEMES" : 0.9438, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024302", 
+        "RPL_THEMES" : 0.9972, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024500", 
+        "RPL_THEMES" : 0.8957, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024700", 
+        "RPL_THEMES" : 0.7362, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061024900", 
+        "RPL_THEMES" : 0.8801, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061025100", 
+        "RPL_THEMES" : 0.9904, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061025300", 
+        "RPL_THEMES" : 0.9029, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061025500", 
+        "RPL_THEMES" : 0.8065, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061025700", 
+        "RPL_THEMES" : 0.497, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061025900", 
+        "RPL_THEMES" : 0.5828, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061026100", 
+        "RPL_THEMES" : 0.9745, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061026300", 
+        "RPL_THEMES" : 0.8734, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061026500", 
+        "RPL_THEMES" : 0.7216, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061026700", 
+        "RPL_THEMES" : 0.7841, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061026900", 
+        "RPL_THEMES" : 0.9763, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061027100", 
+        "RPL_THEMES" : 0.8654, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061027300", 
+        "RPL_THEMES" : 0.4762, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061027500", 
+        "RPL_THEMES" : 0.6108, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061027700", 
+        "RPL_THEMES" : 0.9901, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061027900", 
+        "RPL_THEMES" : 0.8868, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061028100", 
+        "RPL_THEMES" : 0.3313, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061028300", 
+        "RPL_THEMES" : 0.7696, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061028500", 
+        "RPL_THEMES" : 0.9289, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061028700", 
+        "RPL_THEMES" : 0.8227, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061029100", 
+        "RPL_THEMES" : 0.8842, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061029300", 
+        "RPL_THEMES" : 0.9247, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061029500", 
+        "RPL_THEMES" : 0.7156, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061029700", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061029900", 
+        "RPL_THEMES" : 0.9943, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061030300", 
+        "RPL_THEMES" : 0.5805, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061030700", 
+        "RPL_THEMES" : 0.3769, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061030900", 
+        "RPL_THEMES" : 0.9789, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061031100", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061031703", 
+        "RPL_THEMES" : 0.2219, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061031704", 
+        "RPL_THEMES" : 0.1546, 
+        "COUNTY" : "New York"
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "geometry" : null, 
+      "properties" : {
+        "FIPS" : "36061031900", 
+        "RPL_THEMES" : -999, 
+        "COUNTY" : "New York"
+      }
+    }
+  ]
+}
