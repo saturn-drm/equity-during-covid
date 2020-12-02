@@ -8,6 +8,7 @@
     --economy: #ef476f;
     --mainbg: #fffcf9;
     --mainfontcolor: #34090f;
+    --bodybg: black;
 }
 
 body, html {
@@ -98,7 +99,7 @@ section {
 
 section#footer {
     /* height: 50vh; */
-    background-color: rgba(38,84,124,.9);
+    background-color: rgba(38,84,124,1);
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
@@ -141,8 +142,8 @@ button.inactivebtn {
 }
 
 .frame {
-    /* background-color: rgba(255, 252, 249, .9); */
-    /* box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2); */
+    background-color: rgba(255, 252, 249, 1);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
     padding: 10px;
     border-radius: 20px;
@@ -181,23 +182,27 @@ button.inactivebtn {
 
 #background {
     /* background-color: aquamarine; */
-    background-color: var(--mainbg);
+    background-color: var(--bodybg);
     height: auto;
+}
+
+#race {
+    background-color: var(--bodybg);
 }
 
 #information {
     /* background-color: bisque; */
-    background-color: var(--mainbg);
+    background-color: var(--bodybg);
 }
 
 #physical {
     /* background-color: coral; */
-    background-color: var(--mainbg);
+    background-color: var(--bodybg);
 }
 
 #conclusion {
     /* background-color: steelblue; */
-    background-color: var(--mainbg);
+    background-color: var(--bodybg);
 }
 
 h1.note {
@@ -206,6 +211,7 @@ h1.note {
     margin-bottom: 0px;
     text-align: left;
     margin-left: 50px;
+    color: var(--mainbg);
 }
 
 .testcontent {
