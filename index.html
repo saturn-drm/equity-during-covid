@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/vizdev-main-test.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>Equity During COVID</title>
+    <title>Enquity during COVID</title>
     <meta name="description" content="11.454 Big Data and Visualization">
-    <meta name="author" content="Zihan Zephaniah MEI">
+    <meta name="author" content="ZihanMEI, Ryuhei Ichikura, Beko Liu">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600&display=swap" rel="stylesheet">
+    <!-- font from adobe -->
     <script>
         (function (d) {
             var config = {
@@ -25,16 +26,16 @@
     <!-- end fonts -->
 
     <!-- start favicons snippet, use https://realfavicongenerator.net/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#2c3e50">
-    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2c3e50">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="ZMei.moe">
     <meta name="application-name" content="ZMei.moe">
     <meta name="msapplication-TileColor" content="#fee3e1">
-    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <!-- end favicons snippet -->
 
@@ -50,36 +51,308 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
 
+    <!-- <script type='text/javascript'>
+        $(document).ready(function () {
+            $("#footer").load("components/footer.html");
+        });
+    </script> -->
+
+    <!-- anime-master -->
+    <script src="js/anime-master/lib/anime.min.js"></script>
+
+    <!-- scrollmagic.js -->
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/debug.addIndicators.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 </head>
 
 <body>
-    <section id="cover">
-        <div class="bgimg"></div>
-        <div class="words">
-            <h1>Equity During COVID</h1>
-            <h2>Measuring Access to Medical Resources for the Minority</h2>
-            <p>By: Zihan, Beko, Ichi</p>
-            <p>11.454 Big Data & Visualization</p>
-            <!-- <p><a href="https://www.zmei.moe/">Go to Homepage.</a></p> -->
+    <progress id="content-progress" value="0"></progress>
+
+    <!-- back to top icon -->
+    <a id="backtotop">
+        <svg id="layer2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.85 35.95">
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill: none;
+                        stroke-miterlimit: 10;
+                    }
+                </style>
+            </defs>
+            <title>backtotop</title>
+            <polyline class="cls-1" points="0.43 13.95 8.43 0.95 16.43 13.95" />
+            <line class="cls-1" x1="8.43" y1="25.95" x2="8.43" y2="0.95" />
+            <line class="cls-1" x1="0.43" y1="0.95" x2="16.43" y2="0.95" />
+        </svg>
+    </a>
+    <!-- end back to top icon -->
+
+    <div id="tooltip" class="hidden">
+        <p><span id="value">100</span></p>
+    </div>
+
+    <section class="cover" id="home">
+        <div class="coverwords">
+            <h1>How to Improve Racial Equity in the Access to Medical Resources during COVID</h1>
+            <h2>11.454 Big Data, Visualization, And Society</h2>
+            <p>By: Zihan Mei, Ryuhei Ichikura, Beko Liu</p>
+            <p>Instructor: Sarah Williams, Yuan Lai<br>TA: Yanchao Li, Lily Xie, Patricia Cafferky</p>
+            <p>source for background image: <a
+                    href="https://showcase.earthengine.app/view/jrc-global-surface-water-animation">JRC Global Surface
+                    Water Animation</a></p>
+        </div>
+
+        <a href="#background">
+            <div class="scrolldown">
+                <svg id="layer1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.14 11.04">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: transparent;
+                                stroke-miterlimit: 10;
+                                stroke-width: 2px;
+                            }
+                        </style>
+                    </defs>
+                    <title>scrolldown</title>
+                    <polyline class="cls-1" points="0.57 0.82 13.57 9.82 26.57 0.82" />
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <!-- Start p1 of Background -->
+    <section class="container" id="background">
+        <h1 class="note" style="color:white;font-size:6rem;">Background</h1>
+        <div class="row">
+            <div class="column1" id="bgimg1">
+                <div class="bgcontent frame">
+                    <div class="bgp1 bganime bgfadein1" style="padding-top:200px; padding-left:100px">
+                        <img src='assets/NBC.jpeg' alt="NBC" class='image1'>
+                    </div>
+
+                    <p style="font-size:8pt; padding-left:100px">Source: <a
+                            href="http://localhost:8000/1130-storyboard_Ichi2.html">NBC News</a></p>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="bgcontent frame" id="triggerbg1">
+                    <p
+                        style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:350px;'>
+                        Who are the victims of Covid?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p1 of Background -->
+    <!-- Start p2 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg2">
+                <div class="dummyframe">
+                    <div class="bgp2 bganime bgfadein2" style="padding-top:100px; padding-left:180px">
+                        <img src='assets/Atlantic-1.png' alt="atlantic-1" class='image2'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:180px">Source: <a href="https://covidtracking.com/race">The
+                            Atlantic. The Covid Tracking Project</a></p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg2">
+                    <p
+                        style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:380px;'>
+                        The COVID Tracking Project by Atlantic found the high infection rates in the White-dominant
+                        cities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p2 of Background -->
+    <!-- Start p3 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg3">
+                <div class="dummyframe">
+                    <div class="bgp3 bganime bgfadein3" style="padding-top:100px; padding-left:180px">
+                        <img src='assets/Atlantic-2.png' alt="atlantic-2" class='image3'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:180px">Source: <a href="https://covidtracking.com/race">The
+                            Atlantic. The Covid Tracking Project</a></p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg3">
+                    <p
+                        style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:300px;'>
+                        It also found high death rate from COVID in the Black-dominant cities.<br>
+                        Racial minority dies more than the mojority by Covid while the majority is infected more.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p3 of Background -->
+    <!-- Start p4 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg4">
+                <div class="dummyframe">
+                    <div class="bgp4 bganime bgfadein4" style="padding-top:200px; padding-left:100px">
+                        <img src='assets/MedicalCareBW.jpg' alt="medicalcareBW" class='image4'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:100px">Source: East China Morning Post. The Coronavirus
+                        Pandemic.</p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg4">
+                    <p
+                        style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:400px;'>
+                        Accessibility to medical resource is a reason.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p4 of Background -->
+    <!-- Start p5 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg5">
+                <div class="dummyframe">
+                    <div class="bgp5 bganime bgfadein5" style="padding-top:180px; padding-left:180px">
+                        <img src='assets/SVI-3.png' alt="SVI-3" class='image5'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:100px">Source: CDC. Planning for an Emergency: Strategies for
+                        Identifying and Engaging At-Risk Groups.</p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg5">
+                    <p
+                        style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:300px;'>
+                        SVI covers this accessibility.<br>
+                        But it does not fully cover the situation with the new virus.<br><br>
+                        New two index could supplement.<br></p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p5 of Background -->
+    <!-- Start Case Study -->
+    <section class="container" id="race">
+        <h1 class="note" style="color:white;font-size:6rem;">Case Study (NYC)</h1>
+        <div class="row">
+            <div class="column1 frame" id="racemap"></div>
+            <div class="column2">
+                <div class="frame cscomment">
+                    <p style="text-align: center; padding-top: 30vh; font-size: 18pt;">We take a look at New York City
+                        as a case study.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Case Study -->
+
+    <section class="container" id="information">
+        <h1 class="note" style="color:white;font-size:6rem;">Information</h1>
+        <div class="row">
+            <div class="column1 frame" id="infomap"></div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame" id="infochart"></div>
+            </div>
         </div>
     </section>
 
-    <section id="part1">
-        <h1 class="note" style="color:white;font-size:15rem;">1</h1>
+    <section class="container" id="physical">
+        <h1 class="note" style="color:white;font-size:6rem;">Physical</h1>
+        <div class="row">
+            <div class="column1 frame" id="physmap">
+                <div class="buttons">
+                    <button id="physbutton1" class="inactivebtn" onclick="physswitch('medical');">Medical
+                        Facilities</button>
+                    <button id="physbutton2" class="inactivebtn" onclick="physswitch('testing');">Testing Sites</button>
+                    <button id="physbutton3" onclick="physswitch('all');">All</button>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame" id="physchart"></div>
+            </div>
+        </div>
     </section>
 
-    <section id="part2">
-        <h1 class="note" style="color:white;font-size:15rem;">2</h1>
+    <section class="container" id="conclusion">
+        <h1 class="note" style="color:white;font-size:6rem;">Conclusion</h1>
+        <div class="row">
+            <div class="column1 frame" id="concmap">
+                <div class="buttons">
+                    <button id="physbutton4" class="inactivebtn" onclick="concswitch(0);">Information</button>
+                    <button id="physbutton5" class="inactivebtn" onclick="concswitch(1);">Physical</button>
+                    <button id="physbutton6" onclick="concswitch(2);">Current SVI</button>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame" id="concchart"></div>
+            </div>
+        </div>
     </section>
 
-    <section id="part3">
-        <h1 class="note" style="color:white;font-size:15rem;">3</h1>
-    </section>
-
-    <section id="part4">
-        <h1 class="note" style="color:white;font-size:15rem;">4</h1>
+    <section id="footer">
+        <div class="footerword">
+            <h1>Equity During COVID-19</h1>
+            <h2>11.454 Big Data, Visualization, And Society</h2>
+            <h3>Contact</h3>
+            <p>Zihan Mei, <a href="mailto:zmei@gsd.harvard.edu">zmei@gsd.harvard.edu</a></p>
+            <p>Ryuhei Ichikura, <a href="mailto:ichikura@mit.edu">ichikura@mit.edu</a></p>
+            <p>Beko Liu, <a href="mailto:bliu@gsd.harvard.edu">bliu@gsd.harvard.edu</a></p>
+        </div>
     </section>
 
     <!-- scroll smoothly -->
@@ -130,14 +403,14 @@
 
                 if (event.deltaY > 0) {
                     if (currentIndex + 1 >= $sections.length) return;
-                    // if (!bottomIsReached($currentSection)) return;
+                    if (!bottomIsReached($currentSection)) return;
                     currentIndex++;
                     event.preventDefault();
                     isAnimating = true;
                     $("html, body").animate({ scrollTop: $($sections[currentIndex]).offset().top }, 1000, stopAnimation);
                 } else {
                     if (currentIndex - 1 < 0) return;
-                    // if (!topIsReached($currentSection)) return;
+                    if (!topIsReached($currentSection)) return;
                     currentIndex--;
                     event.preventDefault();
                     isAnimating = true;
@@ -147,9 +420,461 @@
             { passive: false }
         );
 
+        // backtotop
+        var btn = $('#backtotop');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            currentIndex = 0;
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
     </script>
     <!-- end scroll smoothly -->
 
+    <!-- the moving icon of scrolling down -->
+    <script class="scrolldownanime">
+        anime({
+            targets: 'div.scrolldown svg',
+            translateY: 25,
+            loop: true,
+            easing: 'easeInOutSine',
+            duration: 1000,
+            opacity: [0, 1]
+        })
+    </script>
+
+    <!-- scrollmagic animation -->
+    <script class="scrollmagicanime">
+        window.onload = function () {
+            var bgheightp1 = document.getElementsByClassName("bgp1")[0].offsetHeight;
+            var bgheightp2 = document.getElementsByClassName("bgp2")[0].offsetHeight;
+            var bgheightp3 = document.getElementsByClassName("bgp3")[0].offsetHeight;
+            var bgheightp4 = document.getElementsByClassName("bgp4")[0].offsetHeight;
+            var bgheightp5 = document.getElementsByClassName("bgp5")[0].offsetHeight;
+
+            var controller = new ScrollMagic.Controller();
+
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg1", duration: bgheightp1 })
+                .setClassToggle(".bgfadein1", "magicshow")
+                // .addIndicators({ name: "background" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg2", duration: bgheightp2 })
+                .setClassToggle(".bgfadein2", "magicshow")
+                // .addIndicators({ name: "start-up" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg3", duration: bgheightp3 })
+                .setClassToggle(".bgfadein3", "magicshow")
+                // .addIndicators({ name: "economy" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg4", duration: bgheightp4 })
+                .setClassToggle(".bgfadein4", "magicshow")
+                // .addIndicators({ name: "information" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg5", duration: bgheightp5 })
+                .setClassToggle(".bgfadein5", "magicshow")
+                // .addIndicators({ name: "physical" })
+                .addTo(controller);
+        };
+    </script>
+
+    <script class="content-progress-js">
+        document.addEventListener('DOMContentLoaded', function () {
+            var winHeight = window.innerHeight,
+                docHeight = document.documentElement.scrollHeight,
+                progressBar = document.querySelector('#content-progress');
+            progressBar.max = docHeight - winHeight;
+            progressBar.value = window.scrollY;
+
+            document.addEventListener('scroll', function () {
+                progressBar.max = document.documentElement.scrollHeight - window.innerHeight;
+                progressBar.value = window.scrollY;
+            });
+        });
+    </script>
+
+    <!-- Start Ichi's Messy Part2 -->
+    <script class="map" type="text/javascript">
+        var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
+        var raceurl = 'datas/6-RaceandHispanicOriginMerged.csv';
+        var mapcontainer = d3.select('#racemap');
+        var raceheight = mapcontainer.node().getBoundingClientRect().height;
+        var racewidth = mapcontainer.node().getBoundingClientRect().width;
+        var racesvg = mapcontainer.append('svg').attr('height', raceheight - 20).attr('width', racewidth - 20).attr('class', 'racesvg');
+
+        var raceprojection = d3.geoMercator().center([-73.94, 40.70]).scale(70000).translate([racewidth / 2, raceheight / 2]);
+
+        var racepath = d3.geoPath().projection(raceprojection);
+        var colortemp = d3.scaleQuantize().domain([0, 100]).range(d3.schemeGreys[9]);
+        var colorWhi = d3.scaleQuantize().domain([0, 100]).range(d3.schemeBlues[9]);
+        var colorBla = d3.scaleQuantize().domain([0, 100]).range(d3.schemeGreens[9]);
+        var colorAsi = d3.scaleQuantize().domain([0, 100]).range(d3.schemePurples[9]);
+        var colorLat = d3.scaleQuantize().domain([0, 100]).range(d3.schemeOranges[9]);
+
+        var race = d3.map();
+        var racepromises = [d3.json(nycgeourl),
+        d3.csv(raceurl, function (d) {
+            race.set(d.modzcta, [+d.maxperc, d.maxrace]);
+        })];
+        Promise.all(racepromises).then(raceready);
+        function raceready([nyc]) {
+            nyc.features.pop();
+            racesvg.append("g").selectAll('path').data(nyc.features).enter().append('path')
+                .style("fill", function (d) {
+                    switch (race.get(d.properties.modzcta)[1]) {
+                        case 'Percent of Population that is Non-Hispanic White':
+                            return colorWhi(race.get(d.properties.modzcta)[0]);
+                            break;
+                        case 'Percent of Population that is Black or African American':
+                            return colorBla(race.get(d.properties.modzcta)[0]);
+                            break;
+                        case 'Percent of Population that is Asian':
+                            return colorAsi(race.get(d.properties.modzcta)[0]);
+                            break;
+                        case 'Percent of Population that is Hispanic or Latino':
+                            return colorLat(race.get(d.properties.modzcta)[0]);
+                            break;
+                        default:
+                            return colortemp(race.get(d.properties.modzcta)[0]);
+                    }
+                }).attr('stroke', 'white').attr('stroke-width', '0.2px').attr('d', racepath)
+            var racecellNum = 9;
+            var colorLegendWhi = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
+                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population that is Non-Hispanic White')
+                .orient('horizontal').scale(colorWhi);
+            var colorLegendBla = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
+                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population Black or African American')
+                .orient('horizontal').scale(colorBla);
+            var colorLegendLat = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
+                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population that is Hispanic or Latino')
+                .orient('horizontal').scale(colorLat);
+            var colorLegendAsi = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
+                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population that is Asian')
+                .orient('horizontal').scale(colorAsi);
+
+            racesvg.append('g').attr('transform', 'translate(20, 20)').call(colorLegendWhi);
+            racesvg.append('g').attr('transform', 'translate(20, 80)').call(colorLegendBla);
+            racesvg.append('g').attr('transform', 'translate(20, 140)').call(colorLegendLat);
+            racesvg.append('g').attr('transform', 'translate(20, 200)').call(colorLegendAsi);
+
+            d3.selectAll('.legendTitle')
+                .attr('transform', 'translate(0, 5)')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+
+            d3.selectAll('.label')
+                .style('display', 'none');
+        };
+    </script>
+    <!-- End Ichi's Messy Part2 -->
+
+    <script class="map" type="text/javascript">
+        var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
+        var interneturl = 'datas/2-InternetMerged.csv';
+        var medicalurl = 'datas/05-physical/medical-facilities-converted.csv';
+        var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
+        var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
+        var svirnkurl = 'datas/8-svi_rnks.csv';
+        var caseurl = 'datas/06-cases/data-by-modzcta-merged.csv';
+
+        var infomapcontainer = d3.select('#infomap');
+        var physmapcontainer = d3.select('#physmap');
+        var concmapcontainer = d3.select('#concmap');
+        var chartconatiner = d3.select('#infochart');
+        var physchartcontainer = d3.select('#physchart');
+        var concchartcontainer = d3.select('#concchart');
+        var height = infomapcontainer.node().getBoundingClientRect().height;
+        var width = infomapcontainer.node().getBoundingClientRect().width;
+        var chartheight = chartconatiner.node().getBoundingClientRect().height;
+        var chartwidth = chartconatiner.node().getBoundingClientRect().width;
+        var basex = 20, basey = 20;
+        var infomapsvg = infomapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'infomapsvg');
+        var physmapsvg = physmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'physmapsvg');
+        var concmapsvg = concmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'concmapsvg');
+        var infogrp = infomapsvg.append('g');
+        var physgrp = physmapsvg.append('g');
+        var concgrp = concmapsvg.append('g');
+
+        var projection = d3.geoMercator().center([-73.94, 40.70]).scale(70000).translate([width / 2, height / 2]);
+        var path = d3.geoPath().projection(projection);
+
+        var internet = d3.map();
+        var medical = [], testing = [];
+        var medicaldist = d3.map();
+        var svirnk = d3.map();
+        var svirnklist = [];
+        var modname = d3.map();
+        var deathcase = [];
+        var medcolormap = { 'community-healthcare-centers': 1, 'diagnostic-treatment-centers': 3, 'long-term-care-facilities': 6, 'hospitals': 8 };
+        var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
+            internet.set(+d.modzcta, +d.perc);
+        }), d3.csv(medicalurl, function (d) {
+            medical.push([d.NAME, [+d.lng, +d.lat], d.CLASS]);
+        }), d3.csv(medicaldisturl, function (d) {
+            medicaldist.set(+d.modzcta, [+d['community-healthcare-centers'], +d['diagnostic-treatment-centers'], +d['long-term-care-facilities'], +d['hospitals'], +d['avg']]);
+        }), d3.csv(testingurl, function (d) {
+            testing.push([d.NAME, [+d.lng, +d.lat]]);
+        }), d3.csv(svirnkurl, function (d) {
+            svirnk.set(+d.modzcta, [+d.infornk, +d.physrnk, +d.avgsvi]);
+            svirnklist.push([+d.modzcta, +d.infornk, +d.physrnk, +d.avgsvi]);
+        }), d3.csv(caseurl, function (d) {
+            modname.set(+d.MODIFIED_ZCTA, [d.NEIGHBORHOOD_NAME, +d.COVID_DEATH_RATE]);
+            deathcase.push([+d.deathtocase, [+d.lng, +d.lat], +d.COVID_CASE_RATE, +d.COVID_DEATH_RATE, +d.MODIFIED_ZCTA]);
+        })];
+        var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[9]);
+        var conccolors = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
+        Promise.all(promises).then(ready);
+        function ready([nyc]) {
+            nyc.features.pop();
+            var infocolors = d3.scaleQuantize().domain(d3.extent(internet.values())).range(d3.schemeReds[5]);
+            infogrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode')
+                .attr('fill', d => infocolors(internet.get(d.properties.modzcta))).attr('stroke', 'gray').attr('d', path)
+                .on('mouseover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                })
+                .on('click', function (d) {
+                    drawchart(internet.get(d.properties.modzcta));
+                });
+            // physical, medical facilities points
+            physgrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode')
+                .attr('fill', d => physcolors(Math.min.apply(Math, medicaldist.get(d.properties.modzcta)))).attr('stroke', 'gray').attr('d', path)
+                .on('click', function (d) {
+                    drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4));
+                });
+            // testing
+            physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle')
+                .attr('class', 'testingcircle').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', '#bbb');
+            // medical facilities
+            physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle')
+                .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', d => d3.schemeCategory10[medcolormap[d[2]]])
+                .on('mousehover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(d[0]) + '<br>' + String(d[2]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(d[0]) + '<br>' + String(d[2]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                });
+
+            // conc map
+            var deathratecolors = d3.scaleQuantize().domain([0, 721.84]).range(d3.schemeReds[9]);
+            concgrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode').attr('id', d => d.properties.modzcta)
+                .attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[2])).attr('stroke', 'gray').attr('d', path);
+            concmapsvg.append('g').selectAll('circle').data(deathcase).enter().append('circle')
+                .attr('class', 'deathtocase').attr('r', d => d[3] / 40).attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', '#62bec1')
+                .on('mousehover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                });
+
+            // info legend
+            var cellNum = 9;
+            var infolegend = d3.legendColor().shapeWidth(50).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Percentage of the households with no Internet access').orient('horizontal').scale(infocolors);
+            infomapsvg.append('g').attr('transform', 'translate(20, 20)').call(infolegend);
+
+            // phys legend
+            var physlegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Average distance to the 4 kinds of medical facilities').orient('horizontal').scale(physcolors);
+            var physlegendcontainer = physmapsvg.append('g').attr('transform', 'translate(20, 20)').call(physlegend);
+
+            var physcirclelegneds = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemeCategory10[1]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemeCategory10[3]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemeCategory10[6]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemeCategory10[8]);
+            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('community healthcare centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 30)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('long term care facilities').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 60)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('hospitals').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 90)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegneds.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            // title phys
+            physlegendcontainer.append('g').append('text').text('Distribution of Medical Facilities and Testing Sites in NYC').attr('class', 'physmaptitle')
+                .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
+
+            // conc legend
+            var conclegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Current CDC Social Vulnerability Index 2018').orient('horizontal').scale(conccolors);
+            var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegend);
+            // conc title
+
+            // legend title location and size
+            d3.selectAll('.legendTitle')
+                .attr('transform', 'translate(0, 5)')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+            // labels
+            d3.selectAll('.label')
+                .style('display', 'none');
+
+            // concchart
+            var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
+            concchartsvg.append('text').attr('class', 'conccharttitle').text('Distribution of 2 New Index with Death Rate')
+                .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 180) + ')')
+                .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+            var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 150) + ')');
+            concchartgrp.selectAll('circle').data(svirnklist).enter().append('circle').attr('class', 'concbubble').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('r', '8px').attr('cx', d => d[1] * (chartwidth - 200)).attr('cy', d => d[2] * (chartheight - 90)).attr('fill', d => deathratecolors(modname.get(d[0])[1]));
+        };
+
+        // info chart
+        var infochartsvg = chartconatiner.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'infochartsvg');
+        var chartgrp = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth / 2) + ', ' + String(chartheight / 2) + ')');
+        var circle = chartgrp.append('path').attr('d', d3.arc()({
+            innerRadius: 90,
+            outerRadius: 150,
+            startAngle: 0,
+            endAngle: Math.PI * 2 * 0.2
+        })).attr('fill', '#ef476f');
+
+        function drawchart(perc) {
+            circle.transition().duration(1000).attr('d', d3.arc()({
+                innerRadius: 90,
+                outerRadius: 150,
+                startAngle: 0,
+                endAngle: Math.PI * 2 * perc
+            }));
+        };
+
+        // phys chart
+        var physchartsvg = physchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'physchartsvg');
+        physchartsvg.append('text').attr('class', 'physcharttitle').text('Distances to Nearest Medical Facilities from the District')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 150) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+        var physchartgrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        var physcolorlengend = [1, 3, 6, 8];
+        physchartgrp.selectAll('rect').data([14891.581296961444, 18484.353641928305, 12999.224694471144, 24815.73487198893]).enter().append('rect')
+            .attr('width', d => d / 62)
+            .attr('height', '30px')
+            .attr('fill', (d, i) => d3.schemeCategory10[physcolorlengend[i]])
+            .attr('x', '0px')
+            .attr('y', (d, i) => basey + 70 * i);
+        var physcharttitlegrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        physcharttitlegrp.append('text').text('community healthcare centers').attr('text-anchor', 'start').attr('y', 10).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+        physcharttitlegrp.append('text').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('y', 80).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+        physcharttitlegrp.append('text').text('long term care facilities').attr('text-anchor', 'start').attr('y', 150).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+        physcharttitlegrp.append('text').text('hospitals').attr('text-anchor', 'start').attr('y', 220).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+
+        var physchartlines = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        physchartlines.append('line').attr('x1', '0px').attr('y1', basey - 20).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+        physchartlines.append('line').attr('x1', chartwidth - 60).attr('y1', basey - 20).attr('x2', chartwidth - 60).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+
+        function drawphyschart(data) {
+            var rects = physchartgrp.selectAll('rect').data(data);
+            rects.enter().append('rect').merge(rects).transition().duration(1500)
+                .attr('width', d => d / 62);
+        };
+
+        // physical buttons
+        function physswitch(s) {
+            if (s == 'medical') {
+                document.getElementById('physbutton1').classList.remove('inactivebtn');
+                document.getElementById('physbutton2').classList.add('inactivebtn');
+                document.getElementById('physbutton3').classList.add('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'block');
+                d3.selectAll('.testingcircle').attr('display', 'none');
+            }
+            if (s == 'testing') {
+                document.getElementById('physbutton1').classList.add('inactivebtn');
+                document.getElementById('physbutton2').classList.remove('inactivebtn');
+                document.getElementById('physbutton3').classList.add('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'none');
+                d3.selectAll('.testingcircle').attr('display', 'block');
+            }
+            if (s == 'all') {
+                document.getElementById('physbutton1').classList.add('inactivebtn');
+                document.getElementById('physbutton2').classList.add('inactivebtn');
+                document.getElementById('physbutton3').classList.remove('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'block');
+                d3.selectAll('.testingcircle').attr('display', 'block');
+            }
+        };
+
+        // conclusion buttons
+        function concswitch(n) {
+            if (n == 0) {
+                document.getElementById('physbutton4').classList.remove('inactivebtn');
+                document.getElementById('physbutton5').classList.add('inactivebtn');
+                document.getElementById('physbutton6').classList.add('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[0]));
+                });
+            }
+            if (n == 1) {
+                document.getElementById('physbutton4').classList.add('inactivebtn');
+                document.getElementById('physbutton5').classList.remove('inactivebtn');
+                document.getElementById('physbutton6').classList.add('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[1]));
+                });
+            }
+            if (n == 2) {
+                document.getElementById('physbutton4').classList.add('inactivebtn');
+                document.getElementById('physbutton5').classList.add('inactivebtn');
+                document.getElementById('physbutton6').classList.remove('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[2]));
+                });
+            }
+        };
+    </script>
 </body>
 
 </html>

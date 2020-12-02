@@ -196,7 +196,13 @@
     <section class="container" id="conclusion">
         <h1 class="note" style="color:white;font-size:6rem;">Conclusion</h1>
         <div class="row">
-            <div class="column1 frame" id="concmap"></div>
+            <div class="column1 frame" id="concmap">
+                <div class="buttons">
+                    <button id="physbutton4" class="inactivebtn" onclick="concswitch(0);">Information</button>
+                    <button id="physbutton5" class="inactivebtn" onclick="concswitch(1);">Physical</button>
+                    <button id="physbutton6" onclick="concswitch(2);">Current SVI</button>
+                </div>
+            </div>
             <div class="column2">
                 <div class="analysis frame">
                     <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
@@ -376,13 +382,20 @@
         var medicalurl = 'datas/05-physical/medical-facilities-converted.csv';
         var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
         var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
-        var sviurl = 'datas/04-svi/svi-merged.csv';
+        var svirnkurl = 'datas/8-svi_rnks.csv';
+        var caseurl = 'datas/06-cases/data-by-modzcta-merged.csv';
 
         var infomapcontainer = d3.select('#infomap');
         var physmapcontainer = d3.select('#physmap');
         var concmapcontainer = d3.select('#concmap');
+        var chartconatiner = d3.select('#infochart');
+        var physchartcontainer = d3.select('#physchart');
+        var concchartcontainer = d3.select('#concchart');
         var height = infomapcontainer.node().getBoundingClientRect().height;
         var width = infomapcontainer.node().getBoundingClientRect().width;
+        var chartheight = chartconatiner.node().getBoundingClientRect().height;
+        var chartwidth = chartconatiner.node().getBoundingClientRect().width;
+        var basex = 20, basey = 20;
         var infomapsvg = infomapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'infomapsvg');
         var physmapsvg = physmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'physmapsvg');
         var concmapsvg = concmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'concmapsvg');
@@ -396,7 +409,10 @@
         var internet = d3.map();
         var medical = [], testing = [];
         var medicaldist = d3.map();
-        var svi = d3.map();
+        var svirnk = d3.map();
+        var svirnklist = [];
+        var modname = d3.map();
+        var deathcase = [];
         var medcolormap = { 'community-healthcare-centers': 1, 'diagnostic-treatment-centers': 3, 'long-term-care-facilities': 6, 'hospitals': 8 };
         var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
             internet.set(+d.modzcta, +d.perc);
@@ -406,9 +422,15 @@
             medicaldist.set(+d.modzcta, [+d['community-healthcare-centers'], +d['diagnostic-treatment-centers'], +d['long-term-care-facilities'], +d['hospitals'], +d['avg']]);
         }), d3.csv(testingurl, function (d) {
             testing.push([d.NAME, [+d.lng, +d.lat]]);
-        }), d3.csv(sviurl, function (d) {
-            svi.set(+d.modzcta, +d.avgsvi);
+        }), d3.csv(svirnkurl, function (d) {
+            svirnk.set(+d.modzcta, [+d.infornk, +d.physrnk, +d.avgsvi]);
+            svirnklist.push([+d.modzcta, +d.infornk, +d.physrnk, +d.avgsvi]);
+        }), d3.csv(caseurl, function (d) {
+            modname.set(+d.MODIFIED_ZCTA, [d.NEIGHBORHOOD_NAME, +d.COVID_DEATH_RATE]);
+            deathcase.push([+d.deathtocase, [+d.lng, +d.lat], +d.COVID_CASE_RATE, +d.COVID_DEATH_RATE, +d.MODIFIED_ZCTA]);
         })];
+        var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[9]);
+        var conccolors = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
         Promise.all(promises).then(ready);
         function ready([nyc]) {
             nyc.features.pop();
@@ -433,7 +455,6 @@
                     drawchart(internet.get(d.properties.modzcta));
                 });
             // physical, medical facilities points
-            var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[9]);
             physgrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode')
                 .attr('fill', d => physcolors(Math.min.apply(Math, medicaldist.get(d.properties.modzcta)))).attr('stroke', 'gray').attr('d', path)
@@ -465,10 +486,27 @@
                 });
 
             // conc map
-            var conccolors = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
+            var deathratecolors = d3.scaleQuantize().domain([0, 721.84]).range(d3.schemeReds[9]);
             concgrp.selectAll('path').data(nyc.features).enter()
-                .append('path').attr('class', 'zipcode')
-                .attr('fill', d => conccolors(svi.get(d.properties.modzcta))).attr('stroke', 'gray').attr('d', path);
+                .append('path').attr('class', 'zipcode').attr('id', d => d.properties.modzcta)
+                .attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[2])).attr('stroke', 'gray').attr('d', path);
+            concmapsvg.append('g').selectAll('circle').data(deathcase).enter().append('circle')
+                .attr('class', 'deathtocase').attr('r', d => d[3] / 40).attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', '#62bec1')
+                .on('mousehover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                });
 
             // info legend
             var cellNum = 9;
@@ -506,7 +544,7 @@
             physlegendcontainer.append('g').append('text').text('Distribution of Medical Facilities and Testing Sites in NYC').attr('class', 'physmaptitle')
                 .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
                 .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
-            
+
             // conc legend
             var conclegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
                 .title('Current CDC Social Vulnerability Index 2018').orient('horizontal').scale(conccolors);
@@ -520,15 +558,19 @@
             // labels
             d3.selectAll('.label')
                 .style('display', 'none');
+
+            // concchart
+            var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
+            concchartsvg.append('text').attr('class', 'conccharttitle').text('Distribution of 2 New Index with Death Rate')
+                .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 180) + ')')
+                .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+            var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 150) + ')');
+            concchartgrp.selectAll('circle').data(svirnklist).enter().append('circle').attr('class', 'concbubble').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('r', '8px').attr('cx', d => d[1] * (chartwidth - 200)).attr('cy', d => d[2] * (chartheight - 90)).attr('fill', d => deathratecolors(modname.get(d[0])[1]));
         };
 
         // info chart
-        var chartconatiner = d3.select('#infochart');
-        var chartheight = chartconatiner.node().getBoundingClientRect().height;
-        var chartwidth = chartconatiner.node().getBoundingClientRect().width;
         var infochartsvg = chartconatiner.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'infochartsvg');
-        var basex = 20, basey = 20;
-
         var chartgrp = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth / 2) + ', ' + String(chartheight / 2) + ')');
         var circle = chartgrp.append('path').attr('d', d3.arc()({
             innerRadius: 90,
@@ -547,7 +589,6 @@
         };
 
         // phys chart
-        var physchartcontainer = d3.select('#physchart');
         var physchartsvg = physchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'physchartsvg');
         physchartsvg.append('text').attr('class', 'physcharttitle').text('Distances to Nearest Medical Facilities from the District')
             .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 150) + ')')
@@ -602,6 +643,37 @@
                 document.getElementById('physbutton3').classList.remove('inactivebtn');
                 d3.selectAll('.medicalcircle').attr('display', 'block');
                 d3.selectAll('.testingcircle').attr('display', 'block');
+            }
+        };
+
+        // conclusion buttons
+        function concswitch(n) {
+            if (n == 0) {
+                document.getElementById('physbutton4').classList.remove('inactivebtn');
+                document.getElementById('physbutton5').classList.add('inactivebtn');
+                document.getElementById('physbutton6').classList.add('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[0]));
+                });
+            }
+            if (n == 1) {
+                document.getElementById('physbutton4').classList.add('inactivebtn');
+                document.getElementById('physbutton5').classList.remove('inactivebtn');
+                document.getElementById('physbutton6').classList.add('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[1]));
+                });
+            }
+            if (n == 2) {
+                document.getElementById('physbutton4').classList.add('inactivebtn');
+                document.getElementById('physbutton5').classList.add('inactivebtn');
+                document.getElementById('physbutton6').classList.remove('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[2]));
+                });
             }
         };
     </script>

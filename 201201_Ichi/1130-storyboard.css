@@ -1,0 +1,274 @@
+@import "selection.css";
+@import "scrollbar.css";
+@import "article.css";
+/* @import "bootstrap-grid.min.css"; */
+:root {
+    --conclusion: #26547c;
+    --economy: #ef476f;
+    --mainbg: #fffcf9;
+    --mainfontcolor: #34090f;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: Montserrat, source-han-sans-cjk-sc, source-han-sans-cjk-ja, sans-serif;
+    background-color: var(--mainbg);
+}
+
+a#backtotop {
+    width: 20px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    stroke: var(--mainbg);
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    z-index: 1000;
+}
+
+a#backtotop:hover {
+    cursor: pointer;
+    stroke: var(--economy);
+    transition: .3s;
+    /* background-color: #333; */
+}
+
+a#backtotop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+div.scrolldown {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 25px);
+    height: 50px;
+    width: 50px;
+    stroke: var(--mainbg);
+    cursor: pointer;
+}
+
+div.scrolldown:hover {
+    stroke: var(--economy);
+    transition: .3s;
+}
+
+body {
+    background-image: url("../assets/newyorkriver.gif");
+    height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div.coverwords {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 25vh;
+    background-color: rgba(255,252,249,.9);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--mainfontcolor);
+}
+
+.bganime, .startanime, .ecoanime, .infoanime, .phyanime, .concanime {
+    opacity: 0;
+    transition: all .8s ease-out;
+}
+
+.bgtxt, .starttxt, .ecotxt, .infotxt, .phytxt, .conctxt {
+    transform: translateX(-40px);
+}
+
+.bgimg, .startimg, .ecoimg, .infoimg, .phyimg, .concimg {
+    transform: translateX(40px);
+}
+
+div.magicshow {
+    opacity: 1;
+    transform: none;
+}
+
+section {
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 80%;
+}
+
+.buttons {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+}
+
+button {
+    background-color: rgba(239,71,111,.5);
+    font-family: Montserrat, source-han-sans-cjk-sc, source-han-sans-cjk-ja, sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+button:hover, button.inactivebtn:hover {
+    background-color: var(--economy);
+}
+
+button.inactivebtn {
+    background-color: #aaa;
+}
+
+.frame {
+    background-color: rgba(255,252,249,.9);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--mainfontcolor);
+    margin: 10px;
+}
+
+.columnbg {
+    width: 80%;
+    height: 80vh;
+}
+
+.column1 {
+    width: 50%;
+}
+
+.column2 {
+    width: 40%;
+}
+
+.analysis {
+    height: 40%;
+}
+
+.chart {
+    height: 50%;
+}
+
+#background {
+    /* background-color: aquamarine; */
+    background-color: transparent;
+    height: auto;
+}
+
+#information {
+    /* background-color: bisque; */
+    background-color: transparent;
+}
+
+#physical {
+    /* background-color: coral; */
+    background-color: transparent;
+}
+
+#conclusion {
+    /* background-color: steelblue; */
+    background-color: transparent;
+}
+
+h1.note {
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.testcontent {
+    height: 35vh;
+    background-color: #06d6a0;
+}
+
+.testchart {
+    height: 20vh;
+    background-color: #ef476f;
+}
+
+.gapbeforefooter {
+    height: 10vh;
+}
+
+#content-progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+}
+
+#content-progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+
+#content-progress::-webkit-progress-value {
+    background-color: var(--economy);
+}
+
+#content-progress::-moz-progress-bar {
+    background-color: var(--economy);
+}
+
+.zipcode:hover {
+    z-index: 1000;
+    fill: #62bec1;
+    transition: .3s;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255,252,249,.9);
+    border: solid gray 1px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+
+    /* Start Ichi's Background; */
+.bgcontent {
+    height:550%;
+}
+
+.cscomment {
+    height: 95%;
+}
+
+
+.dummyframe {
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    padding: 10px;
+    margin: 10px;
+}
+
+.image1 {height:90%; width:90%;}
+.image2 {height:80%; width:80%;}
+.image3 {height:80%; width:80%;}
+.image4 {height:90%; width:90%;}
+.image5 {height:60%; width:60%;}
+    /* End Ichi's Background; */
