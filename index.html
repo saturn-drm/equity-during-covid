@@ -150,7 +150,7 @@
                 <div class="bgcontent frame" id="triggerbg1">
                     <p
                         style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:350px;'>
-                        Who are the victims of Covid?</p>
+                        Who are the victims of COVID?</p>
                 </div>
             </div>
         </div>
@@ -172,8 +172,7 @@
                 <div class="dummyframe" id="triggerbg2">
                     <p
                         style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:380px;'>
-                        The COVID Tracking Project by Atlantic found the high infection rates in the White-dominant
-                        cities.</p>
+                        The high infection rates are seen in the White-dominant cities.</p>
                 </div>
             </div>
         </div>
@@ -195,8 +194,7 @@
                 <div class="dummyframe" id="triggerbg3">
                     <p
                         style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:300px;'>
-                        It also found high death rate from COVID in the Black-dominant cities.<br>
-                        Racial minority dies more than the mojority by Covid while the majority is infected more.<br>
+                        High death rate from COVID are seen in the Black-dominant cities.
                     </p>
                 </div>
             </div>
@@ -219,7 +217,7 @@
                 <div class="dummyframe" id="triggerbg4">
                     <p
                         style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:400px;'>
-                        Accessibility to medical resource is a reason.</p>
+                        Assumption: Social vulnerability is attributed to this situation.</p>
                 </div>
             </div>
         </div>
@@ -241,9 +239,13 @@
                 <div class="dummyframe" id="triggerbg5">
                     <p
                         style='font-size:18pt; text-align:center; padding-left:20px; padding-right:20px; padding-top:300px;'>
-                        SVI covers this accessibility.<br>
-                        But it does not fully cover the situation with the new virus.<br><br>
-                        New two index could supplement.<br></p>
+                        SVI (Social Vulnerability Index) covers this.<br>
+                        Are these criteria enough for the new virus.
+                        Can accessibility to medical resource complement this gap?<br>
+                        Research Questions:<br><br>
+                        1) How do these types of accessibility exist?<br><br>
+                        2) How do they relate to the death cases?<br><br>
+                        3) Do they help SVI explain the situation better?</p>
                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 </div>
             </div>
@@ -694,12 +696,12 @@
                 .attr('fill', '#62bec1')
                 .on('mousehover', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '%</p>');
+                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mousemove', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '%</p>');
+                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mouseout', function () {
@@ -749,6 +751,22 @@
             var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegend);
             // conc title
 
+            // concchart
+            var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
+            concchartsvg.append('text').attr('class', 'conccharttitle').text('Distribution of 2 New Index with Death Rate')
+                .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 180) + ')')
+                .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+            var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 20) + ', ' + String(chartheight / 2 - 150) + ')');
+            concchartgrp.selectAll('circle').data(svirnklist).enter().append('circle').attr('class', 'concbubble').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('r', '6px').attr('cx', d => d[1] * (chartwidth - 240)).attr('cy', d => d[2] * (chartheight - 110)).attr('fill', d => deathratecolors(modname.get(d[0])[1]));
+            var concchartlines = concchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+            concchartlines.append('line').attr('x1', '0px').attr('y1', basey - 60).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+            concchartlines.append('line').attr('x1', '0px').attr('y1', basey + 260).attr('x2', chartwidth - 160).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+
+            // conc chart legend
+            var concchartlegend = d3.legendColor().shapeWidth(10).shapeHeight(30).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0']).orient('vertical').scale(deathratecolors);
+            var concchartlegendcontainer = concchartsvg.append('g').attr('transform', 'translate(' + String(chartwidth - 100) + ', ' + String(chartheight / 2 - 150) + ')').call(concchartlegend);
+
             // legend title location and size
             d3.selectAll('.legendTitle')
                 .attr('transform', 'translate(0, 5)')
@@ -756,15 +774,6 @@
             // labels
             d3.selectAll('.label')
                 .style('display', 'none');
-
-            // concchart
-            var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
-            concchartsvg.append('text').attr('class', 'conccharttitle').text('Distribution of 2 New Index with Death Rate')
-                .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 180) + ')')
-                .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
-            var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 150) + ')');
-            concchartgrp.selectAll('circle').data(svirnklist).enter().append('circle').attr('class', 'concbubble').attr('stroke', 'black').attr('stroke-width', '1px')
-                .attr('r', '8px').attr('cx', d => d[1] * (chartwidth - 200)).attr('cy', d => d[2] * (chartheight - 90)).attr('fill', d => deathratecolors(modname.get(d[0])[1]));
         };
 
         // info chart
