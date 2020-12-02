@@ -57,7 +57,7 @@ div.scrolldown:hover {
 }
 
 body {
-    background-image: url("../assets/newyorkriver.gif");
+    /* background-image: url("../assets/newyorkriver.gif"); */
     height: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -141,8 +141,8 @@ button.inactivebtn {
 }
 
 .frame {
-    background-color: rgba(255, 252, 249, .9);
-    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(255, 252, 249, .9); */
+    /* box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2); */
     backdrop-filter: blur(5px);
     padding: 10px;
     border-radius: 20px;
@@ -171,25 +171,33 @@ button.inactivebtn {
     height: 50%;
 }
 
+#home {
+    background-image: url("../assets/newyorkriver.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 #background {
     /* background-color: aquamarine; */
-    background-color: transparent;
+    background-color: var(--mainbg);
     height: auto;
 }
 
 #information {
     /* background-color: bisque; */
-    background-color: transparent;
+    background-color: var(--mainbg);
 }
 
 #physical {
     /* background-color: coral; */
-    background-color: transparent;
+    background-color: var(--mainbg);
 }
 
 #conclusion {
     /* background-color: steelblue; */
-    background-color: transparent;
+    background-color: var(--mainbg);
 }
 
 h1.note {
