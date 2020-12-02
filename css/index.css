@@ -84,7 +84,7 @@ div.coverwords {
 }
 
 .bgfadein1, .bgfadein2, .bgfadein3, .bgfadein4,.bgfadein5 {
-    transform: translateX(-40px);
+    transform: translateX(-80px);
 }
 
 div.magicshow {
