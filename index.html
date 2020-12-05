@@ -256,7 +256,13 @@
     <section class="container" id="race">
         <h1 class="note" style="font-size:6rem;">Case Study (NYC)</h1>
         <div class="row">
-            <div class="column1 frame" id="racemap"></div>
+            <div class="column1 frame" id="racemap">
+                <div style="padding-top:70px; padding-left:170px">
+                    <img src='assets/RacialDotMap_s.png' alt="racial" class='image6'>
+                </div>
+                <p style="font-size:8pt; padding-left:170px">Source: <a
+                        href="https://demographics.virginia.edu/DotMap/index.html">University of Verginia</a>.</p>
+            </div>
             <div class="column2">
                 <div class="frame cscomment">
                     <p style="text-align: center; padding-top: 30vh; font-size: 18pt;">We take a look at New York City
@@ -503,7 +509,7 @@
     </script>
 
     <!-- Start Ichi's Messy Part2 -->
-    <script class="map" type="text/javascript">
+    <!-- <script class="map" type="text/javascript">
         var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
         var raceurl = 'datas/6-RaceandHispanicOriginMerged.csv';
         var mapcontainer = d3.select('#racemap');
@@ -573,7 +579,7 @@
             d3.selectAll('.label')
                 .style('display', 'none');
         };
-    </script>
+    </script> -->
     <!-- End Ichi's Messy Part2 -->
 
     <script class="map" type="text/javascript">
