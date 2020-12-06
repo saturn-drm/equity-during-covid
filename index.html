@@ -69,7 +69,9 @@
 
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"
+        integrity="sha512-wNH6xsp2n8CfB91nrBtfc4sfLwYPBMjSWVUwQOp60AYYXH6i8yCwuKFZ4rgK2i6pQek/b+bSyR7b01/922IBzQ=="
+        crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3-path.v2.min.js"></script>
     <script src="https://d3js.org/d3-shape.v2.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
@@ -329,9 +331,9 @@
         <div class="row">
             <div class="column1 frame" id="concmap">
                 <div class="buttons">
-                    <button id="physbutton4" class="inactivebtn" onclick="concswitch(0);">Information</button>
-                    <button id="physbutton5" class="inactivebtn" onclick="concswitch(1);">Physical</button>
-                    <button id="physbutton6" onclick="concswitch(2);">Current SVI</button>
+                    <button id="concbutton1" class="inactivebtn" onclick="concswitch(0);">Information</button>
+                    <button id="concbutton2" class="inactivebtn" onclick="concswitch(1);">Physical</button>
+                    <button id="concbutton3" onclick="concswitch(2);">Current SVI</button>
                 </div>
             </div>
             <div class="column2">
@@ -508,80 +510,6 @@
         });
     </script>
 
-    <!-- Start Ichi's Messy Part2 -->
-    <!-- <script class="map" type="text/javascript">
-        var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
-        var raceurl = 'datas/6-RaceandHispanicOriginMerged.csv';
-        var mapcontainer = d3.select('#racemap');
-        var raceheight = mapcontainer.node().getBoundingClientRect().height;
-        var racewidth = mapcontainer.node().getBoundingClientRect().width;
-        var racesvg = mapcontainer.append('svg').attr('height', raceheight - 20).attr('width', racewidth - 20).attr('class', 'racesvg');
-
-        var raceprojection = d3.geoMercator().center([-73.94, 40.70]).scale(70000).translate([racewidth / 2, raceheight / 2]);
-
-        var racepath = d3.geoPath().projection(raceprojection);
-        var colortemp = d3.scaleQuantize().domain([0, 100]).range(d3.schemeGreys[9]);
-        var colorWhi = d3.scaleQuantize().domain([0, 100]).range(d3.schemeBlues[9]);
-        var colorBla = d3.scaleQuantize().domain([0, 100]).range(d3.schemeGreens[9]);
-        var colorAsi = d3.scaleQuantize().domain([0, 100]).range(d3.schemePurples[9]);
-        var colorLat = d3.scaleQuantize().domain([0, 100]).range(d3.schemeOranges[9]);
-
-        var race = d3.map();
-        var racepromises = [d3.json(nycgeourl),
-        d3.csv(raceurl, function (d) {
-            race.set(d.modzcta, [+d.maxperc, d.maxrace]);
-        })];
-        Promise.all(racepromises).then(raceready);
-        function raceready([nyc]) {
-            nyc.features.pop();
-            racesvg.append("g").selectAll('path').data(nyc.features).enter().append('path')
-                .style("fill", function (d) {
-                    switch (race.get(d.properties.modzcta)[1]) {
-                        case 'Percent of Population that is Non-Hispanic White':
-                            return colorWhi(race.get(d.properties.modzcta)[0]);
-                            break;
-                        case 'Percent of Population that is Black or African American':
-                            return colorBla(race.get(d.properties.modzcta)[0]);
-                            break;
-                        case 'Percent of Population that is Asian':
-                            return colorAsi(race.get(d.properties.modzcta)[0]);
-                            break;
-                        case 'Percent of Population that is Hispanic or Latino':
-                            return colorLat(race.get(d.properties.modzcta)[0]);
-                            break;
-                        default:
-                            return colortemp(race.get(d.properties.modzcta)[0]);
-                    }
-                }).attr('stroke', 'white').attr('stroke-width', '0.2px').attr('d', racepath)
-            var racecellNum = 9;
-            var colorLegendWhi = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
-                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population that is Non-Hispanic White')
-                .orient('horizontal').scale(colorWhi);
-            var colorLegendBla = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
-                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population Black or African American')
-                .orient('horizontal').scale(colorBla);
-            var colorLegendLat = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
-                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population that is Hispanic or Latino')
-                .orient('horizontal').scale(colorLat);
-            var colorLegendAsi = d3.legendColor().shapeWidth(35).shapeHeight(10).cells(racecellNum)
-                .shapePadding(0).labelFormat(d3.format('.2f')).title('Percent of Population that is Asian')
-                .orient('horizontal').scale(colorAsi);
-
-            racesvg.append('g').attr('transform', 'translate(20, 20)').call(colorLegendWhi);
-            racesvg.append('g').attr('transform', 'translate(20, 80)').call(colorLegendBla);
-            racesvg.append('g').attr('transform', 'translate(20, 140)').call(colorLegendLat);
-            racesvg.append('g').attr('transform', 'translate(20, 200)').call(colorLegendAsi);
-
-            d3.selectAll('.legendTitle')
-                .attr('transform', 'translate(0, 5)')
-                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
-
-            d3.selectAll('.label')
-                .style('display', 'none');
-        };
-    </script> -->
-    <!-- End Ichi's Messy Part2 -->
-
     <script class="map" type="text/javascript">
         var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
         var interneturl = 'datas/2-InternetMerged.csv';
@@ -724,27 +652,29 @@
             var physlegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
                 .title('Average distance to the 4 kinds of medical facilities').orient('horizontal').scale(physcolors);
             var physlegendcontainer = physmapsvg.append('g').attr('transform', 'translate(20, 20)').call(physlegend);
+            // labels
+            physlegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
 
-            var physcirclelegneds = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
-            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            var physcirclelegends = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
                 .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemeCategory10[1]);
-            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
                 .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemeCategory10[3]);
-            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
                 .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemeCategory10[6]);
-            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
                 .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemeCategory10[8]);
-            physcirclelegneds.append('circle').attr('class', 'circlelegend').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
-            physcirclelegneds.append('text').attr('class', 'physcirclename').text('community healthcare centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('community healthcare centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegneds.append('text').attr('class', 'physcirclename').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 30)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegneds.append('text').attr('class', 'physcirclename').text('long term care facilities').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('long term care facilities').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 60)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegneds.append('text').attr('class', 'physcirclename').text('hospitals').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('hospitals').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 90)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegneds.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
             // title phys
             physlegendcontainer.append('g').append('text').text('Distribution of Medical Facilities and Testing Sites in NYC').attr('class', 'physmaptitle')
@@ -755,31 +685,66 @@
             var conclegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
                 .title('Current CDC Social Vulnerability Index 2018').orient('horizontal').scale(conccolors);
             var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegend);
+            //var conccirclesize = d3.scaleLinear().domain([0, 721.84]).range([1, 10]);
+            //var conccirclelegend = d3.legendSize().scale(conccirclesize).shape('circle').shapePadding(15).labelOffset(20).orient('vertical');
+            //conclegendcontainer.append('g').attr('transform', 'translate(0, 80)').call(conccirclelegend);
+            // labels
+            conclegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
+
+            var conccirclelegends = conclegendcontainer.append('a').attr('transform', 'translate(0, 80)');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '0px')
+                .attr('fill', '#62bec1').attr('r', '4.5px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '40px')
+                .attr('fill', '#62bec1').attr('r', '9px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '80px')
+                .attr('fill', '#62bec1').attr('r', '13.5px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '120px')
+                .attr('fill', '#62bec1').attr('r', '18px');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('0 to 180 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('180 to 360 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 40)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('360 to 540 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 80)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('540 to 720 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
             // conc title
+            conclegendcontainer.append('g').append('text').text('Overlap of Current SVI and 2 New Index with Death Rate').attr('class', 'concmaptitle')
+                .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
 
             // concchart
             var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
             concchartsvg.append('text').attr('class', 'conccharttitle').text('Distribution of 2 New Index with Death Rate')
-                .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 180) + ')')
+                .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
                 .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
             var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 20) + ', ' + String(chartheight / 2 - 150) + ')');
             concchartgrp.selectAll('circle').data(svirnklist).enter().append('circle').attr('class', 'concbubble').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('r', '6px').attr('cx', d => d[1] * (chartwidth - 240)).attr('cy', d => d[2] * (chartheight - 110)).attr('fill', d => deathratecolors(modname.get(d[0])[1]));
             var concchartlines = concchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
-            concchartlines.append('line').attr('x1', '0px').attr('y1', basey - 60).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
-            concchartlines.append('line').attr('x1', '0px').attr('y1', basey + 260).attr('x2', chartwidth - 160).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+            var concchartxlabel = concchartlines.append('g');
+            concchartxlabel.append('line').attr('x1', '0px').attr('y1', basey + 260).attr('x2', chartwidth - 180).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+            concchartxlabel.append('text').text('0').attr('transform', 'translate(' + String(-5) + ', ' + String(basey + 275) + ')');
+            concchartxlabel.append('text').text('1').attr('transform', 'translate(' + String(chartwidth - 180) + ', ' + String(basey + 275) + ')');
+            var concchartylabel = concchartlines.append('g');
+            concchartylabel.append('line').attr('x1', '0px').attr('y1', basey - 60).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+            concchartylabel.append('text').text('1').attr('transform', 'translate(' + String(-5) + ', ' + String(basey - 55) + ')');
+            // label font
+            concchartlines.attr('text-anchor', 'end').attr('alignment-baseline', 'alphabetic').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
 
             // conc chart legend
-            var concchartlegend = d3.legendColor().shapeWidth(10).shapeHeight(30).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0']).orient('vertical').scale(deathratecolors);
-            var concchartlegendcontainer = concchartsvg.append('g').attr('transform', 'translate(' + String(chartwidth - 100) + ', ' + String(chartheight / 2 - 150) + ')').call(concchartlegend);
+            var concchartlegend = d3.legendColor().shapeWidth(10).shapeHeight(30).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Death Rate by MODZCTA').orient('vertical').scale(deathratecolors);
+            var concchartlegendcontainer = concchartsvg.append('g').attr('transform', 'translate(' + String(chartwidth - 60) + ', ' + String(chartheight / 2 - 150) + ')').call(concchartlegend);
+            concchartlegendcontainer.selectAll('.label').attr('text-anchor', 'start').attr('transform', 'translate(-10, 20)');
+            concchartlegendcontainer.selectAll('.legendTitle').attr('transform', 'rotate(90, 15, 0)');
 
             // legend title location and size
             d3.selectAll('.legendTitle')
-                .attr('transform', 'translate(0, 5)')
+                //.attr('transform', 'translate(0, 5)')
                 .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
-            // labels
-            d3.selectAll('.label')
-                .style('display', 'none');
+            // label font
+            d3.selectAll('.label').attr('text-anchor', 'end').attr('alignment-baseline', 'alphabetic').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
         };
 
         // info chart
@@ -862,27 +827,27 @@
         // conclusion buttons
         function concswitch(n) {
             if (n == 0) {
-                document.getElementById('physbutton4').classList.remove('inactivebtn');
-                document.getElementById('physbutton5').classList.add('inactivebtn');
-                document.getElementById('physbutton6').classList.add('inactivebtn');
+                document.getElementById('concbutton1').classList.remove('inactivebtn');
+                document.getElementById('concbutton2').classList.add('inactivebtn');
+                document.getElementById('concbutton3').classList.add('inactivebtn');
                 concgrp.selectAll('path').each(function () {
                     var p = d3.select(this);
                     p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[0]));
                 });
             }
             if (n == 1) {
-                document.getElementById('physbutton4').classList.add('inactivebtn');
-                document.getElementById('physbutton5').classList.remove('inactivebtn');
-                document.getElementById('physbutton6').classList.add('inactivebtn');
+                document.getElementById('concbutton1').classList.add('inactivebtn');
+                document.getElementById('concbutton2').classList.remove('inactivebtn');
+                document.getElementById('concbutton3').classList.add('inactivebtn');
                 concgrp.selectAll('path').each(function () {
                     var p = d3.select(this);
                     p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[1]));
                 });
             }
             if (n == 2) {
-                document.getElementById('physbutton4').classList.add('inactivebtn');
-                document.getElementById('physbutton5').classList.add('inactivebtn');
-                document.getElementById('physbutton6').classList.remove('inactivebtn');
+                document.getElementById('concbutton1').classList.add('inactivebtn');
+                document.getElementById('concbutton2').classList.add('inactivebtn');
+                document.getElementById('concbutton3').classList.remove('inactivebtn');
                 concgrp.selectAll('path').each(function () {
                     var p = d3.select(this);
                     p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[2]));
