@@ -626,11 +626,13 @@
             concgrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode').attr('id', d => d.properties.modzcta)
                 .attr('fill', d => conccolorssvi(svirnk.get(d.properties.modzcta)[2])).attr('stroke', 'gray').attr('d', path);
+            //.on('mouseover', function (d) { switchconcindexes(d.properties.modzcta); });
             concmapsvg.append('g').selectAll('circle').data(deathcase).enter().append('circle').attr('transform', 'translate(70, 0)')
                 .attr('class', 'deathtocase').attr('r', d => d[3] / 40).attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', '#62bec1')
-                .on('mousehover', function (d) {
+                .on('mouseover', function (d) {
+                    switchconcindexes(d[4]);
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
                         .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate: ' + String((d[3]).toFixed(2)) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
@@ -642,7 +644,7 @@
                 })
                 .on('mouseout', function () {
                     d3.select('#tooltip').classed('hidden', true);
-                });
+                })
 
             // info legend
             var cellNum = 9;
@@ -741,19 +743,50 @@
             var concchartgrpphys = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
             var concchartgrpsvi = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
             var concchartgrplines = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
-            concchartgrpinfo.selectAll('circle').data(svirnklist).enter().append('circle')
-                .attr('fill', '#fb6a4a').attr('r', '4px').attr('class', 'concbubble').style('opacity', '0.5')
-                .attr('cx', d => d[1] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
-            concchartgrpphys.selectAll('circle').data(svirnklist).enter().append('circle')
-                .attr('fill', '#74c476').attr('r', '4px').attr('class', 'concbubble').style('opacity', '0.5')
-                .attr('cx', d => d[2] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
-            concchartgrpsvi.selectAll('circle').data(svirnklist).enter().append('circle')
-                .attr('fill', '#9e9ac8').attr('r', '4px').attr('class', 'concbubble').style('opacity', '0.5')
-                .attr('cx', d => d[3] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
             concchartgrplines.selectAll('line').data(svirnklist).enter().append('line').attr('stroke-width', 1).attr('stroke', '#bbb').attr('opacity', '0.5')
+                .attr('id', d => 'concline' + String(d[0])).attr('class', 'concline').attr('display', 'none').attr('z-index', -1)
                 .attr('x1', d => d3.extent(d.slice(1, 4))[0] * (chartwidth - 100) + 2).attr('y1', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84)
                 .attr('x2', d => d3.extent(d.slice(1, 4))[1] * (chartwidth - 100) - 2).attr('y2', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+
+            concchartgrpinfo.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#fb6a4a').attr('r', '4px').attr('id', d => 'concinfo' + String(d[0])).style('opacity', '0.5').attr('class', 'concinfo').attr('z-index', -1)
+                .attr('cx', d => d[1] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpinfo.selectAll('text').data(svirnklist).enter().append('text').text(d => String(d[1].toFixed(2))).attr('class', 'concinfotxt')
+                .attr('transform', d => 'translate(' + String(d[1] * (chartwidth - 100) - 15) + ', ' + String(chartheight - 120 - (chartheight - 100) * modname.get(d[0])[1] / 721.84) + ')')
+                .attr('id', d => 'concinfotxt' + String(d[0])).attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600').attr('display', 'none');
+
+            concchartgrpphys.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#74c476').attr('r', '4px').attr('id', d => 'concphys' + String(d[0])).style('opacity', '0.5').attr('class', 'concphys').attr('z-index', -1)
+                .attr('cx', d => d[2] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpphys.selectAll('text').data(svirnklist).enter().append('text').text(d => String(d[2].toFixed(2))).attr('class', 'concphystxt')
+                .attr('transform', d => 'translate(' + String(d[2] * (chartwidth - 100) - 15) + ', ' + String(chartheight - 120 - (chartheight - 100) * modname.get(d[0])[1] / 721.84) + ')')
+                .attr('id', d => 'concphystxt' + String(d[0])).attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600').attr('display', 'none');
+
+            concchartgrpsvi.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#9e9ac8').attr('r', '4px').attr('id', d => 'concsvi' + String(d[0])).style('opacity', '0.5').attr('class', 'concsvi').attr('z-index', -1)
+                .attr('cx', d => d[3] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpsvi.selectAll('text').data(svirnklist).enter().append('text').text(d => String(d[3].toFixed(2))).attr('class', 'concsvitxt')
+                .attr('transform', d => 'translate(' + String(d[3] * (chartwidth - 100) - 15) + ', ' + String(chartheight - 120 - (chartheight - 100) * modname.get(d[0])[1] / 721.84) + ')')
+                .attr('id', d => 'concsvitxt' + String(d[0])).attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600').attr('display', 'none');
             // conc chart legend
+            var concchartlegnedcontainer = concchartsvg.append('g').attr('class', 'concchartlegend').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            concchartlegnedcontainer.append('circle').attr('fill', '#a50f15').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(40, 10)');
+            concchartlegnedcontainer.append('circle').attr('fill', '#006d2c').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(80, 10)');
+            concchartlegnedcontainer.append('circle').attr('fill', '#54278f').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(120, 10)');
+            concchartlegnedcontainer.append('line').attr('stroke', 'black').attr('stroke-width', '2px').attr('display', 'block')
+                .attr('x1', '40px').attr('y1', '10px').attr('x2', '120px').attr('y2', '10px');
+            concchartlegnedcontainer.append('text').text('INFO').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(25, 35)')
+                .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
+            concchartlegnedcontainer.append('text').text('PHYS').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(65, 35)')
+                .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
+            concchartlegnedcontainer.append('text').text('SVI').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(110, 35)')
+                .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
 
             // legend title location and size
             d3.selectAll('.legendTitle')
@@ -869,6 +902,76 @@
                     p.transition().duration(1500).attr('fill', d => conccolorssvi(svirnk.get(d.properties.modzcta)[2]));
                 });
             }
+        };
+
+        // conclusion chart switch
+        function switchconcindexes(data) {
+            d3.selectAll('.concinfo').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concinfo' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('fill', '#a50f15').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('fill', '#fb6a4a').attr('r', '4px').attr('stroke', 'none').attr('z-index', -1).lower();
+                }
+            });
+            d3.selectAll('.concinfotxt').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concinfotxt' + String(data)) {
+                    thisinfo.attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
+
+            d3.selectAll('.concphys').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concphys' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('fill', '#006d2c').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('fill', '#74c476').attr('r', '4px').attr('stroke', 'none').attr('z-index', -1).lower();
+                }
+            });
+            d3.selectAll('.concphystxt').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concphystxt' + String(data)) {
+                    thisinfo.attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
+
+            d3.selectAll('.concsvi').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concsvi' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('fill', '#54278f').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('fill', '#9e9ac8').attr('r', '4px').attr('stroke', 'none').attr('z-index', -1).lower();
+                }
+            });
+            d3.selectAll('.concsvitxt').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concsvitxt' + String(data)) {
+                    thisinfo.attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
+
+            d3.selectAll('.concline').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concline' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('stroke', 'black').attr('stroke-width', '2px').attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('stroke', '#bbb').attr('stroke-width', '1px').attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
         };
     </script>
 </body>
