@@ -533,9 +533,9 @@
         var infomapsvg = infomapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'infomapsvg');
         var physmapsvg = physmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'physmapsvg');
         var concmapsvg = concmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'concmapsvg');
-        var infogrp = infomapsvg.append('g');
-        var physgrp = physmapsvg.append('g');
-        var concgrp = concmapsvg.append('g');
+        var infogrp = infomapsvg.append('g').attr('transform', 'translate(70, 0)');
+        var physgrp = physmapsvg.append('g').attr('transform', 'translate(70, 0)');
+        var concgrp = concmapsvg.append('g').attr('transform', 'translate(70, 0)');
 
         var projection = d3.geoMercator().center([-73.94, 40.70]).scale(70000).translate([width / 2, height / 2]);
         var path = d3.geoPath().projection(projection);
@@ -564,7 +564,9 @@
             deathcase.push([+d.deathtocase, [+d.lng, +d.lat], +d.COVID_CASE_RATE, +d.COVID_DEATH_RATE, +d.MODIFIED_ZCTA]);
         })];
         var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[9]);
-        var conccolors = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
+        var conccolorsinfo = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
+        var conccolorsphys = d3.scaleQuantize().domain([0, 1]).range(d3.schemeGreens[9]);
+        var conccolorssvi = d3.scaleQuantize().domain([0, 1]).range(d3.schemePurples[9]);
         Promise.all(promises).then(ready);
         function ready([nyc]) {
             nyc.features.pop();
@@ -596,12 +598,12 @@
                     drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4));
                 });
             // testing
-            physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle')
+            physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle').attr('transform', 'translate(70, 0)')
                 .attr('class', 'testingcircle').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', '#bbb');
             // medical facilities
-            physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle')
+            physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle').attr('transform', 'translate(70, 0)')
                 .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', d => d3.schemeCategory10[medcolormap[d[2]]])
@@ -623,19 +625,19 @@
             var deathratecolors = d3.scaleQuantize().domain([0, 721.84]).range(d3.schemeReds[9]);
             concgrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode').attr('id', d => d.properties.modzcta)
-                .attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[2])).attr('stroke', 'gray').attr('d', path);
-            concmapsvg.append('g').selectAll('circle').data(deathcase).enter().append('circle')
+                .attr('fill', d => conccolorssvi(svirnk.get(d.properties.modzcta)[2])).attr('stroke', 'gray').attr('d', path);
+            concmapsvg.append('g').selectAll('circle').data(deathcase).enter().append('circle').attr('transform', 'translate(70, 0)')
                 .attr('class', 'deathtocase').attr('r', d => d[3] / 40).attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', '#62bec1')
                 .on('mousehover', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '</p>');
+                        .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate: ' + String((d[3]).toFixed(2)) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mousemove', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>' + String(modname.get(d[4])[0]) + ':<br>' + String((d[3]).toFixed(2)) + '</p>');
+                        .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate:' + String((d[3]).toFixed(2)) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mouseout', function () {
@@ -682,14 +684,22 @@
                 .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
 
             // conc legend
-            var conclegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
-                .title('Current CDC Social Vulnerability Index 2018').orient('horizontal').scale(conccolors);
-            var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegend);
+            var conclegendinfo = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Information Accessibility Index').orient('horizontal').scale(conccolorsinfo);
+            var conclegendphys = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Physical Accessibility Index').orient('horizontal').scale(conccolorsphys);
+            var conclegendsvi = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Current CDC Social Vulnerability Index 2018').orient('horizontal').scale(conccolorssvi);
+            var conclegendcontainerinfo = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegendinfo);
+            var conclegendcontainerphys = concmapsvg.append('g').attr('transform', 'translate(20, 60)').call(conclegendphys);
+            var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 100)').call(conclegendsvi);
             //var conccirclesize = d3.scaleLinear().domain([0, 721.84]).range([1, 10]);
             //var conccirclelegend = d3.legendSize().scale(conccirclesize).shape('circle').shapePadding(15).labelOffset(20).orient('vertical');
             //conclegendcontainer.append('g').attr('transform', 'translate(0, 80)').call(conccirclelegend);
             // labels
             conclegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
+            conclegendcontainerinfo.selectAll('.label').style('display', 'none');
+            conclegendcontainerphys.selectAll('.label').style('display', 'none');
 
             var conccirclelegends = conclegendcontainer.append('a').attr('transform', 'translate(0, 80)');
             conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '0px')
@@ -711,37 +721,43 @@
             // conc title
             conclegendcontainer.append('g').append('text').text('Overlap of Current SVI and 2 New Index with Death Rate').attr('class', 'concmaptitle')
                 .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
-                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 140) + ')').style('fill', '#34090f').style('font-weight', '600');
 
             // concchart
             var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
             concchartsvg.append('text').attr('class', 'conccharttitle').text('Distribution of 2 New Index with Death Rate')
                 .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
                 .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
-            var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 20) + ', ' + String(chartheight / 2 - 150) + ')');
-            concchartgrp.selectAll('circle').data(svirnklist).enter().append('circle').attr('class', 'concbubble').attr('stroke', 'black').attr('stroke-width', '1px')
-                .attr('r', '6px').attr('cx', d => d[1] * (chartwidth - 240)).attr('cy', d => d[2] * (chartheight - 110)).attr('fill', d => deathratecolors(modname.get(d[0])[1]));
-            var concchartlines = concchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
-            var concchartxlabel = concchartlines.append('g');
-            concchartxlabel.append('line').attr('x1', '0px').attr('y1', basey + 260).attr('x2', chartwidth - 180).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
-            concchartxlabel.append('text').text('0').attr('transform', 'translate(' + String(-5) + ', ' + String(basey + 275) + ')');
-            concchartxlabel.append('text').text('1').attr('transform', 'translate(' + String(chartwidth - 180) + ', ' + String(basey + 275) + ')');
-            var concchartylabel = concchartlines.append('g');
-            concchartylabel.append('line').attr('x1', '0px').attr('y1', basey - 60).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
-            concchartylabel.append('text').text('1').attr('transform', 'translate(' + String(-5) + ', ' + String(basey - 55) + ')');
-            // label font
-            concchartlines.attr('text-anchor', 'end').attr('alignment-baseline', 'alphabetic').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-
+            var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartxlabel = d3.scaleLinear().domain([0, 1]).range([0, chartwidth - 100]);
+            concchartgrp.append('g').attr('class', 'd3concchart').attr('transform', 'translate(' + String(0) + ', ' + String(chartheight - 100) + ')').call(d3.axisBottom(concchartxlabel));
+            concchartgrp.append('text').text('Index').attr('class', 'concchartxlabel').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(' + String(chartwidth - 140) + ', ' + String(basey + 320) + ')').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            var concchartylabel = d3.scaleLinear().domain([0, 721.84]).range([chartheight - 100, 0]);
+            concchartgrp.append('g').attr('class', 'd3concchart').call(d3.axisLeft(concchartylabel));
+            concchartgrp.append('text').text('Death Rate (per 100,000 people)').attr('class', 'concchartxlabel').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'rotate(-90, 80, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            var concchartgrpinfo = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartgrpphys = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartgrpsvi = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartgrplines = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            concchartgrpinfo.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#fb6a4a').attr('r', '4px').attr('class', 'concbubble').style('opacity', '0.5')
+                .attr('cx', d => d[1] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpphys.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#74c476').attr('r', '4px').attr('class', 'concbubble').style('opacity', '0.5')
+                .attr('cx', d => d[2] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpsvi.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#9e9ac8').attr('r', '4px').attr('class', 'concbubble').style('opacity', '0.5')
+                .attr('cx', d => d[3] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrplines.selectAll('line').data(svirnklist).enter().append('line').attr('stroke-width', 1).attr('stroke', '#bbb').attr('opacity', '0.5')
+                .attr('x1', d => d3.extent(d.slice(1, 4))[0] * (chartwidth - 100) + 2).attr('y1', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84)
+                .attr('x2', d => d3.extent(d.slice(1, 4))[1] * (chartwidth - 100) - 2).attr('y2', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
             // conc chart legend
-            var concchartlegend = d3.legendColor().shapeWidth(10).shapeHeight(30).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
-                .title('Death Rate by MODZCTA').orient('vertical').scale(deathratecolors);
-            var concchartlegendcontainer = concchartsvg.append('g').attr('transform', 'translate(' + String(chartwidth - 60) + ', ' + String(chartheight / 2 - 150) + ')').call(concchartlegend);
-            concchartlegendcontainer.selectAll('.label').attr('text-anchor', 'start').attr('transform', 'translate(-10, 20)');
-            concchartlegendcontainer.selectAll('.legendTitle').attr('transform', 'rotate(90, 15, 0)');
 
             // legend title location and size
             d3.selectAll('.legendTitle')
-                //.attr('transform', 'translate(0, 5)')
+                .attr('transform', 'translate(0, 15)')
                 .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
             // label font
             d3.selectAll('.label').attr('text-anchor', 'end').attr('alignment-baseline', 'alphabetic').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
@@ -832,7 +848,7 @@
                 document.getElementById('concbutton3').classList.add('inactivebtn');
                 concgrp.selectAll('path').each(function () {
                     var p = d3.select(this);
-                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[0]));
+                    p.transition().duration(1500).attr('fill', d => conccolorsinfo(svirnk.get(d.properties.modzcta)[0]));
                 });
             }
             if (n == 1) {
@@ -841,7 +857,7 @@
                 document.getElementById('concbutton3').classList.add('inactivebtn');
                 concgrp.selectAll('path').each(function () {
                     var p = d3.select(this);
-                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[1]));
+                    p.transition().duration(1500).attr('fill', d => conccolorsphys(svirnk.get(d.properties.modzcta)[1]));
                 });
             }
             if (n == 2) {
@@ -850,7 +866,7 @@
                 document.getElementById('concbutton3').classList.remove('inactivebtn');
                 concgrp.selectAll('path').each(function () {
                     var p = d3.select(this);
-                    p.transition().duration(1500).attr('fill', d => conccolors(svirnk.get(d.properties.modzcta)[2]));
+                    p.transition().duration(1500).attr('fill', d => conccolorssvi(svirnk.get(d.properties.modzcta)[2]));
                 });
             }
         };

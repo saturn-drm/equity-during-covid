@@ -1,0 +1,19 @@
+concchartgrp.selectAll('circle').data(svirnklist).enter().append('circle').attr('class', 'concbubble').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('r', '6px').attr('cx', d => d[1] * (chartwidth - 240)).attr('cy', d => d[2] * (chartheight - 110)).attr('fill', d => deathratecolors(modname.get(d[0])[1]));
+            var concchartlines = concchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+            var concchartxlabel = concchartlines.append('g');
+            concchartxlabel.append('line').attr('x1', '0px').attr('y1', basey + 260).attr('x2', chartwidth - 180).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+            concchartxlabel.append('text').text('0').attr('transform', 'translate(' + String(-5) + ', ' + String(basey + 275) + ')');
+            concchartxlabel.append('text').text('1').attr('transform', 'translate(' + String(chartwidth - 180) + ', ' + String(basey + 275) + ')');
+            var concchartylabel = concchartlines.append('g');
+            concchartylabel.append('line').attr('x1', '0px').attr('y1', basey - 60).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+            concchartylabel.append('text').text('1').attr('transform', 'translate(' + String(-5) + ', ' + String(basey - 55) + ')');
+            // label font
+            concchartlines.attr('text-anchor', 'end').attr('alignment-baseline', 'alphabetic').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+
+            // conc chart legend
+            var concchartlegend = d3.legendColor().shapeWidth(10).shapeHeight(30).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Death Rate by MODZCTA').orient('vertical').scale(deathratecolors);
+            var concchartlegendcontainer = concchartsvg.append('g').attr('transform', 'translate(' + String(chartwidth - 60) + ', ' + String(chartheight / 2 - 150) + ')').call(concchartlegend);
+            concchartlegendcontainer.selectAll('.label').attr('transform', 'translate(-10, 20)');
+            concchartlegendcontainer.selectAll('.legendTitle').attr('transform', 'rotate(90, 15, 0)');
