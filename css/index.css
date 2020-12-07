@@ -120,8 +120,15 @@ section#footer {
 
 .buttons {
     position: absolute;
-    top: 360px;
+    top: 350px;
     left: 20px;
+}
+
+.quote {
+    position: absolute;
+    top: 390px;
+    left: -20px;
+    width: 40%;
 }
 
 button {

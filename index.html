@@ -278,7 +278,14 @@
     <section class="container" id="information">
         <h1 class="note" style="font-size:6rem;">Information</h1>
         <div class="row">
-            <div class="column1 frame" id="infomap"></div>
+            <div class="column1 frame" id="infomap">
+                <div class="quote">
+                    <blockquote>Data Source: <br><a
+                            href="https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/ACS_Internet_by_Education_Boundaries/FeatureServer">ACS
+                            Internet Access by Education Variables - Boundaries</a>. Updated on Jan 7, 2020.
+                    </blockquote>
+                </div>
+            </div>
             <div class="column2">
                 <div class="analysis frame">
                     <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
@@ -307,6 +314,13 @@
                     <button id="physbutton2" class="inactivebtn" onclick="physswitch('testing');">Testing Sites</button>
                     <button id="physbutton3" onclick="physswitch('all');">All</button>
                 </div>
+                <div class="quote">
+                    <blockquote>Data Source: <br><a
+                            href="https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-patient-care-locations-2011/f7b6-v6v3">NYC
+                            Health + Hospitals patient care locations - 2011</a>. Updated on July 4, 2019.<br><a
+                            href="https://www.nychealthandhospitals.org/covid-19-testing-sites/">COVID-19 Testing
+                            Sites</a>. Updated on Dec 1, 2020.</blockquote>
+                </div>
             </div>
             <div class="column2">
                 <div class="analysis frame">
@@ -334,6 +348,14 @@
                     <button id="concbutton1" class="inactivebtn" onclick="concswitch(0);">Information</button>
                     <button id="concbutton2" class="inactivebtn" onclick="concswitch(1);">Physical</button>
                     <button id="concbutton3" onclick="concswitch(2);">Current SVI</button>
+                </div>
+                <div class="quote">
+                    <blockquote>Data Source: <br><a
+                            href="https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_Social_Vulnerability_Index_2018/FeatureServer">CDC
+                            Social Vulnerability Index 2018 - USA</a>. Updated on March 19, 2020.<br><a
+                            href="https://raw.githubusercontent.com/nychealth/coronavirus-data/master/totals/data-by-modzcta.csv">ACS
+                            NYC Health - Coronavirus-data - data-by-modzcta.csv</a>. Updated on Dec 2, 2020.
+                    </blockquote>
                 </div>
             </div>
             <div class="column2">
@@ -518,7 +540,8 @@
         // var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
         var medicaldisturl = 'datas/07-physical-new/medical-dist.csv';
         var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
-        var svirnkurl = 'datas/8-svi_rnks.csv';
+        // var svirnkurl = 'datas/8-svi_rnks.csv';
+        var svirnkurl = 'datas/8-svi_rnks-fixed.csv';
         var caseurl = 'datas/06-cases/data-by-modzcta-merged.csv';
 
         var infomapcontainer = d3.select('#infomap');
@@ -559,8 +582,8 @@
         }), d3.csv(testingurl, function (d) {
             testing.push([d.NAME, [+d.lng, +d.lat]]);
         }), d3.csv(svirnkurl, function (d) {
-            svirnk.set(+d.modzcta, [+d.infornk, +d.physrnk, +d.avgsvi]);
-            svirnklist.push([+d.modzcta, +d.infornk, +d.physrnk, +d.avgsvi]);
+            svirnk.set(+d.modzcta, [+d.infornk, +d.physrnk, +d.svirnk]);
+            svirnklist.push([+d.modzcta, +d.infornk, +d.physrnk, +d.svirnk]);
         }), d3.csv(caseurl, function (d) {
             modname.set(+d.MODIFIED_ZCTA, [d.NEIGHBORHOOD_NAME, +d.COVID_DEATH_RATE]);
             deathcase.push([+d.deathtocase, [+d.lng, +d.lat], +d.COVID_CASE_RATE, +d.COVID_DEATH_RATE, +d.MODIFIED_ZCTA]);
