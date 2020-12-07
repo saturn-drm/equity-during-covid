@@ -132,16 +132,19 @@ section#footer {
 }
 
 button {
-    background-color: rgba(239, 71, 111, .5);
+    /* background-color: rgba(239, 71, 111, .5); */
+    background-color: rgba(255, 252, 249, 1);
     font-family: Montserrat, source-han-sans-cjk-sc, source-han-sans-cjk-ja, sans-serif;
     padding: 10px;
-    border: none;
+    border: solid 1px #34090f;
     border-radius: 5px;
     transition: all .3s;
 }
 
 button:hover, button.inactivebtn:hover {
-    background-color: var(--economy);
+    /* background-color: var(--economy); */
+    background-color: rgba(255, 252, 249, 1);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 button.inactivebtn {

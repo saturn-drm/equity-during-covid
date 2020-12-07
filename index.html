@@ -588,7 +588,7 @@
             modname.set(+d.MODIFIED_ZCTA, [d.NEIGHBORHOOD_NAME, +d.COVID_DEATH_RATE]);
             deathcase.push([+d.deathtocase, [+d.lng, +d.lat], +d.COVID_CASE_RATE, +d.COVID_DEATH_RATE, +d.MODIFIED_ZCTA]);
         })];
-        var physcolors = d3.scaleQuantize().domain([953.1778456787914, 20912.30989159827]).range(d3.schemeGreens[9]);
+        var physcolors = d3.scaleQuantize().domain([953.1778456787914, 20912.30989159827 * 0.5]).range(d3.schemeGreens[9]);
         var conccolorsinfo = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
         var conccolorsphys = d3.scaleQuantize().domain([0, 1]).range(d3.schemeGreens[9]);
         var conccolorssvi = d3.scaleQuantize().domain([0, 1]).range(d3.schemePurples[9]);
@@ -601,45 +601,45 @@
                 .attr('fill', d => infocolors(internet.get(d.properties.modzcta)[3])).attr('stroke', 'gray').attr('d', path)
                 .on('mouseover', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)[3]).toFixed(2)) + '%</p>');
+                        .html('<p>Name: ' + String(modname.get(d.properties.modzcta)[0]) + '<br>Rate no Internet Access: ' + String((100 * internet.get(d.properties.modzcta)[3]).toFixed(2)) + '%</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mousemove', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>No internet percentage:<br>' + String((100 * internet.get(d.properties.modzcta)[3]).toFixed(2)) + '%</p>');
+                        .html('<p>Name: ' + String(modname.get(d.properties.modzcta)[0]) + '<br>Rate no Internet Access: ' + String((100 * internet.get(d.properties.modzcta)[3]).toFixed(2)) + '%</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mouseout', function () {
                     d3.select('#tooltip').classed('hidden', true);
                 })
                 .on('click', function (d) {
-                    drawinfochart(internet.get(d.properties.modzcta));
+                    drawinfochart(internet.get(d.properties.modzcta), modname.get(d.properties.modzcta)[0]);
                 });
             // physical, medical facilities points
             physgrp.selectAll('path').data(nyc.features).enter()
                 .append('path').attr('class', 'zipcode')
                 .attr('fill', d => physcolors(Math.min.apply(Math, medicaldist.get(d.properties.modzcta)))).attr('stroke', 'gray').attr('d', path)
                 .on('click', function (d) {
-                    drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4));
+                    drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4), modname.get(d.properties.modzcta)[0]);
                 });
             // testing
             physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle').attr('transform', 'translate(70, 0)')
-                .attr('class', 'testingcircle').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('class', 'testingcircle').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', '#bbb');
             // medical facilities
             physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle').attr('transform', 'translate(70, 0)')
-                .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('class', 'medicalcircle').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', d => d3.schemeCategory10[medcolormap[d[2]]])
                 .on('mousehover', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>' + String(d[0]) + '<br>' + String(d[2]) + '</p>');
+                        .html('<p>Name: ' + String(d[0]) + '<br>Class: ' + String(d[2]) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mousemove', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>' + String(d[0]) + '<br>' + String(d[2]) + '</p>');
+                        .html('<p>Name: ' + String(d[0]) + '<br>Class: ' + String(d[2]) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mouseout', function () {
@@ -653,11 +653,11 @@
                 .attr('fill', d => conccolorssvi(svirnk.get(d.properties.modzcta)[2])).attr('stroke', 'gray').attr('d', path);
             //.on('mouseover', function (d) { switchconcindexes(d.properties.modzcta); });
             concmapsvg.append('g').selectAll('circle').data(deathcase).enter().append('circle').attr('transform', 'translate(70, 0)')
-                .attr('class', 'deathtocase').attr('r', d => d[3] / 40).attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('class', 'deathtocase').attr('r', d => d[3] / 40).attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
-                .attr('fill', '#62bec1')
+                .attr('fill', '#fffcf9')
                 .on('mouseover', function (d) {
-                    switchconcindexes(d[4]);
+                    switchconcindexes(d[4], modname.get(d[4])[0]);
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
                         .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate: ' + String((d[3]).toFixed(2)) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
@@ -675,7 +675,13 @@
             var cellNum = 9;
             var infolegend = d3.legendColor().shapeWidth(50).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
                 .title('Percentage of the households with no Internet access').orient('horizontal').scale(infocolors);
-            infomapsvg.append('g').attr('transform', 'translate(20, 20)').call(infolegend);
+            var infolegendcontainer = infomapsvg.append('g').attr('transform', 'translate(20, 20)').call(infolegend);
+            // labels
+            infolegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
+            // info title
+            infolegendcontainer.append('g').append('text').text('Accessibility to Internet by MODZCTA in NYC').attr('class', 'infomaptitle')
+                .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
 
             // phys legend
             var physlegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
@@ -685,15 +691,15 @@
             physlegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
 
             var physcirclelegends = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemeCategory10[1]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemeCategory10[3]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemeCategory10[6]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemeCategory10[8]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
             physcirclelegends.append('text').attr('class', 'physcirclename').text('Child Health Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
@@ -712,11 +718,11 @@
 
             // conc legend
             var conclegendinfo = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
-                .title('Information Accessibility Index').orient('horizontal').scale(conccolorsinfo);
+                .title('Information Accessibility Index (INFO)').orient('horizontal').scale(conccolorsinfo);
             var conclegendphys = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
-                .title('Physical Accessibility Index').orient('horizontal').scale(conccolorsphys);
+                .title('Physical Accessibility Index (PHYS)').orient('horizontal').scale(conccolorsphys);
             var conclegendsvi = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
-                .title('Current CDC Social Vulnerability Index 2018').orient('horizontal').scale(conccolorssvi);
+                .title('Current CDC Social Vulnerability Index 2018 (SVI)').orient('horizontal').scale(conccolorssvi);
             var conclegendcontainerinfo = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegendinfo);
             var conclegendcontainerphys = concmapsvg.append('g').attr('transform', 'translate(20, 60)').call(conclegendphys);
             var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 100)').call(conclegendsvi);
@@ -729,14 +735,14 @@
             conclegendcontainerphys.selectAll('.label').style('display', 'none');
 
             var conccirclelegends = conclegendcontainer.append('a').attr('transform', 'translate(0, 80)');
-            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '0px')
-                .attr('fill', '#62bec1').attr('r', '4.5px');
-            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '40px')
-                .attr('fill', '#62bec1').attr('r', '9px');
-            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '80px')
-                .attr('fill', '#62bec1').attr('r', '13.5px');
-            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '1px').attr('cx', '0px').attr('cy', '120px')
-                .attr('fill', '#62bec1').attr('r', '18px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '0px')
+                .attr('fill', '#fffcf9').attr('r', '4.5px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '40px')
+                .attr('fill', '#fffcf9').attr('r', '9px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '80px')
+                .attr('fill', '#fffcf9').attr('r', '13.5px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '120px')
+                .attr('fill', '#fffcf9').attr('r', '18px');
             conccirclelegends.append('text').attr('class', 'conccirclename').text('0 to 180 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(40, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
             conccirclelegends.append('text').attr('class', 'conccirclename').text('180 to 360 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
@@ -752,9 +758,12 @@
 
             // concchart
             var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
-            concchartsvg.append('text').attr('class', 'conccharttitle').text('Distribution of 2 New Index with Death Rate')
+            concchartsvg.append('text').attr('class', 'conccharttitle').text('Death Rate and 3 Index in District')
                 .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
                 .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+            concchartsvg.append('text').attr('class', 'concchartsubtitle').text('- District Name -')
+                .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(60) + ')')
+                .attr('text-anchor', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
             var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
             var concchartxlabel = d3.scaleLinear().domain([0, 1]).range([0, chartwidth - 100]);
             concchartgrp.append('g').attr('class', 'd3concchart').attr('transform', 'translate(' + String(0) + ', ' + String(chartheight - 100) + ')').call(d3.axisBottom(concchartxlabel));
@@ -797,20 +806,20 @@
                 .attr('id', d => 'concsvitxt' + String(d[0])).attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600').attr('display', 'none');
             // conc chart legend
-            var concchartlegnedcontainer = concchartsvg.append('g').attr('class', 'concchartlegend').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
-            concchartlegnedcontainer.append('circle').attr('fill', '#a50f15').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
-                .attr('transform', 'translate(40, 10)');
-            concchartlegnedcontainer.append('circle').attr('fill', '#006d2c').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
-                .attr('transform', 'translate(80, 10)');
-            concchartlegnedcontainer.append('circle').attr('fill', '#54278f').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
-                .attr('transform', 'translate(120, 10)');
-            concchartlegnedcontainer.append('line').attr('stroke', 'black').attr('stroke-width', '2px').attr('display', 'block')
-                .attr('x1', '40px').attr('y1', '10px').attr('x2', '120px').attr('y2', '10px');
-            concchartlegnedcontainer.append('text').text('INFO').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(25, 35)')
+            var concchartlegendcontainer = concchartsvg.append('g').attr('class', 'concchartlegend').attr('transform', 'translate(50, 60)');
+            concchartlegendcontainer.append('circle').attr('fill', '#a50f15').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(40, 15)');
+            concchartlegendcontainer.append('circle').attr('fill', '#006d2c').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(80, 15)');
+            concchartlegendcontainer.append('circle').attr('fill', '#54278f').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(120, 15)');
+            concchartlegendcontainer.append('line').attr('stroke', 'black').attr('stroke-width', '2px').attr('display', 'block')
+                .attr('x1', '40px').attr('y1', '15px').attr('x2', '120px').attr('y2', '15px');
+            concchartlegendcontainer.append('text').text('INFO').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(25, 35)')
                 .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
-            concchartlegnedcontainer.append('text').text('PHYS').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(65, 35)')
+            concchartlegendcontainer.append('text').text('PHYS').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(65, 35)')
                 .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
-            concchartlegnedcontainer.append('text').text('SVI').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(110, 35)')
+            concchartlegendcontainer.append('text').text('SVI').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(110, 35)')
                 .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
 
             // legend title location and size
@@ -823,36 +832,69 @@
 
         // info chart
         var infochartsvg = chartconatiner.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'infochartsvg');
-        var infochartgrp = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth / 2) + ', ' + String(chartheight / 2) + ')');
+        // infochart title
+        infochartsvg.append('text').attr('class', 'infocharttitle').text('Distribution of Education Levels in District')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+        infochartsvg.append('text').attr('class', 'infochartsubtitle').text('- Jackson Heights/Rikers Island -')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(60) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+        var infochartgrp = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth / 2 - 120) + ', ' + String(chartheight / 2 + 30) + ')');
         var infopiecolor = [1, 3, 6];
-        var infopiearc = d3.arc().innerRadius(90).outerRadius(150);
-        // var infopie = d3.pie().value(d => d.value);
+        var infopiearc = d3.arc().innerRadius(60).outerRadius(150);
         var infopie = d3.pie();
-        // var infopiedataready = infopie(d3.entries([0.18611142544604126,0.5359662027083097,0.277922371845649]));
-        var infopiearcs = infochartgrp.selectAll("arc").data(infopie([0.18611142544604126,0.5359662027083097,0.277922371845649])).enter()
-            .append('path').attr('fill', (d, i) => d3.schemeCategory10[infopiecolor[i]]).attr('d', infopiearc);
-        //var infopiesegs = chartgrp.data(infopiedataready).enter().append('path')
-        //    .attr('d', infopiearc).attr('fill', (d, i) => d3.schemeCategory10[infopiecolor[i]]);
+        var infoarcs = infochartgrp.selectAll("arc").data(infopie([0.18611142544604126, 0.5359662027083097, 0.277922371845649])).enter().append('g');
+        infoarcs.append('path').attr('fill', (d, i) => d3.schemeCategory10[infopiecolor[i]]).attr('d', infopiearc);
+        infoarcs.append('text').text((d, i) => String((100 * d.value).toFixed(2)) + '%').attr('transform', d => 'translate(' + infopiearc.centroid(d) + ')').attr('x', '-25px')
+            .attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600');
+        //info chart legend
+        var infochartlegendcontainer = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth - 240) + ', ' + String(basey + 240) + ')');
+        infochartlegendcontainer.append('rect').attr('fill', d3.schemeCategory10[infopiecolor[0]]).attr('width', '15px').attr('height', '15px')
+            .attr('transform', 'translate(0, -10)');
+        infochartlegendcontainer.append('rect').attr('fill', d3.schemeCategory10[infopiecolor[1]]).attr('width', '15px').attr('height', '15px')
+            .attr('transform', 'translate(0, 30)');
+        infochartlegendcontainer.append('rect').attr('fill', d3.schemeCategory10[infopiecolor[2]]).attr('width', '15px').attr('height', '15px')
+            .attr('transform', 'translate(0, 70)');
+        infochartlegendcontainer.append('text').text('Population with:').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(0, -40)');
+        infochartlegendcontainer.append('text').text('No High School Degree').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(20, 0)');
+        infochartlegendcontainer.append('text').text('High School Degree').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(20, 40)');
+        infochartlegendcontainer.append('text').text('College Degree and Higher').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(20, 80)');
 
-        function drawinfochart(data) {
+        function drawinfochart(data, modzctaname) {
             console.log(data.slice(0, 3));
-            var infochartsegs = infopiearcs.selectAll('path').data(infopie(data.slice(0, 3)));
-            infochartsegs.enter().append('path').merge(infochartsegs).transition().duration(1000).attr('d', infopiearc);
+            var infochartpaths = infochartgrp.selectAll('path').data(infopie(data.slice(0, 3)));
+            infochartpaths.enter().append('path').merge(infochartpaths).transition().duration(200).attr('d', infopiearc);
+            var infocharttexts = infochartgrp.selectAll('text').data(infopie(data.slice(0, 3)));
+            infocharttexts.enter().append('text').merge(infocharttexts).transition().duration(400)
+                .text((d, i) => String((100 * d.value).toFixed(2)) + '%').attr('transform', d => 'translate(' + infopiearc.centroid(d) + ')');
+            d3.select('.infochartsubtitle').text('- ' + modzctaname + ' -');
         };
 
         // phys chart
         var physchartsvg = physchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'physchartsvg');
+        // physchart title
         physchartsvg.append('text').attr('class', 'physcharttitle').text('Distances to Nearest Medical Facilities from the District')
             .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
             .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+        physchartsvg.append('text').attr('class', 'physchartsubtitle').text('- Tottenville -')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(60) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+        physchartsvg.append('text').attr('class', 'physchartnotes').text('Unit: Meters')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(chartwidth / 2 + 40) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
         var physchartgrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
         var physcolorlengend = [1, 3, 6, 8];
         physchartgrp.selectAll('rect').data([14861.51205180164, 30478.930609291754, 24766.8406925235, 13541.956212776182]).enter().append('rect')
-            .attr('width', d => d / 62)
-            .attr('height', '30px')
-            .attr('fill', (d, i) => d3.schemeCategory10[physcolorlengend[i]])
-            .attr('x', '0px')
-            .attr('y', (d, i) => basey + 70 * i);
+            .attr('width', d => d / 62).attr('height', '30px').attr('fill', (d, i) => d3.schemeCategory10[physcolorlengend[i]])
+            .attr('x', '0px').attr('y', (d, i) => basey + 70 * i);
+        physchartgrp.selectAll('text').data([14861.51205180164, 30478.930609291754, 24766.8406925235, 13541.956212776182]).enter().append('text')
+            .attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem')
+            .text(d => String(d.toFixed(2))).attr('x', d => d / 62 + 10).attr('y', (d, i) => 15 + basey + 70 * i);
         var physcharttitlegrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
         physcharttitlegrp.append('text').text('Child Health Center').attr('text-anchor', 'start').attr('y', 10).attr('x', '10px').attr('alignment-baseline', 'middle')
             .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
@@ -867,11 +909,15 @@
         physchartlines.append('line').attr('x1', '0px').attr('y1', basey - 20).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
         physchartlines.append('line').attr('x1', chartwidth - 60).attr('y1', basey - 20).attr('x2', chartwidth - 60).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
 
-        function drawphyschart(data) {
+        function drawphyschart(data, modzctaname) {
             // console.log(data);
             var rects = physchartgrp.selectAll('rect').data(data);
-            rects.enter().append('rect').merge(rects).transition().duration(1500)
+            rects.enter().append('rect').merge(rects).transition().duration(600)
                 .attr('width', d => d / 62);
+            var texts = physchartgrp.selectAll('text').data(data);
+            texts.enter().append('text').merge(texts).transition().duration(600)
+                .text(d => String(d.toFixed(2))).attr('x', d => d / 62 + 10)
+            d3.select('.physchartsubtitle').text('- ' + modzctaname + ' -');
         };
 
         // physical buttons
@@ -931,7 +977,8 @@
         };
 
         // conclusion chart switch
-        function switchconcindexes(data) {
+        function switchconcindexes(data, modzctaname) {
+            d3.select('.concchartsubtitle').text('- ' + modzctaname + ' -');
             d3.selectAll('.concinfo').each(function () {
                 var thisinfo = d3.select(this);
                 if (thisinfo.attr('id') == 'concinfo' + String(data)) {
