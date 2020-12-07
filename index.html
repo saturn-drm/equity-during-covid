@@ -513,8 +513,10 @@
     <script class="map" type="text/javascript">
         var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
         var interneturl = 'datas/2-InternetMerged.csv';
-        var medicalurl = 'datas/05-physical/medical-facilities-converted.csv';
-        var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
+        // var medicalurl = 'datas/05-physical/medical-facilities-converted.csv';
+        var medicalurl = 'datas/07-physical-new/medical-loc.csv';
+        // var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
+        var medicaldisturl = 'datas/07-physical-new/medical-dist.csv';
         var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
         var svirnkurl = 'datas/8-svi_rnks.csv';
         var caseurl = 'datas/06-cases/data-by-modzcta-merged.csv';
@@ -547,13 +549,13 @@
         var svirnklist = [];
         var modname = d3.map();
         var deathcase = [];
-        var medcolormap = { 'community-healthcare-centers': 1, 'diagnostic-treatment-centers': 3, 'long-term-care-facilities': 6, 'hospitals': 8 };
+        var medcolormap = { 'Child Health Center': 1, 'Diagnostic & Treatment Center': 3, 'Acute Care Hospital': 6, 'Nursing Home': 8 };
         var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
             internet.set(+d.modzcta, +d.perc);
         }), d3.csv(medicalurl, function (d) {
             medical.push([d.NAME, [+d.lng, +d.lat], d.CLASS]);
         }), d3.csv(medicaldisturl, function (d) {
-            medicaldist.set(+d.modzcta, [+d['community-healthcare-centers'], +d['diagnostic-treatment-centers'], +d['long-term-care-facilities'], +d['hospitals'], +d['avg']]);
+            medicaldist.set(+d.modzcta, [+d['Child Health Center'], +d['Diagnostic & Treatment Center'], +d['Acute Care Hospital'], +d['Nursing Home'], +d['avg']]);
         }), d3.csv(testingurl, function (d) {
             testing.push([d.NAME, [+d.lng, +d.lat]]);
         }), d3.csv(svirnkurl, function (d) {
@@ -563,7 +565,7 @@
             modname.set(+d.MODIFIED_ZCTA, [d.NEIGHBORHOOD_NAME, +d.COVID_DEATH_RATE]);
             deathcase.push([+d.deathtocase, [+d.lng, +d.lat], +d.COVID_CASE_RATE, +d.COVID_DEATH_RATE, +d.MODIFIED_ZCTA]);
         })];
-        var physcolors = d3.scaleQuantize().domain([917.5688810647273, 17797.723626337454]).range(d3.schemeReds[9]);
+        var physcolors = d3.scaleQuantize().domain([953.1778456787914, 20912.30989159827]).range(d3.schemeReds[9]);
         var conccolorsinfo = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
         var conccolorsphys = d3.scaleQuantize().domain([0, 1]).range(d3.schemeGreens[9]);
         var conccolorssvi = d3.scaleQuantize().domain([0, 1]).range(d3.schemePurples[9]);
@@ -604,7 +606,7 @@
                 .attr('fill', '#bbb');
             // medical facilities
             physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle').attr('transform', 'translate(70, 0)')
-                .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+                .attr('class', 'medicalcircle').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
                 .attr('fill', d => d3.schemeCategory10[medcolormap[d[2]]])
                 .on('mousehover', function (d) {
@@ -639,7 +641,7 @@
                 })
                 .on('mousemove', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
-                        .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate:' + String((d[3]).toFixed(2)) + '</p>');
+                        .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate: ' + String((d[3]).toFixed(2)) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mouseout', function () {
@@ -660,23 +662,23 @@
             physlegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
 
             var physcirclelegends = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemeCategory10[1]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemeCategory10[3]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemeCategory10[6]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '3px')
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '8px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemeCategory10[8]);
             physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '5px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
-            physcirclelegends.append('text').attr('class', 'physcirclename').text('community healthcare centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Child Health Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegends.append('text').attr('class', 'physcirclename').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Diagnostic & Treatment Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 30)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegends.append('text').attr('class', 'physcirclename').text('long term care facilities').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Acute Care Hospital').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 60)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegends.append('text').attr('class', 'physcirclename').text('hospitals').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Nursing Home').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 90)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
             physcirclelegends.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
@@ -818,31 +820,32 @@
         // phys chart
         var physchartsvg = physchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'physchartsvg');
         physchartsvg.append('text').attr('class', 'physcharttitle').text('Distances to Nearest Medical Facilities from the District')
-            .attr('transform', 'translate(' + String(chartwidth / 2 - 20) + ', ' + String(chartheight / 2 - 150) + ')')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
             .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
-        var physchartgrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        var physchartgrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
         var physcolorlengend = [1, 3, 6, 8];
-        physchartgrp.selectAll('rect').data([14891.581296961444, 18484.353641928305, 12999.224694471144, 24815.73487198893]).enter().append('rect')
+        physchartgrp.selectAll('rect').data([14861.51205180164, 30478.930609291754, 24766.8406925235, 13541.956212776182]).enter().append('rect')
             .attr('width', d => d / 62)
             .attr('height', '30px')
             .attr('fill', (d, i) => d3.schemeCategory10[physcolorlengend[i]])
             .attr('x', '0px')
             .attr('y', (d, i) => basey + 70 * i);
-        var physcharttitlegrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
-        physcharttitlegrp.append('text').text('community healthcare centers').attr('text-anchor', 'start').attr('y', 10).attr('x', '10px').attr('alignment-baseline', 'middle')
+        var physcharttitlegrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
+        physcharttitlegrp.append('text').text('Child Health Center').attr('text-anchor', 'start').attr('y', 10).attr('x', '10px').attr('alignment-baseline', 'middle')
             .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
-        physcharttitlegrp.append('text').text('diagnostic treatment centers').attr('text-anchor', 'start').attr('y', 80).attr('x', '10px').attr('alignment-baseline', 'middle')
+        physcharttitlegrp.append('text').text('Diagnostic & Treatment Center').attr('text-anchor', 'start').attr('y', 80).attr('x', '10px').attr('alignment-baseline', 'middle')
             .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
-        physcharttitlegrp.append('text').text('long term care facilities').attr('text-anchor', 'start').attr('y', 150).attr('x', '10px').attr('alignment-baseline', 'middle')
+        physcharttitlegrp.append('text').text('Acute Care Hospital').attr('text-anchor', 'start').attr('y', 150).attr('x', '10px').attr('alignment-baseline', 'middle')
             .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
-        physcharttitlegrp.append('text').text('hospitals').attr('text-anchor', 'start').attr('y', 220).attr('x', '10px').attr('alignment-baseline', 'middle')
+        physcharttitlegrp.append('text').text('Nursing Home').attr('text-anchor', 'start').attr('y', 220).attr('x', '10px').attr('alignment-baseline', 'middle')
             .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
 
-        var physchartlines = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(chartheight / 2 - 120) + ')');
+        var physchartlines = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
         physchartlines.append('line').attr('x1', '0px').attr('y1', basey - 20).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
         physchartlines.append('line').attr('x1', chartwidth - 60).attr('y1', basey - 20).attr('x2', chartwidth - 60).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
 
         function drawphyschart(data) {
+            // console.log(data);
             var rects = physchartgrp.selectAll('rect').data(data);
             rects.enter().append('rect').merge(rects).transition().duration(1500)
                 .attr('width', d => d / 62);
