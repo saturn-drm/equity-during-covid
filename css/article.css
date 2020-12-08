@@ -26,23 +26,23 @@ h1 {
 
 h2 {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 p {
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 400;
     width: auto;
 }
 
 ul, ol, li {
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 ol, ul {
@@ -50,7 +50,7 @@ ol, ul {
 }
 
 b {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 a {

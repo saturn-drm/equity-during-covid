@@ -16,7 +16,7 @@ body, html {
     height: 100%;
     padding: 0;
     font-family: Montserrat, source-han-sans-cjk-sc, source-han-sans-cjk-ja, sans-serif;
-    background-color: var(--mainbg);
+    background-color: var(--bodybg);
 }
 
 a#backtotop {
@@ -111,6 +111,14 @@ section#footer {
     color: var(--mainbg);
 }
 
+.github path {
+    transition: all .3s;
+}
+
+.github:hover path {
+    fill: var(--economy);
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -198,6 +206,7 @@ button.inactivebtn {
 
 #race {
     background-color: var(--bodybg);
+    margin-top: 20vh;
 }
 
 #information {
@@ -331,11 +340,11 @@ h1.note {
     width: 60%;
 }
 
-.image6 {
-    height: 90%;
-    width: 90%;
+/* .image6 {
+    height: 80%;
+    width: 80%;
     margin-left: -75px;
-}
+} */
 
 #background .column2 p {
     font-weight: 600;
