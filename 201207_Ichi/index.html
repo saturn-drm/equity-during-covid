@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Enquity during COVID</title>
+    <meta name="description" content="11.454 Big Data and Visualization">
+    <meta name="author" content="ZihanMEI, Ryuhei Ichikura, Beko Liu">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600&display=swap" rel="stylesheet">
+    <!-- font from adobe -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'cmi7aqt',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <!-- end fonts -->
+
+    <!-- start favicons snippet, use https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#2c3e50">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="ZMei.moe">
+    <meta name="application-name" content="ZMei.moe">
+    <meta name="msapplication-TileColor" content="#fee3e1">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end favicons snippet -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156998560-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156998560-1');
+    </script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+
+    <!-- <script type='text/javascript'>
+        $(document).ready(function () {
+            $("#footer").load("components/footer.html");
+        });
+    </script> -->
+
+    <!-- anime-master -->
+    <script src="js/anime-master/lib/anime.min.js"></script>
+
+    <!-- scrollmagic.js -->
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/debug.addIndicators.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"
+        integrity="sha512-wNH6xsp2n8CfB91nrBtfc4sfLwYPBMjSWVUwQOp60AYYXH6i8yCwuKFZ4rgK2i6pQek/b+bSyR7b01/922IBzQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+</head>
+
+<body>
+    <progress id="content-progress" value="0"></progress>
+
+    <!-- back to top icon -->
+    <a id="backtotop">
+        <svg id="layer2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.85 35.95">
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill: none;
+                        stroke-miterlimit: 10;
+                    }
+                </style>
+            </defs>
+            <title>backtotop</title>
+            <polyline class="cls-1" points="0.43 13.95 8.43 0.95 16.43 13.95" />
+            <line class="cls-1" x1="8.43" y1="25.95" x2="8.43" y2="0.95" />
+            <line class="cls-1" x1="0.43" y1="0.95" x2="16.43" y2="0.95" />
+        </svg>
+    </a>
+    <!-- end back to top icon -->
+
+    <div id="tooltip" class="hidden">
+        <p><span id="value">100</span></p>
+    </div>
+
+    <section class="cover" id="home">
+        <div class="coverwords">
+            <h1>How to Improve Racial Equity in the Access to Medical Resources during COVID</h1>
+            <h2>11.454 Big Data, Visualization, And Society</h2>
+            <p>By: Zihan Mei, Ryuhei Ichikura, Beko Liu</p>
+            <p>Instructor: Sarah Williams, Yuan Lai<br>TA: Yanchao Li, Lily Xie, Patricia Cafferky</p>
+            <p>source for background image: <a
+                    href="https://showcase.earthengine.app/view/jrc-global-surface-water-animation">JRC Global Surface
+                    Water Animation</a></p>
+        </div>
+
+        <a href="#background">
+            <div class="scrolldown">
+                <svg id="layer1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.14 11.04">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: transparent;
+                                stroke-miterlimit: 10;
+                                stroke-width: 2px;
+                            }
+                        </style>
+                    </defs>
+                    <title>scrolldown</title>
+                    <polyline class="cls-1" points="0.57 0.82 13.57 9.82 26.57 0.82" />
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <!-- Start p1 of Background -->
+    <section class="container" id="background">
+        <h1 class="note" style="font-size:6rem;">Background</h1>
+        <div class="row">
+            <div class="column1" id="bgimg1">
+                <div class="bgcontent frame">
+                    <div class="bgp1 bganime bgfadein1" style="padding-top:200px; padding-left:100px">
+                        <img src='assets/NBC.jpeg' alt="NBC" class='image1'>
+                    </div>
+
+                    <p style="font-size:8pt; padding-left:100px">Source: <a
+                            href="http://localhost:8000/1130-storyboard_Ichi2.html">NBC News</a></p>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="bgcontent frame" id="triggerbg1">
+                    <p
+                        style='font-size:18pt; padding-left:0px; padding-right:20px; padding-top:350px;'>
+                        Victims of COVID</p>
+                        There have been many cases of COVID-19 in US, but have all racial groups equally suffered from this new virus? Researchers have already studied the racial inequity in COVID-19 by using big data.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p1 of Background -->
+    <!-- Start p2 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg2">
+                <div class="dummyframe">
+                    <div class="bgp2 bganime bgfadein2" style="padding-top:100px; padding-left:180px">
+                        <img src='assets/Atlantic-1.png' alt="atlantic-1" class='image2'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:180px">Source: <a href="https://covidtracking.com/race">The
+                            Atlantic. The Covid Tracking Project</a></p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg2">
+                    <p
+                        style='font-size:18pt; padding-left:0px; padding-right:20px; padding-top:380px;'>
+                        High Infection Rates in White-dominant Cities</p>
+                        The Atlas launched a voluntary project The COVID Tracking Project and has collected data on COVID-19 testing and patient outcomes from 50 states, and analyzed racial inequity. One of the finding though this project is that high infection rates are seen more in the White-dominant cities.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p2 of Background -->
+    <!-- Start p3 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg3">
+                <div class="dummyframe">
+                    <div class="bgp3 bganime bgfadein3" style="padding-top:100px; padding-left:180px">
+                        <img src='assets/Atlantic-2.png' alt="atlantic-2" class='image3'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:180px">Source: <a href="https://covidtracking.com/race">The
+                            Atlantic. The Covid Tracking Project</a></p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg3">
+                    <p
+                        style='font-size:18pt; padding-left:0px; padding-right:20px; padding-top:330px;'>
+                        High Death Rates in Black-dominant Cities
+                    </p>
+                    On the other hands, it also found that the high death rates are seen more in the Black-dominant cities.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p3 of Background -->
+    <!-- Start p4 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg4">
+                <div class="dummyframe">
+                    <div class="bgp4 bganime bgfadein4" style="padding-top:200px; padding-left:100px">
+                        <img src='assets/MedicalCareBW.jpg' alt="medicalcareBW" class='image4'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:100px">Source: East China Morning Post. The Coronavirus
+                        Pandemic.</p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg4">
+                    <p
+                        style='font-size:18pt; padding-left:0px; padding-right:20px; padding-top:400px;'>
+                        Death from COVID and Social Vulnerability</p>
+                        This relatively low infection and high death rates in the Black communities lead to one assumption that social vulnerability is the main reason why they turned to be the victims.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p4 of Background -->
+    <!-- Start p5 of Background -->
+    <section class="container" id="background">
+        <div class="row">
+            <div class="column1" id="bgimg5">
+                <div class="dummyframe">
+                    <div class="bgp5 bganime bgfadein5" style="padding-top:180px; padding-left:180px">
+                        <img src='assets/SVI-3.png' alt="SVI-3" class='image5'>
+                    </div>
+                    <p style="font-size:8pt; padding-left:100px">Source: CDC. Planning for an Emergency: Strategies for
+                        Identifying and Engaging At-Risk Groups.</p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dummyframe" id="triggerbg5">
+                    <p
+                        style='font-size:18pt; padding-left:0px; padding-right:20px; padding-top:200px;'>
+                        SVI+</p>
+                        Centers for Disease Control and Prevention (CDC) provides Social vulnerability index (SVI) in order to help local officials to identify difficulties of communities. SVI is composed of widely ranged criteria such as socioeconomic status, disability, and transportation ability. However, are these enough to explain the situation that derives from the new virus? We suppose that physical accessibility to medical facilities that can take care of patients of this new virus and information accessibility to gather the relevant information regarding the virus is relevant to the death rates.
+                    <p
+                        style='font-size:18pt; padding-left:0px; padding-right:20px; padding-top:20px;'>
+                        Questions</p>
+                        <p>1) How do these types of accessibility exist?</p>
+                        <p>2) How do they relate to the death cases?</p>
+                        <p>3) Do they help SVI explain the situation better?</p>
+                      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End p5 of Background -->
+    <!-- Start Case Study -->
+    <section class="container" id="race">
+        <h1 class="note" style="font-size:6rem;">Case Study</h1>
+        <div class="row">
+            <div class="column1 frame" id="racemap">
+                <div style="padding-top:70px; padding-left:170px">
+                    <img src='assets/RacialDotMap_s.png' alt="racial" class='image6'>
+                </div>
+                <p style="font-size:8pt; padding-left:170px">Source: <a
+                        href="https://demographics.virginia.edu/DotMap/index.html">University of Verginia</a>.</p>
+            </div>
+            <div class="column2">
+                <div class="frame cscomment">
+                    <p style="padding-top: 30vh; font-size: 18pt;">New York City in ZIP-scale
+                        as a case study</p>
+                        We focus on New York City as a case study, because it has wide variety of data, racial diversity and a number of medical facilities. Depending on the format of the collected data, we will focus on ZIP scale as seen in the left-hand racial dot map. This map works is a reference to relate the demographical condition with the following research into the accessibility and SVI.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Case Study -->
+
+    <section class="container" id="information">
+        <h1 class="note" style="font-size:6rem;">Information</h1>
+        <div class="row">
+            <div class="column1 frame" id="infomap">
+                <div class="quote">
+                    <blockquote>Data Source: <br><a
+                            href="https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/ACS_Internet_by_Education_Boundaries/FeatureServer">ACS
+                            Internet Access by Education Variables - Boundaries</a>. Updated on Jan 7, 2020.
+                    </blockquote>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame" id="infochart"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="physical">
+        <h1 class="note" style="font-size:6rem;">Physical</h1>
+        <div class="row">
+            <div class="column1 frame" id="physmap">
+                <div class="buttons">
+                    <button id="physbutton1" class="inactivebtn" onclick="physswitch('medical');">Medical
+                        Facilities</button>
+                    <button id="physbutton2" class="inactivebtn" onclick="physswitch('testing');">Testing Sites</button>
+                    <button id="physbutton3" onclick="physswitch('all');">All</button>
+                </div>
+                <div class="quote">
+                    <blockquote>Data Source: <br><a
+                            href="https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-patient-care-locations-2011/f7b6-v6v3">NYC
+                            Health + Hospitals patient care locations - 2011</a>. Updated on July 4, 2019.<br><a
+                            href="https://www.nychealthandhospitals.org/covid-19-testing-sites/">COVID-19 Testing
+                            Sites</a>. Updated on Dec 1, 2020.</blockquote>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame" id="physchart"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="conclusion">
+        <h1 class="note" style="font-size:6rem;">Conclusion</h1>
+        <div class="row">
+            <div class="column1 frame" id="concmap">
+                <div class="buttons">
+                    <button id="concbutton1" class="inactivebtn" onclick="concswitch(0);">Information</button>
+                    <button id="concbutton2" class="inactivebtn" onclick="concswitch(1);">Physical</button>
+                    <button id="concbutton3" onclick="concswitch(2);">Current SVI</button>
+                </div>
+                <div class="quote">
+                    <blockquote>Data Source: <br><a
+                            href="https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_Social_Vulnerability_Index_2018/FeatureServer">CDC
+                            Social Vulnerability Index 2018 - USA</a>. Updated on March 19, 2020.<br><a
+                            href="https://raw.githubusercontent.com/nychealth/coronavirus-data/master/totals/data-by-modzcta.csv">ACS
+                            NYC Health - Coronavirus-data - data-by-modzcta.csv</a>. Updated on Dec 2, 2020.
+                    </blockquote>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="analysis frame">
+                    <p>Since this pandemic started, people have been discussing who specifically the victims of COVID
+                        are, and if there is racial inequity in this suffering, which are to reveal the phenomena of the
+                        pandemic.</p>
+                    <p>Based on these demands, most states have provided racial data of the infections, though there is
+                        a minor difference of data transparency between states. And this has facilitated data-driven
+                        analysis to reveal the unequal situation of the infections.</p>
+                    <p>This is one of the analysis, and shows that many of the high death-rate counties in US are
+                        black-dominant while many of the highly-infected counties are white-dominant.</p>
+                    <p>Another analysis shows that hospitalization cases of not only black but also the other minority
+                        such as American Indian, Alaska Native, and Latino are as around 5 times as ones of White.</p>
+                </div>
+                <div class="chart frame" id="concchart"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footerword">
+            <h1>Equity During COVID-19</h1>
+            <h2>11.454 Big Data, Visualization, And Society</h2>
+            <h3>Contact</h3>
+            <p>Zihan Mei, <a href="mailto:zmei@gsd.harvard.edu">zmei@gsd.harvard.edu</a></p>
+            <p>Ryuhei Ichikura, <a href="mailto:ichikura@mit.edu">ichikura@mit.edu</a></p>
+            <p>Beko Liu, <a href="mailto:bliu@gsd.harvard.edu">bliu@gsd.harvard.edu</a></p>
+        </div>
+    </section>
+
+    <!-- scroll smoothly -->
+    <script class="scrollsection">
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+
+        var $sections = $("section");
+        var currentIndex = 0;
+        var isAnimating = false;
+
+        var stopAnimation = function () {
+            setTimeout(function () {
+                isAnimating = false;
+            }, 200);
+        };
+
+        var bottomIsReached = function ($elem) {
+            var rect = $elem[0].getBoundingClientRect();
+            return rect.bottom <= $(window).height();
+        };
+
+        var topIsReached = function ($elem) {
+            var rect = $elem[0].getBoundingClientRect();
+            return rect.top >= 0;
+        };
+
+        document.addEventListener(
+            "wheel",
+            function (event) {
+                if (isAnimating) {
+                    event.preventDefault();
+                    return;
+                }
+
+                var $currentSection = $($sections[currentIndex]);
+
+                if (event.deltaY > 0) {
+                    if (currentIndex + 1 >= $sections.length) return;
+                    if (!bottomIsReached($currentSection)) return;
+                    currentIndex++;
+                    event.preventDefault();
+                    isAnimating = true;
+                    $("html, body").animate({ scrollTop: $($sections[currentIndex]).offset().top }, 1000, stopAnimation);
+                } else {
+                    if (currentIndex - 1 < 0) return;
+                    if (!topIsReached($currentSection)) return;
+                    currentIndex--;
+                    event.preventDefault();
+                    isAnimating = true;
+                    $("html, body").animate({ scrollTop: $($sections[currentIndex]).offset().top }, 1000, stopAnimation);
+                }
+            },
+            { passive: false }
+        );
+
+        // backtotop
+        var btn = $('#backtotop');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            currentIndex = 0;
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+    </script>
+    <!-- end scroll smoothly -->
+
+    <!-- the moving icon of scrolling down -->
+    <script class="scrolldownanime">
+        anime({
+            targets: 'div.scrolldown svg',
+            translateY: 25,
+            loop: true,
+            easing: 'easeInOutSine',
+            duration: 1000,
+            opacity: [0, 1]
+        })
+    </script>
+
+    <!-- scrollmagic animation -->
+    <script class="scrollmagicanime">
+        window.onload = function () {
+            var bgheightp1 = document.getElementsByClassName("bgp1")[0].offsetHeight;
+            var bgheightp2 = document.getElementsByClassName("bgp2")[0].offsetHeight;
+            var bgheightp3 = document.getElementsByClassName("bgp3")[0].offsetHeight;
+            var bgheightp4 = document.getElementsByClassName("bgp4")[0].offsetHeight;
+            var bgheightp5 = document.getElementsByClassName("bgp5")[0].offsetHeight;
+
+            var controller = new ScrollMagic.Controller();
+
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg1", duration: bgheightp1 })
+                .setClassToggle(".bgfadein1", "magicshow")
+                // .addIndicators({ name: "background" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg2", duration: bgheightp2 })
+                .setClassToggle(".bgfadein2", "magicshow")
+                // .addIndicators({ name: "start-up" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg3", duration: bgheightp3 })
+                .setClassToggle(".bgfadein3", "magicshow")
+                // .addIndicators({ name: "economy" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg4", duration: bgheightp4 })
+                .setClassToggle(".bgfadein4", "magicshow")
+                // .addIndicators({ name: "information" })
+                .addTo(controller);
+            new ScrollMagic.Scene({ triggerElement: "#triggerbg5", duration: bgheightp5 })
+                .setClassToggle(".bgfadein5", "magicshow")
+                // .addIndicators({ name: "physical" })
+                .addTo(controller);
+        };
+    </script>
+
+    <script class="content-progress-js">
+        document.addEventListener('DOMContentLoaded', function () {
+            var winHeight = window.innerHeight,
+                docHeight = document.documentElement.scrollHeight,
+                progressBar = document.querySelector('#content-progress');
+            progressBar.max = docHeight - winHeight;
+            progressBar.value = window.scrollY;
+
+            document.addEventListener('scroll', function () {
+                progressBar.max = document.documentElement.scrollHeight - window.innerHeight;
+                progressBar.value = window.scrollY;
+            });
+        });
+    </script>
+
+    <script class="map" type="text/javascript">
+        var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
+        var interneturl = 'datas/2-InternetMerged.csv';
+        // var medicalurl = 'datas/05-physical/medical-facilities-converted.csv';
+        var medicalurl = 'datas/07-physical-new/medical-loc.csv';
+        // var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
+        var medicaldisturl = 'datas/07-physical-new/medical-dist.csv';
+        var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
+        // var svirnkurl = 'datas/8-svi_rnks.csv';
+        var svirnkurl = 'datas/8-svi_rnks-fixed.csv';
+        var caseurl = 'datas/06-cases/data-by-modzcta-merged.csv';
+
+        var infomapcontainer = d3.select('#infomap');
+        var physmapcontainer = d3.select('#physmap');
+        var concmapcontainer = d3.select('#concmap');
+        var chartconatiner = d3.select('#infochart');
+        var physchartcontainer = d3.select('#physchart');
+        var concchartcontainer = d3.select('#concchart');
+        var height = infomapcontainer.node().getBoundingClientRect().height;
+        var width = infomapcontainer.node().getBoundingClientRect().width;
+        var chartheight = chartconatiner.node().getBoundingClientRect().height;
+        var chartwidth = chartconatiner.node().getBoundingClientRect().width;
+        var basex = 20, basey = 20;
+        var infomapsvg = infomapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'infomapsvg');
+        var physmapsvg = physmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'physmapsvg');
+        var concmapsvg = concmapcontainer.append('svg').attr('height', height - 20).attr('width', width - 20).attr('class', 'concmapsvg');
+        var infogrp = infomapsvg.append('g').attr('transform', 'translate(70, 0)');
+        var physgrp = physmapsvg.append('g').attr('transform', 'translate(70, 0)');
+        var concgrp = concmapsvg.append('g').attr('transform', 'translate(70, 0)');
+
+        var projection = d3.geoMercator().center([-73.94, 40.70]).scale(70000).translate([width / 2, height / 2]);
+        var path = d3.geoPath().projection(projection);
+
+        var internet = d3.map();
+        var medical = [], testing = [];
+        var medicaldist = d3.map();
+        var svirnk = d3.map();
+        var svirnklist = [];
+        var modname = d3.map();
+        var deathcase = [];
+        var medcolormap = { 'Child Health Center': 0, 'Diagnostic & Treatment Center': 1, 'Acute Care Hospital': 2, 'Nursing Home': 3 };
+        var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
+            internet.set(+d.modzcta, [+d['no highschool'], +d['highschool'], +d['college'], +d['perc']]);
+        }), d3.csv(medicalurl, function (d) {
+            medical.push([d.NAME, [+d.lng, +d.lat], d.CLASS]);
+        }), d3.csv(medicaldisturl, function (d) {
+            medicaldist.set(+d.modzcta, [+d['Child Health Center'], +d['Diagnostic & Treatment Center'], +d['Acute Care Hospital'], +d['Nursing Home'], +d['avg']]);
+        }), d3.csv(testingurl, function (d) {
+            testing.push([d.NAME, [+d.lng, +d.lat]]);
+        }), d3.csv(svirnkurl, function (d) {
+            svirnk.set(+d.modzcta, [+d.infornk, +d.physrnk, +d.svirnk]);
+            svirnklist.push([+d.modzcta, +d.infornk, +d.physrnk, +d.svirnk]);
+        }), d3.csv(caseurl, function (d) {
+            modname.set(+d.MODIFIED_ZCTA, [d.NEIGHBORHOOD_NAME, +d.COVID_DEATH_RATE]);
+            deathcase.push([+d.deathtocase, [+d.lng, +d.lat], +d.COVID_CASE_RATE, +d.COVID_DEATH_RATE, +d.MODIFIED_ZCTA]);
+        })];
+        var physcolors = d3.scaleQuantize().domain([953.1778456787914, 20912.30989159827 * 0.5]).range(d3.schemeGreens[9]);
+        var conccolorsinfo = d3.scaleQuantize().domain([0, 1]).range(d3.schemeReds[9]);
+        var conccolorsphys = d3.scaleQuantize().domain([0, 1]).range(d3.schemeGreens[9]);
+        var conccolorssvi = d3.scaleQuantize().domain([0, 1]).range(d3.schemePurples[9]);
+        Promise.all(promises).then(ready);
+        function ready([nyc]) {
+            nyc.features.pop();
+            var infocolors = d3.scaleQuantize().domain([0, 0.342007343]).range(d3.schemeReds[9]);
+            infogrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode')
+                .attr('fill', d => infocolors(internet.get(d.properties.modzcta)[3])).attr('stroke', 'gray').attr('d', path)
+                .on('mouseover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(modname.get(d.properties.modzcta)[0]) + '<br>Rate no Internet Access: ' + String((100 * internet.get(d.properties.modzcta)[3]).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(modname.get(d.properties.modzcta)[0]) + '<br>Rate no Internet Access: ' + String((100 * internet.get(d.properties.modzcta)[3]).toFixed(2)) + '%</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                })
+                .on('click', function (d) {
+                    drawinfochart(internet.get(d.properties.modzcta), modname.get(d.properties.modzcta)[0]);
+                });
+            // physical, medical facilities points
+            physgrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode')
+                .attr('fill', d => physcolors(Math.min.apply(Math, medicaldist.get(d.properties.modzcta)))).attr('stroke', 'gray').attr('d', path)
+                .on('click', function (d) {
+                    drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4), modname.get(d.properties.modzcta)[0]);
+                });
+            // testing
+            physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle').attr('transform', 'translate(70, 0)')
+                .attr('class', 'testingcircle').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', '#bbb');
+            // medical facilities
+            physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle').attr('transform', 'translate(70, 0)')
+                .attr('class', 'medicalcircle').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', d => d3.schemePaired[medcolormap[d[2]]])
+                .on('mousehover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(d[0]) + '<br>Class: ' + String(d[2]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(d[0]) + '<br>Class: ' + String(d[2]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                });
+
+            // conc map
+            var deathratecolors = d3.scaleQuantize().domain([0, 721.84]).range(d3.schemeReds[9]);
+            concgrp.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode').attr('id', d => d.properties.modzcta)
+                .attr('fill', d => conccolorssvi(svirnk.get(d.properties.modzcta)[2])).attr('stroke', 'gray').attr('d', path);
+            //.on('mouseover', function (d) { switchconcindexes(d.properties.modzcta); });
+            concmapsvg.append('g').selectAll('circle').data(deathcase).enter().append('circle').attr('transform', 'translate(70, 0)')
+                .attr('class', 'deathtocase').attr('r', d => d[3] / 40).attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', '#fffcf9')
+                .on('mouseover', function (d) {
+                    switchconcindexes(d[4], modname.get(d[4])[0]);
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate: ' + String((d[3]).toFixed(2)) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(modname.get(d[4])[0]) + '<br>Death Rate: ' + String((d[3]).toFixed(2)) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                })
+
+            // info legend
+            var cellNum = 9;
+            var infolegend = d3.legendColor().shapeWidth(50).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Percentage of the households with no Internet access').orient('horizontal').scale(infocolors);
+            var infolegendcontainer = infomapsvg.append('g').attr('transform', 'translate(20, 20)').call(infolegend);
+            // labels
+            infolegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
+            // info title
+            infolegendcontainer.append('g').append('text').text('Accessibility to Internet by MODZCTA in NYC').attr('class', 'infomaptitle')
+                .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
+
+            // phys legend
+            var physlegend = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Average distance to the 4 kinds of medical facilities').orient('horizontal').scale(physcolors);
+            var physlegendcontainer = physmapsvg.append('g').attr('transform', 'translate(20, 20)').call(physlegend);
+            // labels
+            physlegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
+
+            var physcirclelegends = physlegendcontainer.append('g').attr('transform', 'translate(0, 80)');
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemePaired[0]);
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemePaired[1]);
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemePaired[2]);
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemePaired[3]);
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
+                .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Child Health Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Diagnostic & Treatment Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 30)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Acute Care Hospital').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 60)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Nursing Home').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 90)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(20, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            // title phys
+            physlegendcontainer.append('g').append('text').text('Distribution of Medical Facilities and Testing Sites in NYC').attr('class', 'physmaptitle')
+                .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 60) + ')').style('fill', '#34090f').style('font-weight', '600');
+
+            // conc legend
+            var conclegendinfo = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Information Accessibility Index (INFO)').orient('horizontal').scale(conccolorsinfo);
+            var conclegendphys = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Physical Accessibility Index (PHYS)').orient('horizontal').scale(conccolorsphys);
+            var conclegendsvi = d3.legendColor().shapeWidth(45).shapeHeight(10).cells(cellNum).shapePadding(0).labelFormat(d3.format('.2f')).labels(['0'])
+                .title('Current CDC Social Vulnerability Index 2018 (SVI)').orient('horizontal').scale(conccolorssvi);
+            var conclegendcontainerinfo = concmapsvg.append('g').attr('transform', 'translate(20, 20)').call(conclegendinfo);
+            var conclegendcontainerphys = concmapsvg.append('g').attr('transform', 'translate(20, 60)').call(conclegendphys);
+            var conclegendcontainer = concmapsvg.append('g').attr('transform', 'translate(20, 100)').call(conclegendsvi);
+            //var conccirclesize = d3.scaleLinear().domain([0, 721.84]).range([1, 10]);
+            //var conccirclelegend = d3.legendSize().scale(conccirclesize).shape('circle').shapePadding(15).labelOffset(20).orient('vertical');
+            //conclegendcontainer.append('g').attr('transform', 'translate(0, 80)').call(conccirclelegend);
+            // labels
+            conclegendcontainer.selectAll('.label').style('display', (d, i) => i == cellNum - 1 || i == 0 ? 'block' : 'none');
+            conclegendcontainerinfo.selectAll('.label').style('display', 'none');
+            conclegendcontainerphys.selectAll('.label').style('display', 'none');
+
+            var conccirclelegends = conclegendcontainer.append('a').attr('transform', 'translate(0, 80)');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '0px')
+                .attr('fill', '#fffcf9').attr('r', '4.5px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '40px')
+                .attr('fill', '#fffcf9').attr('r', '9px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '80px')
+                .attr('fill', '#fffcf9').attr('r', '13.5px');
+            conccirclelegends.append('circle').attr('class', 'circlelegend').attr('stroke', 'black').attr('stroke-width', '2px').attr('cx', '0px').attr('cy', '120px')
+                .attr('fill', '#fffcf9').attr('r', '18px');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('0 to 180 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('180 to 360 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 40)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('360 to 540 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 80)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            conccirclelegends.append('text').attr('class', 'conccirclename').text('540 to 720 (per 100,000 people)').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(40, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            // conc title
+            conclegendcontainer.append('g').append('text').text('Overlap of Current SVI and 2 New Index with Death Rate').attr('class', 'concmaptitle')
+                .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
+                .attr('transform', 'translate(' + String(width / 2 - 30) + ', ' + String(height - 140) + ')').style('fill', '#34090f').style('font-weight', '600');
+
+            // concchart
+            var concchartsvg = concchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'concchartsvg');
+            concchartsvg.append('text').attr('class', 'conccharttitle').text('Death Rate and 3 Index in District')
+                .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
+                .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+            concchartsvg.append('text').attr('class', 'concchartsubtitle').text('- District Name -')
+                .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(60) + ')')
+                .attr('text-anchor', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+            var concchartgrp = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartxlabel = d3.scaleLinear().domain([0, 1]).range([0, chartwidth - 100]);
+            concchartgrp.append('g').attr('class', 'd3concchart').attr('transform', 'translate(' + String(0) + ', ' + String(chartheight - 100) + ')').call(d3.axisBottom(concchartxlabel));
+            concchartgrp.append('text').text('Index').attr('class', 'concchartxlabel').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'translate(' + String(chartwidth - 140) + ', ' + String(basey + 320) + ')').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            var concchartylabel = d3.scaleLinear().domain([0, 721.84]).range([chartheight - 100, 0]);
+            concchartgrp.append('g').attr('class', 'd3concchart').call(d3.axisLeft(concchartylabel));
+            concchartgrp.append('text').text('Death Rate (per 100,000 people)').attr('class', 'concchartxlabel').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('transform', 'rotate(-90, 80, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            var concchartgrpinfo = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartgrpphys = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartgrpsvi = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            var concchartgrplines = concchartsvg.append('g').attr('transform', 'translate(' + String(basex + 40) + ', ' + String(chartheight / 2 - 160) + ')');
+            concchartgrplines.selectAll('line').data(svirnklist).enter().append('line').attr('stroke-width', 1).attr('stroke', '#bbb').attr('opacity', '0.5')
+                .attr('id', d => 'concline' + String(d[0])).attr('class', 'concline').attr('display', 'none').attr('z-index', -1)
+                .attr('x1', d => d3.extent(d.slice(1, 4))[0] * (chartwidth - 100) + 2).attr('y1', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84)
+                .attr('x2', d => d3.extent(d.slice(1, 4))[1] * (chartwidth - 100) - 2).attr('y2', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+
+            concchartgrpinfo.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#fb6a4a').attr('r', '4px').attr('id', d => 'concinfo' + String(d[0])).style('opacity', '0.5').attr('class', 'concinfo').attr('z-index', -1)
+                .attr('cx', d => d[1] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpinfo.selectAll('text').data(svirnklist).enter().append('text').text(d => String(d[1].toFixed(2))).attr('class', 'concinfotxt')
+                .attr('transform', d => 'translate(' + String(d[1] * (chartwidth - 100) - 15) + ', ' + String(chartheight - 120 - (chartheight - 100) * modname.get(d[0])[1] / 721.84) + ')')
+                .attr('id', d => 'concinfotxt' + String(d[0])).attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600').attr('display', 'none');
+
+            concchartgrpphys.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#74c476').attr('r', '4px').attr('id', d => 'concphys' + String(d[0])).style('opacity', '0.5').attr('class', 'concphys').attr('z-index', -1)
+                .attr('cx', d => d[2] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpphys.selectAll('text').data(svirnklist).enter().append('text').text(d => String(d[2].toFixed(2))).attr('class', 'concphystxt')
+                .attr('transform', d => 'translate(' + String(d[2] * (chartwidth - 100) - 15) + ', ' + String(chartheight - 120 - (chartheight - 100) * modname.get(d[0])[1] / 721.84) + ')')
+                .attr('id', d => 'concphystxt' + String(d[0])).attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600').attr('display', 'none');
+
+            concchartgrpsvi.selectAll('circle').data(svirnklist).enter().append('circle')
+                .attr('fill', '#9e9ac8').attr('r', '4px').attr('id', d => 'concsvi' + String(d[0])).style('opacity', '0.5').attr('class', 'concsvi').attr('z-index', -1)
+                .attr('cx', d => d[3] * (chartwidth - 100)).attr('cy', d => chartheight - 100 - (chartheight - 100) * modname.get(d[0])[1] / 721.84);
+            concchartgrpsvi.selectAll('text').data(svirnklist).enter().append('text').text(d => String(d[3].toFixed(2))).attr('class', 'concsvitxt')
+                .attr('transform', d => 'translate(' + String(d[3] * (chartwidth - 100) - 15) + ', ' + String(chartheight - 120 - (chartheight - 100) * modname.get(d[0])[1] / 721.84) + ')')
+                .attr('id', d => 'concsvitxt' + String(d[0])).attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600').attr('display', 'none');
+            // conc chart legend
+            var concchartlegendcontainer = concchartsvg.append('g').attr('class', 'concchartlegend').attr('transform', 'translate(50, 60)');
+            concchartlegendcontainer.append('circle').attr('fill', '#a50f15').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(40, 15)');
+            concchartlegendcontainer.append('circle').attr('fill', '#006d2c').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(80, 15)');
+            concchartlegendcontainer.append('circle').attr('fill', '#54278f').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('transform', 'translate(120, 15)');
+            concchartlegendcontainer.append('line').attr('stroke', 'black').attr('stroke-width', '2px').attr('display', 'block')
+                .attr('x1', '40px').attr('y1', '15px').attr('x2', '120px').attr('y2', '15px');
+            concchartlegendcontainer.append('text').text('INFO').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(25, 35)')
+                .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
+            concchartlegendcontainer.append('text').text('PHYS').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(65, 35)')
+                .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
+            concchartlegendcontainer.append('text').text('SVI').attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('transform', 'translate(110, 35)')
+                .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '600');
+
+            // legend title location and size
+            d3.selectAll('.legendTitle')
+                .attr('transform', 'translate(0, 15)')
+                .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+            // label font
+            d3.selectAll('.label').attr('text-anchor', 'end').attr('alignment-baseline', 'alphabetic').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+        };
+
+        // info chart
+        var infochartsvg = chartconatiner.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'infochartsvg');
+        // infochart title
+        infochartsvg.append('text').attr('class', 'infocharttitle').text('Distribution of Education Levels in District')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+        infochartsvg.append('text').attr('class', 'infochartsubtitle').text('- Jackson Heights/Rikers Island -')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(60) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+        var infochartgrp = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth / 2 - 120) + ', ' + String(chartheight / 2 + 30) + ')');
+        var infopiecolor = [4, 5, 7];
+        var infopiearc = d3.arc().innerRadius(60).outerRadius(150);
+        var infopie = d3.pie();
+        var infoarcs = infochartgrp.selectAll("arc").data(infopie([0.18611142544604126, 0.5359662027083097, 0.277922371845649])).enter().append('g');
+        infoarcs.append('path').attr('fill', (d, i) => d3.schemePaired[infopiecolor[i]]).attr('d', infopiearc);
+        infoarcs.append('text').text((d, i) => String((100 * d.value).toFixed(2)) + '%').attr('transform', d => 'translate(' + infopiearc.centroid(d) + ')').attr('x', '-25px')
+            .attr('text-anchor', 'start').attr('alignment-baseline', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '600');
+        //info chart legend
+        var infochartlegendcontainer = infochartsvg.append('g').attr('transform', 'translate(' + String(chartwidth - 240) + ', ' + String(basey + 240) + ')');
+        infochartlegendcontainer.append('rect').attr('fill', d3.schemePaired[infopiecolor[0]]).attr('width', '15px').attr('height', '15px')
+            .attr('transform', 'translate(0, -10)');
+        infochartlegendcontainer.append('rect').attr('fill', d3.schemePaired[infopiecolor[1]]).attr('width', '15px').attr('height', '15px')
+            .attr('transform', 'translate(0, 30)');
+        infochartlegendcontainer.append('rect').attr('fill', d3.schemePaired[infopiecolor[2]]).attr('width', '15px').attr('height', '15px')
+            .attr('transform', 'translate(0, 70)');
+        infochartlegendcontainer.append('text').text('Population with:').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(0, -40)');
+        infochartlegendcontainer.append('text').text('No High School Degree').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(20, 0)');
+        infochartlegendcontainer.append('text').text('High School Degree').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(20, 40)');
+        infochartlegendcontainer.append('text').text('College Degree and Higher').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400').attr('transform', 'translate(20, 80)');
+
+        function drawinfochart(data, modzctaname) {
+            console.log(data.slice(0, 3));
+            var infochartpaths = infochartgrp.selectAll('path').data(infopie(data.slice(0, 3)));
+            infochartpaths.enter().append('path').merge(infochartpaths).transition().duration(200).attr('d', infopiearc);
+            var infocharttexts = infochartgrp.selectAll('text').data(infopie(data.slice(0, 3)));
+            infocharttexts.enter().append('text').merge(infocharttexts).transition().duration(400)
+                .text((d, i) => String((100 * d.value).toFixed(2)) + '%').attr('transform', d => 'translate(' + infopiearc.centroid(d) + ')');
+            d3.select('.infochartsubtitle').text('- ' + modzctaname + ' -');
+        };
+
+        // phys chart
+        var physchartsvg = physchartcontainer.append('svg').attr('height', chartheight - 20).attr('width', chartwidth - 20).attr('class', 'physchartsvg');
+        // physchart title
+        physchartsvg.append('text').attr('class', 'physcharttitle').text('Distances to Nearest Medical Facilities from the District')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(30) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '1.2rem').style('fill', '#34090f').style('font-weight', '600');
+        physchartsvg.append('text').attr('class', 'physchartsubtitle').text('- Tottenville -')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(60) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '16px').style('fill', '#34090f').style('font-weight', '400');
+        physchartsvg.append('text').attr('class', 'physchartnotes').text('Unit: Meters')
+            .attr('transform', 'translate(' + String(chartwidth / 2 - 10) + ', ' + String(chartwidth / 2 + 40) + ')')
+            .attr('text-anchor', 'middle').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+        var physchartgrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
+        var physcolorlengend = [0, 1, 2, 3];
+        physchartgrp.selectAll('rect').data([14861.51205180164, 30478.930609291754, 24766.8406925235, 13541.956212776182]).enter().append('rect')
+            .attr('width', d => d / 62).attr('height', '30px').attr('fill', (d, i) => d3.schemePaired[physcolorlengend[i]])
+            .attr('x', '0px').attr('y', (d, i) => basey + 70 * i);
+        physchartgrp.selectAll('text').data([14861.51205180164, 30478.930609291754, 24766.8406925235, 13541.956212776182]).enter().append('text')
+            .attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem')
+            .text(d => String(d.toFixed(2))).attr('x', d => d / 62 + 10).attr('y', (d, i) => 15 + basey + 70 * i);
+        var physcharttitlegrp = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
+        physcharttitlegrp.append('text').text('Child Health Center').attr('text-anchor', 'start').attr('y', 10).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+        physcharttitlegrp.append('text').text('Diagnostic & Treatment Center').attr('text-anchor', 'start').attr('y', 80).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+        physcharttitlegrp.append('text').text('Acute Care Hospital').attr('text-anchor', 'start').attr('y', 150).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+        physcharttitlegrp.append('text').text('Nursing Home').attr('text-anchor', 'start').attr('y', 220).attr('x', '10px').attr('alignment-baseline', 'middle')
+            .style('fill', '#34090f').style('font-weight', '400').attr('font-size', '1rem');
+
+        var physchartlines = physchartsvg.append('g').attr('transform', 'translate(' + String(basex) + ', ' + String(80) + ')');
+        physchartlines.append('line').attr('x1', '0px').attr('y1', basey - 20).attr('x2', '0px').attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+        physchartlines.append('line').attr('x1', chartwidth - 60).attr('y1', basey - 20).attr('x2', chartwidth - 60).attr('y2', basey + 260).attr('stroke-width', 2).attr('stroke', 'black');
+
+        function drawphyschart(data, modzctaname) {
+            // console.log(data);
+            var rects = physchartgrp.selectAll('rect').data(data);
+            rects.enter().append('rect').merge(rects).transition().duration(600)
+                .attr('width', d => d / 62);
+            var texts = physchartgrp.selectAll('text').data(data);
+            texts.enter().append('text').merge(texts).transition().duration(600)
+                .text(d => String(d.toFixed(2))).attr('x', d => d / 62 + 10)
+            d3.select('.physchartsubtitle').text('- ' + modzctaname + ' -');
+        };
+
+        // physical buttons
+        function physswitch(s) {
+            if (s == 'medical') {
+                document.getElementById('physbutton1').classList.remove('inactivebtn');
+                document.getElementById('physbutton2').classList.add('inactivebtn');
+                document.getElementById('physbutton3').classList.add('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'block');
+                d3.selectAll('.testingcircle').attr('display', 'none');
+            }
+            if (s == 'testing') {
+                document.getElementById('physbutton1').classList.add('inactivebtn');
+                document.getElementById('physbutton2').classList.remove('inactivebtn');
+                document.getElementById('physbutton3').classList.add('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'none');
+                d3.selectAll('.testingcircle').attr('display', 'block');
+            }
+            if (s == 'all') {
+                document.getElementById('physbutton1').classList.add('inactivebtn');
+                document.getElementById('physbutton2').classList.add('inactivebtn');
+                document.getElementById('physbutton3').classList.remove('inactivebtn');
+                d3.selectAll('.medicalcircle').attr('display', 'block');
+                d3.selectAll('.testingcircle').attr('display', 'block');
+            }
+        };
+
+        // conclusion buttons
+        function concswitch(n) {
+            if (n == 0) {
+                document.getElementById('concbutton1').classList.remove('inactivebtn');
+                document.getElementById('concbutton2').classList.add('inactivebtn');
+                document.getElementById('concbutton3').classList.add('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolorsinfo(svirnk.get(d.properties.modzcta)[0]));
+                });
+            }
+            if (n == 1) {
+                document.getElementById('concbutton1').classList.add('inactivebtn');
+                document.getElementById('concbutton2').classList.remove('inactivebtn');
+                document.getElementById('concbutton3').classList.add('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolorsphys(svirnk.get(d.properties.modzcta)[1]));
+                });
+            }
+            if (n == 2) {
+                document.getElementById('concbutton1').classList.add('inactivebtn');
+                document.getElementById('concbutton2').classList.add('inactivebtn');
+                document.getElementById('concbutton3').classList.remove('inactivebtn');
+                concgrp.selectAll('path').each(function () {
+                    var p = d3.select(this);
+                    p.transition().duration(1500).attr('fill', d => conccolorssvi(svirnk.get(d.properties.modzcta)[2]));
+                });
+            }
+        };
+
+        // conclusion chart switch
+        function switchconcindexes(data, modzctaname) {
+            d3.select('.concchartsubtitle').text('- ' + modzctaname + ' -');
+            d3.selectAll('.concinfo').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concinfo' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('fill', '#a50f15').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('fill', '#fb6a4a').attr('r', '4px').attr('stroke', 'none').attr('z-index', -1).lower();
+                }
+            });
+            d3.selectAll('.concinfotxt').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concinfotxt' + String(data)) {
+                    thisinfo.attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
+
+            d3.selectAll('.concphys').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concphys' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('fill', '#006d2c').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('fill', '#74c476').attr('r', '4px').attr('stroke', 'none').attr('z-index', -1).lower();
+                }
+            });
+            d3.selectAll('.concphystxt').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concphystxt' + String(data)) {
+                    thisinfo.attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
+
+            d3.selectAll('.concsvi').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concsvi' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('fill', '#54278f').attr('r', '10px').attr('stroke', 'black').attr('stroke-width', '2px').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('fill', '#9e9ac8').attr('r', '4px').attr('stroke', 'none').attr('z-index', -1).lower();
+                }
+            });
+            d3.selectAll('.concsvitxt').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concsvitxt' + String(data)) {
+                    thisinfo.attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
+
+            d3.selectAll('.concline').each(function () {
+                var thisinfo = d3.select(this);
+                if (thisinfo.attr('id') == 'concline' + String(data)) {
+                    thisinfo.style('opacity', '1').attr('stroke', 'black').attr('stroke-width', '2px').attr('display', 'block').attr('z-index', 99).raise();
+                }
+                else {
+                    thisinfo.style('opacity', '0.5').attr('stroke', '#bbb').attr('stroke-width', '1px').attr('display', 'none').attr('z-index', -1).lower();
+                }
+            });
+        };
+    </script>
+</body>
+
+</html>
