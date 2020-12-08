@@ -653,7 +653,7 @@
         var svirnklist = [];
         var modname = d3.map();
         var deathcase = [];
-        var medcolormap = { 'Child Health Center': 0, 'Diagnostic & Treatment Center': 1, 'Acute Care Hospital': 2, 'Nursing Home': 3 };
+        var medcolormap = { 'Child Health Center': 0, 'Diagnostic & Treatment Center': 4, 'Acute Care Hospital': 6, 'Nursing Home': 8 };
         var promises = [d3.json(nycgeourl), d3.csv(interneturl, function (d) {
             internet.set(+d.modzcta, [+d['no highschool'], +d['highschool'], +d['college'], +d['perc']]);
         }), d3.csv(medicalurl, function (d) {
@@ -803,11 +803,11 @@
             physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '0px').attr('fill', d => d3.schemePaired[0]);
             physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
-                .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemePaired[1]);
+                .attr('cx', '0px').attr('cy', '30px').attr('fill', d => d3.schemePaired[4]);
             physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
-                .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemePaired[2]);
+                .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemePaired[6]);
             physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
-                .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemePaired[3]);
+                .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemePaired[8]);
             physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
                 .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
             physcirclelegends.append('text').attr('class', 'physcirclename').text('Child Health Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
