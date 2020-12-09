@@ -340,7 +340,8 @@
                 <div class="buttons">
                     <button id="physbutton1" class="inactivebtn" onclick="physswitch('medical');">Medical
                         Facilities</button>
-                    <button id="physbutton2" class="inactivebtn" onclick="physswitch('testing');">Testing Sites</button>
+                    <button id="physbutton2" class="inactivebtn" onclick="physswitch('unclassified');">Unclassified
+                        Facilities</button>
                     <button id="physbutton3" onclick="physswitch('all');">All</button>
                 </div>
                 <div class="quote">
@@ -348,7 +349,9 @@
                             href="https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-patient-care-locations-2011/f7b6-v6v3">NYC
                             Health + Hospitals patient care locations - 2011</a>. Updated on July 4, 2019.<br><a
                             href="https://www.nychealthandhospitals.org/covid-19-testing-sites/">COVID-19 Testing
-                            Sites</a>. Updated on Dec 1, 2020.</blockquote>
+                            Sites</a>. Updated on Dec 1, 2020.<br><a
+                            href="https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj">Points Of
+                            Interest</a>. Updated on Dec 8, 2020.</blockquote>
                 </div>
             </div>
             <div class="column2">
@@ -364,6 +367,7 @@
                         <li><b>Interaction:</b> Tooltips on hovering on the map dots, charts redrawn on clicking on the
                             map districts.</li>
                     </ul>
+                    <p>The public hospitals from NYC Health + Hospitals are classified into 4 kinds, while the facilities from Point of Interest is not classified.</p>
                 </div>
                 <div class="chart frame" id="physchart"></div>
             </div>
@@ -452,6 +456,9 @@
                 <a
                     href="https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-patient-care-locations-2011/f7b6-v6v3">NYC
                     Health + Hospitals patient care locations - 2011</a>. Updated on July 4, 2019.
+                <br>
+                <a href="https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj">Points Of
+                    Interest</a>. Updated on Dec 8, 2020.
                 <br>
                 <a href="https://www.nychealthandhospitals.org/covid-19-testing-sites/">COVID-19 Testing Sites</a>.
                 Updated on Dec 1, 2020.
@@ -619,6 +626,7 @@
         // var medicaldisturl = 'datas/05-physical/medical-facilities-dist.csv';
         var medicaldisturl = 'datas/07-physical-new/medical-dist.csv';
         var testingurl = 'datas/05-physical/covid-19-testing-sites-converted.csv';
+        var unclassifiedmedicalurl = 'datas/07-physical-new/POI_med.csv';
         // var svirnkurl = 'datas/8-svi_rnks.csv';
         var svirnkurl = 'datas/8-svi_rnks-fixed.csv';
         var caseurl = 'datas/06-cases/data-by-modzcta-merged.csv';
@@ -647,7 +655,7 @@
         var path = d3.geoPath().projection(projection);
 
         var internet = d3.map();
-        var medical = [], testing = [];
+        var medical = [], testing = [], unclassifiedmed = [];
         var medicaldist = d3.map();
         var svirnk = d3.map();
         var svirnklist = [];
@@ -662,6 +670,8 @@
             medicaldist.set(+d.modzcta, [+d['Child Health Center'], +d['Diagnostic & Treatment Center'], +d['Acute Care Hospital'], +d['Nursing Home'], +d['avg']]);
         }), d3.csv(testingurl, function (d) {
             testing.push([d.NAME, [+d.lng, +d.lat]]);
+        }), d3.csv(unclassifiedmedicalurl, function (d) {
+            unclassifiedmed.push([d.NAME, [+d.lng, +d.lat]]);
         }), d3.csv(svirnkurl, function (d) {
             svirnk.set(+d.modzcta, [+d.infornk, +d.physrnk, +d.svirnk]);
             svirnklist.push([+d.modzcta, +d.infornk, +d.physrnk, +d.svirnk]);
@@ -704,10 +714,10 @@
                     drawphyschart(medicaldist.get(d.properties.modzcta).slice(0, 4), modname.get(d.properties.modzcta)[0]);
                 });
             // testing
-            physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle').attr('transform', 'translate(70, 0)')
-                .attr('class', 'testingcircle').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
-                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
-                .attr('fill', '#bbb');
+            //physmapsvg.append('g').selectAll('circle').data(testing).enter().append('circle').attr('transform', 'translate(70, 0)')
+            //.attr('class', 'testingcircle').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
+            //.attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+            //.attr('fill', '#bbb');
             // medical facilities
             physmapsvg.append('g').selectAll('circle').data(medical).enter().append('circle').attr('transform', 'translate(70, 0)')
                 .attr('class', 'medicalcircle').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
@@ -721,6 +731,24 @@
                 .on('mousemove', function (d) {
                     d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
                         .html('<p>Name: ' + String(d[0]) + '<br>Class: ' + String(d[2]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mouseout', function () {
+                    d3.select('#tooltip').classed('hidden', true);
+                });
+            // unclassified med
+            physmapsvg.append('g').selectAll('circle').data(unclassifiedmed).enter().append('circle').attr('transform', 'translate(70, 0)')
+                .attr('class', 'unclassifiedmedicalcircle').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', d => projection(d[1])[0]).attr('cy', d => projection(d[1])[1])
+                .attr('fill', 'white')
+                .on('mousehover', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(d[0]) + '</p>');
+                    d3.select('#tooltip').classed('hidden', false);
+                })
+                .on('mousemove', function (d) {
+                    d3.select('#tooltip').style('left', d3.event.pageX + 'px').style('top', d3.event.pageY + 'px').select('#value')
+                        .html('<p>Name: ' + String(d[0]) + '</p>');
                     d3.select('#tooltip').classed('hidden', false);
                 })
                 .on('mouseout', function () {
@@ -808,8 +836,10 @@
                 .attr('cx', '0px').attr('cy', '60px').attr('fill', d => d3.schemePaired[6]);
             physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
                 .attr('cx', '0px').attr('cy', '90px').attr('fill', d => d3.schemePaired[8]);
-            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
-                .attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
+            physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '6px').attr('stroke', 'black').attr('stroke-width', '2px')
+                .attr('cx', '0px').attr('cy', '120px').attr('fill', 'white');
+            //physcirclelegends.append('circle').attr('class', 'circlelegend').attr('r', '4px').attr('stroke', 'black').attr('stroke-width', '1px')
+            //.attr('cx', '0px').attr('cy', '120px').attr('fill', '#bbb');
             physcirclelegends.append('text').attr('class', 'physcirclename').text('Child Health Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 0)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
             physcirclelegends.append('text').attr('class', 'physcirclename').text('Diagnostic & Treatment Center').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
@@ -818,8 +848,10 @@
                 .attr('transform', 'translate(20, 60)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
             physcirclelegends.append('text').attr('class', 'physcirclename').text('Nursing Home').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 90)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
-            physcirclelegends.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            physcirclelegends.append('text').attr('class', 'physcirclename').text('Unclassified').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
                 .attr('transform', 'translate(20, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
+            //physcirclelegends.append('text').attr('class', 'physcirclename').text('COVID-19 testing sites').attr('text-anchor', 'start').attr('alignment-baseline', 'middle')
+            //.attr('transform', 'translate(20, 120)').attr('font-size', '12px').style('fill', '#34090f').style('font-weight', '400');
             // title phys
             physlegendcontainer.append('g').append('text').text('Distribution of Medical Facilities and Testing Sites in NYC').attr('class', 'physmaptitle')
                 .attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').attr('font-size', '1.5rem')
@@ -1036,21 +1068,21 @@
                 document.getElementById('physbutton2').classList.add('inactivebtn');
                 document.getElementById('physbutton3').classList.add('inactivebtn');
                 d3.selectAll('.medicalcircle').attr('display', 'block');
-                d3.selectAll('.testingcircle').attr('display', 'none');
+                d3.selectAll('.unclassifiedmedicalcircle').attr('display', 'none');
             }
-            if (s == 'testing') {
+            if (s == 'unclassified') {
                 document.getElementById('physbutton1').classList.add('inactivebtn');
                 document.getElementById('physbutton2').classList.remove('inactivebtn');
                 document.getElementById('physbutton3').classList.add('inactivebtn');
                 d3.selectAll('.medicalcircle').attr('display', 'none');
-                d3.selectAll('.testingcircle').attr('display', 'block');
+                d3.selectAll('.unclassifiedmedicalcircle').attr('display', 'block');
             }
             if (s == 'all') {
                 document.getElementById('physbutton1').classList.add('inactivebtn');
                 document.getElementById('physbutton2').classList.add('inactivebtn');
                 document.getElementById('physbutton3').classList.remove('inactivebtn');
                 d3.selectAll('.medicalcircle').attr('display', 'block');
-                d3.selectAll('.testingcircle').attr('display', 'block');
+                d3.selectAll('.unclassifiedmedicalcircle').attr('display', 'block');
             }
         };
 
