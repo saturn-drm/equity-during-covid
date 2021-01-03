@@ -43,18 +43,13 @@ a#backtotop.show {
 }
 
 div.scrolldown {
-    position: relative;
-    bottom: 0px;
+    position: absolute;
+    bottom: 20px;
     left: calc(50% - 25px);
     height: 50px;
     width: 50px;
     stroke: var(--mainbg);
     cursor: pointer;
-}
-
-.section1 {
-    position: absolute !important;
-    bottom: 20px !important;
 }
 
 div.scrolldown:hover {
@@ -169,7 +164,7 @@ button.inactivebtn {
     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.05), 2px 4px 10px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid var(--mainfontcolor);
     margin: 10px;
 }
@@ -306,11 +301,7 @@ h1.note {
 }
 
 .bgcontent {
-    height: 580%;
-}
-
-.backgroundoffset {
-    height: 20%;
+    height: 550%;
 }
 
 .cscomment {
@@ -355,50 +346,10 @@ h1.note {
     margin-left: -75px;
 } */
 
-/* #background .column2 p {
+#background .column2 p {
     font-weight: 600;
-} */
+}
 
-/* #race .column2 p {
+#race .column2 p {
     font-weight: 600;
-} */
-
-nav {
-    position: fixed;
-    margin: 30px;
-    padding: 10px;
-    right: 0;
-    background-color: var(--economy);
-    border-radius: 5px;
-    z-index: 999;
-    opacity: 0;
-    transition: all .3s;
-}
-
-nav a {
-    transition: all .3s;
-    padding: 10px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: var(--mainfontcolor);
-    text-decoration: none;
-}
-
-nav p {
-    color: var(--mainbg);
-    display: inline;
-}
-
-nav.show {
-    opacity: 1;
-}
-
-.activenav {
-    background-color: var(--mainbg);
-}
-
-.activenav p {
-    color: var(--economy);
 }
