@@ -1,0 +1,59 @@
+<html lang='eng'>
+
+<head>
+    <title>
+        D3 PSET 6.2
+    </title>
+    <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
+    <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+    <style>
+        #tooltip.hidden {
+            display: none;
+        }
+
+        #tooltip {
+            position: absolute;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tooltip" class="hidden">
+        <p><span id="value">100</span></p>
+    </div>
+    <script>
+        // urls
+        var nycgeourl = 'datas/00-tractTOzcta/Modified Zip Code Tabulation Areas (MODZCTA).geojson';
+
+        // canvas
+        var width = 1000, height = 800;
+
+        // svg
+        var svg = d3.select('body')
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+
+        // g
+        var g = svg.append('g');
+
+        // projection
+        var albersProj = d3.geoMercator().center([-73.94, 40.70]).scale(70000).translate([width / 2, height / 2]);
+        // geopath
+        var geoPath = d3.geoPath().projection(albersProj);
+
+        var promises = [d3.json(nycgeourl)];
+        Promise.all(promises).then(ready);
+        function ready([nyc]) {
+            nyc.features.pop();
+            svg.selectAll('path').data(nyc.features).enter()
+                .append('path').attr('class', 'zipcode')
+                .attr('fill', 'none').attr('stroke', 'gray').attr('d', geoPath);
+        }
+    </script>
+</body>
+
+</html>
